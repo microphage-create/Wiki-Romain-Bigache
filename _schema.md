@@ -81,7 +81,14 @@ Wiki-Romain-Bigache/
 ├── education.md           # Formation et autodidaxie
 ├── methodology.md         # Methodologies signature (Karpathy LLM Wiki, etc.)
 ├── process.md             # Comment je travaille au quotidien
-├── writing.md             # Articles de blog, voix d'auteur, extraits
+├── writing.md             # Index des articles de blog
+├── writing/               # Articles de blog reproduits integralement
+│   ├── morphow-mascotte-ia.md
+│   ├── vibe-coding-burnout.md
+│   ├── ai-product-builder.md
+│   ├── personal-branding-introvert.md
+│   ├── content-design.md
+│   └── entretiens.md
 ├── personal.md            # JJB, benevolat, label musique
 ├── experience/
 │   ├── microphage.md
