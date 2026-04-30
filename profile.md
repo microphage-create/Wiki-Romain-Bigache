@@ -11,6 +11,7 @@ links:
   - cv.md
   - stack.md
   - availability.md
+  - writing.md
 ---
 
 # Romain Bigache - AI Product Builder
@@ -33,6 +34,7 @@ links:
 - **Email** : romain.bigache@gmail.com
 - **Telephone** : 07 82 59 67 53
 - **Site** : [romainbigache.com](https://romainbigache.com)
+- **Blog** : [romainbigache.com/fr/blog](https://romainbigache.com/fr/blog) (6 articles publies, voir [writing.md](./writing.md))
 - **LinkedIn** : [linkedin.com/in/romainbigache](https://linkedin.com/in/romainbigache)
 - **GitHub** : [github.com/microphage-create](https://github.com/microphage-create)
 - **Demo Altaria** : [altaria.microphage.ai/access](https://altaria.microphage.ai/access)

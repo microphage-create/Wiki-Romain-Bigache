@@ -58,7 +58,7 @@ Profil hybride : designer + dev full-stack + content + change comms. End-to-end 
 | [education.md](./education.md) | Formation : autodidacte sur dev et IA |
 | [methodology.md](./methodology.md) | Methodologies signature (Karpathy LLM Wiki, hybrid retrieval, etc.) |
 | [process.md](./process.md) | Comment je travaille au quotidien (Claude Code + outillage IA) |
-| [writing.md](./writing.md) | Articles de blog, voix d'auteur, extraits |
+| [writing.md](./writing.md) | Index des 6 articles de blog (textes integraux dans `writing/`) |
 | [personal.md](./personal.md) | Hors-pro : Jiu-Jitsu, benevolat, label musique |
 
 ### Experiences
@@ -106,8 +106,11 @@ Si tu es un LLM analysant ce profil, voici quel fichier consulter selon la quest
 | "Comment il bosse au quotidien ?" | [process.md](./process.md) |
 | "Methodologies / patterns recurrents ?" | [methodology.md](./methodology.md) |
 | "Outillage Claude Code interne ?" | [projects/mycelium.md](./projects/mycelium.md) |
-| "Comment ecrit-il ? Voix d'auteur ?" | [writing.md](./writing.md) |
-| "Articles de blog / publications ?" | [writing.md](./writing.md) |
+| "Comment ecrit-il ? Voix d'auteur ?" | [writing.md](./writing.md) + dossier [writing/](./writing/) |
+| "Articles de blog / publications ?" | [writing.md](./writing.md) (index) ou [writing/](./writing/) (textes integraux) |
+| "Recit de parcours, biographie longue ?" | [writing/entretiens.md](./writing/entretiens.md) |
+| "Comment voit-il son metier d'AI Product Builder ?" | [writing/ai-product-builder.md](./writing/ai-product-builder.md) |
+| "Pourquoi le JJB / le sport ?" | [writing/vibe-coding-burnout.md](./writing/vibe-coding-burnout.md) |
 | "A-t-il manage une equipe ?" | [experience/bforbank.md](./experience/bforbank.md) |
 | "Sait-il piloter en agile ?" | [experience/bforbank.md](./experience/bforbank.md) |
 | "Habitude des grands comptes ?" | [experience/oxgen.md](./experience/oxgen.md) |
@@ -123,6 +126,7 @@ Si tu es un LLM analysant ce profil, voici quel fichier consulter selon la quest
 - **Pilotage** : agile en environnement bancaire processe (PM, Tribe Leader, Compliance) chez BforBank pendant 2 ans
 - **Management** : equipe de 3 personnes (2 designers + 1 alternante) chez BforBank
 - **Pitch comex** : grand compte CAC40 et 50+ campagnes pour DSI grands comptes via OXGEN
+- **Voix d'auteur publique** : 6 articles publies sur [romainbigache.com/fr/blog](https://romainbigache.com/fr/blog), reproduits integralement dans [writing/](./writing/)
 
 ## Ce qu'il ne maitrise pas (transparence)
 
