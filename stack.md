@@ -1,6 +1,6 @@
 ---
 id: stack
-title: Stack technique exhaustive
+title: Full technical stack
 type: stack
 domain: technology
 tags: [stack, technical, llm, frameworks, infra, security, tools]
@@ -15,93 +15,93 @@ links:
   - projects/fusil-paris.md
 ---
 
-# Stack technique - Romain Bigache
+# Technical stack - Romain Bigache
 
-> Document complementaire au CV. A partager quand un recruteur ou un acheteur tech demande le detail des outils, modeles et architectures maitrises.
+> Companion document to the CV. Share this when a recruiter or technical buyer wants the detail of tools, models, and architectures.
 
-## Modeles LLM utilises en production ou sur projets
+## LLM models used in production or on projects
 
-**OpenAI** - GPT-4, GPT-5 (variants Thinking / Pro / mini), Codex. Utilise chez ADEO des la sortie de GPT-3.5 (novembre 2022) et chez BforBank pour le bot RAG GPT custom de production editoriale.
+**OpenAI** - GPT-4, GPT-5 (Thinking / Pro / mini variants), Codex. Used at ADEO from the day GPT-3.5 shipped (November 2022) and at BforBank for the custom RAG GPT bot for editorial production.
 
-**Anthropic Claude** - Opus 4, Sonnet 4 et Sonnet 4.6 (utilise quotidiennement dans le flux dev). Multi-provider via Vercel AI SDK sur les projets Microphage.
+**Anthropic Claude** - Opus 4, Sonnet 4, and Sonnet 4.6 (used daily in the dev workflow). Multi-provider via Vercel AI SDK on Microphage projects.
 
-**Google Gemini** - Gemini 2.5 Pro en production sur **« La Plume »** (assistant IA interne BforBank, RAG complet + agent LangGraph + generation d'image). Veille active sur Gemini 3 Pro.
+**Google Gemini** - Gemini 2.5 Pro in production on **"La Plume"** (BforBank internal AI assistant, full RAG + LangGraph agent + image generation). Active monitoring of Gemini 3 Pro.
 
-**Microsoft Copilot et Microsoft 365 Copilot** - projet Altaria concu en amont du deploiement Copilot 365 chez Altarea (CAC40), avec acculturation des collaborateurs.
+**Microsoft Copilot and Microsoft 365 Copilot** - Altaria designed ahead of the Copilot 365 rollout at Altarea (CAC40), with employee enablement.
 
-**Mistral, Llama, ComfyUI** - utilises sur projets perso et sides (Prompt Oracle pour la generation visuelle). Veille active sur l'open-source competitif (DeepSeek, Qwen, Gemma 4).
+**Mistral, Llama, ComfyUI** - used on personal and side projects (Prompt Oracle for visual generation). Active monitoring of competitive open-source models (DeepSeek, Qwen, Gemma 4).
 
-## Frameworks et orchestration
+## Frameworks and orchestration
 
-- **Vercel AI SDK v6** multi-provider (abstraction OpenAI / Claude / Gemini)
-- **LangGraph** : orchestration d'agents (router → summarizer → RAG → tool calling → generation d'image), utilise en production sur La Plume
-- **MCP (Model Context Protocol)** : utilise sur projets internes
+- **Vercel AI SDK v6** multi-provider (OpenAI / Claude / Gemini abstraction)
+- **LangGraph**: agent orchestration (router → summarizer → RAG → tool calling → image generation), used in production on La Plume
+- **MCP (Model Context Protocol)**: used on internal projects
 - **Tool calling, function calling, structured outputs**
-- **Prompt caching Anthropic** (sur Microphage Analyzer Pro)
-- **Evaluations (evals)** systematisees en CI
+- **Anthropic prompt caching** (on Microphage Analyzer Pro)
+- **Evaluations (evals)** systematized in CI
 
-## RAG et bases vectorielles
+## RAG and vector stores
 
-- **Embeddings** : text-multilingual-embedding-002 (FR/EN sur La Plume)
-- **Supabase pgvector** : base vectorielle en production
-- **SemanticSplitter custom** avec parametres de chunking sur mesure (taille de buffer, breakpoint percentile, longueur min, regex de separation)
-- **Hybrid retrieval** : matcher 3 couches (metadata filtering + BM25 + classifier LLM) sur Microphage Analyzer Pro
-- **Pattern d'ingestion sources internes heterogenes** : couplage FAQ + tickets + retours service client → corpus LLM-ready (BforBank, 250+ articles)
+- **Embeddings**: text-multilingual-embedding-002 (FR/EN on La Plume)
+- **Supabase pgvector**: vector store in production
+- **Custom SemanticSplitter** with tailored chunking parameters (buffer size, breakpoint percentile, min length, separator regex)
+- **Hybrid retrieval**: 3-layer matcher (metadata filtering + BM25 + LLM classifier) on Microphage Analyzer Pro
+- **Heterogeneous internal source ingestion pattern**: pairing FAQ + tickets + customer service feedback into an LLM-ready corpus (BforBank, 250+ articles)
 
-## Stack front
+## Front stack
 
-- **TypeScript strict**, JavaScript, Node.js
+- **Strict TypeScript**, JavaScript, Node.js
 - **Next.js 16, React 19** (App Router, Server Components)
 - **Tailwind CSS 4, shadcn/ui, Radix UI, Framer Motion**
-- **Design system maison LLM-ready** (Tailwind Plus + Catalyst)
-- **Figma Plugin API** (build esbuild)
+- **In-house LLM-ready design system** (Tailwind Plus + Catalyst)
+- **Figma Plugin API** (esbuild build)
 
-## Stack back et infra
+## Back and infra stack
 
-- **Hono** sur Cloudflare Workers (Microphage Analyzer Pro)
+- **Hono** on Cloudflare Workers (Microphage Analyzer Pro)
 - **Vercel** serverless + Edge Functions (fusil.paris, Altaria)
 - **Supabase** (PostgreSQL + Storage + Auth + Edge Functions Deno + RLS + pgvector)
-- **Fly.io** sur projets ad hoc
+- **Fly.io** on ad-hoc projects
 - **Upstash Redis** (rate limiting + cost guard)
 - **Monorepo pnpm 9 + Turbo 2**
-- **Monitoring** : Sentry + PostHog
-- **Tests** : Vitest + Playwright (102 tests automatises sur morphow-api, en CI/CD)
-- **CI/CD** : GitHub Actions + Vercel Preview
+- **Monitoring**: Sentry + PostHog
+- **Tests**: Vitest + Playwright (102 automated tests on morphow-api, in CI/CD)
+- **CI/CD**: GitHub Actions + Vercel Preview
 
-## Securite
+## Security
 
-- **HMAC-SHA256 maison** (Web Crypto API native, sur fusil.paris pour verif webhooks Stripe)
-- **Rate limiting in-memory** custom sur Vercel serverless
-- **Timing-safe comparison** anti-timing-attacks
-- **Whitelist de paths** (allow-list) sur proxy admin
-- **Headers HTTP** : CSP avec frame-ancestors, HSTS 1 an, X-Frame-Options DENY, Permissions-Policy, Referrer-Policy
-- **CORS strict** par origine
-- **Audit XSS** : 3 vulnerabilites identifiees et corrigees en audit interne sur Microphage Analyzer Pro
-- **Multi-tenant** avec isolation par tenant
-- **Row Level Security (RLS)** Supabase sur tables sensibles
+- **Custom HMAC-SHA256** (native Web Crypto API, on fusil.paris for Stripe webhook verification)
+- **Custom in-memory rate limiting** on Vercel serverless
+- **Timing-safe comparison** against timing attacks
+- **Path whitelist** (allow-list) on admin proxy
+- **HTTP headers**: CSP with frame-ancestors, HSTS 1 year, X-Frame-Options DENY, Permissions-Policy, Referrer-Policy
+- **Strict CORS** by origin
+- **XSS audit**: 3 vulnerabilities identified and fixed in internal audit on Microphage Analyzer Pro
+- **Multi-tenant** with per-tenant isolation
+- **Row Level Security (RLS)** on Supabase sensitive tables
 
-## Paiement et e-commerce
+## Payment and e-commerce
 
-- **Stripe Checkout Sessions + Webhooks** (avec verification HMAC custom)
+- **Stripe Checkout Sessions + Webhooks** (with custom HMAC verification)
 - **PayPal** (create-order + capture-order)
-- **Codes promo** avec validation server-side
-- **Mails transactionnels bilingues FR/EN** via Resend
-- **Chronopost** integration multi-zones (FR / EU / Suisse / UK / Monde)
+- **Promo codes** with server-side validation
+- **Bilingual FR/EN transactional emails** via Resend
+- **Chronopost** multi-zone integration (FR / EU / Switzerland / UK / Worldwide)
 
-## Integrations Workspace
+## Workspace integrations
 
-- **Google Calendar API** + **Google Drive API** en production sur romainbigache.com (OAuth2 + Workspace API + tool streaming UI + cron Vercel pour sync nocturne)
-- **Pattern OAuth + Workspace API + tool streaming** maitrise
+- **Google Calendar API** + **Google Drive API** in production on romainbigache.com (OAuth2 + Workspace API + tool streaming UI + Vercel cron for nightly sync)
+- **OAuth + Workspace API + tool streaming** pattern mastered
 
-## Outils de pilotage projet
+## Project management tools
 
-- **Methodes** : agile (sprints, rituels), kanban
-- **Outils** : Notion, Linear, GitHub Projects, Figma, Slack
-- **Environnement BforBank** : pilotage avec PM, Tribe Leader, equipes marketing, Service Relation Client (SRC), Direction et validations Compliance
+- **Methods**: agile (sprints, ceremonies), kanban
+- **Tools**: Notion, Linear, GitHub Projects, Figma, Slack
+- **BforBank environment**: ran with PM, Tribe Leader, marketing teams, customer service (SRC), management, and Compliance sign-off
 
-## Ce que je ne maitrise pas (transparence)
+## What I don't master (transparency)
 
-Detail dans [expertise.md](./expertise.md).
+Detail in [expertise.md](./expertise.md).
 
 ## Related
 

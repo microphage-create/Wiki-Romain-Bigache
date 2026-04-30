@@ -1,6 +1,6 @@
 ---
 id: experience-oxgen
-title: OXGEN - Copywriter & Direction Artistique
+title: OXGEN - Copywriter & Art Director
 type: experience
 domain: experience
 tags: [oxgen, change-comms, dsi, copywriter, art-direction, grand-compte, freelance]
@@ -9,63 +9,63 @@ created: 2026-04-30
 updated: 2026-04-30
 period: 2017-08 / present
 employer: OXGEN
-relationship: Collaboration recurrente en freelance
+relationship: Recurring freelance collaboration
 location: Paris, France
-industry: Change Communications, Conseil
+industry: Change Communications, Consulting
 links:
   - projects/altaria.md
 ---
 
-# OXGEN - Copywriter & Direction Artistique
+# OXGEN - Copywriter & Art Director
 
-| Cle | Valeur |
-|-----|--------|
-| **Periode** | Aout 2017 - present (depuis 2017) |
-| **Type** | Collaboration recurrente en freelance |
-| **Localisation** | Paris, France |
-| **Industrie** | Change Communications, Conseil |
+| Key | Value |
+|-----|-------|
+| **Period** | August 2017 - present (since 2017) |
+| **Type** | Recurring freelance collaboration |
+| **Location** | Paris, France |
+| **Industry** | Change Communications, Consulting |
 
 ## Mission
 
-Cabinet de conseil et creation en Change Communications pour grands comptes. OXGEN accompagne les DSI et Directions Innovation sur leurs programmes de transformation IT, IA, cybersecurite et adoption d'outils.
+Consulting and creative agency in Change Communications for enterprise accounts. OXGEN supports CIO offices and Innovation departments on their IT, AI, cybersecurity and tool adoption transformation programs.
 
-J'y interviens en freelance recurrent depuis 2017 sur la conception et la livraison de campagnes completes de communication interne pour des collaborateurs grands comptes.
+I have been working there as a recurring freelancer since 2017 on the design and delivery of full internal communication campaigns for enterprise account employees.
 
-## Perimetre des campagnes pilotees (50+ sur 8 ans)
+## Campaign scope (50+ over 8 years)
 
-50+ campagnes etalees sur 8 ans, mix de productions majeures (programmes de transformation IT/IA pluri-mois avec supports comex et Town Hall) et de productions plus courtes (visuels, posts internes, kits manager).
+50+ campaigns over 8 years, mixing major productions (multi-month IT/AI transformation programs with C-suite and Town Hall decks) and shorter productions (visuals, internal posts, manager kits).
 
-Pilotage de bout en bout :
+End-to-end ownership:
 
-- **Conception** strategique du dispositif
-- **Redaction** de tous les supports (copy, narrations, scripts)
-- **Direction artistique** (visuels, identite de campagne)
-- **Affichage** interne et guerilla marketing
-- **Social interne** (Viva Engage, Workplace, Slack, Teams)
-- **Supports comex** et Town Hall
-- **Contenus de formation**
-- **Gestion de projet** et coordination de freelances DA / motion / graphisme
+- **Strategic concept** for the program
+- **Copywriting** of all assets (copy, narratives, scripts)
+- **Art direction** (visuals, campaign identity)
+- **Internal display** and guerilla marketing
+- **Internal social** (Viva Engage, Workplace, Slack, Teams)
+- **C-suite and Town Hall** decks
+- **Training content**
+- **Project management** and coordination of freelance art directors / motion / graphic designers
 
-## Clients principaux
+## Main clients
 
 Danone, Safran, Naval Group, Allianz, Altarea, Enedis, Citeo, Verallia, Suez, Schneider Electric.
 
-Sujets traites : adoption Microsoft Copilot 365, transformation IA, cybersecurite, deploiement d'outils IT, programmes de change management.
+Topics covered: Microsoft Copilot 365 adoption, AI transformation, cybersecurity, IT tool rollouts, change management programs.
 
-## Competences mobilisees
+## Skills applied
 
-- Connaissance approfondie de l'environnement DSI grand compte
-- Conception de campagnes multi-canaux internes
-- Pilotage de projet sous contrainte (budget, delai, validation comex)
-- Direction artistique et creative
-- Storytelling d'entreprise et brand content interne
-- Coordination de freelances multidisciplinaires
+- Deep knowledge of enterprise CIO office environments
+- Multi-channel internal campaign design
+- Project delivery under constraint (budget, deadline, C-suite approval)
+- Art direction and creative leadership
+- Corporate storytelling and internal brand content
+- Coordination of multidisciplinary freelancers
 
-## Pourquoi cette collaboration dure depuis 8 ans
+## Why this collaboration has lasted 8 years
 
-OXGEN est mon canal historique vers les DSI grands comptes. C'est aussi le canal de distribution d'Altaria (POC IA pour Altarea, livre via OXGEN).
+OXGEN is my historical channel into enterprise CIO offices. It is also Altaria's distribution channel (AI POC for Altarea, delivered through OXGEN).
 
-Ce double role (copywriter / DA en mission classique + builder qui apporte des produits IA via le canal) est ce qui rend cette collaboration strategique.
+This dual role (copywriter / art director on classic missions + builder bringing AI products through the channel) is what makes this collaboration strategic.
 
 ## Related
 

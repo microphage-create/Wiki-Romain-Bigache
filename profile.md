@@ -1,6 +1,6 @@
 ---
 id: profile
-title: Profil - Romain Bigache
+title: Profile - Romain Bigache
 type: profile
 domain: identity
 tags: [identity, ai-product-builder, freelance, paris, sasu]
@@ -16,34 +16,34 @@ links:
 
 # Romain Bigache - AI Product Builder
 
-## Identite
+## Identity
 
-| Cle | Valeur |
-|-----|--------|
-| **Nom** | Romain Bigache |
-| **Titre** | AI Product Builder |
-| **Localisation** | Paris, France |
-| **Statut juridique** | Freelance via SASU Microphage Intelligence |
-| **TJM affiche** | 850 EUR / jour (full-time longue duree) |
-| **Disponibilite** | 11 mai 2026, full-time |
-| **Modalite** | Sur site, hybride ou remote (flexible) |
-| **Langues** | Francais natif, anglais lu et ecrit |
+| Key | Value |
+|-----|-------|
+| **Name** | Romain Bigache |
+| **Title** | AI Product Builder |
+| **Location** | Paris, France |
+| **Legal status** | Freelance via SASU Microphage Intelligence |
+| **Posted day rate** | 850 EUR / day (full-time, long-term) |
+| **Availability** | May 11, 2026, full-time |
+| **Format** | On-site, hybrid, or remote (flexible) |
+| **Languages** | Native French. English: written and read fluently. |
 
 ## Contact
 
-- **Email** : romain.bigache@gmail.com
-- **Telephone** : 07 82 59 67 53
-- **Site** : [romainbigache.com](https://romainbigache.com)
-- **Blog** : [romainbigache.com/fr/blog](https://romainbigache.com/fr/blog) (6 articles publies, voir [writing.md](./writing.md))
-- **LinkedIn** : [linkedin.com/in/romainbigache](https://linkedin.com/in/romainbigache)
-- **GitHub** : [github.com/microphage-create](https://github.com/microphage-create)
-- **Demo Altaria** : [altaria.microphage.ai/access](https://altaria.microphage.ai/access)
+- **Email**: romain.bigache@gmail.com
+- **Phone**: +33 7 82 59 67 53
+- **Site**: [romainbigache.com](https://romainbigache.com)
+- **Blog**: [romainbigache.com/fr/blog](https://romainbigache.com/fr/blog) (6 published articles, see [writing.md](./writing.md))
+- **LinkedIn**: [linkedin.com/in/romainbigache](https://linkedin.com/in/romainbigache)
+- **GitHub**: [github.com/microphage-create](https://github.com/microphage-create)
+- **Altaria demo**: [altaria.microphage.ai/access](https://altaria.microphage.ai/access)
 
-## Pitch court (3 lignes)
+## Short pitch (3 lines)
 
-10 ans de design produit grand compte (BforBank, Leroy Merlin, leboncoin, Cdiscount, FDJ, Havas). Build avec l'IA depuis la sortie de GPT-3.5 (novembre 2022) : premier prompt interne chez ADEO, puis Content Design System en RAG, puis La Plume sur Gemini 2.5 Pro chez BforBank. Profil hybride designer + dev full-stack + content qui livre des POC IA en 3 semaines en solo. End-to-end ownership : concept, archi, code, design, copy, mise en prod, pitch comex.
+10 years of enterprise-account product design (BforBank, Leroy Merlin, leboncoin, Cdiscount, FDJ, Havas). Building with AI since GPT-3.5 shipped (November 2022): first internal prompt at ADEO, then a Content Design System on RAG, then La Plume on Gemini 2.5 Pro at BforBank. Hybrid designer + full-stack dev + content profile shipping AI POCs in 3 weeks solo. End-to-end ownership: concept, architecture, code, design, copy, production rollout, C-suite pitch.
 
-## Roles cibles
+## Target roles
 
 - AI Product Builder
 - AI Product Architect
@@ -53,31 +53,31 @@ links:
 - AI Tech Lead / AI Consultant
 - Lead UX Writer / Lead Content Designer / Conversation Designer
 
-## 5 expertises principales
+## 5 main areas of expertise
 
 1. LLMs / Large language models
-2. IA generative
-3. Agents IA & RAG
-4. Developpeur Full-Stack
+2. Generative AI
+3. AI agents & RAG
+4. Full-Stack Developer
 5. Product Design
 
-## Stack synthese
+## Stack summary
 
-- **Front** : Next.js 16, React 19, TypeScript strict, Tailwind, shadcn/ui, Framer Motion
-- **AI** : Vercel AI SDK v6, multi-provider (OpenAI, Claude, Gemini), LangGraph, RAG, MCP
-- **Back** : Hono + Cloudflare Workers, Supabase (RLS, pgvector), Vercel
-- **Securite** : HMAC-SHA256, RLS, rate limiting, timing-safe comparison, audit XSS
-- **Tests** : Vitest, Playwright, 102 tests automatises sur morphow-api en CI/CD
+- **Front**: Next.js 16, React 19, strict TypeScript, Tailwind, shadcn/ui, Framer Motion
+- **AI**: Vercel AI SDK v6, multi-provider (OpenAI, Claude, Gemini), LangGraph, RAG, MCP
+- **Back**: Hono + Cloudflare Workers, Supabase (RLS, pgvector), Vercel
+- **Security**: HMAC-SHA256, RLS, rate limiting, timing-safe comparison, XSS audit
+- **Tests**: Vitest, Playwright, 102 automated tests on morphow-api in CI/CD
 
-Detail complet : [stack.md](./stack.md).
+Full detail: [stack.md](./stack.md).
 
-## Differenciateur
+## Differentiator
 
-Profil hybride rare : designer + dev full-stack + content + change comms en une seule personne. Supprime la coordination de 3 metiers sur un POC. Production-grade des le jour 1. Pitch comex maitrise.
+Rare hybrid profile: designer + full-stack dev + content + change comms in a single person. Removes the coordination overhead of 3 trades on a POC. Production-grade from day 1. Owns the C-suite pitch.
 
-## Plateformes freelance
+## Freelance platforms
 
-Collective, Malt, Comet, FreelanceRepublik, Creme de la Creme, LinkedIn, Welcome to the Jungle.
+Collective, Malt, Comet, FreelanceRepublik, Crème de la Crème, LinkedIn, Welcome to the Jungle.
 
 ## Related
 

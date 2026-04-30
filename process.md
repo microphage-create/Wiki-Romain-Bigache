@@ -1,6 +1,6 @@
 ---
 id: process
-title: Comment je travaille
+title: How I work
 type: process
 domain: workflow
 tags: [workflow, claude-code, agentic-coding, productivity, daily-process]
@@ -13,76 +13,76 @@ links:
   - stack.md
 ---
 
-# Comment je travaille
+# How I work
 
-Process operationnel quotidien sur les projets Microphage. Pour les recruteurs et acheteurs qui se demandent comment un solo livre des produits IA en 3 semaines en production-grade.
+Daily operational process on Microphage projects. For recruiters and buyers wondering how a solo builder ships production-grade AI products in 3 weeks.
 
-## Stack de pilotage
+## Pilot stack
 
-- **Claude Code** comme environnement principal de developpement (IDE + agentic coding)
-- **Mycelium** : outillage interne (skills custom, subagents, hooks, memoire) qui industrialise les routines, cf [projects/mycelium.md](./projects/mycelium.md)
-- **Notion + Linear + GitHub Projects** pour la roadmap et le suivi des taches
-- **Figma** pour le design (UI + plugins)
-- **Slack** pour les clients en mission longue
+- **Claude Code** as the main dev environment (IDE + agentic coding)
+- **Mycelium**: internal tooling (custom skills, subagents, hooks, memory) that industrializes routines, see [projects/mycelium.md](./projects/mycelium.md)
+- **Notion + Linear + GitHub Projects** for roadmap and task tracking
+- **Figma** for design (UI + plugins)
+- **Slack** for clients on long-running missions
 
-## Cycle de developpement type
+## Typical dev cycle
 
-### Phase 1 - Cadrage (1-2 jours)
+### Phase 1 - Framing (1-2 days)
 
-- Brief client en session unique, prise de notes structurees
-- Specs ecrites en markdown dans le repo (single source of truth)
-- Architecture document (ADR) sur les choix structurants : runtime, provider LLM, base de donnees, auth
-- Plan de delivery decoupe en stories acceptees prealablement
+- Client brief in a single session, structured note-taking
+- Specs written in markdown inside the repo (single source of truth)
+- Architecture document (ADR) on structuring choices: runtime, LLM provider, database, auth
+- Delivery plan broken into pre-accepted stories
 
-### Phase 2 - Build (cycle court)
+### Phase 2 - Build (short cycle)
 
-- Stack templatee : Next.js 16 + Vercel AI SDK + Supabase + Cloudflare Workers ou Vercel serverless
-- Squelette securite des le jour 1 (HMAC, RLS, rate limiting, CSP, HSTS, validation Zod)
-- Tests Vitest unit + integration sur les modules critiques des le 1er commit
-- Playwright e2e des que l'UI est exposee au user
-- Monitoring Sentry + PostHog branches en setup initial
-- CI/CD GitHub Actions + Vercel Preview pour reviews continues
+- Templated stack: Next.js 16 + Vercel AI SDK + Supabase + Cloudflare Workers or Vercel serverless
+- Security skeleton from day 1 (HMAC, RLS, rate limiting, CSP, HSTS, Zod validation)
+- Vitest unit + integration tests on critical modules from the first commit
+- Playwright e2e as soon as UI is exposed to the user
+- Sentry + PostHog monitoring wired in initial setup
+- CI/CD GitHub Actions + Vercel Preview for continuous reviews
 
-### Phase 3 - Livraison
+### Phase 3 - Delivery
 
-- Demo client live en condition reelle (pas de slides)
-- Deploiement progressif : preview > staging > production
-- Documentation utilisateur et technique livree avec le produit
-- Handover ou maintien selon le contrat
+- Live client demo in real conditions (no slides)
+- Progressive rollout: preview > staging > production
+- User and technical documentation shipped with the product
+- Handover or maintenance, depending on the contract
 
-## Principes operationnels
+## Operational principles
 
-### Production-grade des le jour 1
+### Production-grade from day 1
 
-Pas de phase "MVP minable", pas de dette technique securite a rembourser. Le POC est deja prod-ready. Detail : [methodology.md](./methodology.md).
+No "shitty MVP" phase, no security tech debt to repay. The POC is already prod-ready. Detail: [methodology.md](./methodology.md).
 
-### Compression du cycle
+### Cycle compression
 
-1 personne = 0 coordination. Concept + archi + code + design + copy + go-to-market dans la meme tete. Pas de handover, pas de specs intermediaires, pas de cycles de validation cross-equipe.
+1 person = 0 coordination. Concept + architecture + code + design + copy + go-to-market in the same head. No handover, no intermediate specs, no cross-team validation cycles.
 
-### Documentation continue
+### Continuous documentation
 
-Chaque decision structurante (archi, choix de lib, pattern) est documentee en ADR ou en note dans le repo. La memoire ne vit pas dans la tete, elle vit dans le code.
+Every structuring decision (architecture, library choice, pattern) is documented as an ADR or a note in the repo. Memory doesn't live in the head, it lives in the code.
 
-### Veille technique active
+### Active technical monitoring
 
-Suivi quotidien des releases : Vercel AI SDK, LangGraph, shadcn/ui, Next.js, Supabase, providers LLM. Veille active sur les patterns emergents (MCP, prompt caching, hybrid retrieval).
+Daily tracking of releases: Vercel AI SDK, LangGraph, shadcn/ui, Next.js, Supabase, LLM providers. Active monitoring of emerging patterns (MCP, prompt caching, hybrid retrieval).
 
-## Outillage IA dans le quotidien
+## AI tooling in daily work
 
-- **Claude Code** : agentic coding, refactos, audits, generation de tests
-- **Vercel AI SDK** : multi-provider sur tous les projets (OpenAI + Anthropic + Gemini)
-- **Tool calling et streaming UI** : pattern reutilise sur romainbigache.com et les apps clientes
-- **MCP** : utilise sur projets internes pour exposer des sources de connaissance aux agents
-- **Prompt caching Anthropic** : cost optimization sur les contextes recurrents
+- **Claude Code**: agentic coding, refactors, audits, test generation
+- **Vercel AI SDK**: multi-provider on every project (OpenAI + Anthropic + Gemini)
+- **Tool calling and streaming UI**: pattern reused on romainbigache.com and client apps
+- **MCP**: used on internal projects to expose knowledge sources to agents
+- **Anthropic prompt caching**: cost optimization on recurring contexts
 
-## Posture en mission
+## Posture in mission
 
-- **Autonome end-to-end** sur les sujets cadres
-- **Stakeholder management** maitrise (preuve : agile complet en environnement Compliance bancaire chez BforBank, 50+ campagnes pilotees pour DSI grands comptes via OXGEN)
-- **Communication directe** : pas de jargon inutile, pas de surdocumentation, pas de status updates verbeux
-- **Anti-bullshit** : si une approche ne marche pas ou si un brief est instable, le signaler tot
-- **Engagement long-terme possible** sur missions longue duree, freelance via SASU Microphage Intelligence
+- **End-to-end autonomy** on framed scopes
+- **Stakeholder management** mastered (proof: full agile in a Compliance-driven banking environment at BforBank, 50+ campaigns run for enterprise CIO offices via OXGEN)
+- **Direct communication**: no useless jargon, no over-documentation, no verbose status updates
+- **Anti-bullshit**: if an approach isn't working or a brief is unstable, flag it early
+- **Long-term commitment possible** on long missions, freelance via SASU Microphage Intelligence
 
 ## Related
 

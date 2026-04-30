@@ -1,6 +1,6 @@
 ---
 id: expertise
-title: Expertise GCP / Gemini / Workspace / connecteurs
+title: GCP / Gemini / Workspace / connectors expertise
 type: expertise
 domain: technology
 tags: [gemini, gcp, vertex-ai, google-workspace, salesforce, zendesk, transparency]
@@ -13,54 +13,54 @@ links:
   - profile.md
 ---
 
-# Expertise IA appliquee
+# Applied AI expertise
 
-Detail factuel sur le niveau d'expertise par techno : ce qui est en production, ce qui ne l'est pas.
+Factual breakdown of expertise level by technology: what's in production, what isn't.
 
-## Gemini : 2 ans en production
+## Gemini: 2 years in production
 
-La Plume chez BforBank fonctionne sur Gemini 2.5 Pro. Architecture RAG montee en interne, prompts rediges en interne. En parallele, multi-provider via Vercel AI SDK v6 (OpenAI, Claude, Gemini) sur tous les projets Microphage : tool calling, streaming, evals.
+La Plume at BforBank runs on Gemini 2.5 Pro. RAG architecture built in-house, prompts written in-house. In parallel, multi-provider via Vercel AI SDK v6 (OpenAI, Claude, Gemini) on every Microphage project: tool calling, streaming, evals.
 
-Build avec l'IA plus largement depuis la sortie de GPT-3.5 (novembre 2022) chez ADEO : premier prompt interne, puis Content Design System en RAG (ChatGPT + N8N + Supabase). Donc 3,5 ans de pratique cumulee sur les modeles generatifs.
+Building with AI more broadly since GPT-3.5 shipped (November 2022) at ADEO: first internal prompt, then a RAG-powered Content Design System (ChatGPT + N8N + Supabase). So 3.5 years of cumulative practice on generative models.
 
-Detail : [projects/la-plume-bforbank.md](./projects/la-plume-bforbank.md).
+Detail: [projects/la-plume-bforbank.md](./projects/la-plume-bforbank.md).
 
-## Google Enterprise / Workspace : integrations en production
+## Google Enterprise / Workspace: integrations in production
 
-Sur romainbigache.com :
-- Calendar API connectee a l'agenda avec rendu UI streame directement dans le chat IA (tool call avec rendu live)
-- Cron Vercel pour la sync nocturne
-- Google Drive integre sur plusieurs autres projets
+On romainbigache.com:
+- Calendar API connected to the calendar with UI rendering streamed directly inside the AI chat (tool call with live rendering)
+- Vercel cron for nightly sync
+- Google Drive integrated on several other projects
 
-Pattern OAuth + Workspace API + tool streaming UI maitrise.
+OAuth + Workspace API + tool streaming UI pattern mastered.
 
-## GCP / Vertex AI / Agent Builder : pas en production
+## GCP / Vertex AI / Agent Builder: not in production
 
-Stack actuelle : Vercel + Cloudflare Workers + Supabase. Pas de prod sur GCP / Vertex AI / Agent Builder.
+Current stack: Vercel + Cloudflare Workers + Supabase. No production work on GCP / Vertex AI / Agent Builder.
 
-Familier avec les concepts et les patterns d'agents (maitrises sur LangGraph + Vercel AI SDK).
+Familiar with the concepts and agent patterns (mastered on LangGraph + Vercel AI SDK).
 
-Production-grade equivalente livree sur d'autres infrastructures :
-- La Plume sur LangGraph
+Equivalent production-grade work delivered on other infrastructure:
+- La Plume on LangGraph
 - Microphage Analyzer Pro multi-tenant
-- Altaria avec secu HMAC + RLS
+- Altaria with HMAC + RLS security
 
-## Connecteurs Salesforce / Zendesk : pas en nominatif, pattern equivalent livre
+## Salesforce / Zendesk connectors: not by name, equivalent pattern delivered
 
-Pas d'integration nominative Salesforce ou Zendesk.
+No nominal Salesforce or Zendesk integration.
 
-Pattern equivalent livre chez BforBank : bot RAG GPT custom qui a couple 3 sources internes heterogenes (FAQ publiques, tickets service client, retours SRC) et genere 250+ articles LLM-ready en un mois, mis en production, alimentant un chat client connecte dans l'app.
+Equivalent pattern delivered at BforBank: a custom RAG GPT bot that paired 3 heterogeneous internal sources (public FAQ, customer service tickets, customer service feedback) and generated 250+ LLM-ready articles in one month, deployed in production, feeding a customer chat connected inside the app.
 
-C'est exactement le pattern d'un connecteur metier : ingerer un referentiel client, homogeneiser, generer du contenu structure, le servir via un agent.
+That's exactly the pattern of a business-system connector: ingest a customer reference base, normalize it, generate structured content, serve it through an agent.
 
-Detail : [projects/la-plume-bforbank.md](./projects/la-plume-bforbank.md).
+Detail: [projects/la-plume-bforbank.md](./projects/la-plume-bforbank.md).
 
-## Production-grade au sens strict
+## Production-grade in the strict sense
 
-- 102 tests automatises sur morphow-api (unit + integration + e2e)
-- 3 vulnerabilites XSS identifiees et corrigees en audit interne sur Microphage Analyzer Pro (pas de pentest externe a date)
-- Multi-tenant avec rate limiter, CORS, auth middleware
-- Monitoring Sentry + PostHog
+- 102 automated tests on morphow-api (unit + integration + e2e)
+- 3 XSS vulnerabilities identified and fixed in internal audit on Microphage Analyzer Pro (no external pentest to date)
+- Multi-tenant with rate limiter, CORS, auth middleware
+- Sentry + PostHog monitoring
 - CI/CD GitHub Actions + Vercel Preview
 
 ## Related

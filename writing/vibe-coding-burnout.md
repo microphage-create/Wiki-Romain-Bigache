@@ -1,84 +1,85 @@
 ---
 id: writing-vibe-coding-burnout
-title: Le vibe coding ne fatigue pas. C'est pour ca que c'est dangereux.
+title: Vibe coding doesn't tire you out. That's exactly why it's dangerous.
+description: After 8 months of full-time vibe coding, I noticed the stop signal was gone. Here's what BJJ gave back to me that the screen took.
 type: writing
 domain: blog-article
-tags: [vibe-coding, burnout, jjb, friction, tatami, agentic-coding, derealisation, devil-loop]
+tags: [vibe-coding, burnout, bjj, friction, tatami, agentic-coding, derealization, devil-loop]
 status: published
 created: 2026-04-30
 updated: 2026-04-30
-url: https://romainbigache.com/fr/blog/vibe-coding-burnout
+url: https://romainbigache.com/en/blog/vibe-coding-burnout
 slug: vibe-coding-burnout
 links:
   - writing.md
   - personal.md
 ---
 
-# Le vibe coding ne fatigue pas. C'est pour ça que c'est dangereux.
+# Vibe coding doesn't tire you out. That's exactly why it's dangerous.
 
-Benjamin Code a sorti une vidéo cette semaine sur l'épuisement des développeurs après un an de vibe coding. Je l'ai regardée d'une traite. Pas parce que c'était bien fait (ça l'est), mais parce qu'il met des mots sur un truc que je vis depuis des mois sans arriver à le formuler.
+Benjamin Code dropped a video this week about developer burnout after a year of vibe coding. I watched it in one shot. Not because it's well made (it is), but because he's putting words on something I've been living for months without being able to name.
 
-Je suis AI product builder freelance, et je vibe code tous les jours. Plusieurs agents en parallèle, des sessions de 10 à 12 heures, des projets qui avancent à une vitesse que j'aurais trouvée absurde il y a deux ans. Et pourtant, certains soirs, je ferme le laptop et j'ai l'impression de ne pas avoir vécu ma journée.
+I'm a freelance AI product builder, and I vibe code every day. Multiple agents in parallel, 10-12 hour sessions, projects moving at speeds I'd have called absurd two years ago. And still, some nights, I close the laptop and feel like I didn't actually live my day.
 
-Sauf que moi, je suis pas développeur. Pas au sens classique. Ça fait 8 mois que je code. Avant ça, 7 ans d'UX Writing et de Content Design, en freelance et en entreprise. Et encore avant, des maisons en bois avec mon père. Je suis entré dans le code par le vibe coding, je n'ai jamais connu autre chose. Les 3 heures sur un bug, la fierté de résoudre, la fatigue honnête d'une journée de dev, je connais pas. Mais je sens que quelque chose déconne.
+Except I'm not a developer. Not in the classic sense. I've been coding for 8 months. Before that, 7 years of UX Writing and Content Design, freelance and in-house. And before that, building wood houses with my dad. I came into code through vibe coding. I've never known anything else. The 3 hours stuck on a bug, the pride of solving it, the honest fatigue of a real dev day, I don't know any of that. But I can feel something is off.
 
-## Le signal d'arrêt a sauté
+## The stop signal is gone
 
-Benjamin en parle très bien : avant, une journée de dev avait un arc narratif naturel. Tu butais sur un problème, tu le résolvais, t'étais crevé et fier. Ton corps te disait stop. Moi je n'ai jamais eu ça en code. Mais je l'ai eu ailleurs.
+Benjamin nails this: a dev day used to have a natural narrative arc. You'd hit a problem, solve it, you'd be wrecked and proud. Your body told you to stop. I never had that with code. But I had it elsewhere.
 
-Quand je construisais des maisons en bois dans le Lot, à la fin de la journée tu voyais le mur monté, tu sentais la sciure, t'avais mal au dos. La réalité du travail s'inscrivait dans ton corps. Tu n'avais pas besoin de te demander si ta journée avait compté. Ton dos te le confirmait.
+When I was building wood houses in the Lot region in southwestern France, at the end of the day you'd see the wall up, you'd smell the sawdust, your back would hurt. The reality of the work was written into your body. You didn't have to ask whether your day counted. Your back confirmed it.
 
-Avec le vibe coding, tu lances un agent sur un problème, un autre sur un deuxième, tu orchestres, tu valides, tu relances. C'est du pilotage, pas de la construction. Tes mains ne produisent plus rien. Ton cerveau tourne, mais différemment. Et à 23h, t'es pas fatigué. T'as aucune raison physiologique de t'arrêter. Alors tu continues.
+With vibe coding, you launch one agent on a problem, another on a second one, you orchestrate, you validate, you relaunch. It's piloting, not building. Your hands aren't producing anything anymore. Your brain runs, but differently. And at 11pm you're not tired. You have no physiological reason to stop. So you keep going.
 
-Le problème, c'est que la fatigue arrive quand même. Pas celle des muscles ou du cerveau qui a forcé. Une fatigue plus sourde. Comme un bruit blanc permanent que tu n'entends plus mais qui te bouffe quand même.
+The problem is the fatigue still arrives. Not the fatigue of muscles or a brain pushed hard. A duller fatigue. Like permanent white noise you stop hearing but that eats you anyway.
 
-## Quand ta journée n'a pas eu lieu
+## When your day didn't happen
 
-Le signal d'arrêt, c'est un problème. Mais il y en a un autre, plus sournois. C'est quand tu finis par t'arrêter, que tu fermes le laptop, et que tu réalises que tu ne peux pas raconter ta journée. T'es pas fatigué, t'es pas fier, t'es pas frustré. Rien. 12 heures de tokens et de diffs, et aucune trace.
+The missing stop signal is one problem. There's another, sneakier one. It's when you finally do stop, you close the laptop, and you realize you can't tell the story of your day. You're not tired, not proud, not frustrated. Nothing. 12 hours of tokens and diffs, and no trace.
 
-Il y a un mot pour ça : déréalisation. Le sentiment que ta journée n'a pas vraiment existé.
+There's a word for that: derealization. The feeling that your day didn't really happen.
 
-L'autre piège, c'est que l'IA ne dit jamais non. Benjamin appelle ça le plus grand yes-man de l'histoire. Chaque idée que tu soumets revient validée. Ton filtre de priorisation saute, tu implémentes tout. J'ai des pages d'admin dans mes projets que j'aurais jamais codées moi-même parce que le rapport effort/valeur n'en valait pas la peine. Mais comme ça ne "coûtait" que deux heures avec l'IA, je l'ai fait quand même.
+The other trap is that AI never says no. Benjamin calls it the biggest yes-man in history. Every idea you submit comes back validated. Your prioritization filter breaks, you implement everything. I have admin pages in my projects I'd have never coded myself because the effort/value ratio wasn't worth it. But since it only "cost" two hours with AI, I did it anyway.
 
-C'est pour ça que j'ai construit Devil Loop, un agent adversarial qui attaque chaque décision que je prends. Il cherche la faille, il dit non quand personne d'autre ne le fait. C'est mon contre-poids au yes-man permanent de l'IA. C'est le seul filet que j'ai trouvé pour garder le cap quand tout te dit oui en permanence.
+That's why I built Devil Loop, an adversarial agent that attacks every decision I make. It looks for the flaw, it says no when no one else will. It's my counterweight to the permanent yes-man. It's the only safety net I've found to stay on course when everything around you keeps saying yes.
 
-## Le JJB : le seul truc qui ne se vibe code pas
+## BJJ: the only thing you can't vibe code
 
-6 jours par semaine, je vais au tatami. Depuis 3 ans. Et je peux te dire que c'est devenu bien plus qu'un sport depuis que je vibe code à plein temps.
+6 days a week, I'm on the tatami. For 3 years now. And I can tell you it's become a lot more than a sport since I've been vibe coding full time.
 
-Le JJB, c'est l'anti-vibe coding par excellence. Tu ne peux pas déléguer un étranglement à un agent. Tu ne peux pas prompter une garde. Quand quelqu'un te met un genou sur le ventre, la réalité te revient en pleine gueule. Au sens propre. Pas de token, pas d'abstraction, pas de "est-ce que j'ai vraiment bossé aujourd'hui ?". Ton corps te le confirme. T'as bossé.
+BJJ is the anti-vibe coding by definition. You can't delegate a choke to an agent. You can't prompt a guard. When someone puts a knee on your stomach, reality hits you in the face. Literally. No tokens, no abstraction, no "did I actually work today?". Your body confirms it. You worked.
 
-C'est le seul moment de ma journée où mon cerveau ne peut pas multitasker. Sur le tatami, si tu penses à autre chose pendant une seconde, tu te fais soumettre. C'est un reset cognitif forcé. Comme un redémarrage à froid après une journée entière en surchauffe.
+It's the only moment in my day where my brain can't multitask. On the tatami, if you think about something else for a second, you get submitted. It's a forced cognitive reset. Like a cold reboot after a full day in overheat.
 
-En janvier 2025, j'ai décroché la médaille d'argent aux championnats d'Europe IBJJF, catégorie -76kg. À l'époque je bossais encore en tant qu'UX Writer, ça faisait 2 ans que je pratiquais, 6 jours sur 7. Aujourd'hui je vibe code, le rythme est plus intense, les journées plus longues. La médaille, c'est pas le sujet. Le sujet, c'est que le tatami m'avait déjà appris à encaisser avant que le vibe coding ne débarque. Sans ça, j'aurais jamais tenu.
+In January 2025, I took silver at the IBJJF European Championships, -76kg division. At the time I was still working as a UX Writer, I'd been training 2 years, 6 days a week. Now I vibe code, the rhythm is heavier, the days longer. The medal isn't the point. The point is the tatami had already taught me how to take a hit before vibe coding showed up. Without it, I wouldn't have lasted.
 
-## Ce que le tatami rend
+## What the tatami gives back
 
-Après 8 mois de vibe coding intensif, j'ai identifié ce que le JJB m'apporte et que le code ne donne plus :
+After 8 months of intensive vibe coding, I've identified what BJJ gives me that code doesn't anymore:
 
-**Du feedback honnête.** L'IA te dit que ton idée est géniale. Ton partenaire de sparring te montre que ta technique est nulle. La vérité est immédiate, physique, non négociable. Tu ne peux pas négocier avec un armlock.
+**Honest feedback.** AI tells you your idea is brilliant. Your sparring partner shows you your technique sucks. The truth is immediate, physical, non-negotiable. You can't negotiate with an armlock.
 
-**Un signal d'arrêt naturel.** Après une heure et demie de combat, ton corps dit stop. C'est le signal que le vibe coding a fait sauter. Le JJB le restaure. Tu sors du tatami, t'es vidé, t'es bien. Tu sais exactement pourquoi t'es fatigué.
+**A natural stop signal.** After an hour and a half of rolling, your body says stop. That's the signal vibe coding broke. BJJ restores it. You walk off the tatami emptied, you feel good. You know exactly why you're tired.
 
-**De la friction choisie.** Benjamin dit qu'il faut réintroduire de la friction, pas par nostalgie mais par hygiène. Le JJB c'est exactement ça. C'est une friction volontaire, structurée, quotidienne. Un endroit où les raccourcis n'existent pas. Où le seul moyen de progresser c'est de se faire taper, d'analyser pourquoi, et de recommencer.
+**Chosen friction.** Benjamin says we need to reintroduce friction, not out of nostalgia but for hygiene. BJJ is exactly that. Voluntary, structured, daily friction. A place where shortcuts don't exist. Where the only way to get better is to get hit, analyze why, and start over.
 
-**De la matérialité.** La sciure de bois de mon père, les bleus du JJB, c'est la même chose. La preuve physique que quelque chose s'est passé. Dans un monde où tout est devenu abstrait, cette trace corporelle est devenue vitale.
+**Materiality.** My dad's sawdust, BJJ bruises, same thing. Physical proof that something happened. In a world where everything has gone abstract, that bodily trace has become vital.
 
-## Pas un conseil lifestyle
+## Not a lifestyle tip
 
-Je ne suis pas en train de dire "faites du sport". Tout le monde dit ça. C'est aussi utile que de dire "bois de l'eau".
+I'm not telling you to "do sports." Everyone says that. About as useful as "drink water."
 
-Ce que je dis, c'est qu'il y a quelque chose de spécifique dans le combat qui répond aux problèmes créés par le vibe coding. La déréalisation, le yes-man permanent, le signal d'arrêt qui a sauté, le multitasking infini. Le tatami corrige tout ça. Pas avec des concepts. Avec un genou sur le ventre.
+What I'm saying is there's something specific about combat that answers the problems vibe coding creates. The derealization, the permanent yes-man, the broken stop signal, the infinite multitasking. The tatami fixes all of that. Not with concepts. With a knee on your stomach.
 
-C'est pas un hasard si beaucoup de fondateurs et de devs freelance se mettent aux sports de combat en ce moment. Le corps cherche ce que l'écran ne donne plus.
+It's not a coincidence that a lot of founders and freelance devs are getting into combat sports right now. The body is looking for what the screen no longer gives.
 
-> Le vibe coding a supprimé la friction du travail. Le JJB me la rend. Pas par nostalgie. Par survie.
+> Vibe coding killed the friction in work. BJJ gives it back to me. Not out of nostalgia. Out of survival.
 
-Si t'es dev, créateur, indie hacker, et que tu sens ce truc monter, cette fatigue sans fatigue, cette productivité qui ne satisfait plus, cette impression que ta journée n'a pas eu lieu, c'est normal. On est tous dans le même bain. Ça fait un an. On apprend.
+If you're a dev, a maker, an indie hacker, and you feel this thing rising, this fatigue without fatigue, this productivity that doesn't satisfy anymore, this sense that your day didn't happen, it's normal. We're all in the same pot. It's been a year. We're learning.
 
-Et si t'es comme moi, si t'as jamais connu le dev d'avant, si t'es rentré dans le code par l'IA et que tu te demandes si c'est censé être comme ça. Non. C'est pas censé être comme ça. Trouve ta friction.
+And if you're like me, if you never knew the dev world before, if you came into code through AI and you're wondering if it's supposed to feel like this. No. It's not supposed to feel like this. Find your friction.
 
-Trouve ton tatami.
+Find your tatami.
 
 ## Related
 

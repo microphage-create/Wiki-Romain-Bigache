@@ -1,16 +1,16 @@
 ---
 id: project-la-plume-bforbank
-title: La Plume + chat service client (BforBank)
+title: La Plume + customer service chat (BforBank)
 type: project
 domain: project
-tags: [bforbank, banking, gemini-2.5-pro, langgraph, rag, semantic-splitter, multilingual-embeddings, marketplace, chat-client, salesforce-pattern, zendesk-pattern]
+tags: [bforbank, banking, gemini-2.5-pro, langgraph, rag, semantic-splitter, multilingual-embeddings, marketplace, customer-chat, salesforce-pattern, zendesk-pattern]
 status: live
 created: 2026-04-30
 updated: 2026-04-30
 period: 2023-12 / 2025-12
-client: BforBank (filiale Credit Agricole)
-industries: [Banque, Fintech, Services Financiers]
-team: 1 (Romain Bigache, Lead Content Designer freelance)
+client: BforBank (Credit Agricole subsidiary)
+industries: [Banking, Fintech, Financial Services]
+team: 1 (Romain Bigache, freelance Lead Content Designer)
 url: null
 demo: null
 technologies: [Gemini 2.5 Pro, text-multilingual-embedding-002, LangGraph, SemanticSplitter, GPT-4, RAG, BforBank GPT marketplace]
@@ -20,116 +20,116 @@ links:
   - expertise.md
 ---
 
-# La Plume + chat service client (BforBank)
+# La Plume + customer service chat (BforBank)
 
-| Cle | Valeur |
-|-----|--------|
-| **Type** | Assistant IA interne + corpus LLM-ready pour chat service client |
-| **Statut** | En production |
-| **Annee** | 2023 - 2025 |
-| **Entreprise** | BforBank (filiale Credit Agricole) |
-| **Industries** | Banque, Fintech, Services Financiers |
-| **Taille** | Grande entreprise |
-| **Periode** | Decembre 2023 - Decembre 2025 |
+| Key | Value |
+|-----|-------|
+| **Type** | Internal AI assistant + LLM-ready corpus for customer service chat |
+| **Status** | In production |
+| **Year** | 2023 - 2025 |
+| **Company** | BforBank (Credit Agricole subsidiary) |
+| **Industries** | Banking, Fintech, Financial Services |
+| **Size** | Large enterprise |
+| **Period** | December 2023 - December 2025 |
 
-## Titre court
+## Short title
 
-Deux chantiers IA en banque chez BforBank.
+Two AI workstreams in banking at BforBank.
 
-## Description courte
+## Short description
 
-Deux chantiers IA distincts livres pendant la mission Lead Content Designer chez BforBank.
+Two distinct AI workstreams delivered during the Lead Content Designer engagement at BforBank.
 
-**« La Plume »** : assistant IA interne pour les designers, sur Gemini 2.5 Pro avec orchestration LangGraph, deploye dans la marketplace BforBank GPT.
+**"La Plume"**: internal AI assistant for designers, on Gemini 2.5 Pro with LangGraph orchestration, deployed in the BforBank GPT marketplace.
 
-**Lancement du chat service client** : couplage de 3 sources internes heterogenes (FAQ publiques, tickets, retours SRC) et production de 250+ articles LLM-ready via un bot RAG GPT custom.
+**Customer service chat launch**: coupling of 3 heterogeneous internal sources (public FAQs, tickets, customer service feedback) and production of 250+ LLM-ready articles via a custom RAG GPT bot.
 
-## Description longue
+## Long description
 
-### Chantier 1 - La Plume, assistant IA interne pour designers
+### Workstream 1 - La Plume, internal AI assistant for designers
 
-#### Probleme
+#### Problem
 
-Les equipes design de BforBank devaient produire du contenu coherent avec le ton de la marque, dans un environnement bancaire regule ou chaque ecran (parcours d'ouverture de compte, assurance vie, simulateurs de credit, FAQ, mails transactionnels) doit respecter a la fois la charte editoriale et un niveau d'exigence legale eleve. Les designers passaient un temps important en allers-retours sur la copy, sans assistant dedie a l'UX writing.
+BforBank's design teams had to produce content consistent with the brand voice in a regulated banking environment, where every screen (account opening flows, life insurance, loan simulators, FAQs, transactional emails) must comply with both editorial guidelines and a high legal bar. Designers spent significant time on copy back-and-forths, with no dedicated UX writing assistant.
 
 #### Solution
 
-« La Plume » est deployee dans la marketplace BforBank GPT, plateforme interne ou les collaborateurs publient et consomment des assistants specialises. La Plume est positionnee sur les categories Design, Marketing et Product.
+"La Plume" is deployed in the BforBank GPT marketplace, an internal platform where employees publish and use specialized assistants. La Plume is positioned across the Design, Marketing and Product categories.
 
-#### Architecture RAG (que j'ai montee)
+#### RAG architecture (built by me)
 
-- Embeddings text-multilingual-embedding-002 pour gerer documents FR / EN
-- SemanticSplitter avec parametres de chunking sur mesure (taille de buffer, seuil de breakpoint percentile, nombre de chunks par doc, longueur min, regex de separation)
-- Indexation sur charte editoriale, guidelines UX writing internes, doc de reference
+- text-multilingual-embedding-002 embeddings to handle FR / EN documents
+- SemanticSplitter with custom chunking parameters (buffer size, breakpoint percentile threshold, chunks per doc, min length, separation regex)
+- Indexing on editorial guidelines, internal UX writing guidelines, reference documentation
 
-#### Prompts et garde-fous
+#### Prompts and guardrails
 
-Redaction du system prompt principal, des prompts de chaque mode, et des garde-fous editoriaux pour bloquer les formulations interdites par la conformite bancaire. Calibration des parametres de generation (creativite, longueur).
+Wrote the main system prompt, the prompts for each mode, and the editorial guardrails to block formulations forbidden by banking compliance. Calibrated generation parameters (creativity, length).
 
-#### Workflow d'agent (LangGraph)
+#### Agent workflow (LangGraph)
 
-Router qui choisit le mode adapte a la requete → summarizer pour les longues entrees → module RAG pour aller chercher les references → generation directe via le modele → tool calling pour les actions structurees → generation d'image pour visuels d'accompagnement.
+Router that picks the mode adapted to the request -> summarizer for long inputs -> RAG module to fetch references -> direct generation via the model -> tool calling for structured actions -> image generation for supporting visuals.
 
-Tourne sur Gemini 2.5 Pro.
+Runs on Gemini 2.5 Pro.
 
-#### Cas d'usage couverts pour les designers
+#### Use cases covered for designers
 
-- Generation et reformulation de microcopy
-- Verification de coherence avec la charte
-- Propositions multiples sur un meme message
-- Traductions
-- Simplification d'expressions juridiques
-- Generation d'illustrations sur des concepts UX
+- Microcopy generation and rewriting
+- Editorial guideline consistency checks
+- Multiple proposals on the same message
+- Translations
+- Simplification of legal phrasing
+- Illustration generation on UX concepts
 
-### Chantier 2 - Lancement du chat service client (clients in-app)
+### Workstream 2 - Customer service chat launch (in-app clients)
 
-#### Probleme
+#### Problem
 
-BforBank preparait le lancement d'un chat IA dedie a ses clients connectes dans l'application mobile. Pour une banque en ligne sans reseau d'agences, le chat est un canal critique : il doit repondre vite, juste, et dans un cadre regule (informations financieres, sujets sensibles type fraude, opposition, droit au compte, assurance vie, fiscalite).
+BforBank was preparing the launch of an AI chat dedicated to its connected clients in the mobile app. For a branchless online bank, chat is a critical channel: it must answer fast, accurately, and within a regulated frame (financial information, sensitive topics like fraud, account closure, banking rights, life insurance, taxation).
 
-Pour fonctionner avec un LLM, le chat avait besoin d'une base de connaissance unifiee, homogene et exploitable en inference, la ou les sources internes etaient fragmentees entre FAQ publiques, tickets service client, retours SRC et guidelines internes.
+To run with an LLM, the chat needed a unified, homogeneous knowledge base usable at inference time, while internal sources were fragmented across public FAQs, customer service tickets, internal feedback and internal guidelines.
 
 #### Mission
 
-Structurer toute la documentation necessaire au tirage du chat :
+Structure all the documentation needed to power the chat:
 
-- Scraping et recuperation des FAQ existantes (site public, base d'aide, parcours app)
-- Recuperation et nettoyage des remontees service client + SRC (les vraies questions des utilisateurs et les vraies reponses humaines validees)
-- Couplage des 3 sources heterogenes pour identifier sujets sous-traites, redondances, contradictions et zones d'ombre editoriales
-- Homogeneisation complete : ton, structure, niveau de detail, granularite, formulation, conformite legale, alignement charte BforBank
-- Reecriture et production de 250+ articles LLM-ready (titre clair, intent identifiable, reponse autoportante, contexte, formulations alternatives, exclusions explicites pour eviter les hallucinations sur les sujets regules)
+- Scraping and retrieval of existing FAQs (public site, help base, in-app flows)
+- Retrieval and cleaning of customer service feedback + internal feedback (the real user questions and the real validated human answers)
+- Coupling the 3 heterogeneous sources to identify under-covered topics, redundancies, contradictions and editorial blind spots
+- Full normalization: tone, structure, level of detail, granularity, phrasing, legal compliance, BforBank guideline alignment
+- Rewriting and production of 250+ LLM-ready articles (clear title, identifiable intent, self-contained answer, context, alternative phrasings, explicit exclusions to avoid hallucinations on regulated topics)
 
-#### Outil de production editoriale
+#### Editorial production tool
 
-Construction d'un bot RAG GPT custom qui ingerait les 3 sources couplees et produisait des articles pre-rediges au format attendu, valides et finalises ensuite a la main. Outil interne, pas un livrable. Il a permis de passer de la matiere brute heterogene a un corpus coherent et exploitable par le chat, a un rythme bien superieur a la production manuelle pure.
+Built a custom RAG GPT bot that ingested the 3 coupled sources and produced pre-drafted articles in the target format, then validated and finalized by hand. Internal tool, not a deliverable. It enabled the shift from heterogeneous raw material to a coherent corpus usable by the chat, at a pace far above pure manual production.
 
-## Technologies utilisees
+## Technologies used
 
 ### La Plume
 
-- Gemini 2.5 Pro (modele LLM principal)
-- text-multilingual-embedding-002 (embeddings Google multilingues)
-- LangGraph (orchestration workflow d'agent : router, summarize, RAG, tools, generate_image, tools_calling)
-- SemanticSplitter (chunking semantique du RAG, parametres sur mesure)
-- Tool calling et generation d'image
-- Plateforme interne BforBank GPT (marketplace d'assistants specialises)
+- Gemini 2.5 Pro (main LLM)
+- text-multilingual-embedding-002 (Google multilingual embeddings)
+- LangGraph (agent workflow orchestration: router, summarize, RAG, tools, generate_image, tools_calling)
+- SemanticSplitter (semantic RAG chunking, custom parameters)
+- Tool calling and image generation
+- BforBank GPT internal platform (specialized assistant marketplace)
 
-### Lancement du chat service client
+### Customer service chat launch
 
-- Scraping des sources FAQ existantes (FAQ publiques, base d'aide, parcours app)
-- Couplage avec tickets service client et retours SRC
-- Bot RAG GPT custom pour la production editoriale (outil interne)
-- Production de 250+ articles LLM-ready (structure cible : titre, intent, reponse autoportante, formulations alternatives, exclusions explicites)
-- Homogeneisation editoriale selon la charte BforBank
+- Scraping of existing FAQ sources (public FAQs, help base, in-app flows)
+- Coupling with customer service tickets and internal feedback
+- Custom RAG GPT bot for editorial production (internal tool)
+- Production of 250+ LLM-ready articles (target structure: title, intent, self-contained answer, alternative phrasings, explicit exclusions)
+- Editorial normalization against BforBank guidelines
 
 ## Impact
 
-- La Plume en production dans la marketplace interne BforBank GPT, utilisee par les equipes design
-- 250+ articles LLM-ready produits pour alimenter le chat service client des clients in-app
-- Documentation et matiere editoriale structurees pour le lancement du chat
-- Couplage de 3 sources internes heterogenes (FAQ, tickets, retours SRC) en un corpus coherent
-- **Pattern « ingerer des sources internes heterogenes, homogeneiser, produire un corpus LLM-ready, alimenter un agent » directement transposable sur des connecteurs Salesforce ou Zendesk**
-- **Adoption confirmee** : La Plume utilisee quotidiennement par les equipes design BforBank apres deploiement, integree au workflow de production des parcours clients. Corpus de 250+ articles deploye en production, alimente le chat in-app des clients connectes.
+- La Plume in production in the BforBank GPT internal marketplace, used by design teams
+- 250+ LLM-ready articles produced to power the in-app customer service chat
+- Documentation and editorial material structured for the chat launch
+- Coupling of 3 heterogeneous internal sources (FAQs, tickets, internal feedback) into a coherent corpus
+- **Pattern "ingest heterogeneous internal sources, normalize, produce an LLM-ready corpus, power an agent" directly transferable to Salesforce or Zendesk connectors**
+- **Confirmed adoption**: La Plume used daily by BforBank design teams after rollout, integrated into the customer journey production workflow. 250+ article corpus deployed in production, powering the in-app chat for connected clients.
 
 ## Related
 

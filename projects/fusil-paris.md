@@ -1,6 +1,6 @@
 ---
 id: project-fusil-paris
-title: fusil.paris - E-commerce de bijoux artisanaux
+title: fusil.paris - Handcrafted jewelry e-commerce
 type: project
 domain: project
 tags: [fusil-paris, e-commerce, jewelry, next-js-16, edge-functions, deno, stripe, paypal, hmac, security, chronopost, bilingual, solo, co-founded]
@@ -8,9 +8,9 @@ status: live
 created: 2026-04-30
 updated: 2026-04-30
 period: 2024 / present
-client: fusil.paris (co-fondee avec Edouard)
-industries: [E-commerce, Bijouterie, Artisanat]
-team: 2 (Romain Bigache - tech/design/copy, Edouard - cofondateur, creation des bijoux)
+client: fusil.paris (co-founded with Edouard)
+industries: [E-commerce, Jewelry, Crafts]
+team: 2 (Romain Bigache - tech/design/copy, Edouard - cofounder, jewelry creation)
 url: https://fusil.paris
 demo: https://fusil.paris
 technologies: [Next.js 16, React 19, TypeScript 5, Tailwind CSS 4, Supabase, Edge Functions Deno, Stripe, PayPal, Resend, Chronopost, HMAC-SHA256, Web Crypto API, Vercel]
@@ -21,85 +21,85 @@ links:
 
 # fusil.paris
 
-| Cle | Valeur |
-|-----|--------|
-| **Type** | E-commerce de bijoux artisanaux (co-fonde) |
-| **Statut** | En production |
-| **Annee** | 2024 - en cours |
+| Key | Value |
+|-----|-------|
+| **Type** | Handcrafted jewelry e-commerce (co-founded) |
+| **Status** | In production |
+| **Year** | 2024 - ongoing |
 | **URL** | [fusil.paris](https://fusil.paris) |
-| **Entreprise** | fusil.paris (marque de bijoux en argent 925 faits main a Paris) |
-| **Industries** | E-commerce, Bijouterie, Artisanat |
-| **Equipe** | Romain Bigache (concept, design, code, securite, deploiement, copy, mails), Edouard (co-fondateur, creation des bijoux) |
+| **Company** | fusil.paris (handcrafted 925 silver jewelry brand made in Paris) |
+| **Industries** | E-commerce, Jewelry, Crafts |
+| **Team** | Romain Bigache (concept, design, code, security, deployment, copy, emails), Edouard (cofounder, jewelry creation) |
 
-## Titre court
+## Short title
 
-E-commerce de bijoux artisanaux, concu, code et deploye en solo.
+Handcrafted jewelry e-commerce, designed, coded and deployed solo.
 
-## Description courte
+## Short description
 
-Boutique e-commerce complete pour fusil.paris (bijoux en argent 925 faits main a Paris). Concue, codee et deployee en solo de bout en bout : front Next.js 16 + React 19, paiement double provider (Stripe + PayPal), 12 Edge Functions Deno, mails transactionnels bilingues FR/EN, expedition Chronopost multi-zones, panel admin securise, securite bancaire (HMAC-SHA256, CSP, HSTS, rate limiting, timing-safe auth).
+Full e-commerce store for fusil.paris (925 silver jewelry handmade in Paris). Designed, coded and deployed end-to-end solo: Next.js 16 + React 19 front, dual-provider checkout (Stripe + PayPal), 12 Deno Edge Functions, bilingual FR/EN transactional emails, multi-zone Chronopost shipping, secured admin panel, banking-grade security (HMAC-SHA256, CSP, HSTS, rate limiting, timing-safe auth).
 
-## Description longue
+## Long description
 
-### Contexte
+### Context
 
-fusil.paris est une marque de bijoux en argent 925 fabriques artisanalement a Paris (collections Brut, Leaf, Paris, Hors Serie), co-fondee avec Edouard. Le site sert a la fois de vitrine narrative et de boutique e-commerce avec un panier de 250-380 EUR, donc avec un niveau d'exigence eleve sur la confiance et la securite de paiement.
+fusil.paris is a brand of 925 silver jewelry handcrafted in Paris (Brut, Leaf, Paris, Hors Serie collections), co-founded with Edouard. The site serves as both narrative showcase and e-commerce store with a 250-380 EUR cart, requiring a high bar on trust and payment security.
 
-### Perimetre solo
+### Solo scope
 
-Direction artistique, copy, code (front + back), integration paiement, securite, mails transactionnels, panel admin, deploiement, monitoring. De bout en bout.
+Art direction, copy, code (front + back), payment integration, security, transactional emails, admin panel, deployment, monitoring. End-to-end.
 
-### Front et SEO
+### Front and SEO
 
-Next.js 16 (App Router) + React 19 + Tailwind 4 + TypeScript 5. Site bilingue FR/EN, optimise pour le partage social et le referencement : Schema.org JSON-LD (JewelryStore), Open Graph, Twitter Cards, metadonnees PWA-friendly (theme-color, apple-mobile-web-app-capable, viewport-fit cover). Composants UI reutilisables, performance optimisee pour la conversion.
+Next.js 16 (App Router) + React 19 + Tailwind 4 + TypeScript 5. Bilingual FR/EN site, optimized for social sharing and SEO: Schema.org JSON-LD (JewelryStore), Open Graph, Twitter Cards, PWA-friendly metadata (theme-color, apple-mobile-web-app-capable, viewport-fit cover). Reusable UI components, performance tuned for conversion.
 
 ### Backend Edge Functions (Deno + Supabase)
 
-12 fonctions Edge deployees couvrant tout le cycle de vie commande :
+12 Edge functions deployed covering the full order lifecycle:
 
-- Webhooks Stripe (verification HMAC-SHA256 maison via Web Crypto API native, sans dependance Stripe SDK)
-- Confirmation cote client pour idempotence
-- Authentification admin avec timing-safe comparison
-- Annulation de commande avec remboursement automatique
-- Recuperation securisee d'une commande client (token-based)
-- Remboursement Stripe partiel ou total
-- Workflow de demande de retour
-- 5 fonctions de mails transactionnels bilingues FR/EN (confirmation, expedition, livraison, prete a expedier, RDV showroom)
+- Stripe webhooks (custom HMAC-SHA256 verification via native Web Crypto API, no Stripe SDK dependency)
+- Client-side confirmation for idempotency
+- Admin authentication with timing-safe comparison
+- Order cancellation with automatic refund
+- Secure client order retrieval (token-based)
+- Partial or full Stripe refund
+- Return request workflow
+- 5 bilingual FR/EN transactional email functions (confirmation, shipping, delivery, ready-to-ship, showroom appointment)
 
-### Securite production-grade
+### Production-grade security
 
-- **Verification HMAC-SHA256 maison des webhooks Stripe** via Web Crypto API native, sans dependre de la lib Stripe SDK : timestamp + signature v1
-- **Rate limiting in-memory** sur Vercel serverless : 60 req/min global + 5 echecs d'auth/min, avec fenetres glissantes et nettoyage periodique
-- **Timing-safe comparison** pour le token admin : protection contre les timing attacks par comparaison bit a bit
-- **Whitelist de paths** dans le proxy admin (allow-list, pas deny-list) : seuls les endpoints Supabase necessaires sont autorises
-- **Headers securite Vercel** : CSP avec frame-ancestors restrictif, HSTS 1 an avec includeSubDomains, X-Content-Type-Options, X-Frame-Options DENY, X-XSS-Protection, Referrer-Policy strict-origin-when-cross-origin, Permissions-Policy desactivant camera / micro / geolocalisation
-- **CORS strict** sur l'admin : uniquement depuis fusil.paris et www.fusil.paris
-- **Limite de taille body** sur les requetes admin pour eviter les abus
-- **Service role key Supabase** jamais expose cote client : tout passe par un proxy Vercel
+- **Custom HMAC-SHA256 verification of Stripe webhooks** via native Web Crypto API, without relying on the Stripe SDK: timestamp + v1 signature
+- **In-memory rate limiting** on Vercel serverless: 60 req/min global + 5 auth failures/min, with sliding windows and periodic cleanup
+- **Timing-safe comparison** for the admin token: protection against timing attacks via bit-by-bit comparison
+- **Path whitelist** in the admin proxy (allow-list, not deny-list): only the required Supabase endpoints are authorized
+- **Vercel security headers**: CSP with restrictive frame-ancestors, HSTS 1 year with includeSubDomains, X-Content-Type-Options, X-Frame-Options DENY, X-XSS-Protection, Referrer-Policy strict-origin-when-cross-origin, Permissions-Policy disabling camera / mic / geolocation
+- **Strict CORS** on admin: only from fusil.paris and www.fusil.paris
+- **Body size limit** on admin requests to prevent abuse
+- **Supabase service role key** never exposed client-side: everything goes through a Vercel proxy
 
-### Paiement double provider
+### Dual-provider checkout
 
-- **Stripe Checkout Sessions** avec shipping rates par zone (FR, EU, Suisse, UK, World, pickup) et webhook idempotent
-- **PayPal** integration complete (create-order + capture-order) avec gestion des etats et des erreurs
-- **Codes promo** avec validation cote serveur : montant minimum, dates d'expiration, type de reduction (% ou fixe)
+- **Stripe Checkout Sessions** with shipping rates per zone (FR, EU, Switzerland, UK, World, pickup) and idempotent webhook
+- **PayPal** full integration (create-order + capture-order) with state and error handling
+- **Promo codes** with server-side validation: minimum amount, expiration dates, discount type (% or fixed)
 
-### Mails transactionnels bilingues FR/EN
+### Bilingual FR/EN transactional emails
 
-Tous les emails clients (confirmation, expedition, livraison, RDV, retour, remboursement) supportent FR + EN avec detection automatique de la langue depuis les metadata Stripe. Templates HTML inline avec fallback texte. Envoyes via Resend.
+All customer emails (confirmation, shipping, delivery, appointment, return, refund) support FR + EN with automatic language detection from Stripe metadata. Inline HTML templates with text fallback. Sent via Resend.
 
-### Multi-zones d'expedition (Chronopost)
+### Multi-zone shipping (Chronopost)
 
-Tarifs et delais par zone : France gratuite (2-3 jours), Europe gratuite (3-5 jours), Suisse 25 EUR, UK 25 EUR HT (taxes UK en sus), Monde 35 EUR (4-7 jours), retrait en boutique gratuit. Affichage automatique du transporteur cote client. Saisie du numero de suivi cote admin, generation automatique du lien de tracking direct vers chronopost.fr dans l'email d'expedition envoye au client.
+Rates and lead times per zone: France free (2-3 days), Europe free (3-5 days), Switzerland EUR 25, UK EUR 25 ex-tax (UK taxes on top), World EUR 35 (4-7 days), in-store pickup free. Automatic carrier display on the client side. Tracking number entry on the admin side, automatic generation of the direct chronopost.fr tracking link in the shipping email sent to the customer.
 
-### Panel admin securise
+### Secured admin panel
 
-Gestion complete des produits, commandes, codes promo, settings, lookbook et logs applicatifs. Authentification par token protege en variable d'environnement, rate limiting sur les echecs d'auth, comparaison timing-safe (anti timing-attack), whitelist de paths sur le proxy Vercel.
+Full management of products, orders, promo codes, settings, lookbook and application logs. Token-based authentication protected via environment variable, rate limiting on auth failures, timing-safe comparison (anti timing-attack), path whitelist on the Vercel proxy.
 
 ### Monitoring
 
-Vercel Insights pour la performance, Supabase pour le tracing applicatif, logs Stripe + PayPal centralises.
+Vercel Insights for performance, Supabase for application tracing, centralized Stripe + PayPal logs.
 
-## Technologies utilisees
+## Technologies used
 
 ### Front
 
@@ -107,56 +107,56 @@ Vercel Insights pour la performance, Supabase pour le tracing applicatif, logs S
 - React 19
 - TypeScript 5
 - Tailwind CSS 4
-- Schema.org JSON-LD (JewelryStore) pour le SEO
+- Schema.org JSON-LD (JewelryStore) for SEO
 - Open Graph, Twitter Cards
-- Metadonnees PWA-friendly
+- PWA-friendly metadata
 
 ### Backend
 
 - Supabase (PostgreSQL + Storage + Auth + Edge Functions Deno)
-- 12 Edge Functions Deno (Web Crypto API native)
-- Vercel serverless (proxy admin, paiement)
-- Tables Supabase : orders, products, promo_codes, settings, lookbook, debug_logs
+- 12 Deno Edge Functions (native Web Crypto API)
+- Vercel serverless (admin proxy, payment)
+- Supabase tables: orders, products, promo_codes, settings, lookbook, debug_logs
 
-### Paiement et facturation
+### Payment and billing
 
-- Stripe Checkout Sessions + Stripe Webhooks (verification HMAC-SHA256 custom)
+- Stripe Checkout Sessions + Stripe Webhooks (custom HMAC-SHA256 verification)
 - PayPal (create-order + capture-order)
-- Code promo avec validation server-side
+- Promo codes with server-side validation
 
-### Expedition
+### Shipping
 
-- Chronopost (toutes zones : FR / EU / Suisse / UK / Monde)
-- Generation automatique du lien de tracking dans l'email d'expedition
+- Chronopost (all zones: FR / EU / Switzerland / UK / World)
+- Automatic tracking link generation in the shipping email
 
-### Mails transactionnels
+### Transactional emails
 
 - Resend API
-- Templates bilingues FR/EN
-- Detection auto de langue via metadata Stripe
+- Bilingual FR/EN templates
+- Auto language detection via Stripe metadata
 
-### Securite
+### Security
 
-- HMAC-SHA256 (Web Crypto API native)
-- Rate limiting in-memory custom
+- HMAC-SHA256 (native Web Crypto API)
+- Custom in-memory rate limiting
 - Timing-safe comparison
-- Whitelist de paths
-- Headers HTTP : CSP, HSTS, X-Frame-Options, X-Content-Type-Options, Permissions-Policy, Referrer-Policy
-- CORS strict par origine
+- Path whitelist
+- HTTP headers: CSP, HSTS, X-Frame-Options, X-Content-Type-Options, Permissions-Policy, Referrer-Policy
+- Strict CORS by origin
 
-### Deploiement
+### Deployment
 
-- Vercel (front + API serverless)
+- Vercel (front + serverless API)
 - Vercel Insights (analytics)
-- Variables d'environnement pour secrets
+- Environment variables for secrets
 
 ## Impact
 
-- Site en production sur [fusil.paris](https://fusil.paris)
-- E-commerce complet livre en solo de A a Z
-- Securite bancaire en place des le 1er commit (HMAC custom, rate limiting, timing-safe auth)
-- Bilingue FR/EN sur l'ensemble des touchpoints clients (front + emails)
-- Double provider de paiement (Stripe + PayPal) pour maximiser le taux de conversion
+- Site live at [fusil.paris](https://fusil.paris)
+- Full e-commerce delivered solo end-to-end
+- Banking-grade security in place from the first commit (custom HMAC, rate limiting, timing-safe auth)
+- Bilingual FR/EN across all customer touchpoints (front + emails)
+- Dual payment provider (Stripe + PayPal) to maximize conversion rate
 
 ## Related
 

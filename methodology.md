@@ -1,6 +1,6 @@
 ---
 id: methodology
-title: Methodologies signature
+title: Signature methodologies
 type: methodology
 domain: technology
 tags: [karpathy-llm-wiki, hybrid-retrieval, rag, prompt-caching, single-source-of-truth, methodology]
@@ -13,112 +13,112 @@ links:
   - stack.md
 ---
 
-# Methodologies signature
+# Signature methodologies
 
-Patterns architecturaux et methodes de travail recurrents utilises sur les projets IA Microphage.
+Recurring architectural patterns and working methods used across Microphage AI projects.
 
 ## LLM Wiki
 
-Pattern d'organisation de la connaissance metier comme un wiki structure : frontmatter YAML, single source of truth, fichiers atomiques, cross-links explicites. La regle metier ne vit pas dans les prompts, elle vit dans le wiki.
+Pattern for organizing business knowledge as a structured wiki: YAML frontmatter, single source of truth, atomic files, explicit cross-links. Business rules don't live in prompts, they live in the wiki.
 
-J'ai commence a outiller cette logique sur cds-wiki et Microphage Analyzer Pro, sans avoir encore pousse la methodologie tres loin. Andrej Karpathy a publie en avril 2026 un gist qui formalise le meme pattern de maniere plus complete : la rencontre des deux approches a confirme la direction.
+I started tooling this approach on cds-wiki and Microphage Analyzer Pro before pushing the methodology much further. Andrej Karpathy published a gist in April 2026 that formalizes the same pattern more thoroughly: the convergence of both approaches confirmed the direction.
 
-### Application sur Microphage Analyzer Pro
+### Application on Microphage Analyzer Pro
 
-- 785 regles UX writing structurees en 17 categories dans un wiki proprietaire
-- Source de verite unique : zero regle codee en dur dans les prompts
-- Frontmatter par regle (id, type, severite, domaine, exemples)
-- Cross-links entre regles connexes
-- Generation de pack tenant : derive un nouveau wiki client sans toucher au coeur produit
+- 785 UX writing rules structured into 17 categories in a proprietary wiki
+- Single source of truth: zero rule hard-coded in prompts
+- Frontmatter per rule (id, type, severity, domain, examples)
+- Cross-links between related rules
+- Tenant pack generation: derives a new client wiki without touching the core product
 
-### Avantage
+### Benefit
 
-Modification d'une regle = modification d'un fichier markdown, sans redeploiement, sans regression sur les autres regles. Auditable, reviewable par non-techs (designers, content owners).
+Editing a rule = editing a markdown file, no redeploy, no regression on other rules. Auditable, reviewable by non-techs (designers, content owners).
 
-## Matcher hybride 3 couches
+## 3-layer hybrid matcher
 
-Pattern de retrieval pour matcher une regle ou une connaissance dans un wiki dense, avec un budget LLM controle.
+Retrieval pattern for matching a rule or a piece of knowledge in a dense wiki, with a controlled LLM budget.
 
-### Couche 1 - Metadata filtering (80% des cas)
+### Layer 1 - Metadata filtering (80% of cases)
 
-Filtrage par tags / domaine / type / locale dans le frontmatter YAML. Tres rapide, tres deterministe, couvre la majorite des matches.
+Filtering by tags / domain / type / locale in the YAML frontmatter. Very fast, very deterministic, covers most matches.
 
-### Couche 2 - BM25 keyword search (15%)
+### Layer 2 - BM25 keyword search (15%)
 
-Si la couche 1 ne tranche pas : recherche full-text BM25 sur le corpus filtre. Toujours zero appel LLM, toujours rapide.
+If layer 1 doesn't decide: full-text BM25 search on the filtered corpus. Still zero LLM call, still fast.
 
-### Couche 3 - Classifier LLM (5% residual)
+### Layer 3 - LLM classifier (5% residual)
 
-Si les couches 1 et 2 echouent : appel LLM en mode classifier sur les top-N candidats restants. Cout LLM minime car le candidate set est deja reduit.
+If layers 1 and 2 fail: LLM call in classifier mode on the remaining top-N candidates. LLM cost is minimal because the candidate set is already narrow.
 
-### Avantage
+### Benefit
 
-Budget LLM controle : 95% des matches se font en 0 appel LLM. Latence sous-seconde sur la majorite des requetes. Couts API previsibles.
+Controlled LLM budget: 95% of matches happen with 0 LLM calls. Sub-second latency on most requests. Predictable API costs.
 
 ### Application
 
-Microphage Analyzer Pro utilise ce pattern pour matcher les violations UX writing sur 785 regles candidates, avec une latence p95 acceptable et un cout API predictible meme a l'echelle multi-tenant.
+Microphage Analyzer Pro uses this pattern to match UX writing violations against 785 candidate rules, with acceptable p95 latency and predictable API cost even at multi-tenant scale.
 
-## Pattern d'ingestion sources internes heterogenes
+## Heterogeneous internal source ingestion pattern
 
-Pattern reutilisable pour transformer un referentiel client fragmente en corpus LLM-ready exploitable par un agent.
+Reusable pattern to turn a fragmented client knowledge base into an LLM-ready corpus exploitable by an agent.
 
-### Etapes
+### Steps
 
-1. **Scraping et recuperation** des sources existantes (FAQ, base d'aide, documentation)
-2. **Couplage des sources** : faire dialoguer FAQ publiques + tickets service client + retours SRC pour identifier sujets sous-traites, redondances, contradictions
-3. **Homogeneisation** : ton, structure, niveau de detail, granularite, formulation, conformite
-4. **Reecriture en format LLM-ready** : titre clair, intent identifiable, reponse autoportante, formulations alternatives, exclusions explicites
-5. **Outil de production** : bot RAG GPT custom pour produire les drafts a un rythme tenable, validation humaine en finalisation
+1. **Scraping and retrieval** of existing sources (FAQ, help base, documentation)
+2. **Source pairing**: cross-reference public FAQ + customer service tickets + customer service feedback to identify under-covered topics, redundancies, contradictions
+3. **Normalization**: tone, structure, level of detail, granularity, phrasing, compliance
+4. **LLM-ready rewriting**: clear title, identifiable intent, self-contained answer, alternative phrasings, explicit exclusions
+5. **Production tooling**: custom RAG GPT bot to produce drafts at a sustainable pace, human validation at finalization
 
-### Application sur BforBank
+### Application at BforBank
 
-250+ articles produits en un mois a partir de 3 sources internes heterogenes (FAQ, tickets service client, retours SRC). Corpus deploye en production, alimente le chat in-app des clients connectes.
+250+ articles produced in one month from 3 heterogeneous internal sources (FAQ, customer service tickets, customer service feedback). Corpus deployed in production, feeding the in-app chat for logged-in customers.
 
-### Transposable
+### Transferable
 
-Pattern directement applicable a des connecteurs Salesforce, Zendesk, ServiceNow, ou tout systeme de gestion de tickets / FAQ d'entreprise.
+Pattern directly applicable to Salesforce, Zendesk, ServiceNow connectors, or any enterprise ticketing / FAQ system.
 
-Detail : [projects/la-plume-bforbank.md](./projects/la-plume-bforbank.md).
+Detail: [projects/la-plume-bforbank.md](./projects/la-plume-bforbank.md).
 
-## Compression du cycle (POC 3 semaines en solo)
+## Cycle compression (3-week solo POC)
 
-Methode de livraison rapide qui supprime la coordination de 3 metiers sur un POC.
+Fast delivery method that removes the coordination of 3 trades on a POC.
 
-### Principe
+### Principle
 
-Profil hybride designer + dev full-stack + content + change comms en une seule personne. Pas de handover entre metiers, pas de specs intermediaires, pas de cycles de validation cross-equipe a chaque livrable.
+Hybrid profile designer + full-stack dev + content + change comms in a single person. No handover between trades, no intermediate specs, no cross-team validation cycles per deliverable.
 
-### Conditions de reussite
+### Conditions for success
 
-- Brief client clair en 1 session
-- Sponsor designe pour les arbitrages rapides
-- Stack technique deja stabilisee (Next.js + Vercel AI SDK + Supabase + Cloudflare Workers, idem entre projets)
-- Securite production-grade dans le squelette de demarrage (HMAC, RLS, rate limiting deja templates)
-- Outillage interne mature (cf [projects/mycelium.md](./projects/mycelium.md))
+- Clear client brief in 1 session
+- Designated sponsor for fast arbitration
+- Stable templated stack (Next.js + Vercel AI SDK + Supabase + Cloudflare Workers, same across projects)
+- Production-grade security in the bootstrap skeleton (HMAC, RLS, rate limiting already templated)
+- Mature internal tooling (cf [projects/mycelium.md](./projects/mycelium.md))
 
-### Resultat
+### Result
 
-Altaria : 15 modules en production, 3 semaines, du brief au pitch comex CAC40.
+Altaria: 15 modules in production, 3 weeks, from brief to CAC40 C-suite pitch.
 
-## Production-grade des le jour 1
+## Production-grade from day 1
 
-Default position : tout projet Microphage demarre avec les patterns securite + tests + monitoring deja en place, pas en phase de durcissement post-MVP.
+Default position: every Microphage project starts with security + tests + monitoring patterns already in place, not in a post-MVP hardening phase.
 
-### Squelette systematique
+### Systematic skeleton
 
-- Validation Zod sur toutes les entrees
-- Rate limiting in-memory ou Upstash Redis
-- HMAC-SHA256 sur les webhooks signes
-- RLS Supabase sur les tables sensibles
-- CSP + HSTS + Permissions-Policy par defaut
-- Tests Vitest unit + integration des le 1er commit
-- Playwright e2e des le 1er ecran user-facing
-- Monitoring Sentry + PostHog branches au demarrage
+- Zod validation on all inputs
+- In-memory rate limiting or Upstash Redis
+- HMAC-SHA256 on signed webhooks
+- Supabase RLS on sensitive tables
+- CSP + HSTS + Permissions-Policy by default
+- Vitest unit + integration tests from the first commit
+- Playwright e2e from the first user-facing screen
+- Sentry + PostHog monitoring wired from kickoff
 
-### Avantage
+### Benefit
 
-Pas de dette technique securite a rembourser au moment du go-live. Le POC est deja prod-ready, le cycle commercial peut s'engager des la demo.
+No security tech debt to repay at go-live. The POC is already prod-ready, the sales cycle can start at the demo.
 
 ## Related
 

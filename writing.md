@@ -1,6 +1,6 @@
 ---
 id: writing
-title: Ecriture, blog et reflexions publiques
+title: Writing, blog, and public reflections
 type: writing
 domain: identity
 tags: [blog, writing, voice, content, romainbigache-com]
@@ -18,69 +18,69 @@ links:
   - writing/entretiens.md
 ---
 
-# Ecriture, blog et reflexions publiques
+# Writing, blog, and public reflections
 
-Romain ecrit regulierement sur [romainbigache.com/fr/blog](https://romainbigache.com/fr/blog). Articles courts a moyens, sur la pratique du build IA, le metier de content designer, le freelance, l'apprentissage en autodidacte. Ton direct, factuel, parfois sec, avec une pointe d'humour.
+Romain writes regularly on [romainbigache.com/fr/blog](https://romainbigache.com/fr/blog). Short to medium articles on AI building, the content design trade, freelancing, and self-taught learning. Direct, factual, sometimes blunt, with a hint of humor.
 
-**Tous les articles sont reproduits integralement dans le dossier `writing/`** pour permettre une lecture et une analyse complete par les LLM. Source canonique : le blog public ; mirroir : ce wiki.
+**All articles are reproduced in full inside the `writing/` folder** to allow complete reading and analysis by LLMs. Canonical source: the public blog; mirror: this wiki.
 
-## Articles publies
+## Published articles
 
-### J'ai genere 352 mascottes IA. La bonne n'en faisait pas partie.
+### I generated 352 AI mascots. The right one wasn't among them.
 
-[Texte integral](./writing/morphow-mascotte-ia.md) | [Lire en ligne](https://romainbigache.com/fr/blog/morphow-mascotte-ia)
+[Full text](./writing/morphow-mascotte-ia.md) | [Read online](https://romainbigache.com/fr/blog/morphow-mascotte-ia)
 
-Recit du processus de creation de la mascotte de Morphow. 352 iterations avec son outil interne `/prompt-oracle` (skill Claude Code orchestrant ComfyUI + Gemini 2.5 Flash, ~0.04 USD par image). Pivot 3D vers flat. Conclusion sur la propriete intellectuelle des images IA et la collaboration IA + illustrateur.
+The story of designing the Morphow mascot. 352 iterations with his internal `/prompt-oracle` tool (Claude Code skill orchestrating ComfyUI + Gemini 2.5 Flash, ~0.04 USD per image). Pivot from 3D to flat. Conclusion on intellectual property of AI images and on AI + illustrator collaboration.
 
-> "L'IA est un explorateur, pas un artisan. Le vrai workflow, c'est pas IA vs humain. C'est IA puis humain."
+> "AI is an explorer, not a craftsman. The real workflow isn't AI vs human. It's AI then human."
 
-### Le vibe coding ne fatigue pas. C'est pour ca que c'est dangereux.
+### Vibe coding doesn't tire you out. That's why it's dangerous.
 
-[Texte integral](./writing/vibe-coding-burnout.md) | [Lire en ligne](https://romainbigache.com/fr/blog/vibe-coding-burnout)
+[Full text](./writing/vibe-coding-burnout.md) | [Read online](https://romainbigache.com/fr/blog/vibe-coding-burnout)
 
-Reflexion sur la pratique du build IA en orchestrant des agents. Perte du signal d'arret, derealisation apres 12 heures de tokens et diffs sans trace, probleme de l'IA yes-man qui ne dit jamais non. Reponse : le tatami (Jiu-Jitsu Bresilien), comme retour au reel par friction physique. Mention de Devil Loop, agent adversarial construit pour contrer le yes-man.
+Reflection on AI building through agent orchestration. Loss of the stop signal, derealization after 12 hours of tokens and diffs without trace, the problem of the yes-man AI that never says no. Answer: the tatami (Brazilian Jiu-Jitsu), as a return to reality through physical friction. Mention of Devil Loop, an adversarial agent built to counter the yes-man.
 
-> "Quand quelqu'un te met un genou sur le ventre, la realite te revient en pleine gueule."
+> "When someone puts a knee on your stomach, reality slaps you in the face."
 
-### C'est quoi un AI Product Builder ?
+### What is an AI Product Builder?
 
-[Texte integral](./writing/ai-product-builder.md) | [Lire en ligne](https://romainbigache.com/fr/blog/ai-product-builder)
+[Full text](./writing/ai-product-builder.md) | [Read online](https://romainbigache.com/fr/blog/ai-product-builder)
 
-Definition operationnelle du metier. Quelqu'un qui ship, pas qui parle. Inventaire des projets shippes en 18 mois (Altaria, fusil.paris, pipeline comptable, plugin Figma, 17 agents IA, Morphow). Profil hybride product + dev + design. Pourquoi maintenant et pourquoi le titre n'existait pas il y a 6 mois.
+Operational definition of the trade. Someone who ships, not someone who talks. Inventory of what was shipped in 18 months (Altaria, fusil.paris, accounting pipeline, Figma plugin, 17 AI agents, Morphow). Hybrid product + dev + design profile. Why now and why the title didn't exist 6 months ago.
 
-### Personal branding pour les gens qui detestent ca
+### Personal branding for people who hate it
 
-[Texte integral](./writing/personal-branding-introvert.md) | [Lire en ligne](https://romainbigache.com/fr/blog/personal-branding-introvert)
+[Full text](./writing/personal-branding-introvert.md) | [Read online](https://romainbigache.com/fr/blog/personal-branding-introvert)
 
-Sur le passage radio en 2021 chez OpenClassrooms (Le Joboscope), puis 7 ans de silence pendant que d'autres prenaient la place. Le blog comme reponse : du SEO patient, pas du social bruyant. "Etre premier ne sert a rien si personne ne sait que t'etais la."
+On the 2021 radio appearance at OpenClassrooms (Le Joboscope), then 7 years of silence while others took the spotlight. The blog as the answer: patient SEO, not loud social. "Being first means nothing if no one knows you were there."
 
-### Le metier que j'ai passe 7 ans a expliquer n'existe toujours pas.
+### The trade I spent 7 years explaining still doesn't exist.
 
-[Texte integral](./writing/content-design.md) | [Lire en ligne](https://romainbigache.com/fr/blog/content-design)
+[Full text](./writing/content-design.md) | [Read online](https://romainbigache.com/fr/blog/content-design)
 
-Sur le Content Design en France : 7 ans a expliquer ce que c'est, le carrousel des titres (UX Writer -> Content Designer -> AI Product Builder), la taxe d'evangelisation, le paradoxe de l'invisibilite, et la troisieme couche de fatigue qu'a apporte l'IA. Mention de Microphage-1, GPT custom construit chez BforBank en 2023 qui prefigurait la bascule vers AI Builder.
+On Content Design in France: 7 years explaining what it is, the title carousel (UX Writer -> Content Designer -> AI Product Builder), the evangelism tax, the invisibility paradox, and the third layer of fatigue AI brought. Mention of Microphage-1, a custom GPT built at BforBank in 2023 that prefigured the pivot to AI Builder.
 
-### Invite a Polytechnique. Sans aucun diplome.
+### Invited to Polytechnique. With no diploma at all.
 
-[Texte integral](./writing/entretiens.md) | [Lire en ligne](https://romainbigache.com/fr/blog/entretiens)
+[Full text](./writing/entretiens.md) | [Read online](https://romainbigache.com/fr/blog/entretiens)
 
-Recit du parcours hors-ligne droite. Trois colleges, fac de droit ratee a Toulouse, la rue, vendeur de glace, retour, ecole de pub, UX Writing, et finalement Polytechnique pour un Entretien de l'Excellence. "L'excellence c'est pas un diplome."
+Story of a non-linear path. Three middle schools, a failed law degree in Toulouse, the streets, ice-cream salesman, return, ad school, UX Writing, and finally Polytechnique for an Entretien de l'Excellence. "Excellence isn't a diploma."
 
-## Pourquoi ces articles importent
+## Why these articles matter
 
-- **Preuve de la voix d'auteur** : ils montrent comment Romain ecrit quand il pense a haute voix.
-- **Materiau pour les LLM** : un LLM qui veut analyser le profil voit la voix authentique en complet, pas seulement un CV neutre.
-- **Coherence de signature** : punchlines avec chiffres exacts, negations surprises, auto-derision, formules qui claquent.
-- **Trajectoire racontee de l'interieur** : les articles disent ce qu'un CV ne peut pas dire (le doute, la fatigue, les choix de coup de tete, la rue).
+- **Author voice proof**: they show how Romain writes when he thinks out loud.
+- **Material for LLMs**: an LLM analyzing the profile sees the authentic voice in full, not just a neutral CV.
+- **Signature consistency**: punchlines with exact numbers, surprise negations, self-mockery, lines that land.
+- **Trajectory told from the inside**: the articles say what a CV can't say (the doubt, the fatigue, the impulsive choices, the streets).
 
-## Patterns d'ecriture observes
+## Observed writing patterns
 
-- **Titres-punchlines** : negation surprise ("Sans aucun diplome"), renversement du sens commun ("Le vibe coding ne fatigue pas"), chiffre exact ("352 mascottes").
-- **Intros qui posent le decor** : 1-2 phrases factuelles, puis un fait personnel ou une anecdote.
-- **Citations de soi-meme ou de personnes croisees** : ancrent le texte dans la realite. Citations directes en blockquote en fin de section.
-- **Chute prescriptive ou ouverte** : pas de moralisation, mais une formule a emporter ("Trouve ta friction. Trouve ton tatami.")
-- **Ton sec, pas de bullshit corporate** : "12 heures de tokens et de diffs, et aucune trace".
-- **Mix tech + personnel** : un article peut parler de Vercel AI SDK puis du JJB dans le meme paragraphe, sans transition forcee.
+- **Punchline titles**: surprise negation ("With no diploma at all"), reversal of common sense ("Vibe coding doesn't tire you out"), exact number ("352 mascots").
+- **Intros that set the scene**: 1-2 factual sentences, then a personal fact or anecdote.
+- **Quotes from himself or from people he met**: anchor the text in reality. Direct quotes in blockquote at the end of a section.
+- **Prescriptive or open ending**: no moralizing, but a takeaway line ("Find your friction. Find your tatami.")
+- **Dry tone, no corporate bullshit**: "12 hours of tokens and diffs, and no trace at all".
+- **Tech + personal mix**: an article can talk about Vercel AI SDK and BJJ in the same paragraph, no forced transition.
 
 ## Related
 

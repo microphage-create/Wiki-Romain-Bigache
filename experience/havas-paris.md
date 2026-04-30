@@ -1,6 +1,6 @@
 ---
 id: experience-havas-paris
-title: Havas Paris - Creative Copywriter (stage)
+title: Havas Paris - Creative Copywriter (internship)
 type: experience
 domain: experience
 tags: [havas-paris, advertising, copywriter, stage, orange-bank, edf]
@@ -10,33 +10,33 @@ updated: 2026-04-30
 period: 2017-02 / 2017-08
 employer: Havas Paris
 location: Paris, France
-industry: Services publicitaires
+industry: Advertising services
 links:
   - experience/oxgen.md
 ---
 
 # Havas Paris - Creative Copywriter
 
-| Cle | Valeur |
-|-----|--------|
-| **Periode** | Fevrier 2017 - Aout 2017 (7 mois) |
-| **Localisation** | Paris, France |
-| **Industrie** | Services publicitaires |
-| **Type** | Stage de fin d'etudes (Sup de Creation - Concepteur-Redacteur) |
+| Key | Value |
+|-----|-------|
+| **Period** | February 2017 - August 2017 (7 months) |
+| **Location** | Paris, France |
+| **Industry** | Advertising services |
+| **Type** | End-of-studies internship (Sup de Creation - Concepteur-Redacteur, French copywriting school) |
 
 ## Mission
 
-Stage de fin d'etudes en equipe creative chez Havas Paris.
+End-of-studies internship in a creative team at Havas Paris.
 
-J'ai travaille sur des campagnes pour des grands comptes : lancement d'**Orange Bank**, **EDF**, **leboncoin**, **La Poste**.
+I worked on campaigns for major accounts: launch of **Orange Bank**, **EDF**, **leboncoin**, **La Poste**.
 
-Premiere confrontation au rythme et a l'exigence d'une grande agence creative : concepts, accroches, scripts, presentations client.
+First exposure to the pace and standards of a major creative agency: concepts, headlines, scripts, client presentations.
 
-Cette experience pose les bases du metier de copywriter avant de basculer en independant des la fin du stage.
+This experience laid the foundations of the copywriter craft before going independent right after the internship.
 
-## Suite logique
+## What followed
 
-Bascule en freelance creative des la fin du stage : 2 ans de missions copywriting / direction artistique pour diverses agences parisiennes (cf [experience/freelance-creative.md](./freelance-creative.md)), avec demarrage en parallele de la collaboration recurrente OXGEN qui dure depuis 2017 (cf [experience/oxgen.md](./oxgen.md)). Glissement progressif du copywriting publicitaire vers le content design et l'UX a partir de 2019 (Speak UX!).
+Switched to freelance creative right after the internship: 2 years of copywriting / art direction missions for various Paris agencies (see [experience/freelance-creative.md](./freelance-creative.md)), with the parallel start of the recurring OXGEN collaboration ongoing since 2017 (see [experience/oxgen.md](./oxgen.md)). Gradual shift from advertising copywriting toward content design and UX from 2019 onward (Speak UX!).
 
 ## Related
 

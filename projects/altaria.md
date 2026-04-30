@@ -1,17 +1,17 @@
 ---
 id: project-altaria
-title: Altaria - Acculturation IA pour Altarea (CAC40)
+title: Altaria - AI Acculturation for Altarea (CAC40)
 type: project
 domain: project
-tags: [altaria, altarea, cac40, copilot-365, gamification, pwa, hmac, rls, oxgen, solo, 3-semaines]
+tags: [altaria, altarea, cac40, copilot-365, gamification, pwa, hmac, rls, oxgen, solo, 3-weeks]
 status: live
 created: 2026-04-30
 updated: 2026-04-30
 period: 2025
-client: Altarea (foncier CAC40)
+client: Altarea (CAC40 real estate)
 distribution: OXGEN
-industries: [Immobilier, Education, AI/ML]
-team: 1 (Romain Bigache, solo + coordination OXGEN)
+industries: [Real Estate, Education, AI/ML]
+team: 1 (Romain Bigache, solo + OXGEN coordination)
 url: https://altaria.microphage.ai/access
 demo: https://altaria.microphage.ai/access
 technologies: [Next.js 15, React 19, TypeScript 5.9, Tailwind CSS 4, Vercel AI SDK v4, OpenAI, Anthropic Claude, Supabase, Zod, HMAC-SHA256, RLS, PWA]
@@ -23,109 +23,109 @@ links:
 
 # Altaria
 
-| Cle | Valeur |
-|-----|--------|
-| **Type** | Application web gamifiee d'acculturation IA |
-| **Statut** | POC livre et demontre au comex, suite commerciale en discussion |
-| **Annee** | 2025 |
-| **Entreprise** | Altarea (client final, pitche via OXGEN) |
-| **Industries** | Immobilier, Education, AI/ML |
-| **Taille client** | Grande entreprise (CAC40) |
-| **Equipe** | Romain Bigache, seul. Coordination OXGEN sur le brief et le pitch |
+| Key | Value |
+|-----|-------|
+| **Type** | Gamified AI acculturation web app |
+| **Status** | POC delivered and demoed to the executive committee, commercial follow-up in discussion |
+| **Year** | 2025 |
+| **Company** | Altarea (end client, pitched via OXGEN) |
+| **Industries** | Real Estate, Education, AI/ML |
+| **Client size** | Large enterprise (CAC40) |
+| **Team** | Romain Bigache, solo. OXGEN coordination on the brief and the pitch |
 | **Demo** | [altaria.microphage.ai/access](https://altaria.microphage.ai/access) |
-| **Periode de production** | 3 semaines en solo |
+| **Production period** | 3 weeks solo |
 
-## Titre court
+## Short title
 
-POC d'acculturation IA pour grand compte foncier, shippe en 3 semaines en solo.
+AI acculturation POC for a large CAC40 real estate group, shipped solo in 3 weeks.
 
-## Description courte
+## Short description
 
-Application gamifiee d'acculturation a l'IA generative pour Altarea (CAC40), pitchee via OXGEN en amont du deploiement de Microsoft Copilot 365. Shippee en 3 semaines en solo : concept, architecture, code, design, contenu pedagogique, illustrations et campagne de deploiement guerilla. Discussions en cours pour distribution en marque blanche.
+Gamified AI acculturation app for Altarea (CAC40), pitched via OXGEN ahead of the Microsoft Copilot 365 rollout. Shipped solo in 3 weeks: concept, architecture, code, design, learning content, illustrations and an internal guerrilla deployment campaign. Discussions for a white-label launch in progress.
 
-**Demo accessible** : [altaria.microphage.ai/access](https://altaria.microphage.ai/access)
+**Live demo**: [altaria.microphage.ai/access](https://altaria.microphage.ai/access)
 
-## Description longue
+## Long description
 
-### Contexte
+### Context
 
-Altarea, foncier du CAC40 et leader de la transformation urbaine bas carbone, preparait le deploiement de Microsoft Copilot 365 aupres de ses collaborateurs. OXGEN devait piloter un dispositif d'adoption en trois temps : prise de parole de la direction aux voeux, campagne teasing, Town Hall post-deploiement.
+Altarea, a CAC40 real estate group and a leader in low-carbon urban transformation, was preparing the rollout of Microsoft Copilot 365 to its employees. OXGEN was leading a three-stage adoption program: leadership address at the new year ceremony, teasing campaign, post-rollout Town Hall.
 
-### Positionnement
+### Positioning
 
-J'ai porte Altaria comme materialisation produit du dispositif d'adoption. Pas une formation classique, pas un enieme outil informatique : une application qui propose une experience d'acculturation IA gamifiee, pensee comme l'onboarding humain au deploiement de Copilot 365.
+I drove Altaria as the product materialization of the adoption program. Not a classic training, not yet another IT tool: an app that delivers a gamified AI acculturation experience, designed as the human onboarding for the Copilot 365 rollout.
 
-### Perimetre solo
+### Solo scope
 
-Concept, architecture, code, design, contenu pedagogique, illustrations, copy, campagne de deploiement. 3 semaines du brief a la production. Coordination OXGEN sur le brief client et le pitch comex.
+Concept, architecture, code, design, learning content, illustrations, copy, deployment campaign. 3 weeks from brief to production. OXGEN coordination on the client brief and the executive committee pitch.
 
-### Modules en production (15)
+### Modules in production (15)
 
-- **Hub** avec XP bar et streak
-- **Profil** avec stats radar et 19 badges sur 3 niveaux de rarete
-- **Quiz** 30 questions sur 3 niveaux
-- **Formation** avec 3 mondes / 15 lecons / 75 activites
-- **AI Lesson** (generation dynamique par IA)
-- **Bullshit ?** (jeu de detection de desinformation IA)
-- **Rocket Science** (jeu d'arcade pedagogique avec leaderboard)
-- **Classement** avec 24 NPC simules
-- **FAQ** 30 Q/R
-- **Lexique** 30 termes
-- **Discussion** (chat IA avec deux modes vocaux)
-- **Prompter** (generateur et ameliorateur de prompts)
-- **Calendrier** de deploiement
+- **Hub** with XP bar and streak
+- **Profile** with stats radar and 19 badges across 3 rarity tiers
+- **Quiz** 30 questions across 3 levels
+- **Training** with 3 worlds / 15 lessons / 75 activities
+- **AI Lesson** (dynamic AI-generated content)
+- **Bullshit?** (AI misinformation detection game)
+- **Rocket Science** (educational arcade game with leaderboard)
+- **Leaderboard** with 24 simulated NPCs
+- **FAQ** 30 Q/A
+- **Glossary** 30 terms
+- **Discussion** (AI chat with two voice modes)
+- **Prompter** (prompt generator and improver)
+- **Deployment calendar**
 - **Onboarding tour**
-- **Booking** integre
+- **Built-in booking**
 
-### Cas d'usage metier couverts (extraits du brief client)
+### Business use cases covered (from the client brief)
 
-- Redaction de compte-rendu
-- Preparation d'argumentaire
-- Analyse de documents et de donnees
-- Creation de visuel
+- Meeting summaries
+- Pitch preparation
+- Document and data analysis
+- Visual creation
 
-Chaque cas est ancre dans le quotidien des collaborateurs Altarea, toutes filiales confondues.
+Each use case is grounded in the daily work of Altarea employees, across all subsidiaries.
 
-### Strategie d'adoption - campagne guerilla
+### Adoption strategy - guerrilla campaign
 
-Conception et illustration avec OXGEN d'une campagne d'affichage interne en 5 supports physiques places dans les moments d'attente du quotidien des bureaux. Chaque support porte une accroche contextuelle au lieu et un QR code vers l'app. Visuels et copy de moi.
+Designed and illustrated with OXGEN an internal poster campaign across 5 physical media placed in everyday office waiting moments. Each medium carries a context-aware hook tied to its location and a QR code to the app. Visuals and copy by me.
 
-### Acces
+### Access
 
-Acces restreint au reseau corporate du client (contrainte conformite). Effet de bord positif : renforce le rituel d'usage et la viralite interne entre collegues, l'app n'existant que dans les bureaux.
+Access restricted to the client's corporate WiFi (compliance constraint). Positive side effect: it reinforces the usage ritual and internal virality between colleagues, since the app only exists inside the offices.
 
-### Securite applicative des le POC
+### Application security from the POC
 
-- Sessions signees HMAC-SHA256
-- Validation Zod sur toutes les entrees
-- Rate limiting par endpoint
-- Row Level Security Supabase
-- Headers HTTP (HSTS, CSP avec nonce, Permissions-Policy desactivant camera / micro / geo)
-- Kill switch et date d'expiration de la demo
-- Systeme custom anti-leak (proteger les contenus pedagogiques de l'export)
+- HMAC-SHA256-signed sessions
+- Zod validation on every input
+- Per-endpoint rate limiting
+- Supabase Row Level Security
+- HTTP headers (HSTS, CSP with nonce, Permissions-Policy disabling camera / mic / geo)
+- Kill switch and demo expiration date
+- Custom anti-leak system (protecting learning content from export)
 
-## Technologies utilisees
+## Technologies used
 
 - Next.js 15 (App Router)
 - React 19
 - TypeScript 5.9
 - Tailwind CSS 4
 - Vercel AI SDK v4 (multi-provider)
-- OpenAI API et Anthropic Claude API
-- Supabase (base de donnees, auth, RLS sur 9 tables)
-- Zod (validation schemas)
-- Sessions HMAC-SHA256 signees
-- Middleware Next.js (access gate, CSP avec nonce, kill switch, date d'expiration)
-- Web Audio API (sons synthetises)
-- PWA (installable sur mobile et desktop)
+- OpenAI API and Anthropic Claude API
+- Supabase (database, auth, RLS on 9 tables)
+- Zod (schema validation)
+- HMAC-SHA256-signed sessions
+- Next.js middleware (access gate, CSP with nonce, kill switch, expiration date)
+- Web Audio API (synthesized sounds)
+- PWA (installable on mobile and desktop)
 
 ## Impact
 
-- POC livre en 3 semaines en solo, du brief a la mise en production
-- Demo accessible : [altaria.microphage.ai/access](https://altaria.microphage.ai/access)
-- POC livre et demontre au comex client, vente non finalisee
-- Discussions pour un lancement en marque blanche avec Tenexa
-- Sert de preuve commerciale sur les pitchs grands comptes (CAC40) du cabinet OXGEN
+- POC delivered solo in 3 weeks, from brief to production
+- Live demo: [altaria.microphage.ai/access](https://altaria.microphage.ai/access)
+- POC delivered and demoed to the client's executive committee, sale not finalized
+- Discussions for a white-label launch with Tenexa
+- Used as a commercial proof point on OXGEN's large-account (CAC40) pitches
 
 ## Related
 

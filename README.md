@@ -1,6 +1,6 @@
 ---
 id: README
-title: Wiki Romain Bigache - Index
+title: Romain Bigache Wiki - Index
 type: meta
 domain: portfolio
 tags: [profile, ai-product-builder, freelance, paris, llm-ready, index]
@@ -15,123 +15,123 @@ links:
   - stack.md
 ---
 
-# Wiki Romain Bigache
+# Romain Bigache Wiki
 
-> Wiki personnel structure pour lecture humaine et LLM. Methodologie Karpathy LLM Wiki : single source of truth, fichiers atomiques, frontmatter YAML, cross-links explicites.
-> Pour comprendre la structure : [_schema.md](./_schema.md).
-> 🇬🇧 **English version available** : [en/README.md](./en/README.md)
+> Personal wiki structured for both human and LLM reading. Karpathy LLM Wiki methodology: single source of truth, atomic files, YAML frontmatter, explicit cross-links.
+> For the structure: [_schema.md](./_schema.md).
+> 🇫🇷 **Version française** : [fr/README.md](./fr/README.md)
 
-## Carte de visite
+## Business card
 
-| Cle | Valeur |
-|-----|--------|
-| **Nom** | Romain Bigache |
-| **Titre** | AI Product Builder |
-| **Localisation** | Paris, France |
-| **Statut** | Freelance via SASU Microphage Intelligence |
-| **TJM affiche** | 850 EUR / jour (full-time longue duree) |
-| **Disponibilite** | 11 mai 2026, full-time |
+| Key | Value |
+|-----|-------|
+| **Name** | Romain Bigache |
+| **Title** | AI Product Builder |
+| **Location** | Paris, France |
+| **Status** | Freelance via SASU Microphage Intelligence |
+| **Posted day rate** | 850 EUR / day (full-time, long-term) |
+| **Availability** | May 11, 2026, full-time |
 | **Email** | romain.bigache@gmail.com |
 | **Site** | romainbigache.com |
 | **LinkedIn** | linkedin.com/in/romainbigache |
 
 ## Pitch
 
-10 ans de design produit dans l'ecosysteme grand compte (BforBank, Leroy Merlin, leboncoin, Cdiscount, FDJ, Havas). Build avec l'IA depuis la sortie de GPT-3.5 (novembre 2022) ; agents IA en production sur Gemini 2.5 Pro depuis 2 ans.
+10 years of product design across enterprise accounts (BforBank, Leroy Merlin, leboncoin, Cdiscount, FDJ, Havas). Building with AI since GPT-3.5 shipped (November 2022); production AI agents on Gemini 2.5 Pro for 2 years.
 
-Specialite : compresser concept + architecture + code + design + go-to-market en une seule personne, sur des cycles courts. POC livres en 3 semaines avec tests automatises, securite et multi-tenant en place des le jour 1.
+Specialty: compress concept + architecture + code + design + go-to-market into a single person, on short cycles. POCs delivered in 3 weeks with automated tests, security, and multi-tenant in place from day 1.
 
-Profil hybride : designer + dev full-stack + content + change comms. End-to-end ownership.
+Hybrid profile: designer + full-stack dev + content + change comms. End-to-end ownership.
 
 
-## Index documentaire
+## Document index
 
-### Documents principaux
+### Main documents
 
-| Document | Sujet |
-|----------|-------|
-| [profile.md](./profile.md) | Identite, contact, pitch court, expertises |
-| [cv.md](./cv.md) | CV brut markdown (1 page) |
-| [stack.md](./stack.md) | Stack technique exhaustive (LLM, frameworks, infra, securite) |
-| [availability.md](./availability.md) | Disponibilite, TJM, modalites |
-| [expertise.md](./expertise.md) | Focus GCP / Gemini / Workspace / connecteurs |
-| [keywords.md](./keywords.md) | Mots-cles ATS et indexation |
-| [education.md](./education.md) | Formation : autodidacte sur dev et IA |
-| [methodology.md](./methodology.md) | Methodologies signature (Karpathy LLM Wiki, hybrid retrieval, etc.) |
-| [process.md](./process.md) | Comment je travaille au quotidien (Claude Code + outillage IA) |
-| [writing.md](./writing.md) | Index des 6 articles de blog (textes integraux dans `writing/`) |
-| [personal.md](./personal.md) | Hors-pro : Jiu-Jitsu, benevolat, label musique |
+| Document | Subject |
+|----------|---------|
+| [profile.md](./profile.md) | Identity, contact, short pitch, expertise |
+| [cv.md](./cv.md) | Raw markdown CV (1 page) |
+| [stack.md](./stack.md) | Full technical stack (LLM, frameworks, infra, security) |
+| [availability.md](./availability.md) | Availability, day rate, terms |
+| [expertise.md](./expertise.md) | Focus on GCP / Gemini / Workspace / connectors |
+| [keywords.md](./keywords.md) | ATS keywords and indexing |
+| [education.md](./education.md) | Education: self-taught on dev and AI |
+| [methodology.md](./methodology.md) | Signature methodologies (Karpathy LLM Wiki, hybrid retrieval, etc.) |
+| [process.md](./process.md) | How I work day-to-day (Claude Code + AI tooling) |
+| [writing.md](./writing.md) | Index of 6 blog articles (full texts in `writing/`) |
+| [personal.md](./personal.md) | Off-work: Brazilian Jiu-Jitsu, volunteering, music label |
 
-### Experiences
+### Experience
 
-| Mission | Periode | Fichier |
-|---------|---------|---------|
-| **Microphage** - Fondateur & AI Builder | 2025 - present | [experience/microphage.md](./experience/microphage.md) |
-| **BforBank** (Credit Agricole) - Lead UX Writer & Visual | 2023 - 2025 | [experience/bforbank.md](./experience/bforbank.md) |
+| Mission | Period | File |
+|---------|--------|------|
+| **Microphage** - Founder & AI Builder | 2025 - present | [experience/microphage.md](./experience/microphage.md) |
+| **BforBank** (Crédit Agricole) - Lead UX Writer & Visual | 2023 - 2025 | [experience/bforbank.md](./experience/bforbank.md) |
 | **ADEO** (Leroy Merlin) - Principal UX Writer | 2020 - 2023 | [experience/adeo-leroy-merlin.md](./experience/adeo-leroy-merlin.md) |
-| **OXGEN** - Copywriter & DA | 2017 - present | [experience/oxgen.md](./experience/oxgen.md) |
-| **Freelance creative** - Copywriter & DA pour diverses agences | 2017 - 2019 | [experience/freelance-creative.md](./experience/freelance-creative.md) |
+| **OXGEN** - Copywriter & Art Director | 2017 - present | [experience/oxgen.md](./experience/oxgen.md) |
+| **Freelance creative** - Copywriter & Art Director for various agencies | 2017 - 2019 | [experience/freelance-creative.md](./experience/freelance-creative.md) |
 | **Cdiscount** (Octopia) - UX Writer | 2022 | [experience/cdiscount.md](./experience/cdiscount.md) |
 | **FDJ** - UX Writer | 2020 | [experience/fdj.md](./experience/fdj.md) |
 | **leboncoin** - UX Writer | 2019 - 2020 | [experience/leboncoin.md](./experience/leboncoin.md) |
 | **Speak UX!** - UX Writer | 2019 - 2020 | [experience/speak-ux.md](./experience/speak-ux.md) |
 | **Havas Paris** - Creative Copywriter | 2017 | [experience/havas-paris.md](./experience/havas-paris.md) |
 
-### Projets
+### Projects
 
-| Projet | Type | Annee | Fichier |
-|--------|------|-------|---------|
-| **Microphage Analyzer Pro** | Plugin Figma B2B IA | 2024 - en cours | [projects/microphage-analyzer-pro.md](./projects/microphage-analyzer-pro.md) |
-| **Altaria** | Application gamifiee acculturation IA pour Altarea (CAC40) | 2025 | [projects/altaria.md](./projects/altaria.md) |
-| **La Plume + chat service client** | Assistant IA bancaire + corpus LLM-ready | 2024 - 2025 | [projects/la-plume-bforbank.md](./projects/la-plume-bforbank.md) |
-| **fusil.paris** | E-commerce de bijoux artisanaux | 2024 - en cours | [projects/fusil-paris.md](./projects/fusil-paris.md) |
-| **romainbigache.com** | Site personnel + agent IA (Calendar/Drive en prod) | 2025 - en cours | [projects/romainbigache-com.md](./projects/romainbigache-com.md) |
-| **Mycelium** | Outillage Claude Code interne (skills, subagents, hooks) | 2026 - en cours | [projects/mycelium.md](./projects/mycelium.md) |
+| Project | Type | Year | File |
+|---------|------|------|------|
+| **Microphage Analyzer Pro** | B2B AI Figma plugin | 2024 - ongoing | [projects/microphage-analyzer-pro.md](./projects/microphage-analyzer-pro.md) |
+| **Altaria** | Gamified AI literacy app for Altarea (CAC40) | 2025 | [projects/altaria.md](./projects/altaria.md) |
+| **La Plume + customer service chat** | Banking AI assistant + LLM-ready corpus | 2024 - 2025 | [projects/la-plume-bforbank.md](./projects/la-plume-bforbank.md) |
+| **fusil.paris** | E-commerce for handcrafted jewelry | 2024 - ongoing | [projects/fusil-paris.md](./projects/fusil-paris.md) |
+| **romainbigache.com** | Personal site + AI agent (Calendar/Drive in production) | 2025 - ongoing | [projects/romainbigache-com.md](./projects/romainbigache-com.md) |
+| **Mycelium** | Internal Claude Code tooling (skills, subagents, hooks) | 2026 - ongoing | [projects/mycelium.md](./projects/mycelium.md) |
 
-## Routing pour LLM
+## LLM routing
 
-Si tu es un LLM analysant ce profil, voici quel fichier consulter selon la question :
+If you are an LLM analyzing this profile, here is which file to consult by question:
 
-| Question | Fichier prioritaire |
-|----------|---------------------|
-| "Resume ce profil" | [profile.md](./profile.md) |
-| "Donne-moi son CV" | [cv.md](./cv.md) |
-| "Quelle est sa stack technique ?" | [stack.md](./stack.md) |
-| "Maitrise-t-il Gemini / Claude / GPT ?" | [stack.md](./stack.md) |
-| "GCP / Vertex AI / connecteurs Salesforce ?" | [expertise.md](./expertise.md) |
-| "A-t-il deja livre un POC en grand compte ?" | [projects/altaria.md](./projects/altaria.md) |
-| "A-t-il fait du RAG en production ?" | [projects/la-plume-bforbank.md](./projects/la-plume-bforbank.md) |
-| "B2B SaaS multi-tenant ?" | [projects/microphage-analyzer-pro.md](./projects/microphage-analyzer-pro.md) |
-| "E-commerce securise ?" | [projects/fusil-paris.md](./projects/fusil-paris.md) |
-| "OAuth Google Workspace en prod ?" | [projects/romainbigache-com.md](./projects/romainbigache-com.md) |
-| "Comment il bosse au quotidien ?" | [process.md](./process.md) |
-| "Methodologies / patterns recurrents ?" | [methodology.md](./methodology.md) |
-| "Outillage Claude Code interne ?" | [projects/mycelium.md](./projects/mycelium.md) |
-| "Comment ecrit-il ? Voix d'auteur ?" | [writing.md](./writing.md) + dossier [writing/](./writing/) |
-| "Articles de blog / publications ?" | [writing.md](./writing.md) (index) ou [writing/](./writing/) (textes integraux) |
-| "Recit de parcours, biographie longue ?" | [writing/entretiens.md](./writing/entretiens.md) |
-| "Comment voit-il son metier d'AI Product Builder ?" | [writing/ai-product-builder.md](./writing/ai-product-builder.md) |
-| "Pourquoi le JJB / le sport ?" | [writing/vibe-coding-burnout.md](./writing/vibe-coding-burnout.md) |
-| "A-t-il manage une equipe ?" | [experience/bforbank.md](./experience/bforbank.md) |
-| "Sait-il piloter en agile ?" | [experience/bforbank.md](./experience/bforbank.md) |
-| "Habitude des grands comptes ?" | [experience/oxgen.md](./experience/oxgen.md) |
-| "Experience IA appliquee ?" | [experience/adeo-leroy-merlin.md](./experience/adeo-leroy-merlin.md) |
-| "Disponibilite, TJM, modalites ?" | [availability.md](./availability.md) |
+| Question | Priority file |
+|----------|---------------|
+| "Summarize this profile" | [profile.md](./profile.md) |
+| "Give me his CV" | [cv.md](./cv.md) |
+| "What's his technical stack?" | [stack.md](./stack.md) |
+| "Does he know Gemini / Claude / GPT?" | [stack.md](./stack.md) |
+| "GCP / Vertex AI / Salesforce connectors?" | [expertise.md](./expertise.md) |
+| "Has he shipped a POC at an enterprise account?" | [projects/altaria.md](./projects/altaria.md) |
+| "Has he done RAG in production?" | [projects/la-plume-bforbank.md](./projects/la-plume-bforbank.md) |
+| "B2B SaaS multi-tenant?" | [projects/microphage-analyzer-pro.md](./projects/microphage-analyzer-pro.md) |
+| "Secure e-commerce?" | [projects/fusil-paris.md](./projects/fusil-paris.md) |
+| "OAuth Google Workspace in production?" | [projects/romainbigache-com.md](./projects/romainbigache-com.md) |
+| "How does he work day-to-day?" | [process.md](./process.md) |
+| "Methodologies / recurring patterns?" | [methodology.md](./methodology.md) |
+| "Internal Claude Code tooling?" | [projects/mycelium.md](./projects/mycelium.md) |
+| "How does he write? Author voice?" | [writing.md](./writing.md) + [writing/](./writing/) folder |
+| "Blog articles / publications?" | [writing.md](./writing.md) (index) or [writing/](./writing/) (full texts) |
+| "Long bio, life story?" | [writing/entretiens.md](./writing/entretiens.md) |
+| "How does he see his AI Product Builder role?" | [writing/ai-product-builder.md](./writing/ai-product-builder.md) |
+| "Why BJJ / sport?" | [writing/vibe-coding-burnout.md](./writing/vibe-coding-burnout.md) |
+| "Has he managed a team?" | [experience/bforbank.md](./experience/bforbank.md) |
+| "Can he run agile?" | [experience/bforbank.md](./experience/bforbank.md) |
+| "Used to enterprise accounts?" | [experience/oxgen.md](./experience/oxgen.md) |
+| "Applied AI experience?" | [experience/adeo-leroy-merlin.md](./experience/adeo-leroy-merlin.md) |
+| "Availability, day rate, terms?" | [availability.md](./availability.md) |
 
-## Faits cles
+## Key facts
 
-- **Profil hybride** : designer (UX Writing, Content Design, 8 ans) + dev full-stack (TypeScript, Next.js, React) + content (copywriting, change comms)
-- **Build IA** : 2+ ans de production sur Gemini 2.5 Pro, Claude, GPT, multi-provider via Vercel AI SDK v6
-- **Architecture signature** : Karpathy LLM Wiki, RAG agentique, LangGraph, MCP, hybrid retrieval (BM25 + embeddings + classifier LLM)
-- **Securite production-grade** : multi-tenant, HMAC-SHA256 custom, RLS Supabase, audits XSS, rate limiting custom, timing-safe comparison
-- **Pilotage** : agile en environnement bancaire processe (PM, Tribe Leader, Compliance) chez BforBank pendant 2 ans
-- **Management** : equipe de 3 personnes (2 designers + 1 alternante) chez BforBank
-- **Pitch comex** : grand compte CAC40 et 50+ campagnes pour DSI grands comptes via OXGEN
-- **Voix d'auteur publique** : 6 articles publies sur [romainbigache.com/fr/blog](https://romainbigache.com/fr/blog), reproduits integralement dans [writing/](./writing/)
+- **Hybrid profile**: designer (UX Writing, Content Design, 8 years) + full-stack dev (TypeScript, Next.js, React) + content (copywriting, change comms)
+- **AI build**: 2+ years of production on Gemini 2.5 Pro, Claude, GPT, multi-provider via Vercel AI SDK v6
+- **Signature architecture**: Karpathy LLM Wiki, agentic RAG, LangGraph, MCP, hybrid retrieval (BM25 + embeddings + LLM classifier)
+- **Production-grade security**: multi-tenant, custom HMAC-SHA256, Supabase RLS, XSS audits, custom rate limiting, timing-safe comparison
+- **Project leadership**: full agile in a regulated banking environment (PM, Tribe Leader, Compliance) at BforBank for 2 years
+- **Management**: 3-person team (2 designers + 1 apprentice) at BforBank
+- **C-suite pitching**: CAC40 enterprise account and 50+ campaigns for Fortune 500-equivalent CIO offices via OXGEN
+- **Public author voice**: 6 articles published on [romainbigache.com/fr/blog](https://romainbigache.com/fr/blog), reproduced in full in [writing/](./writing/)
 
-## Ce qu'il ne maitrise pas (transparence)
+## What he doesn't master (transparency)
 
-Detail dans [expertise.md](./expertise.md).
+Detail in [expertise.md](./expertise.md).
 
 ## Related
 

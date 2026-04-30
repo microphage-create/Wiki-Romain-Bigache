@@ -1,141 +1,142 @@
 ---
 id: writing-morphow-mascotte-ia
-title: J'ai genere 352 mascottes IA. La bonne n'en faisait pas partie.
+title: I generated 352 AI mascots. The right one wasn't in there.
+description: How I designed Morphow's mascot using a custom AI agent, 352 iterations, and a human illustrator to actually own the IP.
 type: writing
 domain: blog-article
-tags: [morphow, mascotte, prompt-oracle, comfyui, gemini, illustrator, propriete-intellectuelle, workflow-ia]
+tags: [morphow, mascot, prompt-oracle, comfyui, gemini, illustrator, intellectual-property, ai-workflow]
 status: published
 created: 2026-04-30
 updated: 2026-04-30
-url: https://romainbigache.com/fr/blog/morphow-mascotte-ia
+url: https://romainbigache.com/en/blog/morphow-mascotte-ia
 slug: morphow-mascotte-ia
 links:
   - writing.md
   - projects/mycelium.md
 ---
 
-# J'ai généré 352 mascottes IA. La bonne n'en faisait pas partie.
+# I generated 352 AI mascots. The right one wasn't in there.
 
-Je construis un SaaS qui s'appelle Morphow. Des webapps modulaires en white label pour les entreprises: onboarding, formation, quiz, sondages. Le genre de produit qui a besoin d'une identité forte. Pas un logo Canva. Une mascotte. Un personnage qui peut vivre dans l'interface, réagir aux actions de l'utilisateur, incarner la marque.
+I'm building a SaaS called Morphow. Modular white-label webapps for companies: onboarding, training, quizzes, surveys. The kind of product that needs a strong identity. Not a Canva logo. A mascot. A character that can live inside the interface, react to user actions, embody the brand.
 
-Au début, j'avais pas grand-chose de concret. Je voyais le Pokemon Métamorph, un Barbapapa (promis, c'est pas de la nostalgie de mes 10 ans...), un truc blanc qui flotte. C'est tout. Le reste est venu en itérant.
+At first I had nothing concrete. I was seeing the Pokemon Ditto, a Barbapapa (swear it's not 10-year-old me being nostalgic), some white thing floating around. That's it. The rest came through iteration.
 
-J'ai décidé de le générer moi-même. Avec mon propre outil.
+I decided to generate it myself. With my own tool.
 
-## L'outil: /prompt-oracle
+## The tool: /prompt-oracle
 
-Avant de parler de la mascotte, il faut parler de l'outil qui l'a générée. Parce que c'est pas Midjourney. C'est pas DALL-E. C'est un agent que j'ai construit moi-même.
+Before talking about the mascot, I need to talk about the tool that made it. Because it's not Midjourney. It's not DALL-E. It's an agent I built myself.
 
-/prompt-oracle, c'est une skill Claude Code qui orchestre ComfyUI en local avec Gemini 2.5 Flash comme modèle de génération. L'agent écrit les prompts, configure les workflows, lance les générations, et organise les outputs. Il a 8 modes: prompt simple, workflow ComfyUI complet, batch de variations, character sheet multi-poses, refinement itératif, et génération d'icones 3D.
+/prompt-oracle is a Claude Code skill that orchestrates ComfyUI locally with Gemini 2.5 Flash as the generation model. The agent writes the prompts, configures the workflows, runs the generations, and organizes the outputs. It has 8 modes: simple prompt, full ComfyUI workflow, batch variations, multi-pose character sheet, iterative refinement, 3D icon generation.
 
-Le truc important: ComfyUI tourne en local sur ma machine, mais Gemini 2.5 Flash reste une API cloud - la différence c'est le prix: ~0.04$ par image au lieu de 0.50$ chez Midjourney. Je peux générer 4 variations en 15 secondes et itérer 352 fois sans réfléchir au budget.
+The important bit: ComfyUI runs locally on my machine, but Gemini 2.5 Flash is still a cloud API. The difference is the price: ~$0.04 per image instead of $0.50 on Midjourney. I can generate 4 variations in 15 seconds and iterate 352 times without thinking about budget.
 
-Et c'est exactement ce que j'ai fait.
+And that's exactly what I did.
 
-## Phase 1: le point de départ Pokemon
+## Phase 1: the Pokemon starting point
 
-La mascotte de Morphow, c'est Morphow. Le personnage et la marque ne font qu'un. Morphow = Morph On Web. Et le clin d'oeil a Métamorph, le Pokemon qui se transforme en n'importe quoi, n'est pas un hasard. C'est exactement ce que fait le produit: des webapps qui prennent la forme du besoin du client.
+The Morphow mascot is Morphow. The character and the brand are one. Morphow = Morph On Web. And the nod to Ditto, the Pokemon that shapeshifts into anything, is no accident. That's exactly what the product does: webapps that take the shape of the client's need.
 
-Mes premiers prompts partaient de là. Un Métamorph blanc, en 3D, style clay/vinyl.
+My first prompts started there. A white Ditto, in 3D, clay/vinyl style.
 
-Le résultat était mignon. Mais rose. Et trop Pokemon. On voyait immédiatement la référence. Si quelqu'un chez Nintendo tombait dessus, ça sentait le cease & desist.
+The output was cute. But pink. And too Pokemon. You could spot the reference instantly. If anyone at Nintendo stumbled on it, that was a cease & desist waiting to happen.
 
-Il fallait s'éloigner de la source.
+I needed to get away from the source.
 
-## Phase 2: les fausses pistes
+## Phase 2: the dead ends
 
-C'est là que ça devient intéressant. Quand tu dis à une IA "éloigne-toi de Métamorph mais garde l'esprit", elle part dans tous les sens.
+This is where it gets interesting. When you tell an AI "move away from Ditto but keep the spirit," it goes everywhere.
 
-Direction Ectoplasma: un monstre blanc avec des yeux rouges et des dents. Agressif, intimidant. Direction humanoïde: un alien blanc et fin, debout sur deux jambes. Trop anthropomorphe. Direction fantôme classique: un petit fantôme blanc souriant, complètement générique. Direction méduse: tentacules iridescentes, intéressante mais trop aquatique.
+Gengar direction: a white monster with red eyes and teeth. Aggressive, intimidating. Humanoid direction: a thin white alien standing on two legs. Too anthropomorphic. Classic ghost direction: a smiling little white ghost, completely generic. Jellyfish direction: iridescent tentacles, interesting but too aquatic.
 
-Et une dizaine d'autres directions encore. Chaque batch de 4 images prenait 15 secondes. En une soirée, j'avais 50 directions différentes.
+And a dozen more. Each batch of 4 images took 15 seconds. In one evening I had 50 different directions.
 
-Le problème: chaque direction avait un truc bien. Mais aucune n'avait tout. Le fantôme avait la bonne forme mais pas de personnalité. Le Gengar avait du caractère mais faisait peur. Le blob était original mais illisible en petit format.
+The problem: each direction had something good. None had everything. The ghost had the right shape but no personality. The Gengar had character but was scary. The blob was original but unreadable at small size.
 
-## Phase 3: le déclic
+## Phase 3: the click
 
-Au bout de ~80 itérations, j'ai généré un truc qui m'a fait pause.
+After ~80 iterations, I generated something that made me pause.
 
-Un fantôme Pac-Man blanc. Des yeux mi-clos, angulaires. Pas de bouche. Il flotte. Il te regarde avec une sorte de supériorité décontractée. Comme s'il savait un truc que tu sais pas.
+A white Pac-Man ghost. Half-closed, angular eyes. No mouth. Floating. Looking at you with this kind of relaxed superiority. Like it knew something you didn't.
 
-C'était ça, le personnage. Pas le design exact, mais l'attitude. Les yeux angulaires noirs sur fond blanc iridescent, sans bouche. L'expression passe par les sourcils. Minimal, reconnaissable, déclinable.
+That was the character. Not the exact design, but the attitude. Angular black eyes on iridescent white, no mouth. Expression goes through the eyebrows. Minimal, recognizable, scalable.
 
-À partir de là, j'ai resserré. Plus de divergence. Que de la convergence.
+From there, I tightened. No more divergence. Just convergence.
 
-## Phase 4: la convergence (et la frustration)
+## Phase 4: convergence (and frustration)
 
-Les 120 itérations suivantes, c'était de la chirurgie. Ajuster les proportions. Tester des poses (debout, en marche, assis). Varier la matière (vinyl, clay, glossy, matte). Affiner les sourcils, l'inclinaison des yeux, la taille de la tête par rapport au corps.
+The next 120 iterations were surgery. Adjust proportions. Test poses (standing, walking, sitting). Vary the material (vinyl, clay, glossy, matte). Tune the eyebrows, the eye angle, the head-to-body ratio.
 
-Et c'est là que j'ai touché le mur.
+That's when I hit the wall.
 
-L'IA génère des images. Pas des personnages. Chaque génération est unique. Les proportions bougent de 2-3% entre chaque image. Les yeux ne sont jamais exactement au même endroit. Un bras est légèrement plus gros que l'autre. La silhouette change subtilement d'un batch à l'autre.
+AI generates images. Not characters. Each generation is unique. Proportions shift 2-3% between images. Eyes are never in exactly the same spot. One arm is slightly bigger than the other. The silhouette changes subtly from batch to batch.
 
-Pour une image isolée, c'est imperceptible. Pour un character sheet (face, profil, 3/4, dos), c'est un cauchemar. Tu n'arrives jamais à avoir le même personnage sous plusieurs angles. Et pour des expressions (joyeux, triste, en colère, neutre), c'est pire: chaque émotion produit un personnage légèrement différent.
+For a single image, it's imperceptible. For a character sheet (front, profile, 3/4, back), it's a nightmare. You can never get the same character from multiple angles. And for expressions (happy, sad, angry, neutral), it's worse: each emotion produces a slightly different character.
 
-352 itérations. Des dizaines de "presque ça". Et toujours ce 5% qui manquait.
+352 iterations. Dozens of "almost there." And always that 5% missing.
 
-## Le pivot: du 3D au flat
+## The pivot: from 3D to flat
 
-J'ai lâché l'affaire à 3h du mat. Mais pas la tête. Dans le lit, j'ai ouvert Gemini sur mon tel et j'ai commencé à lui parler du projet. Pas de prompts image. Juste une conversation. Ce que je voulais, ce que je n'arrivais pas à obtenir, pourquoi la 3D bloquait.
+I gave up at 3am. But not the head. In bed I opened Gemini on my phone and started talking to it about the project. No image prompts. Just a conversation. What I wanted, what I couldn't get, why 3D was blocking me.
 
-Gemini m'a parlé de la stratégie Intel: simplifier radicalement. Un logo qui marche en 16px comme en 4K. Pas de reflets, pas de textures, pas de 3D. Du flat. Du vectoriel. Et il avait raison: mes itérations 3D étaient belles en grand mais illisibles en petit. Un favicon, une notification, un avatar de chat: tout ça demande un personnage lisible en quelques pixels.
+Gemini brought up the Intel strategy: simplify radically. A logo that works at 16px and at 4K. No reflections, no textures, no 3D. Flat. Vector. And it was right: my 3D iterations looked nice big but were unreadable small. A favicon, a notification, a chat avatar: all of that needs a character readable in a few pixels.
 
-On a tranché: ce sera du flat. Et là, Gemini m'a proposé une version basée sur mes itérations 3D. Mêmes proportions, mêmes yeux angulaires, même absence de bouche. Mais en flat, avec un contour fin et un remplissage blanc iridescent.
+We made the call: it's going to be flat. And then Gemini proposed a version based on my 3D iterations. Same proportions, same angular eyes, same no-mouth. But flat, with a thin outline and an iridescent white fill.
 
-Bingo. J'ai cassé les traits du milieu sur le corps, gardé les yeux angulaires, et le personnage était là. Pas en 3D. En flat. Lisible, déclinable, et surtout: reproductible.
+Bingo. I broke the middle lines on the body, kept the angular eyes, and the character was there. Not 3D. Flat. Readable, scalable, and most importantly: reproducible.
 
-## Le graphiste
+## The illustrator
 
-J'ai appelé Rémi.
+I called Remi.
 
-Rémi Rohart, illustrateur. Mais attention: je suis pas arrivé les mains vides en disant "dessine-moi une mascotte". J'avais un personnage quasi terminé. La forme, l'attitude, les proportions, la matière, les yeux angulaires, l'absence de bouche, l'iridescence. 352 itérations pour arriver là. Ce que j'avais pas, c'est la rigueur d'exécution: un personnage identique sous chaque angle, des expressions cohérentes, et un fichier vectoriel exploitable.
+Remi Rohart, illustrator. But heads up: I didn't show up empty-handed asking him to "draw me a mascot." I had a near-finished character. The shape, the attitude, the proportions, the material, the angular eyes, the no-mouth, the iridescence. 352 iterations to get there. What I didn't have was execution rigor: an identical character from every angle, consistent expressions, and a usable vector file.
 
-Je lui ai envoyé mes meilleures sorties IA comme brief visuel. Pas un cahier des charges de 40 pages. Les images. "C'est ça le personnage. Je veux exactement ça, mais en propre. Multi-angles, expressions pour les états de l'app, et un doc do & don't."
+I sent him my best AI outputs as a visual brief. Not a 40-page spec. The images. "This is the character. I want exactly this, but clean. Multi-angle, expressions for app states, and a do & don't doc."
 
-Il a bossé sur Illustrator. En 48 heures, il avait:
+He worked in Illustrator. In 48 hours he had:
 
-- Le personnage vectorisé sous 6 angles (face, profil gauche, 3/4, profil droit, dos, icone app)
-- Les proportions exactes avec guides de construction
-- 5 expressions d'application: déterminé (défaut), empty state, error, success, loading
-- Un guide "Do & Don't": pas de vêtements, pas de bouche, expression uniquement par yeux et sourcils, possibilité d'ajouter un objet en main mais à éviter
-- Les transformations autorisées (le personnage peut se transformer en cube, boite, formes géométriques)
-- La palette couleur exacte (#2B0545, #F1E5FF) avec centre de dégradé radial défini
+- The character vectorized in 6 angles (front, left profile, 3/4, right profile, back, app icon)
+- Exact proportions with construction guides
+- 5 application expressions: determined (default), empty state, error, success, loading
+- A "Do & Don't" guide: no clothing, no mouth, expression only through eyes and eyebrows, hand-held object possible but discouraged
+- Authorized transformations (the character can morph into a cube, box, geometric shapes)
+- The exact color palette (#2B0545, #F1E5FF) with a defined radial gradient center
 
-Livraison Figma propre. Chaque élément utilisable tel quel dans l'interface.
+Clean Figma delivery. Every element usable as-is in the interface.
 
-Ce que Rémi a apporté en 48h, c'est pas le personnage - le personnage existait déjà. C'est ce que l'IA n'aurait jamais pu faire en 2000 itérations: la cohérence. Le même personnage, exactement le même, sous tous les angles et dans toutes les émotions. Des proportions fixes. Des guides de construction pour que n'importe qui puisse le reproduire. Un système, pas une image.
+What Remi brought in 48h wasn't the character: the character already existed. It was what AI couldn't have done in 2000 iterations: consistency. The same character, exactly the same, from every angle and in every emotion. Fixed proportions. Construction guides so anyone can reproduce it. A system, not an image.
 
-Mais cette livraison a aussi réglé un problème que la plupart des articles "j'ai tout fait avec l'IA" préfèrent ignorer.
+But this delivery also fixed a problem most "I did it all with AI" articles prefer to ignore.
 
-## La zone grise de la propriété intellectuelle
+## The IP gray zone
 
-En l'état du droit, une image générée par IA n'est pas protégeable par le droit d'auteur. Pas en France, pas aux US. L'US Copyright Office l'a dit clairement en 2023: pas d'auteur humain, pas de copyright. En Europe, la position est similaire - le droit d'auteur protège les oeuvres originales issues d'une création intellectuelle humaine. Un prompt, aussi élaboré soit-il, n'est pas considéré comme un acte de création suffisant.
+Under current law, an AI-generated image isn't protected by copyright. Not in France, not in the US. The US Copyright Office said it clearly in 2023: no human author, no copyright. In Europe the position is similar: copyright protects original works resulting from human intellectual creation. A prompt, however elaborate, isn't considered a sufficient act of creation.
 
-Concrètement: mes 352 images ComfyUI ne m'appartiennent pas au sens juridique. N'importe qui pourrait reprendre la même esthétique, le même personnage, et je n'aurais aucun recours.
+Concretely: my 352 ComfyUI images don't legally belong to me. Anyone could take the same aesthetic, the same character, and I'd have no recourse.
 
-C'est un problème quand tu construis une marque. Ta mascotte, c'est ton identité. Si elle n'est pas protégeable, elle ne vaut rien juridiquement. Et j'ai touché ce mur concrètement: j'ai voulu déposer le personnage comme marque figurative à l'INPI. Impossible. Pas d'auteur humain, pas de dépôt.
+That's a problem when you're building a brand. Your mascot is your identity. If it's not protectable, it's worth nothing legally. And I hit that wall in practice: I tried to register the character as a figurative trademark with the INPI (the French trademark office). Impossible. No human author, no filing.
 
-Soyons honnêtes: je suis le premier à défendre le fait de bien payer un graphiste. Mais là, je bosse à blanc depuis des mois. Zéro revenu, que de l'investissement. Payer un illustrateur pour un character sheet complet, c'était au-dessus de ce que je pouvais mettre. Mais ne rien faire du tout, c'était pire. Alors j'ai trouvé un entre-deux: faire bosser un illustrateur trois jours au lieu de trois semaines. Parce que le brief était déjà fait. 352 itérations, c'est 352 décisions visuelles. Rémi n'a pas eu à chercher le personnage. Il était là. Il a juste eu à le construire proprement.
+Let's be honest: I'm the first to defend paying illustrators properly. But I've been working unpaid for months. Zero revenue, only investment. Paying an illustrator for a full character sheet was above what I could put in. But doing nothing was worse. So I found the in-between: have an illustrator work three days instead of three weeks. Because the brief was already done. 352 iterations is 352 visual decisions. Remi didn't have to find the character. It was there. He just had to build it cleanly.
 
-Rémi a repris le personnage sur Illustrator, en partant de mes sorties IA comme base visuelle, et l'a entièrement reconstruit en vectoriel. Son travail est une oeuvre originale, protégée par le droit d'auteur dès sa création. Les fichiers vectoriels, le character sheet, les expressions: tout ça m'appartient légalement (avec cession de droits). Je peux déposer la mascotte comme marque figurative. Je peux attaquer si quelqu'un la copie.
+Remi took the character into Illustrator, using my AI outputs as visual basis, and rebuilt it entirely as vector. His work is an original creation, copyright-protected from the moment it exists. The vector files, the character sheet, the expressions: all of that is legally mine (with rights assignment). I can register the mascot as a figurative trademark. I can sue if someone copies it.
 
-L'IA a généré l'inspiration. L'humain a généré la propriété intellectuelle.
+The AI generated the inspiration. The human generated the IP.
 
-C'est pas un détail. Pour un SaaS qui veut lever, se vendre, ou simplement protéger son identité, la question "est-ce que ta mascotte t'appartient vraiment?" a une réponse binaire. Et si la réponse repose uniquement sur des sorties d'IA, c'est non.
+That's not a detail. For a SaaS that wants to raise, sell, or simply protect its identity, the question "do you actually own your mascot?" has a binary answer. And if the answer relies only on AI outputs, it's no.
 
-## Ce que j'ai appris
+## What I learned
 
-L'IA est un explorateur, pas un artisan. En 352 itérations, j'ai couvert un espace de possibilités qu'un brainstorming humain aurait mis des semaines à parcourir. J'ai testé des directions que je n'aurais jamais envisagées (la méduse, le chien détective, le blob informe). Certaines étaient nulles. D'autres m'ont surpris. Et c'est de cette exploration que le brief final est sorti.
+AI is an explorer, not a craftsman. In 352 iterations I covered a possibility space that human brainstorming would have taken weeks to walk through. I tested directions I'd have never considered (the jellyfish, the detective dog, the shapeless blob). Some were terrible. Others surprised me. And the final brief came out of that exploration.
 
-Mais l'exploration ne suffit pas. À un moment, il faut figer. Décider que CE personnage, avec CES proportions, CES yeux, à CE angle, c'est le bon. Et le reproduire à l'identique 50 fois. Ça, l'IA ne sait pas faire. Pas encore.
+But exploration isn't enough. At some point you have to lock it down. Decide that THIS character, with THESE proportions, THESE eyes, at THIS angle, is the one. And reproduce it identically 50 times. AI can't do that. Not yet.
 
-Et même si elle savait, le résultat ne t'appartiendrait pas.
+And even if it could, the result wouldn't be yours.
 
-Le vrai workflow, c'est pas IA vs humain. C'est IA puis humain. L'IA ouvre l'espace. L'humain le ferme. Et l'humain signe.
+The real workflow isn't AI vs human. It's AI then human. AI opens the space. The human closes it. And the human signs.
 
-Et le fait d'avoir construit mon propre outil de génération a rendu l'exploration 10x plus rapide et 100x moins chère qu'avec n'importe quel service cloud. 352 itérations à ~0.04$ pièce, ça fait ~14$. Le résultat, c'est un brief visuel tellement précis que l'illustrateur a livré en 48h sans aller-retour.
+And the fact that I built my own generation tool made exploration 10x faster and 100x cheaper than any cloud service. 352 iterations at ~$0.04 each is ~$14. The result is a visual brief so precise that the illustrator delivered in 48h with no back-and-forth.
 
-> ~14 dollars d'IA et un bon illustrateur. C'est comme ça qu'on design une mascotte en 2026.
+> ~14 dollars of AI and a good illustrator. That's how you design a mascot in 2026.
 
 ## Related
 

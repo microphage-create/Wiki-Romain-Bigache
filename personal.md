@@ -1,6 +1,6 @@
 ---
 id: personal
-title: Hors-pro
+title: Off-work
 type: personal
 domain: identity
 tags: [personal, sport, volunteer, music, side-projects]
@@ -12,26 +12,26 @@ links:
   - cv.md
 ---
 
-# Hors-pro
+# Off-work
 
-## Vice-champion d'Europe - Jiu-Jitsu Bresilien
+## European Vice-Champion - Brazilian Jiu-Jitsu
 
-- **Discipline** : Jiu-Jitsu Bresilien (IBJJF)
-- **Lieu** : Lisbonne, janvier 2025
-- **Categorie** : -76 kg, Master 1
-- **Pratique** : 6x / semaine
+- **Discipline**: Brazilian Jiu-Jitsu (IBJJF)
+- **Place**: Lisbon, January 2025
+- **Category**: -76 kg, Master 1
+- **Training**: 6x / week
 
-## Intervenant benevole - Ecole Polytechnique
+## Volunteer mentor - École Polytechnique
 
-- **Programme** : Entretiens de l'Excellence
-- **Mission** : Mentorat de lyceens de quartiers prioritaires
-- **Engagement** : Recurrent, ponctuel selon agenda
+- **Program**: Entretiens de l'Excellence
+- **Mission**: Mentoring high-school students from priority neighborhoods
+- **Engagement**: Recurring, on schedule
 
-## Co-createur - Le Cabanon Records
+## Co-founder - Le Cabanon Records
 
-- **Type** : Label de musique experimentale
-- **Discographie** : 14 sorties
-- **Role** : Co-createur, direction artistique
+- **Type**: Experimental music label
+- **Discography**: 14 releases
+- **Role**: Co-founder, art direction
 
 ## Related
 

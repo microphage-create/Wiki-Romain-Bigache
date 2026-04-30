@@ -8,35 +8,35 @@ status: live
 created: 2026-04-30
 updated: 2026-04-30
 period: 2022-01 / 2022-03
-employer: Cdiscount (filiale Octopia)
+employer: Cdiscount (Octopia subsidiary)
 location: Paris, France
-industry: Developpement de logiciels, Marketplace
+industry: Software development, Marketplace
 links: []
 ---
 
 # Cdiscount (Octopia) - UX Writer
 
-| Cle | Valeur |
-|-----|--------|
-| **Periode** | Janvier 2022 - Mars 2022 (3 mois) |
-| **Localisation** | Paris, France |
-| **Filiale** | Octopia (filiale Cdiscount dediee aux marketplaces) |
+| Key | Value |
+|-----|-------|
+| **Period** | January 2022 - March 2022 (3 months) |
+| **Location** | Paris, France |
+| **Subsidiary** | Octopia (Cdiscount subsidiary dedicated to marketplaces) |
 
 ## Mission
 
-Accompagnement d'Octopia dans l'amelioration de son interface et la mise en place de fondations editoriales durables.
+Supported Octopia in improving its interface and laying durable editorial foundations.
 
-## Audit et recommandations
+## Audit and recommendations
 
-Analyse complete de l'application desktop pour detecter les zones floues, les incoherences et les doublons. Recommandations UX et editoriales pour renforcer la clarte, la fluidite des parcours et la coherence globale.
+Full analysis of the desktop application to identify unclear zones, inconsistencies and duplicates. UX and editorial recommendations to strengthen clarity, flow fluidity and overall consistency.
 
-## Guidelines editoriales
+## Editorial guidelines
 
-Redaction de guidelines UX writing adaptees au produit, avec des exemples concrets et des cas d'usage. Objectif : rendre les regles actionnables et directement utilisables par les equipes au quotidien.
+Authored UX writing guidelines tailored to the product, with concrete examples and use cases. Goal: make the rules actionable and directly usable by teams day-to-day.
 
-## Transmission
+## Handover
 
-Structuration des bases pour faciliter l'arrivee d'une UX Writer interne. Documentation, cadrage des chantiers a venir, et passation claire pour garantir la continuite.
+Structured the foundations to ease the onboarding of an internal UX Writer. Documentation, scoping of upcoming workstreams, and clean handover to ensure continuity.
 
 ## Related
 

@@ -8,9 +8,9 @@ status: live
 created: 2026-04-30
 updated: 2026-04-30
 period: 2023-12 / 2025-12
-employer: BforBank (filiale Credit Agricole)
+employer: BforBank (Credit Agricole subsidiary)
 location: Paris, France
-industry: Banque en ligne / Fintech
+industry: Online banking / Fintech
 links:
   - projects/la-plume-bforbank.md
   - stack.md
@@ -19,75 +19,75 @@ links:
 
 # BforBank - Lead UX Writer & Visual
 
-| Cle | Valeur |
-|-----|--------|
-| **Periode** | Decembre 2023 - Decembre 2025 (2 ans) |
-| **Localisation** | Paris, France |
-| **Entreprise** | BforBank (filiale Credit Agricole) |
-| **Industrie** | Banque en ligne |
+| Key | Value |
+|-----|-------|
+| **Period** | December 2023 - December 2025 (2 years) |
+| **Location** | Paris, France |
+| **Company** | BforBank (Credit Agricole subsidiary) |
+| **Industry** | Online banking |
 | **Role** | Lead UX Writer & Visual |
 
 ## Mission
 
-Refonte en profondeur des contenus, FAQ, documentation et IA appliquee chez BforBank. Approche globale pour remettre de la coherence partout, et simplifier a la fois l'usage et la production.
+Deep overhaul of content, FAQ, documentation and applied AI at BforBank. Holistic approach to restore consistency across the board, while simplifying both usage and production.
 
-C'est sur cette mission que j'ai commence a developper mes propres outils IA, passant progressivement du role de Lead UX Writer a celui de builder.
+This mission is where I started developing my own AI tools, gradually shifting from Lead UX Writer to builder.
 
 ## Management
 
-Management direct d'une equipe de 3 personnes : 2 designers + 1 alternante.
+Direct management of a 3-person team: 2 designers + 1 apprentice.
 
-## Pilotage
+## Stakeholder coordination
 
-Pilotage en agile (sprints, rituels) en environnement bancaire fortement processe :
+Agile delivery (sprints, ceremonies) in a heavily-processed banking environment:
 
 - PM (Product Manager)
-- Tribe Leader (responsable de tribu agile)
-- Equipes Marketing
-- Service Relation Client (SRC)
-- Direction
-- Validations Compliance et Conformite
+- Tribe Leader (agile tribe lead)
+- Marketing teams
+- Customer Service Department (SRC)
+- Leadership
+- Compliance approvals
 
-## Chantier 1 - « La Plume » : assistant IA interne pour les designers
+## Workstream 1 - "La Plume": internal AI assistant for designers
 
-Architecture RAG complete sur Gemini 2.5 Pro avec orchestration LangGraph. Embeddings text-multilingual-embedding-002 (FR/EN), SemanticSplitter custom, indexation sur charte editoriale et guidelines.
+Full RAG architecture on Gemini 2.5 Pro with LangGraph orchestration. text-multilingual-embedding-002 embeddings (FR/EN), custom SemanticSplitter, indexing on editorial charter and guidelines.
 
-Workflow d'agent : router → summarizer → RAG → generation → tool calling → generation d'image. Garde-fous editoriaux pour bloquer les formulations interdites par la conformite bancaire.
+Agent workflow: router > summarizer > RAG > generation > tool calling > image generation. Editorial guardrails to block phrasings prohibited by banking compliance.
 
-Deployee dans la marketplace BforBank GPT, utilisee par les equipes design.
+Deployed in the BforBank GPT marketplace, used by design teams.
 
-Detail complet : [projects/la-plume-bforbank.md](../projects/la-plume-bforbank.md).
+Full detail: [projects/la-plume-bforbank.md](../projects/la-plume-bforbank.md).
 
-## Chantier 2 - Lancement du chat service client (clients in-app)
+## Workstream 2 - In-app customer service chat launch
 
-Direction de la methodologie data : couplage de 3 sources internes (FAQ publiques, tickets service client, retours SRC) en un corpus unifie. Production de 250+ articles LLM-ready (titre, intent, reponse autoportante, formulations alternatives, exclusions explicites pour eviter les hallucinations sur sujets regules). Construction d'un bot RAG GPT custom comme outil de production editoriale interne pour tenir le rythme.
+Led data methodology: combining 3 internal sources (public FAQ, customer service tickets, SRC feedback) into a unified corpus. Production of 250+ LLM-ready articles (title, intent, self-contained answer, alternative phrasings, explicit exclusions to prevent hallucinations on regulated topics). Built a custom RAG GPT bot as an internal editorial production tool to keep up with the pace.
 
-Detail complet : [projects/la-plume-bforbank.md](../projects/la-plume-bforbank.md).
+Full detail: [projects/la-plume-bforbank.md](../projects/la-plume-bforbank.md).
 
-## Chantier 3 - Plugin Figma proprietaire
+## Workstream 3 - Proprietary Figma plugin
 
-Developpement du plugin Figma d'audit UX writing devenu projet fondateur de Microphage. Premier prototype d'analyse de maquettes par IA (vision + metadonnees Figma).
+Development of the UX writing audit Figma plugin that became the founding project of Microphage. First prototype of AI-driven mockup analysis (vision + Figma metadata).
 
-Detail : [projects/microphage-analyzer-pro.md](../projects/microphage-analyzer-pro.md).
+Detail: [projects/microphage-analyzer-pro.md](../projects/microphage-analyzer-pro.md).
 
-## Chantier 4 - Refonte editoriale globale
+## Workstream 4 - Global editorial overhaul
 
-Audit complet des interfaces mobile et desktop (incoherences, doublons, messages flous ou absents). Reecriture des contenus problematiques et creation de tous les micro-contenus des nouveaux parcours, en binome avec les designers.
+Full audit of mobile and desktop interfaces (inconsistencies, duplicates, vague or missing messages). Rewriting of problematic content and creation of all microcopy for the new flows, paired with the designers.
 
-FAQ augmentee : redaction de centaines d'articles au format conversationnel (chatbot) et classique (SEO, support).
+Augmented FAQ: hundreds of articles written in both conversational format (chatbot) and classic format (SEO, support).
 
-Refonte de parcours encadres par des obligations legales strictes (assurance vie). Integration des contenus dans Lokalise pour la coherence multilingue.
+Overhaul of flows constrained by strict legal obligations (life insurance). Content integration in Lokalise for multilingual consistency.
 
-Animation d'ateliers de formation a l'UX writing et aux usages IA.
+Facilitation of training workshops on UX writing and AI usage.
 
-## Competences mobilisees
+## Skills applied
 
-- Management d'equipe en environnement bancaire regule
-- Pilotage de projet en agile multi-stakeholders
-- Architecture RAG et orchestration d'agents IA
-- Methodologie data pour LLM (corpus structures)
-- Direction editoriale en cadre Compliance
-- Animation et formation
+- Team management in a regulated banking environment
+- Multi-stakeholder agile project leadership
+- RAG architecture and AI agent orchestration
+- Data methodology for LLMs (structured corpora)
+- Editorial direction in a Compliance framework
+- Workshop facilitation and training
 
 ## Related
 

@@ -10,35 +10,35 @@ updated: 2026-04-30
 period: 2019-05 / 2020-01
 employer: Speak UX!
 location: Paris, France
-industry: Services de design
+industry: Design services
 links: []
 ---
 
 # Speak UX! - UX Writer
 
-| Cle | Valeur |
-|-----|--------|
-| **Periode** | Mai 2019 - Janvier 2020 (8 mois) |
-| **Localisation** | Paris, France |
-| **Industrie** | Services de design |
+| Key | Value |
+|-----|-------|
+| **Period** | May 2019 - January 2020 (8 months) |
+| **Location** | Paris, France |
+| **Industry** | Design services |
 
 ## Mission
 
-C'est chez Speak UX que je me forme aux fondamentaux de l'UX writing et de la conception conversationnelle. Cette collaboration pose les bases de ma pratique, en me confrontant tres tot a des projets concrets pour de grandes entreprises.
+Speak UX! is where I trained on the fundamentals of UX writing and conversational design. This collaboration laid the foundations of my practice, exposing me early on to concrete projects for major companies.
 
-## Conception de bots conversationnels
+## Conversational bot design
 
-Participation a la creation de plusieurs chatbots et voicebots pour des groupes comme Valeo, Schneider Electric et d'autres acteurs industriels ou B2B.
+Contributed to the creation of several chatbots and voicebots for groups such as Valeo, Schneider Electric and other industrial or B2B players.
 
-Redaction des reponses dans un cadre non generatif (NLU/NLP classique), avec anticipation des intentions et structuration des arbres conversationnels.
+Wrote responses in a non-generative framework (classic NLU/NLP), anticipating intents and structuring conversational trees.
 
-Conception d'identites conversationnelles completes : ton, niveau de langage, technicite, posture emotionnelle, traits de caractere. Formalisation de fiches personas editoriales a destination des equipes projet (ex: Joe, le chatbot SAV de Schneider Electric).
+Designed full conversational identities: tone, language register, technicality, emotional posture, character traits. Formalized editorial persona briefs for project teams (e.g. Joe, Schneider Electric's customer support chatbot).
 
-Collaboration avec les equipes R&D sur des voicebots a forte valeur emotionnelle (ex: Valeo, conduite autonome).
+Collaborated with R&D teams on emotionally-charged voicebots (e.g. Valeo, autonomous driving).
 
-## Transmission et formation
+## Knowledge transfer and training
 
-Contribution a la creation de modules de formation internes sur la conception de bots et l'UX writing applique aux interfaces vocales et textuelles. Participation a la structuration de la pedagogie sur les bonnes pratiques conversationnelles et editoriales.
+Contributed to the creation of internal training modules on bot design and UX writing applied to voice and text interfaces. Helped structure the pedagogy on conversational and editorial best practices.
 
 ## Related
 

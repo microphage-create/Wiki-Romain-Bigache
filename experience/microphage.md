@@ -1,6 +1,6 @@
 ---
 id: experience-microphage
-title: Microphage - Fondateur & AI Builder
+title: Microphage - Founder & AI Builder
 type: experience
 domain: experience
 tags: [microphage, ai-builder, founder, freelance, sasu]
@@ -10,7 +10,7 @@ updated: 2026-04-30
 period: 2025-09 / present
 employer: Microphage (SASU Microphage Intelligence)
 location: Paris, France
-industry: Services informatiques et conseil IT
+industry: IT services and consulting
 links:
   - projects/microphage-analyzer-pro.md
   - projects/altaria.md
@@ -18,56 +18,56 @@ links:
   - stack.md
 ---
 
-# Microphage - Fondateur & AI Builder
+# Microphage - Founder & AI Builder
 
-| Cle | Valeur |
-|-----|--------|
-| **Periode** | Septembre 2025 - present |
-| **Statut** | Fondateur / AI Builder freelance |
-| **Localisation** | Paris, France |
+| Key | Value |
+|-----|-------|
+| **Period** | September 2025 - present |
+| **Status** | Founder / freelance AI Builder |
+| **Location** | Paris, France |
 | **Site** | [romainbigache.com](https://romainbigache.com) |
 
 ## Mission
 
-Conception, design, code et livraison d'outils IA en solo pour grands comptes. Approche end-to-end : architecture, code, design, copy, mise en production, pitch client.
+Solo design, code and shipping of AI tools for enterprise accounts. End-to-end approach: architecture, code, design, copy, production deployment, client pitch.
 
-SASU Microphage Intelligence creee en septembre 2025. Microphage Analyzer Pro est le produit phare lance en novembre 2025, adosse a trois ans de R&D personnelle anterieure (premier prototype Figma chez BforBank, iterations sur la methodologie LLM Wiki et le corpus de regles editoriales). Autres produits actifs : fusil.paris (co-fonde en 2024) et romainbigache.com (en prod 2025).
+SASU Microphage Intelligence incorporated in September 2025. Microphage Analyzer Pro is the flagship product launched in November 2025, building on three prior years of personal R&D (first Figma prototype at BforBank, iterations on the LLM Wiki methodology and the editorial rules corpus). Other active products: fusil.paris (co-founded in 2024) and romainbigache.com (in production 2025).
 
-## Produits livres ou en cours
+## Products shipped or in progress
 
 ### Microphage Analyzer Pro
 
-Plugin Figma B2B multi-tenant qui audite et reecrit l'UX writing par IA. Architecture Karpathy LLM Wiki (785 regles structurees comme source de verite unique), matcher hybride 3 couches (metadata, BM25, classifier LLM), audit visuel par OCR, prompt caching. Hono + Cloudflare Workers, monorepo pnpm + Turbo. Premier deploiement chez un client edtech B2B (livraison mai 2026), pitche au VP Design de Ledger.
+B2B multi-tenant Figma plugin that audits and rewrites UX writing via AI. Karpathy LLM Wiki architecture (785 structured rules as single source of truth), 3-layer hybrid matcher (metadata, BM25, LLM classifier), visual audit via OCR, prompt caching. Hono + Cloudflare Workers, pnpm + Turbo monorepo. First deployment with a B2B edtech client (delivery May 2026), pitched to Ledger's VP Design.
 
-Detail : [projects/microphage-analyzer-pro.md](../projects/microphage-analyzer-pro.md).
+Detail: [projects/microphage-analyzer-pro.md](../projects/microphage-analyzer-pro.md).
 
 ### Altaria
 
-Application gamifiee d'acculturation IA pour Altarea (CAC40), 15 modules en production (quiz, formation, jeux, chat IA, leaderboard), pitchee via OXGEN en amont du deploiement Microsoft Copilot 365. Shippee en 3 semaines en solo : concept, code, design, copy, illustrations, campagne guerilla interne en 5 supports physiques. Securite production-grade (HMAC-SHA256, RLS, kill switch, Sentinel anti-leak). Stack Next.js 15, React 19, Supabase, Vercel AI SDK multi-provider. Demo : altaria.microphage.ai/access. Discussions pour un lancement en marque blanche avec Tenexa.
+Gamified AI literacy app for Altarea (CAC40), 15 modules in production (quizzes, training, games, AI chat, leaderboard), pitched via OXGEN ahead of the Microsoft Copilot 365 rollout. Shipped solo in 3 weeks: concept, code, design, copy, illustrations, internal guerilla campaign across 5 physical media. Production-grade security (HMAC-SHA256, RLS, kill switch, anti-leak Sentinel). Stack: Next.js 15, React 19, Supabase, multi-provider Vercel AI SDK. Demo: altaria.microphage.ai/access. Discussions in progress for a white-label launch with Tenexa.
 
-Detail : [projects/altaria.md](../projects/altaria.md).
+Detail: [projects/altaria.md](../projects/altaria.md).
 
 ### fusil.paris
 
-E-commerce de bijoux artisanaux co-fonde avec Edouard. Stack technique portee en solo de A a Z : front Next.js 16 + React 19 + Tailwind 4 + TypeScript 5, 12 Edge Functions Deno (Supabase), double provider de paiement Stripe + PayPal, verification HMAC-SHA256 maison des webhooks Stripe, mails transactionnels bilingues FR/EN via Resend, expedition Chronopost multi-zones (FR/EU/Suisse/UK/Monde), panel admin securise (rate limiting, timing-safe comparison, whitelist de paths), headers production-grade (CSP, HSTS). Site en production : fusil.paris.
+Artisanal jewelry e-commerce co-founded with Edouard. Full technical stack delivered solo end-to-end: Next.js 16 + React 19 + Tailwind 4 + TypeScript 5 frontend, 12 Deno Edge Functions (Supabase), dual payment provider Stripe + PayPal, custom HMAC-SHA256 verification of Stripe webhooks, bilingual FR/EN transactional emails via Resend, multi-zone Chronopost shipping (FR/EU/Switzerland/UK/Worldwide), secured admin panel (rate limiting, timing-safe comparison, path whitelist), production-grade headers (CSP, HSTS). Site live: fusil.paris.
 
-Detail : [projects/fusil-paris.md](../projects/fusil-paris.md).
+Detail: [projects/fusil-paris.md](../projects/fusil-paris.md).
 
-## Activation et go-to-market
+## Activation and go-to-market
 
-Au-dela du build technique, je porte aussi le deploiement complet : campagnes creatives (concept, copy, direction artistique), affichage interne et guerilla marketing, posts pour reseaux sociaux internes (Viva Engage, Workplace, Slack), supports d'animation comex et Town Hall, contenus de formation. C'est ce qui fait la difference entre un POC qui dort sur un Notion et un produit que les collaborateurs utilisent vraiment.
+Beyond the technical build, I also drive the full deployment: creative campaigns (concept, copy, art direction), internal display and guerilla marketing, posts for internal social platforms (Viva Engage, Workplace, Slack), C-suite and Town Hall presentation decks, training content. That is what makes the difference between a POC sleeping on a Notion page and a product employees actually use.
 
-Bagage forge sur 50+ campagnes pilotees via OXGEN pour les DSI de grands comptes (Danone, Safran, Naval Group, Allianz, Altarea, Enedis, Citeo, Verallia, Suez).
+Foundation built on 50+ campaigns delivered via OXGEN for the CIO offices of major accounts (Danone, Safran, Naval Group, Allianz, Altarea, Enedis, Citeo, Verallia, Suez).
 
-## Approche
+## Approach
 
-Profil hybride designer + dev full-stack + content. Methode detaillee dans [methodology.md](../methodology.md).
+Hybrid profile: designer + full-stack dev + content. Method detailed in [methodology.md](../methodology.md).
 
 ## Stack
 
-TypeScript strict, Next.js 16, shadcn/ui, Framer Motion, design system maison LLM-ready (Tailwind Plus + Catalyst), Vercel AI SDK v6 multi-provider (OpenAI, Claude, Gemini), LangGraph, Supabase, Cloudflare Workers, Vitest + Playwright.
+Strict TypeScript, Next.js 16, shadcn/ui, Framer Motion, in-house LLM-ready design system (Tailwind Plus + Catalyst), multi-provider Vercel AI SDK v6 (OpenAI, Claude, Gemini), LangGraph, Supabase, Cloudflare Workers, Vitest + Playwright.
 
-Detail : [stack.md](../stack.md).
+Detail: [stack.md](../stack.md).
 
 ## Related
 

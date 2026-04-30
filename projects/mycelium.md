@@ -1,6 +1,6 @@
 ---
 id: project-mycelium
-title: Mycelium - Outillage Claude Code interne
+title: Mycelium - Internal Claude Code tooling
 type: project
 domain: project
 tags: [mycelium, claude-code, agentic-coding, internal-tooling, productivity, mcp, slash-commands, subagents, hooks]
@@ -8,12 +8,12 @@ status: live
 created: 2026-04-30
 updated: 2026-04-30
 period: 2026 / present
-client: Personnel / Microphage interne
+client: Personal / Microphage internal
 industries: [Internal Tooling, AI/ML, Productivity]
 team: 1 (Romain Bigache, solo)
 url: null
 demo: null
-technologies: [Claude Code, MCP, slash commands, subagents, hooks, settings, memory, Markdown, YAML, API Legifrance, API Judilibre, Playwright, Python, TypeScript]
+technologies: [Claude Code, MCP, slash commands, subagents, hooks, settings, memory, Markdown, YAML, Legifrance API, Judilibre API, Playwright, Python, TypeScript]
 links:
   - experience/microphage.md
   - methodology.md
@@ -23,108 +23,108 @@ links:
 
 # Mycelium
 
-| Cle | Valeur |
-|-----|--------|
-| **Type** | Outillage Claude Code interne (skills custom, subagents, hooks, memoire) |
-| **Statut** | En production interne, ~30 skills actives |
-| **Annee** | 2026 - en cours |
-| **Visibilite** | Repo non public (asset strategique) |
-| **Equipe** | Romain Bigache (seul) |
+| Key | Value |
+|-----|-------|
+| **Type** | Internal Claude Code tooling (custom skills, subagents, hooks, memory) |
+| **Status** | Internal production, ~30 active skills |
+| **Year** | 2026 - ongoing |
+| **Visibility** | Private repo (strategic asset) |
+| **Team** | Romain Bigache (solo) |
 
-## Titre court
+## Short title
 
-Stack d'outillage Claude Code interne pour orchestrer le travail multi-projet en solo.
+Internal Claude Code tooling stack to orchestrate solo multi-project work.
 
-## Description courte
+## Short description
 
-Mycelium est l'infrastructure interne qui industrialise le travail solo de Marcel sur tous les projets Microphage : ~30 skills Claude Code dediees par domaine, subagents specialises, hooks de session, memoire persistante structuree. Permet de tenir le rythme de livraison (POC en 3 semaines) en automatisant le boilerplate cognitif et en branchant chaque skill aux bonnes APIs externes (Legifrance, Judilibre, Figma, GitHub, Stripe, etc.).
+Mycelium is the internal infrastructure that industrializes Marcel's solo work across all Microphage projects: ~30 domain-specific Claude Code skills, specialized subagents, session hooks, structured persistent memory. Lets the delivery pace hold (POC in 3 weeks) by automating cognitive boilerplate and wiring each skill to the right external APIs (Legifrance, Judilibre, Figma, GitHub, Stripe, etc.).
 
 ## Architecture
 
-Mycelium applique le pattern LLM Wiki sur l'outillage interne : single source of truth, lazy loading, fichiers atomiques par skill, frontmatter conventionne, cross-links entre skills.
+Mycelium applies the LLM Wiki pattern to internal tooling: single source of truth, lazy loading, atomic files per skill, conventioned frontmatter, cross-links between skills.
 
-Detail methodologique : [methodology.md](../methodology.md).
+Methodology details: [methodology.md](../methodology.md).
 
-### Familles de skills
+### Skill families
 
 #### Creative (4 skills)
 
-- **`/copywriter`** : redaction corporate, hooks, headlines, adaptation ton/cible, multi-langue. Knowledge base de briefs et templates par client.
-- **`/da`** : direction artistique, moodboards, planches DA, identite visuelle.
-- **`/prompt-oracle`** : prompts image IA (Gemini, DALL-E), styles visuels, generation `.ico` et `.png` en pipeline ComfyUI.
-- **`/plannermaster`** : strategie communication, plans de campagne, decks, analyses marche.
+- **`/copywriter`**: corporate writing, hooks, headlines, tone/audience adaptation, multi-language. Knowledge base of briefs and templates per client.
+- **`/da`**: art direction, moodboards, art direction boards, visual identity.
+- **`/prompt-oracle`**: AI image prompts (Gemini, DALL-E), visual styles, `.ico` and `.png` generation in a ComfyUI pipeline.
+- **`/plannermaster`**: communication strategy, campaign plans, decks, market analyses.
 
 #### Dev (8 skills)
 
-- **`/portal`** : dev portal Next.js + shadcn/ui + Turborepo. Pilote des squads via queue inter-skills.
-- **`/portal-alpha`** : Factory Pipeline (json-render + Zod, generation IA d'apps).
-- **`/portal2`** : portal v2 (Next.js 16 + MUI v6 + Framer Motion + Supabase).
-- **`/api`** : dev API Hono + Zod + Supabase + Upstash Redis.
-- **`/figma`** : plugins Figma B2C grand public (Extractor + Analyzer, TypeScript + esbuild).
-- **`/figma-pro`** : Analyzer Pro B2B multi-tenant (pnpm + Turbo 2 + Hono Edge + Vitest + Playwright).
-- **`/darwin-figma`** : audit et optimisation iterative des plugins Figma sur 8 dimensions.
-- **`/nextjs`** : dev Next.js generique (init, pages, composants, forms, API, DB, auth, SEO, tests, deploy, perf).
+- **`/portal`**: portal dev with Next.js + shadcn/ui + Turborepo. Drives squads via inter-skill queue.
+- **`/portal-alpha`**: Factory Pipeline (json-render + Zod, AI app generation).
+- **`/portal2`**: portal v2 (Next.js 16 + MUI v6 + Framer Motion + Supabase).
+- **`/api`**: API dev with Hono + Zod + Supabase + Upstash Redis.
+- **`/figma`**: B2C consumer Figma plugins (Extractor + Analyzer, TypeScript + esbuild).
+- **`/figma-pro`**: B2B multi-tenant Analyzer Pro (pnpm + Turbo 2 + Hono Edge + Vitest + Playwright).
+- **`/darwin-figma`**: iterative audit and optimization of Figma plugins across 8 dimensions.
+- **`/nextjs`**: generic Next.js dev (init, pages, components, forms, API, DB, auth, SEO, tests, deploy, perf).
 
 #### Ops (7 skills)
 
-- **`/ops`** : DevToolsOps. Health checks, fix infra, backup repos, scan secrets/junk/stale, craft d'outils desktop CLI, veille tech (suivi star-history sur la toolbox).
-- **`/tri`** : rangement fichiers, nomenclature, nettoyage. Mode `dry` pour scan sans execution.
-- **`/env-creator`** : generation `.env` securisee, gestion secrets projet.
-- **`/team`** : orchestration de workers W1-W8, taches paralleles avec subagents.
-- **`/audit`** : audit fiabilite, detection failles, review code.
-- **`/lint`** : lint d'une knowledge base markdown (frontmatter, wikilinks, staleness, score /10).
-- **`/capture`** : screenshots multi-viewport via Playwright (sites + localhost), dark/light, pour book et portfolio.
+- **`/ops`**: DevToolsOps. Health checks, infra fixes, repo backups, secrets/junk/stale scans, desktop CLI tool crafting, tech watch (star-history tracking on the toolbox).
+- **`/tri`**: file sorting, naming, cleanup. `dry` mode for scan-only without execution.
+- **`/env-creator`**: secured `.env` generation, project secrets management.
+- **`/team`**: orchestration of W1-W8 workers, parallel tasks with subagents.
+- **`/audit`**: reliability audit, vulnerability detection, code review.
+- **`/lint`**: linting of a markdown knowledge base (frontmatter, wikilinks, staleness, score /10).
+- **`/capture`**: multi-viewport screenshots via Playwright (sites + localhost), dark/light, for book and portfolio.
 
 #### Business (3 skills)
 
-- **`/juriste`** : analyse contrats, conformite RGPD / CGV, redaction juridique. **Rattachee aux API Legifrance et Judilibre** pour recherche en loi et jurisprudence officielles. Knowledge base d'analyses et templates de contrats.
-- **`/devis`** : chiffrage de prestations (dev, audit UX, e-learning, DA, copy, IA), grilles de marche, generation de propales.
-- **`/carriere`** : CV, lettres de motivation, mails professionnels, suivi d'evolution, bilan de competences.
+- **`/juriste`**: contract analysis, GDPR / T&Cs compliance, legal writing. **Wired to the Legifrance and Judilibre APIs** for official law and case law search. Knowledge base of analyses and contract templates.
+- **`/devis`**: service quoting (dev, UX audit, e-learning, art direction, copy, AI), market grids, proposal generation.
+- **`/carriere`**: resume, cover letters, professional emails, evolution tracking, skills assessment.
 
 #### System (8 skills)
 
-- **`/wiki`** : V4 wiki engine (785 regles, 17 categories, AN013 envelope). Modes : `lookup`, `stats`, `audit` (vision capture), `rewrite`, `corpus` (mining JSONs plugin-coach), `improve` (propose modifs regle), `diff` (backend vs LLM), `list`. Lazy load strict P0.
-- **`/save`** / **`/resume`** : sauvegarde session avec frontmatter YAML + reprise par tags/skill.
-- **`/auto-learn`** : capture apprentissages session vers memoire persistante.
-- **`/review-weekly`** : rituel hebdomadaire (scan queues, reprises, plans, memoire, detection stale, dashboard 1 ecran + actions).
-- **`/mega-research`** : recherche parallele 8 workers (subagents).
-- **`/devil`** : attaque adversariale, destruction de plans / code, red team interne. Permet de stress-tester les architectures avant livraison.
-- **`/devil-loop`** : boucle adversariale autonome (devil en continu).
+- **`/wiki`**: V4 wiki engine (785 rules, 17 categories, AN013 envelope). Modes: `lookup`, `stats`, `audit` (vision capture), `rewrite`, `corpus` (mining plugin-coach JSONs), `improve` (proposes rule changes), `diff` (backend vs LLM), `list`. Strict P0 lazy load.
+- **`/save`** / **`/resume`**: session save with YAML frontmatter + resume by tags/skill.
+- **`/auto-learn`**: capture session learnings into persistent memory.
+- **`/review-weekly`**: weekly ritual (scan queues, save points, plans, memory, stale detection, 1-screen dashboard + actions).
+- **`/mega-research`**: parallel research with 8 workers (subagents).
+- **`/devil`**: adversarial attack, plan / code destruction, internal red team. Stress-tests architectures before delivery.
+- **`/devil-loop`**: autonomous adversarial loop (devil running continuously).
 
-#### Personnal (2 skills)
+#### Personal (2 skills)
 
-- **`/modder`** : game modding (analyze engine, create mods, patch files, extract assets, wiki perso).
-- **`/poe`** : Pillars of Eternity 1+2 build oracle (meta builds, theorycrafting, synergies).
+- **`/modder`**: game modding (analyze engine, create mods, patch files, extract assets, personal wiki).
+- **`/poe`**: Pillars of Eternity 1+2 build oracle (meta builds, theorycrafting, synergies).
 
-### Subagents specialises
+### Specialized subagents
 
-- **`Explore`** : agent d'exploration codebase rapide (find files, search, codebase QA).
-- **`Plan`** : architecte logiciel pour designs d'implementation step-by-step.
-- **`general-purpose`** : recherches multi-step et taches complexes.
-- **`code-reviewer`** : second avis sur PR, audits de code.
-- **Subagents de skill** : darwin-skill, huashu-nuwa, shadcn-ui (skills wrapped en agents).
+- **`Explore`**: fast codebase exploration agent (find files, search, codebase QA).
+- **`Plan`**: software architect for step-by-step implementation designs.
+- **`general-purpose`**: multi-step research and complex tasks.
+- **`code-reviewer`**: second opinion on PRs, code audits.
+- **Skill subagents**: darwin-skill, huashu-nuwa, shadcn-ui (skills wrapped as agents).
 
-### Hooks et conventions
+### Hooks and conventions
 
-- **Session start** : check queues inter-skills, charge contexte, active skills selon les arguments.
-- **Registry update** : maintien d'un index global des skills disponibles.
-- **File protection** : interdit toute modification de `.claude/` sans confirmation.
-- **Anti-duplication** : check d'existence avant creation de fichier.
-- **Convention skill** : template markdown obligatoire (META, STARTUP, REGLES, WORKFLOW).
+- **Session start**: check inter-skill queues, load context, activate skills based on arguments.
+- **Registry update**: maintains a global index of available skills.
+- **File protection**: forbids any modification of `.claude/` without confirmation.
+- **Anti-duplication**: existence check before file creation.
+- **Skill convention**: mandatory markdown template (META, STARTUP, RULES, WORKFLOW).
 
-### Memoire persistante
+### Persistent memory
 
-- `MEMORY.md` : index principal, charge automatiquement en contexte
-- `memory/*.md` : memoires atomiques par sujet (user, feedback, project, reference)
-- Cycle write-on-learn : chaque correction utilisateur, decision archi, ou feedback est saved en memoire pour futures sessions
+- `MEMORY.md`: main index, automatically loaded into context
+- `memory/*.md`: atomic memories per topic (user, feedback, project, reference)
+- Write-on-learn cycle: every user correction, architecture decision, or feedback is saved to memory for future sessions
 
-## Pourquoi c'est differenciant
+## Why it's differentiating
 
-Profil designer + dev + content + ops, le tout orchestre par une stack Claude Code custom. Permet la compression du cycle de delivery (POC en 3 semaines) en automatisant le boilerplate cognitif de chaque domaine.
+Designer + dev + content + ops profile, all orchestrated by a custom Claude Code stack. Compresses the delivery cycle (POC in 3 weeks) by automating the cognitive boilerplate of each domain.
 
-## Visibilite
+## Visibility
 
-Repo non public (asset strategique interne). Walkthrough disponible en demo live, dans un cadre confidentiel.
+Private repo (internal strategic asset). Live demo walkthrough available under NDA.
 
 ## Related
 

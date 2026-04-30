@@ -1,6 +1,6 @@
 ---
 id: _schema
-title: Schema du wiki
+title: Wiki schema
 type: meta
 domain: wiki-conventions
 tags: [meta, schema, conventions, llm-wiki]
@@ -10,86 +10,86 @@ updated: 2026-04-30
 authority: source-of-truth
 ---
 
-# Schema du wiki Romain Bigache
+# Romain Bigache wiki schema
 
-Document de reference pour comprendre la structure et les conventions de ce wiki.
-Methodologie : Karpathy LLM Wiki adapte au profil pro.
+Reference document for understanding this wiki's structure and conventions.
+Methodology: Karpathy LLM Wiki adapted to a professional profile.
 
-## Principes
+## Principles
 
-1. **Single source of truth.** Chaque fait n'existe qu'a un seul endroit. Si une info doit apparaitre dans plusieurs fichiers, elle est extraite dans son propre fichier et linkee.
-2. **Frontmatter YAML systematique.** Tous les fichiers .md ont un frontmatter complet.
-3. **Cross-links explicites.** Section `## Related` en bas de chaque fichier qui liste les fichiers connexes.
-4. **Fichiers atomiques.** Un sujet = un fichier. Pas de melange.
-5. **Index dense.** README.md sert de table des matieres et expose les facts cles en metadata.
-6. **Lint regulier.** Detecter contradictions, gaps, fichiers orphelins.
+1. **Single source of truth.** Each fact exists in exactly one place. If a piece of info needs to appear in multiple files, it gets extracted into its own file and linked.
+2. **Systematic YAML frontmatter.** All .md files have full frontmatter.
+3. **Explicit cross-links.** A `## Related` section at the bottom of each file lists adjacent files.
+4. **Atomic files.** One topic = one file. No mixing.
+5. **Dense index.** README.md serves as the table of contents and exposes key facts as metadata.
+6. **Regular linting.** Detect contradictions, gaps, orphan files.
 
-## Frontmatter requis
+## Required frontmatter
 
-| Champ | Type | Description |
+| Field | Type | Description |
 |-------|------|-------------|
-| `id` | string | Identifiant unique du fichier (slug, sans extension) |
-| `title` | string | Titre humain du document |
-| `type` | enum | Voir taxonomie ci-dessous |
-| `domain` | string | Domaine fonctionnel (ex: `experience`, `project`, `stack`) |
-| `tags` | array | Mots-cles pour discovery LLM |
+| `id` | string | Unique file identifier (slug, no extension) |
+| `title` | string | Human-readable title |
+| `type` | enum | See taxonomy below |
+| `domain` | string | Functional domain (e.g. `experience`, `project`, `stack`) |
+| `tags` | array | Keywords for LLM discovery |
 | `status` | enum | `draft` / `live` / `archived` |
-| `created` | date | Date de creation (YYYY-MM-DD) |
-| `updated` | date | Date de derniere modif |
+| `created` | date | Creation date (YYYY-MM-DD) |
+| `updated` | date | Last modification date |
 
-## Frontmatter optionnel
+## Optional frontmatter
 
-| Champ | Type | Description |
+| Field | Type | Description |
 |-------|------|-------------|
-| `links` | array | Liste de fichiers connexes (chemin relatif) |
-| `period` | string | Periode (ex: `2024-2025`) |
-| `client` | string | Nom du client si projet |
-| `industries` | array | Industries adressees |
-| `technologies` | array | Technos cles |
-| `url` | string | URL publique si demo |
-| `confidential` | bool | Si certaines infos sont a flouter |
+| `links` | array | List of related files (relative path) |
+| `period` | string | Period (e.g. `2024-2025`) |
+| `client` | string | Client name if project |
+| `industries` | array | Industries addressed |
+| `technologies` | array | Key technologies |
+| `url` | string | Public URL if demo |
+| `confidential` | bool | If some info needs to be redacted |
 
-## Taxonomie des types
+## Type taxonomy
 
-- `meta` : documents de structure (ce schema, README)
-- `profile` : identite, pitch, contact
-- `cv` : CV brut
-- `stack` : stack technique
-- `availability` : dispo et modalites
-- `expertise` : focus expertise
-- `keywords` : mots-cles ATS et indexation
-- `education` : formation et autodidaxie
-- `methodology` : methodologies signature
-- `process` : process operationnel quotidien
-- `writing` : articles de blog, voix d'auteur
-- `experience` : fiche mission (1 fichier par employeur)
-- `project` : fiche projet (1 fichier par realisation)
-- `personal` : hors-pro (sport, benevolat, side projects)
+- `meta`: structural documents (this schema, README)
+- `profile`: identity, pitch, contact
+- `cv`: raw CV
+- `stack`: technical stack
+- `availability`: availability and terms
+- `expertise`: expertise focus
+- `keywords`: ATS keywords and indexing
+- `education`: education and self-learning
+- `methodology`: signature methodologies
+- `process`: daily operational process
+- `writing`: blog articles, author voice
+- `experience`: mission file (1 file per employer)
+- `project`: project file (1 file per delivery)
+- `personal`: off-work (sport, volunteering, side projects)
 
-## Structure du repo
+## Repo structure
 
 ```
 Wiki-Romain-Bigache/
-├── README.md              # Index principal
-├── _schema.md             # Ce fichier
-├── profile.md             # Identite + pitch
-├── cv.md                  # CV brut
-├── stack.md               # Stack technique
-├── availability.md        # Dispo + modalites
-├── expertise.md           # GCP / Gemini / connecteurs
-├── keywords.md            # Mots-cles ATS et indexation
-├── education.md           # Formation et autodidaxie
-├── methodology.md         # Methodologies signature (Karpathy LLM Wiki, etc.)
-├── process.md             # Comment je travaille au quotidien
-├── writing.md             # Index des articles de blog
-├── writing/               # Articles de blog reproduits integralement
+├── README.md              # Main index
+├── _schema.md             # This file
+├── profile.md             # Identity + pitch
+├── cv.md                  # Raw CV
+├── stack.md               # Technical stack
+├── availability.md        # Availability + terms
+├── expertise.md           # GCP / Gemini / connectors
+├── keywords.md            # ATS keywords and indexing
+├── education.md           # Education and self-learning
+├── methodology.md         # Signature methodologies (Karpathy LLM Wiki, etc.)
+├── process.md             # How I work day-to-day
+├── writing.md             # Blog articles index
+├── writing/               # Blog articles reproduced in full
 │   ├── morphow-mascotte-ia.md
 │   ├── vibe-coding-burnout.md
 │   ├── ai-product-builder.md
 │   ├── personal-branding-introvert.md
 │   ├── content-design.md
 │   └── entretiens.md
-├── personal.md            # JJB, benevolat, label musique
+├── personal.md            # BJJ, volunteering, music label
 ├── experience/
 │   ├── microphage.md
 │   ├── bforbank.md
@@ -110,38 +110,38 @@ Wiki-Romain-Bigache/
     └── mycelium.md
 ```
 
-Source de verite pour la liste des fichiers : `git ls-files`. Cette arborescence est indicative, ne pas la maintenir a la main.
+Source of truth for the file list: `git ls-files`. The tree above is indicative, not maintained by hand.
 
-## Conventions de redaction
+## Writing conventions
 
-- Markdown standard (CommonMark + GFM tables).
-- Pas de tiret cadratin (em-dash). Utiliser `:` ou `-` ou `,`.
-- Liens internes en chemin relatif : `[microphage](./experience/microphage.md)`.
-- Pas de phrases sans accent (orthographe FR complete).
-- Identifiants `id` en kebab-case sans accent.
-- Tags en kebab-case sans accent.
+- Standard markdown (CommonMark + GFM tables).
+- No em-dash. Use `:` or `-` or `,`.
+- Internal links as relative paths: `[microphage](./experience/microphage.md)`.
+- No unaccented sentences in French sources (full FR orthography upstream).
+- `id` identifiers in kebab-case, no accents.
+- Tags in kebab-case, no accents.
 
-## Confidentialite
+## Confidentiality
 
-Le seul nom encore floute est :
-- `360Learning` -> "premier client edtech B2B" (deploiement contractualise mais en cours)
+The only name still redacted is:
+- `360Learning` -> "first B2B edtech client" (deployment contracted but in progress)
 
-Sont conserves nominativement :
-- `Altarea` / `Altaria` (vente non finalisee, cas non sensible)
-- `BforBank` (mention deja publique sur LinkedIn et CV)
-- `Ledger` (pitche par Marcel au VP Design)
-- `Tenexa` (negociation marque blanche en cours)
-- Tous les anciens employeurs et clients OXGEN deja publics
+Kept by name:
+- `Altarea` / `Altaria` (sale not finalized, non-sensitive case)
+- `BforBank` (already public on LinkedIn and CV)
+- `Ledger` (pitched by Marcel to the VP Design)
+- `Tenexa` (white-label negotiation in progress)
+- All former employers and OXGEN clients already public
 
 ## Lint
 
-A chaque mise a jour, verifier :
-- [ ] Frontmatter complet et valide
-- [ ] Cross-links non casses
-- [ ] Pas de duplication d'info
-- [ ] `updated` mis a jour
-- [ ] Pas de tiret cadratin
-- [ ] Pas de mention nominale `360Learning`
+On every update, check:
+- [ ] Frontmatter complete and valid
+- [ ] No broken cross-links
+- [ ] No duplicated info
+- [ ] `updated` field refreshed
+- [ ] No em-dash
+- [ ] No nominal mention of `360Learning`
 
 ## Related
 

@@ -10,33 +10,33 @@ updated: 2026-04-30
 period: 2019-06 / 2020-01
 employer: leboncoin
 location: Paris, France
-industry: Developpement de logiciels, Marketplace
+industry: Software development, Marketplace
 links: []
 ---
 
 # leboncoin - UX Writer
 
-| Cle | Valeur |
-|-----|--------|
-| **Periode** | Juin 2019 - Janvier 2020 (7 mois) |
-| **Localisation** | Paris, France |
-| **Industrie** | Developpement de logiciels, Marketplace |
+| Key | Value |
+|-----|-------|
+| **Period** | June 2019 - January 2020 (7 months) |
+| **Location** | Paris, France |
+| **Industry** | Software development, Marketplace |
 
 ## Mission
 
-Accompagnement de leboncoin a deux moments cles : la refonte du site (adaptation des contenus a la nouvelle interface) et le lancement du paiement securise (gros travail sur la FAQ et les parcours sensibles). Creation du guide redactionnel LeBonStyle.
+Supported leboncoin at two key moments: the site overhaul (adapting content to the new interface) and the launch of secured payment (heavy work on the FAQ and sensitive flows). Created the LeBonStyle editorial guide.
 
-## Creation du guide editorial du produit (LeBonStyle)
+## Created the product editorial guide (LeBonStyle)
 
-Elaboration complete : tonalite, langage, principes, regles, cas concrets. Objectif : poser une base claire, utile et durable pour tous les contenus de l'interface.
+End-to-end build: tone, language, principles, rules, concrete cases. Goal: lay a clear, useful and durable foundation for all interface content.
 
-## Refonte et creation de contenus
+## Overhaul and content creation
 
-Reecriture de nombreux parcours critiques : achat, vente, messagerie, compte utilisateur. Clarification des formulaires, CTA, messages systeme et contenus d'accompagnement. Objectif : plus de clarte, de coherence, et une meilleure fluidite dans les parcours.
+Rewrote many critical flows: buying, selling, messaging, user account. Clarified forms, CTAs, system messages and supporting content. Goal: more clarity, more consistency, and better flow fluidity.
 
-## FAQ et support
+## FAQ and support
 
-Analyse fine des tickets Zendesk pour identifier les irritants recurrents lies au paiement securise. Redaction d'une trentaine d'articles pedagogiques, structures et orientes resolution. Objectif : desengorger le support, rassurer les utilisateurs et renforcer leur autonomie.
+Detailed analysis of Zendesk tickets to identify recurring pain points related to secured payment. Wrote around thirty educational, structured and resolution-oriented articles. Goal: reduce support load, reassure users and strengthen their autonomy.
 
 ## Related
 

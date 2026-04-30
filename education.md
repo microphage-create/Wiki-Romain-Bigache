@@ -1,6 +1,6 @@
 ---
 id: education
-title: Formation et apprentissage
+title: Education and learning
 type: education
 domain: identity
 tags: [education, autodidact, learning-path, formation]
@@ -12,52 +12,52 @@ links:
   - stack.md
 ---
 
-# Formation et apprentissage
+# Education and learning
 
-## Profil de formation
+## Education profile
 
-**Sup de Creation (Concepteur-Redacteur)**, reference pour les metiers creatifs publicitaires en France a l'epoque. Puis **autodidacte sur le dev et l'IA**. Bascule du copywriting / direction artistique vers le content design, puis vers le build IA, en autoformation continue.
+**Sup de Création (French school for Copywriter / Art Director, top-tier at the time)**, the reference school for advertising creative roles in France. Then **self-taught on dev and AI**. Pivoted from copywriting / art direction to content design, then to AI building, through continuous self-learning.
 
-## Formation initiale
+## Initial education
 
-**Sup de Creation - Concepteur-Redacteur** : ecole de creation publicitaire, parcours dedie aux metiers de copywriter et directeur artistique. Reference de l'industrie publicitaire francaise au moment de mon cursus.
+**Sup de Création - Copywriter / Art Director track**: French advertising creative school, dedicated curriculum for copywriter and art director roles. Industry reference in French advertising at the time of my studies.
 
-## Trajectoire d'apprentissage
+## Learning trajectory
 
-### 2017 - 2019 : Copywriting et direction artistique
+### 2017 - 2019: Copywriting and art direction
 
-Stage Havas Paris en equipe creative (Orange Bank, EDF, leboncoin, La Poste). Bascule en freelance des la fin du stage. Apprentissage par la pratique : campagnes, accroches, scripts.
+Internship at Havas Paris on a creative team (Orange Bank, EDF, leboncoin, La Poste). Switched to freelance the day the internship ended. Learning by doing: campaigns, hooks, scripts.
 
-### 2019 - 2023 : Content design et UX writing
+### 2019 - 2023: Content design and UX writing
 
-Speak UX!, leboncoin, FDJ, Cdiscount, ADEO (Leroy Merlin). Apprentissage des fondamentaux du content design, des design systems, des methodes de tests utilisateurs.
+Speak UX!, leboncoin, FDJ, Cdiscount, ADEO (Leroy Merlin). Picked up the fundamentals of content design, design systems, and user testing methods.
 
-### 2022 - 2024 : IA generative
+### 2022 - 2024: Generative AI
 
-Premier prompt IA en interne chez ADEO des la sortie de GPT-3.5 (novembre 2022). Auto-formation sur GPT-3.5 puis GPT-4. Construction d'un Content Design System en RAG (ChatGPT + N8N + Supabase) en autodidacte.
+First internal AI prompt at ADEO the day GPT-3.5 shipped (November 2022). Self-taught on GPT-3.5 then GPT-4. Built a RAG-powered Content Design System (ChatGPT + N8N + Supabase) self-taught.
 
-### 2024 - aujourd'hui : Architecture IA et dev full-stack
+### 2024 - present: AI architecture and full-stack dev
 
-Auto-formation continue sur :
-- TypeScript strict, Next.js 16, React 19, Tailwind CSS 4
+Continuous self-learning on:
+- Strict TypeScript, Next.js 16, React 19, Tailwind CSS 4
 - Vercel AI SDK v6 multi-provider (OpenAI, Claude, Gemini)
-- LangGraph, RAG agentique, MCP
+- LangGraph, agentic RAG, MCP
 - Supabase (PostgreSQL, Edge Functions Deno, RLS, pgvector)
 - Hono, Cloudflare Workers
-- Securite : HMAC-SHA256, rate limiting, timing-safe comparison, audit XSS
+- Security: HMAC-SHA256, rate limiting, timing-safe comparison, XSS audit
 
-Mise en pratique directe sur des projets en production (BforBank, Altarea, Microphage Analyzer Pro, fusil.paris).
+Direct application on production projects (BforBank, Altarea, Microphage Analyzer Pro, fusil.paris).
 
-## Approche d'apprentissage
+## Learning approach
 
-- **Apprentissage par la pratique** : chaque competence acquise est immediatement testee sur un projet reel
-- **Veille active** : suivi quotidien des releases LLM, frameworks, bibliotheques (Vercel AI SDK, LangGraph, shadcn/ui)
-- **Construction d'outils internes** : automatisation, scripts, design systems et wikis structures comme moyen de monter en competence
+- **Learn by doing**: every new skill gets tested on a real project right away
+- **Active monitoring**: daily tracking of LLM, framework, and library releases (Vercel AI SDK, LangGraph, shadcn/ui)
+- **Internal tooling**: automation, scripts, design systems, and structured wikis as a way to level up
 
-## Diplomes et certifications
+## Diplomas and certifications
 
-- **Sup de Creation - Concepteur-Redacteur** (cursus complet, ecole de creation publicitaire de reference en France a l'epoque)
-- Aucun diplome formel d'ingenierie ni certification IA cote tech : portfolio et projets en production tiennent lieu de preuve d'expertise sur ce volet.
+- **Sup de Création - Copywriter / Art Director track** (full curriculum, top-tier French advertising creative school at the time)
+- No formal engineering degree or AI certification on the tech side: portfolio and production projects stand as the evidence on that front.
 
 ## Related
 

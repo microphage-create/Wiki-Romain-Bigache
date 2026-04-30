@@ -1,6 +1,6 @@
 ---
 id: experience-freelance-creative
-title: Freelance creative - Copywriter & Direction Artistique
+title: Freelance creative - Copywriter & Art Director
 type: experience
 domain: experience
 tags: [freelance, copywriter, direction-artistique, advertising, agences, oxgen]
@@ -9,45 +9,45 @@ created: 2026-04-30
 updated: 2026-04-30
 period: 2017-08 / 2019-04
 location: Paris, France
-industry: Services publicitaires
+industry: Advertising services
 links:
   - experience/havas-paris.md
   - experience/oxgen.md
 ---
 
-# Freelance creative - Copywriter & Direction Artistique
+# Freelance creative - Copywriter & Art Director
 
-| Cle | Valeur |
-|-----|--------|
-| **Periode** | Aout 2017 - Avril 2019 (~2 ans) |
-| **Localisation** | Paris, France |
-| **Statut** | Freelance independant |
-| **Industrie** | Services publicitaires |
+| Key | Value |
+|-----|-------|
+| **Period** | August 2017 - April 2019 (~2 years) |
+| **Location** | Paris, France |
+| **Status** | Independent freelancer |
+| **Industry** | Advertising services |
 
 ## Mission
 
-Bascule en freelance creative des la fin du stage Havas Paris (aout 2017). Pendant ~2 ans, missions de copywriting et de direction artistique pour diverses agences parisiennes : campagnes affichage, presse, radio, social, digital.
+Switched to freelance creative right after the Havas Paris internship (August 2017). Over ~2 years, copywriting and art direction missions for various Paris agencies: out-of-home, print, radio, social, digital campaigns.
 
-C'est la periode qui pose les fondations du metier de copywriter / DA en independant : autonomie, lien direct avec les clients, capacite a prendre un brief et a livrer en cycle court, coordination avec freelances DA / motion / graphisme.
+This is the period that lays the foundations of the independent copywriter / art director craft: autonomy, direct client relationships, ability to take a brief and deliver in short cycles, coordination with freelance art directors / motion / graphic designers.
 
-## Type de productions
+## Types of deliverables
 
-- Concepts publicitaires
-- Accroches et signatures
-- Scripts radio et video
-- Copy social et digital
-- Direction artistique (visuels, identite de campagne)
-- Recommandations creatives strategiques
+- Advertising concepts
+- Headlines and taglines
+- Radio and video scripts
+- Social and digital copy
+- Art direction (visuals, campaign identity)
+- Strategic creative recommendations
 
-## Demarrage de la collaboration recurrente OXGEN
+## Start of the recurring OXGEN collaboration
 
-Pendant cette periode demarre aussi la collaboration recurrente avec OXGEN (cabinet de Change Communications) qui s'inscrit dans la duree (depuis 2017). Cette collaboration deviendra le fil rouge stable au fil des annees suivantes.
+This period also marks the start of the recurring collaboration with OXGEN (Change Communications agency) which has continued long-term (since 2017). This collaboration would become the stable thread through the following years.
 
-Detail OXGEN : [experience/oxgen.md](./oxgen.md).
+OXGEN detail: [experience/oxgen.md](./oxgen.md).
 
-## Transition vers le content design
+## Transition to content design
 
-Au fil des missions, l'activite glisse progressivement du pur copywriting publicitaire vers le produit, l'UX et les interfaces : c'est de la qu'est nee la transition vers Speak UX! (mai 2019), premiere mission UX writing.
+Mission after mission, the activity gradually shifted from pure advertising copywriting toward product, UX and interfaces: that is what led to the transition to Speak UX! (May 2019), my first UX writing mission.
 
 ## Related
 

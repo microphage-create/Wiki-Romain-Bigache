@@ -10,50 +10,50 @@ updated: 2026-04-30
 period: 2020-01 / 2023-10
 employer: ADEO (Leroy Merlin)
 location: Paris, France
-industry: Vente au detail (DIY)
+industry: Retail (DIY)
 links:
   - stack.md
 ---
 
 # ADEO (Leroy Merlin) - Principal UX Writer
 
-| Cle | Valeur |
-|-----|--------|
-| **Periode** | Janvier 2020 - Octobre 2023 (3 ans 10 mois) |
-| **Localisation** | Paris, France |
-| **Entreprise** | ADEO (Leroy Merlin) |
-| **Industrie** | Vente au detail (DIY) |
+| Key | Value |
+|-----|-------|
+| **Period** | January 2020 - October 2023 (3 years 10 months) |
+| **Location** | Paris, France |
+| **Company** | ADEO (Leroy Merlin) |
+| **Industry** | Retail (DIY) |
 | **Role** | Principal UX Writer |
 
 ## Mission
 
-Accompagnement d'ADEO dans l'amelioration de son experience d'achat en ligne, en integrant les pratiques d'UX writing, de content design et d'IA au sein des equipes produit.
+Supported ADEO in improving its online shopping experience by embedding UX writing, content design and AI practices within product teams.
 
-## IA appliquee a l'UX writing (en avance sur le marche en 2022)
+## AI applied to UX writing (ahead of the market in 2022)
 
-Conception du **premier prompt IA interne des la sortie de GPT-3.5** (novembre 2022), puis iterations sur GPT-4 pour aider les designers a produire du contenu coherent et contextuel sans repartir de zero.
+Designed the **first internal AI prompt as soon as GPT-3.5 shipped** (November 2022), then iterated on GPT-4 to help designers produce consistent, contextual content without starting from scratch.
 
-Creation d'un **Content Design System en RAG** (ChatGPT + N8N + Supabase) pour repondre aux questions des designers sur les guidelines editoriales en temps reel.
+Built a **Content Design System in RAG** (ChatGPT + N8N + Supabase) to answer designers' questions on editorial guidelines in real time.
 
-Animation d'ateliers pratiques sur l'UX writing, la micro-copy et les usages de l'IA pour designers, chefs de produit et redacteurs.
+Facilitated hands-on workshops on UX writing, micro-copy and AI usage for designers, product managers and writers.
 
-## Audit et accompagnement strategique
+## Audit and strategic support
 
-Analyse complete du site Leroy Merlin : contenus, parcours, points de friction. Recommandations editoriales sur les ecrans sensibles et les micro-contenus cles. Integration des retours utilisateurs et participation aux tests A/B pour valider les choix de wording.
+Full audit of the Leroy Merlin site: content, flows, friction points. Editorial recommendations on sensitive screens and key microcopy. Integration of user feedback and contribution to A/B testing to validate wording choices.
 
 ## Content design system
 
-Redaction d'un guide structurant les principes de contenu : ton, regles, composants textuels. Integration dans le design system global, en lien direct avec les guidelines UI et les composants Figma.
+Authored a guide structuring content principles: tone, rules, textual components. Embedded into the global design system, directly tied to UI guidelines and Figma components.
 
-Sensibilisation des designers, PM et redacteurs a une approche editoriale partagee, ancree dans le produit.
+Drove adoption among designers, PMs and writers around a shared editorial approach, anchored in the product.
 
-## Competences mobilisees
+## Skills applied
 
-- IA generative appliquee au workflow design (tres en avance sur le marche en 2022)
-- Architecture RAG sur stack ChatGPT + N8N + Supabase
+- Generative AI applied to design workflows (significantly ahead of the market in 2022)
+- RAG architecture on ChatGPT + N8N + Supabase stack
 - Content Design System
-- Animation d'ateliers et formation
-- Tests utilisateurs et A/B testing
+- Workshop facilitation and training
+- User testing and A/B testing
 
 ## Related
 

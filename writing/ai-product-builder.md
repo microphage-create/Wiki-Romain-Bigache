@@ -1,66 +1,67 @@
 ---
 id: writing-ai-product-builder
-title: C'est quoi un AI Product Builder ?
+title: What's an AI Product Builder?
+description: A definition pulled from what I actually ship: apps, agents, e-commerce, plugins. Not slides about AI.
 type: writing
 domain: blog-article
-tags: [ai-product-builder, definition, freelance, profil-hybride, ux-writing, content-design]
+tags: [ai-product-builder, definition, freelance, hybrid-profile, ux-writing, content-design]
 status: published
 created: 2026-04-30
 updated: 2026-04-30
-url: https://romainbigache.com/fr/blog/ai-product-builder
+url: https://romainbigache.com/en/blog/ai-product-builder
 slug: ai-product-builder
 links:
   - writing.md
   - profile.md
 ---
 
-# C'est quoi un AI Product Builder ?
+# What's an AI Product Builder?
 
-Depuis une semaine, je reçois des messages sur LinkedIn. Des gens que je ne connais pas, qui me demandent ce que c'est qu'un AI Product Builder. Comment j'en suis arrivé là. Si on peut se parler 30 minutes pour "partager nos vues sur ce nouveau far west". Visiblement, le titre intrigue. Voilà ce qu'il veut dire.
+For the past week, I've been getting LinkedIn messages. People I don't know, asking me what an AI Product Builder is. How I ended up here. Whether we can hop on a 30-minute call to "share our views on this new wild west." Apparently the title is intriguing. Here's what it means.
 
-## Ce que c'est
+## What it is
 
-Un AI Product Builder, c'est quelqu'un qui conçoit et construit des produits qui utilisent l'IA comme composant central. Pas quelqu'un qui écrit des prompts. Pas quelqu'un qui fait des slides sur l'IA. Quelqu'un qui ship.
+An AI Product Builder is someone who designs and builds products that use AI as a core component. Not someone who writes prompts. Not someone who makes slides about AI. Someone who ships.
 
-Le mot important c'est "builder". Tu designs, tu codes, tu déploies. Le produit tourne en production, de vrais utilisateurs s'en servent.
+The key word is "builder." You design, you code, you deploy. The product runs in production, real users use it.
 
-C'est aussi quelqu'un qui navigue entre les couches. Tu comprends le besoin utilisateur (product), tu sais assembler les briques techniques (dev), et tu sais donner forme au résultat (design). Pas expert dans les trois. Juste assez pour avancer sans attendre.
+It's also someone who navigates between layers. You understand the user need (product), you can assemble the technical pieces (dev), and you know how to give the result a shape (design). Not an expert in the three. Just enough to move without waiting.
 
-## Ce que je construis
+## What I build
 
-Pour rendre ça concret, voilà ce que j'ai shippé ces 18 derniers mois, en freelance :
+To make this concrete, here's what I've shipped over the past 18 months, freelance:
 
-Altaria. Une app d'acculturation IA pour un groupe immobilier. 145 activités, quiz, jeux, gamification style Duolingo. 3 000 utilisateurs. Next.js, Zustand, Vercel AI SDK, Supabase. De l'idée au déploiement, en solo.
+Altaria. An AI literacy app for a real estate group. 145 activities, quizzes, games, Duolingo-style gamification. 3,000 users. Next.js, Zustand, Vercel AI SDK, Supabase. From idea to deploy, solo.
 
-Fusil.paris. Un e-commerce complet pour une marque de bijoux. Catalogue, paiement Stripe et PayPal, dashboard admin, emails transactionnels. En prod, des vrais clients qui passent de vraies commandes.
+Fusil.paris. A full e-commerce for a jewelry brand. Catalog, Stripe and PayPal payments, admin dashboard, transactional emails. In production, real customers placing real orders.
 
-Un pipeline comptable automatisé. Tu prends une photo de facture avec ton iPhone, l'IA extrait les données, les rapproche avec tes relevés bancaires. Telegram, Hono, Supabase, API Revolut.
+An automated accounting pipeline. You take a photo of a receipt with your iPhone, AI extracts the data, reconciles it with your bank statements. Telegram, Hono, Supabase, Revolut API.
 
-Un plugin Figma qui extrait et analyse le contenu UX directement dans les maquettes. TypeScript, Figma Plugin API, multi-provider IA.
+A Figma plugin that extracts and analyzes UX content directly inside mockups. TypeScript, Figma Plugin API, multi-provider AI.
 
-17 agents IA que j'utilise au quotidien : copywriting, test adversarial, recherche parallèle, direction artistique, audit de code.
+17 AI agents I use daily: copywriting, adversarial testing, parallel research, art direction, code audit.
 
-Et Morphow, une plateforme SaaS de webapps modulaires, en cours de construction.
+And Morphow, a SaaS platform of modular webapps, in build.
 
-Rien de tout ça n'était dans une fiche de poste.
+None of this was on a job description.
 
-## Le profil
+## The profile
 
-Pas besoin d'être dev senior. Il faut savoir assez pour livrer. Mon parcours c'est construction bois, communication politique, pub, UX Writing, content design. Et un jour j'ai décidé d'apprendre à coder parce que j'en pouvais plus de maquetter des trucs que je ne savais pas construire.
+You don't need to be a senior dev. You need to know enough to ship. My background is wood construction, political comms, advertising, UX Writing, content design. And one day I decided to learn to code because I was sick of mocking up things I couldn't build.
 
-Un background UX ou content est un avantage. Tu penses en problèmes utilisateur, pas en solutions techniques. T'as le réflexe de demander "pour qui ?" avant "comment ?". Et tu sais écrire, ce qui compte plus qu'on ne croit quand la moitié du produit c'est du contenu généré par IA qu'il faut cadrer.
+A UX or content background is an advantage. You think in user problems, not technical solutions. You have the reflex to ask "for whom?" before "how?". And you know how to write, which matters more than people think when half the product is AI-generated content that needs framing.
 
-La vraie compétence, c'est savoir quelle capacité IA appliquer à quel problème. Et être à l'aise avec le fait que tout casse tous les trois mois.
+The real skill is knowing which AI capability to apply to which problem. And being comfortable with everything breaking every three months.
 
-## Pourquoi maintenant
+## Why now
 
-Les outils sont prêts. Vercel AI SDK, Claude, Cursor, v0. Un freelance seul peut construire ce qui demandait une équipe de cinq il y a deux ans. Le coût d'entrée n'a jamais été aussi bas, et la vitesse d'exécution n'a jamais été aussi haute.
+The tools are ready. Vercel AI SDK, Claude, Cursor, v0. A solo freelancer can build what took a team of five two years ago. The cost of entry has never been lower, and the speed of execution has never been higher.
 
-Les entreprises commencent à comprendre qu'elles ont besoin de gens qui savent penser ET construire avec l'IA. Pas juste en parler.
+Companies are starting to understand they need people who can think AND build with AI. Not just talk about it.
 
-> C'est exactement comme l'UX Writing en 2019. Personne ne sait encore très bien ce que c'est. Et c'est pour ça que les DMs arrivent.
+> It's exactly like UX Writing in 2019. Nobody really knows what it is yet. And that's why the DMs are coming in.
 
-Si tu fais partie des gens qui m'ont écrit cette semaine : oui, c'est ça que ça donne. Et non, il n'y a pas encore de playbook. C'est justement tout l'intérêt.
+If you're one of the people who messaged me this week: yes, this is what it looks like. And no, there's no playbook yet. That's the whole point.
 
 ## Related
 

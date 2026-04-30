@@ -1,13 +1,14 @@
 ---
 id: writing-entretiens
-title: Invite a Polytechnique. Sans aucun diplome.
+title: Invited to Polytechnique. With no degree.
+description: How I ended up speaking on the Polytechnique campus about a path that includes 50 euros, a shaved head, and a sandwich-board chocolate gig.
 type: writing
 domain: blog-article
-tags: [polytechnique, entretiens-excellence, mentorat, parcours, autodidacte, content-design, story]
+tags: [polytechnique, entretiens-excellence, mentoring, journey, self-taught, content-design, story]
 status: published
 created: 2026-04-30
 updated: 2026-04-30
-url: https://romainbigache.com/fr/blog/entretiens
+url: https://romainbigache.com/en/blog/entretiens
 slug: entretiens
 links:
   - writing.md
@@ -15,55 +16,55 @@ links:
   - education.md
 ---
 
-# Invité à Polytechnique. Sans aucun diplôme.
+# Invited to Polytechnique. With no degree.
 
-En 2022, un samedi matin, je me suis retrouvé sur le campus de l'École polytechnique, à Palaiseau, devant une salle de lycéens. J'étais UX Writer à l'époque. J'étais là pour parler de mon parcours dans le cadre des Entretiens de l'Excellence, un programme où des professionnels viennent raconter leur métier à des collégiens et lycéens.
+In 2022, on a Saturday morning, I found myself on the campus of Polytechnique (top French engineering school), in Palaiseau, in front of a room full of high schoolers. I was a UX Writer at the time. I was there to talk about my path as part of the Entretiens de l'Excellence (a mentoring program for high schoolers from underprivileged areas), where professionals come tell their story to middle and high school students.
 
-Je savais pas ce que je foutais là.
+I had no idea what I was doing there.
 
-Clara-Louise, une amie d'amie, bossait pour le programme. Ils avaient un trou à combler, elle m'a proposé de venir. Selon elle, mon parcours était intéressant. J'ai trouvé ça absurde. Moi, parler d'excellence. Sur le campus de Polytechnique. L'école qui forme les ingénieurs les plus brillants du pays. Moi qui ai fait 3 collèges. Moi qui séchais les maths en terminale comme si c'était un sport.
+Clara-Louise, a friend of a friend, worked for the program. They had a slot to fill, she suggested I come. According to her, my story was interesting. I thought it was absurd. Me, talking about excellence. On the Polytechnique campus. The school that trains the country's brightest engineers. Me, who switched middle schools three times. Me, who ditched math class in senior year like it was a sport.
 
-J'ai dit oui. Pas pour le prestige. Parce que si un gamin dans cette salle me ressemblait à 16 ans, autant qu'il sache que c'est pas foutu.
+I said yes. Not for the prestige. Because if a kid in that room looked anything like 16-year-old me, he might as well know it's not over.
 
-## 50 euros et "bon courage"
+## 50 euros and "good luck"
 
-Après le bac, je suis parti à Toulouse. Fac de droit. J'y suis allé trois fois. Le reste du temps, c'était alcool, drogue, et rien. Le genre de période qu'on raconte pas dans un CV mais qui existe dans le parcours de plus de gens qu'on ne croit.
+After high school, I went to Toulouse. Law school. I showed up three times. The rest of the time was alcohol, drugs, and nothing. The kind of period you don't put on a CV but that's in more people's lives than you'd think.
 
-Je me suis fait rattraper. J'ai atterri sur les chantiers avec mon père, à construire des maisons en bois dans le Lot. Et puis ça s'est mal fini avec lui aussi. Un jour il m'a emmené à la gare, m'a filé 50 euros, et m'a dit "bon courage".
+Reality caught up. I ended up on construction sites with my dad, building wood houses in the Lot region in southwestern France. And then it went south with him too. One day he drove me to the train station, handed me 50 euros, and said "good luck."
 
-J'ai atterri chez un pote à Toulouse. Pôle Emploi a bloqué mon dossier de chômage pour un papier que je pouvais pas fournir. Pas de thunes, brouillé avec mes parents, trop fier pour revenir. J'ai passé un an comme ça. D'un canapé à l'autre chez des potes. Un soir, bourré, je me suis rasé la tête. Je ressemblais à un figurant de Trainspotting. Aucun recruteur ne voulait me voir.
+I crashed at a buddy's place in Toulouse. The French unemployment office (Pole Emploi) blocked my unemployment file over a paper I couldn't provide. No money, on bad terms with my parents, too proud to go back. I spent a year like that. Couch to couch at friends'. One night, drunk, I shaved my head. I looked like an extra from Trainspotting. No recruiter wanted to see me.
 
-J'ai fréquenté la pauvreté de la manière la plus directe qui soit. En l'étant.
+I met poverty in the most direct way you can. By being it.
 
-## Le genre de trucs que tu mets pas sur LinkedIn
+## The kind of stuff you don't put on LinkedIn
 
-Pendant cette année, il fallait manger. Vendeur de glace en triporteur. Tractage pour le Salon du Chocolat, payé au lance-pierre. Manutentionnaire à 6h du matin à décharger des camions.
+During that year, I had to eat. Ice cream vendor on a tricycle. Flyer guy for the Salon du Chocolat, paid pennies. Loading dock work at 6am unloading trucks.
 
-C'est exactement ça qui donne la dalle. Pas la dalle au sens "j'ai faim de succès" comme dans un post motivationnel. La dalle au sens propre. Celle qui te fait accepter n'importe quel taf parce que t'as pas le choix.
+That's exactly what gives you hunger. Not the "hungry for success" hunger from a motivational post. Hunger in the literal sense. The kind that makes you take any job because you have no choice.
 
-Au bout d'un an, à Noël, je suis revenu chez ma mère. Elle a accepté de me reprendre à ses conditions : faire le ménage, la bouffe, et être suivi à la Mission Locale. J'ai filé du cash pour prouver que j'étais sérieux. Et j'ai repris les études.
+After a year, around Christmas, I came back to my mom's. She agreed to take me back on her terms: clean, cook, and check in regularly with the Mission Locale (French youth employment service). I gave her cash to prove I was serious. And I went back to school.
 
-## De coup de tête en coup de tête
+## Decision after impulse decision
 
-J'ai repris les études. Communication politique, à Lille, à 9 heures de chez moi. Nouveau départ, nouvelle ville, personne. La politique m'a vite dégoûté. Trop de cirque, pas assez de vrai.
+I went back to school. Political communications, in Lille, 9 hours from home. New start, new city, no one. Politics quickly disgusted me. Too much circus, not enough real.
 
-Alors j'ai voulu faire l'armée. Le renseignement militaire. Et puis finalement je me suis inscrit en école de pub parce que j'avais vu 99 Francs. Le mec donne de la coke à son hamster et je me suis dit que ça avait l'air d'un métier branché. C'est comme ça que je prends mes décisions de carrière. Un film, un coup de tête, et on verra bien.
+So I wanted to join the army. Military intelligence. And then I ended up enrolling in advertising school because I'd seen 99 Francs. The guy gives coke to his hamster and I figured it looked like a cool job. That's how I make career decisions. A movie, an impulse, and we'll see how it goes.
 
-La pub, j'y suis resté. Agences, freelance, briefs à la chaîne. Et puis j'ai bifurqué vers l'UX Writing : écrire les mots dans les interfaces, les boutons, les parcours, les messages d'erreur. Un métier qui n'existait pas encore en France. Leroy Merlin, BforBank, des boîtes du CAC 40.
+Advertising stuck. Agencies, freelance, briefs on a conveyor belt. Then I shifted into UX Writing: writing the words inside interfaces, buttons, flows, error messages. A job that didn't exist yet in France. Leroy Merlin, BforBank, CAC 40 companies.
 
-C'est là que j'en étais quand Clara-Louise m'a proposé Polytechnique. C'est tout ce bordel qu'elle trouvait intéressant. Pas la dernière ligne du CV. Tout le reste.
+That's where I was when Clara-Louise pitched me Polytechnique. It was that whole mess she found interesting. Not the last line of the CV. Everything else.
 
-## Les regards qui changent
+## When the looks changed
 
-Quand t'arrives devant une salle de lycéens dans le cadre d'un truc qui s'appelle "les Entretiens de l'Excellence", sur le campus de Polytechnique, les gamins te regardent en chien de faïence. Ils voient un mec en chemise qui a l'air de s'en être bien sorti. Encore un petit bourge qui a réussi, c'est ce qu'on se dit en me voyant.
+When you walk into a room of high schoolers for something called "Entretiens de l'Excellence," on the Polytechnique campus, the kids stare at you stone-faced. They see a guy in a button-down who looks like he's done well. Another comfortable kid who made it, that's what they're thinking when they see me.
 
-J'ai pas sorti de discours motivationnel. J'ai raconté ce que je viens de raconter. Les collèges, Toulouse, le canapé, la glace, le Salon du Chocolat.
+I didn't pull out a motivational speech. I told them what I just told you. The middle schools, Toulouse, the couch, the ice cream, the Salon du Chocolat.
 
-Et là les regards ont changé.
+And the looks changed.
 
-Le mec en face c'était plus un profil LinkedIn. C'était quelqu'un qui avait vécu des trucs qu'ils connaissaient. D'étranger, on est passé à la fraternité. La vraie. Clara-Louise avait raison. J'avais des points communs avec ces jeunes. Pas le diplôme, pas le réseau, pas le parcours propre. Les vrais points communs. Ceux qu'on partage pas sur scène d'habitude.
+The guy in front of them was no longer a LinkedIn profile. He was someone who'd lived through stuff they knew. We went from strangers to brotherhood. The real kind. Clara-Louise was right. I had real things in common with these kids. Not the degree, not the network, not the clean path. The actual common ground. The kind nobody usually puts on stage.
 
-L'excellence c'est pas un diplôme. C'est pas une école. C'est quand tu fais un truc bien, que tu le fais à fond, et que le résultat parle pour toi. Que tu sois sorti de Polytechnique ou d'un chantier dans le Lot.
+Excellence isn't a degree. It's not a school. It's when you do something well, you go all in, and the result speaks for you. Whether you came out of Polytechnique or off a construction site in the Lot.
 
 ## Related
 

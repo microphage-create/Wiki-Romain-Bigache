@@ -1,6 +1,6 @@
 ---
 id: project-microphage-analyzer-pro
-title: Microphage Analyzer Pro - Plugin Figma B2B IA
+title: Microphage Analyzer Pro - B2B AI Figma Plugin
 type: project
 domain: project
 tags: [microphage, figma-plugin, b2b-saas, multi-tenant, llm-wiki, hybrid-retrieval, prompt-caching, hono, cloudflare-workers]
@@ -21,82 +21,82 @@ links:
 
 # Microphage Analyzer Pro
 
-| Cle | Valeur |
-|-----|--------|
-| **Type** | Plugin Figma B2B SaaS multi-tenant |
-| **Statut** | En production, premier deploiement client en cours |
-| **Demarrage projet** | Novembre 2025 (creation SASU + structuration produit) |
-| **Entreprise** | Microphage (SASU) |
+| Key | Value |
+|-----|-------|
+| **Type** | B2B SaaS multi-tenant Figma plugin |
+| **Status** | In production, first client deployment in progress |
+| **Project start** | November 2025 (SASU incorporation + product structuring) |
+| **Company** | Microphage (SASU) |
 | **Industries** | SaaS, AI/ML, Design Tools |
-| **Equipe** | Romain Bigache (seul) |
+| **Team** | Romain Bigache (solo) |
 
-## Titre court
+## Short title
 
-Plugin Figma B2B d'audit UX writing par IA
+B2B Figma plugin for AI-driven UX writing audits.
 
-## Genese
+## Genesis
 
-Microphage Analyzer Pro est lance en novembre 2025, en meme temps que la creation de la SASU Microphage Intelligence (la mission BforBank touchait a sa fin). Le produit s'appuie sur trois ans de R&D personnelle anterieure : exploration des prompts IA des GPT-3.5 chez ADEO, premier prototype Figma d'analyse UX writing chez BforBank, iterations sur la methodologie LLM Wiki et le corpus de regles editoriales. Toute cette matiere a ete consolidee et structuree en produit B2B autonome au moment de la creation de Microphage.
+Microphage Analyzer Pro launched in November 2025, alongside the incorporation of Microphage Intelligence (as the BforBank engagement was wrapping up). The product builds on three years of prior personal R&D: exploration of GPT-3.5 AI prompts at ADEO, first Figma prototype for UX writing analysis at BforBank, iterations on the LLM Wiki methodology and the editorial rules corpus. All this material was consolidated and structured into a standalone B2B product when Microphage was created.
 
-## Description courte
+## Short description
 
-Plugin Figma B2B qui audite, reecrit et conseille sur l'UX writing des maquettes via IA. 5 modes en production. Wiki proprietaire de 785 regles structurees comme source de verite unique (cf [methodology.md](../methodology.md)). Premier deploiement chez un client edtech B2B (livraison mai 2026), pitche au VP Design de Ledger.
+B2B Figma plugin that audits, rewrites and advises on UX writing in mockups via AI. 5 modes in production. Proprietary 785-rule wiki as a single source of truth (see [methodology.md](../methodology.md)). First deployment with a B2B edtech client (delivery May 2026), pitched to the VP Design of Ledger.
 
-## Description longue
+## Long description
 
-### Probleme
+### Problem
 
-Les equipes design des grandes entreprises produisent des ecrans Figma en continu sans verification systematique de la qualite du contenu. Les regles UX writing internes (charte editoriale, ton, accessibilite, conformite) sont rarement appliquees de maniere homogene. L'audit manuel coute des heures de relecture par sprint.
+Design teams in large enterprises ship Figma screens continuously without systematic content quality checks. Internal UX writing rules (editorial guidelines, tone, accessibility, compliance) are rarely applied consistently. Manual audits cost hours of review per sprint.
 
 ### Solution
 
-Microphage Analyzer Pro couvre cinq modes d'usage :
+Microphage Analyzer Pro covers five usage modes:
 
-1. **Audit** : analyse une selection Figma et detecte les violations de regles
-2. **Rewrite** : propose une reecriture conforme
-3. **Rewrite-from-audit** : reecrit a partir des erreurs detectees
-4. **Insights** : analyse statistique sur un projet
-5. **Chat** : interroge le content design system du client
+1. **Audit**: analyzes a Figma selection and detects rule violations
+2. **Rewrite**: proposes a compliant rewrite
+3. **Rewrite-from-audit**: rewrites based on detected errors
+4. **Insights**: statistical analysis on a project
+5. **Chat**: queries the client's content design system
 
-L'audit et le rewrite analysent a la fois la capture visuelle et les metadonnees Figma extraites du noeud selectionne (geometrie, typographie, naming, structure des calques). La vision sert de source de verite primaire, les metadonnees fournissent le contexte structurel.
+Audit and rewrite analyze both the visual capture and the Figma metadata extracted from the selected node (geometry, typography, naming, layer structure). Vision is the primary source of truth, metadata provides structural context.
 
 ### Architecture
 
-L'ensemble suit le pattern LLM Wiki : un wiki de 785 regles UX writing structurees en 17 categories sert de source de verite unique, sans aucune regle metier codee en dur dans les prompts. Detail methodologique : [methodology.md](../methodology.md).
+The whole system follows the LLM Wiki pattern: a 785-rule UX writing wiki structured across 17 categories serves as the single source of truth, with zero business rules hard-coded into the prompts. Methodology details: [methodology.md](../methodology.md).
 
-Le matcher hybride opere sur 3 couches :
-1. **Metadata filtering** (80% des cas)
+The hybrid matcher operates across 3 layers:
+1. **Metadata filtering** (80% of cases)
 2. **BM25 keyword search** (15%)
-3. **Classifier LLM** (5%, residual)
+3. **LLM classifier** (5%, residual)
 
-Architecture multi-tenant pensee des le depart pour generer un nouveau pack tenant sans toucher au coeur produit.
+Multi-tenant architecture designed from day one to spin up a new tenant pack without touching the product core.
 
-### Securite
+### Security
 
-- 3 vulnerabilites XSS identifiees et corrigees en audit interne (pas de pentest externe a date)
-- Rate limiting et cost guard via Upstash Redis
-- Monitoring Sentry + PostHog
-- Tests Vitest + Playwright en CI/CD
+- 3 XSS vulnerabilities identified and fixed during internal audit (no external pentest to date)
+- Rate limiting and cost guard via Upstash Redis
+- Sentry + PostHog monitoring
+- Vitest + Playwright tests in CI/CD
 
-## Technologies utilisees
+## Technologies used
 
 - TypeScript strict
-- Monorepo pnpm 9 + Turbo 2
-- Plugin Figma (Figma Plugin API, build esbuild)
-- Backend Hono sur Cloudflare Workers
-- LLM OpenAI (provider abstrait) avec prompt caching Anthropic
-- Wiki UX writing V4 proprietaire (785 regles, 17 categories)
-- Rate limiting et cost guard via Upstash Redis
-- Base de donnees Supabase (table reports)
-- Monitoring Sentry + PostHog
-- Tests Vitest + Playwright
-- CI/CD GitHub Actions + Vercel Preview
+- pnpm 9 + Turbo 2 monorepo
+- Figma plugin (Figma Plugin API, esbuild build)
+- Hono backend on Cloudflare Workers
+- OpenAI LLM (abstracted provider) with Anthropic prompt caching
+- Proprietary UX writing Wiki V4 (785 rules, 17 categories)
+- Rate limiting and cost guard via Upstash Redis
+- Supabase database (reports table)
+- Sentry + PostHog monitoring
+- Vitest + Playwright tests
+- GitHub Actions CI/CD + Vercel Preview
 
 ## Impact
 
-- POC en cours de livraison chez un client edtech B2B (mai 2026)
-- Pitche devant le VP Design de Ledger
-- Architecture multi-tenant prete pour la signature client #2
+- POC delivery in progress with a B2B edtech client (May 2026)
+- Pitched to the VP Design of Ledger
+- Multi-tenant architecture ready for client #2 signature
 
 ## Related
 

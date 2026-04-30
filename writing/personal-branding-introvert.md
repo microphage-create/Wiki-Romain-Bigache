@@ -1,75 +1,76 @@
 ---
 id: writing-personal-branding-introvert
-title: Personal branding pour les gens qui detestent ca
+title: Personal branding for people who hate it
+description: Why I refuse to play the LinkedIn game, and why I write a blog instead. SEO, not social. Quiet, patient, and it actually works.
 type: writing
 domain: blog-article
 tags: [personal-branding, blog, seo, introvert, ux-writing, joboscope, openclassrooms, leroy-merlin]
 status: published
 created: 2026-04-30
 updated: 2026-04-30
-url: https://romainbigache.com/fr/blog/personal-branding-introvert
+url: https://romainbigache.com/en/blog/personal-branding-introvert
 slug: personal-branding-introvert
 links:
   - writing.md
 ---
 
-# Personal branding pour les gens qui détestent ça
+# Personal branding for people who hate it
 
-## Introduction
+## Intro
 
-En 2021, OpenClassrooms m'a invité sur leur podcast Le Joboscope pour parler du métier d'UX Writer. J'étais chez Leroy Merlin à l'époque. Sur le plateau, on était trois : un UX Researcher de chez Bankin, une UI Designer de chez Ubisoft, et moi. À ce moment-là, le métier commençait à peine à exister en France. Peu de gens le pratiquaient.
+In 2021, OpenClassrooms invited me on their podcast Le Joboscope to talk about the UX Writer job. I was at Leroy Merlin at the time. On the show, we were three: a UX Researcher from Bankin, a UI Designer from Ubisoft, and me. The role was barely starting to exist in France. Few people were practicing it.
 
-J'ai dit oui. C'était stressant. Je suis pas le genre de mec qui aime s'entendre parler. J'aime le craft, pas la lumière. M'asseoir devant un micro pour raconter ma vie, c'est pas naturel. Mais je l'ai fait, c'était bien, j'étais content.
+I said yes. It was stressful. I'm not the kind of guy who likes hearing himself talk. I like the craft, not the spotlight. Sitting in front of a mic to tell my life story isn't natural. But I did it, it went well, I was happy.
 
-Et puis j'ai disparu.
+Then I disappeared.
 
-Pas de posts LinkedIn. Pas de thread Twitter. Pas de newsletter. Pas de "5 tips pour devenir UX Writer". Rien. Je me suis dit que le travail parlerait de lui-même. Que j'avais pas besoin de faire le malin sur les réseaux.
+No LinkedIn posts. No Twitter threads. No newsletter. No "5 tips to become a UX Writer." Nothing. I told myself the work would speak for itself. That I didn't need to show off online.
 
-## Ce qui s'est passé à ma place
+## What happened in my place
 
-Pendant que je refusais de jouer le jeu, d'autres l'ont joué. Des gens arrivés après moi, avec moins d'expérience, qui ont compris un truc que je n'avais pas compris : dans un métier qui n'existe pas encore, celui qui en parle le premier DEVIENT la référence.
+While I refused to play the game, others played it. People who came after me, with less experience, who got something I hadn't: in a job that doesn't exist yet, the first one to talk about it BECOMES the reference.
 
-Ils ont posté. Ils ont fait des conférences. Ils ont lancé des newsletters. Ils sont devenus "les" voix de l'UX Writing en France. Certains étaient très bons. D'autres, honnêtement, étaient médiocres. Mais ils étaient là. Et moi non.
+They posted. They did talks. They launched newsletters. They became "the" voices of UX Writing in France. Some were great. Others, honestly, were mediocre. But they were there. And I wasn't.
 
-Le résultat : j'ai eu les missions, les clients, les projets. Mais pas la visibilité. Pas le réseau qui va avec. Pas les opportunités qui viennent quand les gens savent que tu existes.
+The result: I got the gigs, the clients, the projects. But not the visibility. Not the network that comes with it. Not the opportunities that show up when people know you exist.
 
-## C'est pas une question d'ego
+## It's not about ego
 
-On pourrait croire que c'est de la jalousie. Ce n'est pas ça. J'ai pas besoin que les gens sachent que j'étais premier. Ce qui me coûte, c'est concret : des missions que j'ai pas eues parce que le client ne savait pas que j'existais. Des collaborations qui ne se sont pas faites. Des portes qui ne se sont pas ouvertes.
+You could think this is jealousy. It's not. I don't need people to know I was first. What costs me is concrete: gigs I didn't get because the client didn't know I existed. Collaborations that didn't happen. Doors that didn't open.
 
-Être bon ne suffit pas. Il faut qu'on sache que t'es bon. Et pour un mec qui préfère construire que parader, c'est la leçon la plus difficile à avaler.
+Being good isn't enough. People have to know you're good. And for a guy who'd rather build than parade, that's the hardest lesson to swallow.
 
-## La même erreur, deux fois ?
+## The same mistake, twice?
 
-Aujourd'hui, je suis dans la même situation. Je suis devenu AI product builder freelance. Et les DMs ont recommencé.
+Today I'm in the same situation. I've become a freelance AI product builder. And the DMs have started again.
 
-Même script. Même film. Et cette fois, je refuse de refaire la même erreur.
+Same script. Same movie. And this time, I refuse to make the same mistake.
 
-Ce blog, c'est ce que j'aurais dû faire en 2019. Raconter ce que je fais, pendant que je le fais. Rien de plus.
+This blog is what I should have done in 2019. Telling what I do, while I do it. Nothing more.
 
-Sauf que je refuse aussi de devenir le mec qui poste des selfies inspirationnels le lundi matin. Le personal branding version LinkedIn bro, c'est pas moi. Ça ne sera jamais moi. Poster "Day 47 of building in public" avec un emoji fusée, j'en suis physiquement incapable.
+But I also refuse to become the guy posting inspirational selfies on Monday morning. The LinkedIn-bro version of personal branding isn't me. It will never be me. Posting "Day 47 of building in public" with a rocket emoji, I'm physically incapable.
 
-## Le blog comme solution
+## The blog as solution
 
-Ce blog, c'est ma réponse. C'est du personal branding pour les gens qui détestent le personal branding.
+This blog is my answer. It's personal branding for people who hate personal branding.
 
-Le principe est simple : au lieu de parler de moi sur les réseaux, j'écris des articles qui montrent ce que je sais faire. Pas du contenu jetable qui disparaît dans un feed. Du contenu indexé, référencé, qui travaille tout seul pendant que je dors. Quelqu'un cherche "AI product builder freelance" sur Google, il tombe ici. Il lit. Il comprend. Pas besoin que je poste trois fois par semaine.
+The principle is simple: instead of talking about myself on social, I write articles that show what I can do. Not throwaway content that vanishes in a feed. Indexed, ranked content that works on its own while I sleep. Someone searches "AI product builder freelance" on Google, they land here. They read. They get it. No need for me to post three times a week.
 
-C'est du SEO, pas du social. C'est silencieux, c'est patient, et ça correspond exactement à comment je fonctionne.
+It's SEO, not social. It's quiet, patient, and it matches exactly how I work.
 
-Écrire, je sais faire. C'est mon métier depuis 7 ans. Performer devant une caméra, non. Mais un article bien écrit sur le bon sujet, optimisé pour les bons mots-clés, ça fait le travail sans que j'aie besoin de sourire sur une photo de profil.
+Writing, I can do. It's been my job for 7 years. Performing on camera, no. But a well-written article on the right topic, optimized for the right keywords, does the work without me having to smile in a profile pic.
 
-## Pour les autres introvertis
+## For the other introverts
 
-Si t'es comme moi : bon dans ton métier, nul en auto-promotion, allergique au personal branding. Si tu te dis que le travail devrait parler de lui-même. Je comprends. J'ai pensé ça pendant 7 ans.
+If you're like me: good at your job, terrible at self-promotion, allergic to personal branding. If you tell yourself the work should speak for itself. I get it. I thought that for 7 years.
 
-Le travail ne parle pas de lui-même. Jamais. Mais t'es pas obligé de crier pour autant.
+The work doesn't speak for itself. Ever. But you don't have to shout either.
 
-Écris. Pas sur LinkedIn, pas des threads viraux, pas du contenu qui existe pour générer des likes. Écris des trucs vrais, sur des sujets que tu maîtrises, avec ta voix, sur un support que tu contrôles. Laisse Google faire le travail de distribution.
+Write. Not on LinkedIn, not viral threads, not content built to farm likes. Write real things, on topics you actually know, in your voice, on a platform you control. Let Google handle distribution.
 
-> Être premier ne sert à rien si personne ne sait que t'étais là. Mais être bruyant ne sert à rien non plus si t'as rien à dire. Le sweet spot, c'est écrire.
+> Being first means nothing if no one knows you were there. But being loud means nothing either if you have nothing to say. The sweet spot is writing.
 
-C'est moins spectaculaire qu'un thread viral. C'est plus lent. Mais ça dure. Et ça ne demande pas de devenir quelqu'un d'autre.
+It's less spectacular than a viral thread. It's slower. But it lasts. And it doesn't ask you to become someone else.
 
 ## Related
 
