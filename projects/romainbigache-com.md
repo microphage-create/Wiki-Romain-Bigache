@@ -74,9 +74,33 @@ Le pattern complet (OAuth2 + Workspace API + tool streaming UI + cron sync) est 
 - Vercel Cron Jobs
 - Streaming UI (tool calls avec rendu live)
 
+## Performance (Lighthouse mobile)
+
+Rapport du 30 avril 2026, emule Moto G Power, connexion 4G lente :
+
+| Categorie | Score |
+|-----------|-------|
+| **Performance** | 95 / 100 |
+| **Accessibility** | 95 / 100 |
+| **Best Practices** | 100 / 100 |
+| **SEO** | 100 / 100 |
+
+Core Web Vitals :
+
+| Metrique | Valeur |
+|----------|--------|
+| First Contentful Paint (FCP) | 1,4 s |
+| Largest Contentful Paint (LCP) | 2,0 s |
+| Total Blocking Time (TBT) | 210 ms |
+| Cumulative Layout Shift (CLS) | 0 |
+| Speed Index | 3,1 s |
+
+Tous les Core Web Vitals dans le vert. CLS = 0 (zero saut visuel pendant le chargement).
+
 ## Impact
 
 - Site en production sur [romainbigache.com](https://romainbigache.com)
+- Lighthouse mobile : 95 / 95 / 100 / 100 (Performance / Accessibility / Best Practices / SEO)
 - Demonstrateur du pattern Google Workspace integration
 - Sert de plateforme de demo lors des pitchs et entretiens
 - Maintien hands-on des integrations OAuth2 + tool streaming en autonomie
