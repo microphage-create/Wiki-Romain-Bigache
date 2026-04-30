@@ -74,18 +74,20 @@ Le pattern complet (OAuth2 + Workspace API + tool streaming UI + cron sync) est 
 - Vercel Cron Jobs
 - Streaming UI (tool calls avec rendu live)
 
-## Performance (Lighthouse mobile)
+## Performance Lighthouse
 
-Rapport du 30 avril 2026, emule Moto G Power, connexion 4G lente :
+Rapports du 30 avril 2026 (Lighthouse 13.0.1, HeadlessChromium 146).
 
-| Categorie | Score |
-|-----------|-------|
+### Page d'accueil `romainbigache.com/`
+
+| Categorie | Mobile |
+|-----------|--------|
 | **Performance** | 95 / 100 |
 | **Accessibility** | 95 / 100 |
 | **Best Practices** | 100 / 100 |
 | **SEO** | 100 / 100 |
 
-Core Web Vitals :
+Core Web Vitals (mobile, Moto G Power, 4G lente) :
 
 | Metrique | Valeur |
 |----------|--------|
@@ -95,12 +97,32 @@ Core Web Vitals :
 | Cumulative Layout Shift (CLS) | 0 |
 | Speed Index | 3,1 s |
 
-Tous les Core Web Vitals dans le vert. CLS = 0 (zero saut visuel pendant le chargement).
+### Page portfolio `romainbigache.com/fr/portfolio`
+
+| Categorie | Mobile | Desktop |
+|-----------|--------|---------|
+| **Performance** | 99 / 100 | 99 / 100 |
+| **Accessibility** | 95 / 100 | 95 / 100 |
+| **Best Practices** | 100 / 100 | 100 / 100 |
+| **SEO** | 100 / 100 | 100 / 100 |
+
+Core Web Vitals (mobile) :
+
+| Metrique | Valeur |
+|----------|--------|
+| First Contentful Paint (FCP) | 1,4 s |
+| Largest Contentful Paint (LCP) | 1,8 s |
+| Total Blocking Time (TBT) | 30 ms |
+| Cumulative Layout Shift (CLS) | 0 |
+
+Tous les Core Web Vitals dans le vert sur les deux pages. CLS = 0 (zero saut visuel pendant le chargement). TBT = 30 ms sur portfolio (excellent, blocage minimal du thread principal).
 
 ## Impact
 
 - Site en production sur [romainbigache.com](https://romainbigache.com)
-- Lighthouse mobile : 95 / 95 / 100 / 100 (Performance / Accessibility / Best Practices / SEO)
+- Lighthouse mobile home : 95 / 95 / 100 / 100
+- Lighthouse mobile et desktop portfolio : 99 / 95 / 100 / 100
+- SEO 100 / 100 sur toutes les pages testees
 - Demonstrateur du pattern Google Workspace integration
 - Sert de plateforme de demo lors des pitchs et entretiens
 - Maintien hands-on des integrations OAuth2 + tool streaming en autonomie
