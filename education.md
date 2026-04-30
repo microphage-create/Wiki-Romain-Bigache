@@ -16,7 +16,11 @@ links:
 
 ## Profil de formation
 
-**Autodidacte sur le dev et l'IA.** Bascule du copywriting / direction artistique vers le content design, puis vers le build IA, en autoformation continue.
+**Sup de Creation (Concepteur-Redacteur)**, reference pour les metiers creatifs publicitaires en France a l'epoque. Puis **autodidacte sur le dev et l'IA**. Bascule du copywriting / direction artistique vers le content design, puis vers le build IA, en autoformation continue.
+
+## Formation initiale
+
+**Sup de Creation - Concepteur-Redacteur** : ecole de creation publicitaire, parcours dedie aux metiers de copywriter et directeur artistique. Reference de l'industrie publicitaire francaise au moment de mon cursus.
 
 ## Trajectoire d'apprentissage
 
@@ -52,7 +56,8 @@ Mise en pratique directe sur des projets en production (BforBank, Altarea, Micro
 
 ## Diplomes et certifications
 
-Aucun diplome formel d'ingenierie ni certification IA. Le portfolio et les projets en production tiennent lieu de preuve d'expertise.
+- **Sup de Creation - Concepteur-Redacteur** (cursus complet, ecole de creation publicitaire de reference en France a l'epoque)
+- Aucun diplome formel d'ingenierie ni certification IA cote tech : portfolio et projets en production tiennent lieu de preuve d'expertise sur ce volet.
 
 ## Related
 

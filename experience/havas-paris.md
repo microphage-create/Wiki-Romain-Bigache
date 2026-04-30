@@ -22,7 +22,7 @@ links:
 | **Periode** | Fevrier 2017 - Aout 2017 (7 mois) |
 | **Localisation** | Paris, France |
 | **Industrie** | Services publicitaires |
-| **Type** | Stage de fin d'etudes |
+| **Type** | Stage de fin d'etudes (Sup de Creation - Concepteur-Redacteur) |
 
 ## Mission
 

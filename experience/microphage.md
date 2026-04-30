@@ -41,7 +41,7 @@ Detail : [projects/microphage-analyzer-pro.md](../projects/microphage-analyzer-p
 
 ### Altaria
 
-Application gamifiee d'acculturation IA pour Altarea (CAC40), 15 modules en production (quiz, formation, jeux, chat IA, leaderboard), pitchee via OXGEN en amont du deploiement Microsoft Copilot 365. Shippee en 3 semaines en solo : concept, code, design, copy, illustrations, campagne guerilla interne en 5 supports physiques. Securite production-grade (HMAC-SHA256, RLS, kill switch, Sentinel anti-leak). Stack Next.js 15, React 19, Supabase, Vercel AI SDK multi-provider. Demo : altaria.microphage.ai/access. En negociation avec Tenexa pour relance en marque blanche.
+Application gamifiee d'acculturation IA pour Altarea (CAC40), 15 modules en production (quiz, formation, jeux, chat IA, leaderboard), pitchee via OXGEN en amont du deploiement Microsoft Copilot 365. Shippee en 3 semaines en solo : concept, code, design, copy, illustrations, campagne guerilla interne en 5 supports physiques. Securite production-grade (HMAC-SHA256, RLS, kill switch, Sentinel anti-leak). Stack Next.js 15, React 19, Supabase, Vercel AI SDK multi-provider. Demo : altaria.microphage.ai/access. Discussions pour un lancement en marque blanche avec Tenexa.
 
 Detail : [projects/altaria.md](../projects/altaria.md).
 

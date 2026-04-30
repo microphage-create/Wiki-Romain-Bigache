@@ -124,7 +124,7 @@ Acces restreint au reseau corporate du client (contrainte conformite). Effet de 
 - POC livre en 3 semaines en solo, du brief a la mise en production
 - Demo accessible : [altaria.microphage.ai/access](https://altaria.microphage.ai/access)
 - POC livre et demontre au comex client, vente non finalisee
-- Negociation en cours avec Tenexa pour relance en marque blanche
+- Discussions pour un lancement en marque blanche avec Tenexa
 - Sert de preuve commerciale sur les pitchs grands comptes (CAC40) du cabinet OXGEN
 
 ## Related
