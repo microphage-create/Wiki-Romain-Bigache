@@ -31,6 +31,8 @@ links:
 
 Conception, design, code et livraison d'outils IA en solo pour grands comptes. Approche end-to-end : architecture, code, design, copy, mise en production, pitch client.
 
+SASU Microphage Intelligence creee en septembre 2025, mais plusieurs produits avaient demarre avant la structuration officielle : Microphage Analyzer Pro a ete prototype des fin 2022 chez BforBank, fusil.paris a ete co-fonde en 2024, romainbigache.com mis en prod en 2025. La structuration en SASU formalise une activite produit deja en cours.
+
 ## Produits livres ou en cours
 
 ### Microphage Analyzer Pro
