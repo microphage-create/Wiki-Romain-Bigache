@@ -41,7 +41,7 @@ Mycelium est l'infrastructure interne qui industrialise le travail solo de Marce
 
 ## Architecture
 
-Mycelium applique la methodologie Karpathy LLM Wiki sur l'outillage interne : single source of truth, lazy loading, fichiers atomiques par skill, frontmatter conventionne, cross-links entre skills.
+Mycelium applique le pattern LLM Wiki sur l'outillage interne : single source of truth, lazy loading, fichiers atomiques par skill, frontmatter conventionne, cross-links entre skills.
 
 Detail methodologique : [methodology.md](../methodology.md).
 

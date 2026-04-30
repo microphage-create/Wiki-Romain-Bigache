@@ -90,19 +90,19 @@ Chaque cas est ancre dans le quotidien des collaborateurs Altarea, toutes filial
 
 Conception et illustration avec OXGEN d'une campagne d'affichage interne en 5 supports physiques places dans les moments d'attente du quotidien des bureaux. Chaque support porte une accroche contextuelle au lieu et un QR code vers l'app. Visuels et copy de moi.
 
-### Dramaturgie d'acces
+### Acces
 
-L'app n'est accessible que via le wifi corporate. Securite (aucune donnee ne fuite a l'exterieur) et dramaturgie de l'experience (l'app n'existe que dans les bureaux, ce qui renforce le rituel d'usage et la viralite interne entre collegues).
+Acces restreint au reseau corporate du client (contrainte conformite). Effet de bord positif : renforce le rituel d'usage et la viralite interne entre collegues, l'app n'existant que dans les bureaux.
 
 ### Securite applicative des le POC
 
 - Sessions signees HMAC-SHA256
 - Validation Zod sur toutes les entrees
 - Rate limiting par endpoint
-- Row Level Security Supabase sur 9 tables
+- Row Level Security Supabase
 - Headers HTTP (HSTS, CSP avec nonce, Permissions-Policy desactivant camera / micro / geo)
 - Kill switch et date d'expiration de la demo
-- Systeme Sentinel custom anti-leak
+- Systeme custom anti-leak (proteger les contenus pedagogiques de l'export)
 
 ## Technologies utilisees
 

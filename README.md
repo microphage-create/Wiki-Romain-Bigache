@@ -36,7 +36,7 @@ links:
 
 ## Pitch
 
-10 ans de design produit dans l'ecosysteme grand compte (BforBank, Leroy Merlin, leboncoin, Cdiscount, FDJ, Havas), repositionne depuis 2 ans sur le build d'agents IA en production.
+10 ans de design produit dans l'ecosysteme grand compte (BforBank, Leroy Merlin, leboncoin, Cdiscount, FDJ, Havas). Build avec l'IA depuis la sortie de GPT-3.5 (novembre 2022) ; agents IA en production sur Gemini 2.5 Pro depuis 2 ans.
 
 Specialite : compresser concept + architecture + code + design + go-to-market en une seule personne, sur des cycles courts. POC livres en 3 semaines avec tests automatises, securite et multi-tenant en place des le jour 1.
 

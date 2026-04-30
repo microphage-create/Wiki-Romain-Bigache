@@ -21,6 +21,8 @@ Detail factuel sur le niveau d'expertise par techno : ce qui est en production, 
 
 La Plume chez BforBank fonctionne sur Gemini 2.5 Pro. Architecture RAG montee en interne, prompts rediges en interne. En parallele, multi-provider via Vercel AI SDK v6 (OpenAI, Claude, Gemini) sur tous les projets Microphage : tool calling, streaming, evals.
 
+Build avec l'IA plus largement depuis la sortie de GPT-3.5 (novembre 2022) chez ADEO : premier prompt interne, puis Content Design System en RAG (ChatGPT + N8N + Supabase). Donc 3,5 ans de pratique cumulee sur les modeles generatifs.
+
 Detail : [projects/la-plume-bforbank.md](./projects/la-plume-bforbank.md).
 
 ## Google Enterprise / Workspace : integrations en production
@@ -56,7 +58,7 @@ Detail : [projects/la-plume-bforbank.md](./projects/la-plume-bforbank.md).
 ## Production-grade au sens strict
 
 - 102 tests automatises sur morphow-api (unit + integration + e2e)
-- 3 vulnerabilites XSS critiques identifiees et corrigees sur Microphage Analyzer Pro
+- 3 vulnerabilites XSS identifiees et corrigees en audit interne sur Microphage Analyzer Pro (pas de pentest externe a date)
 - Multi-tenant avec rate limiter, CORS, auth middleware
 - Monitoring Sentry + PostHog
 - CI/CD GitHub Actions + Vercel Preview

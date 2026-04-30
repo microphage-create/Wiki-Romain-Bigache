@@ -76,7 +76,7 @@ links:
 - **Whitelist de paths** (allow-list) sur proxy admin
 - **Headers HTTP** : CSP avec frame-ancestors, HSTS 1 an, X-Frame-Options DENY, Permissions-Policy, Referrer-Policy
 - **CORS strict** par origine
-- **Audit XSS** : 3 vulnerabilites critiques identifiees et corrigees sur Microphage Analyzer Pro
+- **Audit XSS** : 3 vulnerabilites identifiees et corrigees en audit interne sur Microphage Analyzer Pro
 - **Multi-tenant** avec isolation par tenant
 - **Row Level Security (RLS)** Supabase sur tables sensibles
 

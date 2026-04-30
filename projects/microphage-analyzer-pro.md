@@ -58,7 +58,7 @@ L'audit et le rewrite analysent a la fois la capture visuelle et les metadonnees
 
 ### Architecture
 
-L'ensemble suit la methodologie Karpathy LLM Wiki : un wiki de 785 regles UX writing structurees en 17 categories sert de source de verite unique, sans aucune regle metier codee en dur dans les prompts.
+L'ensemble suit le pattern LLM Wiki (approche convergente avec celle de Karpathy) : un wiki de 785 regles UX writing structurees en 17 categories sert de source de verite unique, sans aucune regle metier codee en dur dans les prompts.
 
 Le matcher hybride opere sur 3 couches :
 1. **Metadata filtering** (80% des cas)
@@ -69,7 +69,7 @@ Architecture multi-tenant pensee des le depart pour generer un nouveau pack tena
 
 ### Securite
 
-- 3 vulnerabilites XSS critiques identifiees et corrigees en audit
+- 3 vulnerabilites XSS identifiees et corrigees en audit interne (pas de pentest externe a date)
 - Rate limiting et cost guard via Upstash Redis
 - Monitoring Sentry + PostHog
 - Tests Vitest + Playwright en CI/CD

@@ -31,7 +31,9 @@ Cabinet de conseil et creation en Change Communications pour grands comptes. OXG
 
 J'y interviens en freelance recurrent depuis 2017 sur la conception et la livraison de campagnes completes de communication interne pour des collaborateurs grands comptes.
 
-## Perimetre des campagnes pilotees (50+)
+## Perimetre des campagnes pilotees (50+ sur 8 ans)
+
+50+ campagnes etalees sur 8 ans, mix de productions majeures (programmes de transformation IT/IA pluri-mois avec supports comex et Town Hall) et de productions plus courtes (visuels, posts internes, kits manager).
 
 Pilotage de bout en bout :
 

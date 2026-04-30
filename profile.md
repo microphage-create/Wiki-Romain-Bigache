@@ -39,7 +39,7 @@ links:
 
 ## Pitch court (3 lignes)
 
-10 ans de design produit grand compte (BforBank, Leroy Merlin, leboncoin, Cdiscount, FDJ, Havas), 2 ans de build IA en production. Profil hybride designer + dev full-stack + content qui livre des POC IA en 3 semaines en solo. End-to-end ownership : concept, archi, code, design, copy, mise en prod, pitch comex.
+10 ans de design produit grand compte (BforBank, Leroy Merlin, leboncoin, Cdiscount, FDJ, Havas). Build avec l'IA depuis la sortie de GPT-3.5 (novembre 2022) : premier prompt interne chez ADEO, puis Content Design System en RAG, puis La Plume sur Gemini 2.5 Pro chez BforBank. Profil hybride designer + dev full-stack + content qui livre des POC IA en 3 semaines en solo. End-to-end ownership : concept, archi, code, design, copy, mise en prod, pitch comex.
 
 ## Roles cibles
 

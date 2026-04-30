@@ -17,9 +17,11 @@ links:
 
 Patterns architecturaux et methodes de travail recurrents utilises sur les projets IA Microphage.
 
-## Karpathy LLM Wiki applique
+## LLM Wiki (approche convergente avec Karpathy)
 
-Inspiree du pattern propose par Andrej Karpathy : organiser la connaissance metier comme un wiki structure (frontmatter YAML, single source of truth, fichiers atomiques, cross-links explicites) plutot que de coder les regles en dur dans les prompts.
+Pattern d'organisation de la connaissance metier comme un wiki structure (frontmatter YAML, single source of truth, fichiers atomiques, cross-links explicites) plutot que de coder les regles en dur dans les prompts.
+
+J'ai commence a outiller cette logique avant la publication du gist d'Andrej Karpathy en avril 2026. La rencontre des deux approches a confirme la convergence du pattern, je conserve la reference Karpathy pour la lisibilite du nom.
 
 ### Application sur Microphage Analyzer Pro
 
