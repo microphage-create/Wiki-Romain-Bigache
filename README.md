@@ -19,6 +19,7 @@ links:
 
 > Wiki personnel structure pour lecture humaine et LLM. Methodologie Karpathy LLM Wiki : single source of truth, fichiers atomiques, frontmatter YAML, cross-links explicites.
 > Pour comprendre la structure : [_schema.md](./_schema.md).
+> 🇬🇧 **English version available** : [en/README.md](./en/README.md)
 
 ## Carte de visite
 
