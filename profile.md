@@ -26,7 +26,7 @@ links:
 | **TJM affiche** | 850 EUR / jour (full-time longue duree) |
 | **Disponibilite** | 11 mai 2026, full-time |
 | **Modalite** | Sur site, hybride ou remote (flexible) |
-| **Langues** | Francais natif, anglais lu et ecrit professionnel |
+| **Langues** | Francais natif, anglais lu et ecrit |
 
 ## Contact
 
@@ -39,7 +39,7 @@ links:
 
 ## Pitch court (3 lignes)
 
-10 ans de design produit grand compte (BforBank, Leroy Merlin, leboncoin, Cdiscount, FDJ, Havas), 2 ans de build IA en production. Profil hybride designer + dev full-stack + content qui livre des POC IA en 3 semaines en solo, production-grade des le jour 1. End-to-end ownership : concept, archi, code, design, copy, mise en prod, pitch comex.
+10 ans de design produit grand compte (BforBank, Leroy Merlin, leboncoin, Cdiscount, FDJ, Havas), 2 ans de build IA en production. Profil hybride designer + dev full-stack + content qui livre des POC IA en 3 semaines en solo. End-to-end ownership : concept, archi, code, design, copy, mise en prod, pitch comex.
 
 ## Roles cibles
 
@@ -75,7 +75,7 @@ Profil hybride rare : designer + dev full-stack + content + change comms en une 
 
 ## Plateformes freelance
 
-Collective, Malt, Comet, FreelanceRepublik, Creme de la Creme, LinkedIn, Welcome to the Jungle, Theodo (mission en cours).
+Collective, Malt, Comet, FreelanceRepublik, Creme de la Creme, LinkedIn, Welcome to the Jungle.
 
 ## Related
 

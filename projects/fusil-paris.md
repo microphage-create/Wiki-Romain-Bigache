@@ -154,7 +154,7 @@ Vercel Insights pour la performance, Supabase pour le tracing applicatif, logs S
 
 - Site en production sur [fusil.paris](https://fusil.paris)
 - E-commerce complet livre en solo de A a Z
-- Securite production-grade des le jour 1 (HMAC custom, rate limiting, timing-safe auth)
+- Securite bancaire en place des le 1er commit (HMAC custom, rate limiting, timing-safe auth)
 - Bilingue FR/EN sur l'ensemble des touchpoints clients (front + emails)
 - Double provider de paiement (Stripe + PayPal) pour maximiser le taux de conversion
 

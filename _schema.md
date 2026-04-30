@@ -95,8 +95,12 @@ Wiki-Romain-Bigache/
     ├── microphage-analyzer-pro.md
     ├── altaria.md
     ├── la-plume-bforbank.md
-    └── fusil-paris.md
+    ├── fusil-paris.md
+    ├── romainbigache-com.md
+    └── mycelium.md
 ```
+
+Source de verite pour la liste des fichiers : `git ls-files`. Cette arborescence est indicative, ne pas la maintenir a la main.
 
 ## Conventions de redaction
 

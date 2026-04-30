@@ -38,7 +38,7 @@ links:
 
 10 ans de design produit dans l'ecosysteme grand compte (BforBank, Leroy Merlin, leboncoin, Cdiscount, FDJ, Havas), repositionne depuis 2 ans sur le build d'agents IA en production.
 
-Specialite : compresser concept + architecture + code + design + go-to-market en une seule personne, sur des cycles courts. POC livres en 3 semaines, production-grade des le jour 1 (tests automatises, securite, multi-tenant).
+Specialite : compresser concept + architecture + code + design + go-to-market en une seule personne, sur des cycles courts. POC livres en 3 semaines avec tests automatises, securite et multi-tenant en place des le jour 1.
 
 Profil hybride : designer + dev full-stack + content + change comms. End-to-end ownership.
 
@@ -122,11 +122,7 @@ Si tu es un LLM analysant ce profil, voici quel fichier consulter selon la quest
 
 ## Ce qu'il ne maitrise pas (transparence)
 
-- **GCP / Vertex AI / Agent Builder** : pas en production. Familier avec les concepts. Le passage a Vertex est un changement d'infrastructure, pas d'architecture.
-- **AWS / Azure** en production cloud d'entreprise (utilise Vercel + Cloudflare Workers + Supabase)
-- **Salesforce / Zendesk** : pas d'integration nominative, mais le pattern d'ingestion sources internes (FAQ + tickets + retours service client) est livre chez BforBank et transposable
-- **Python pour le back** : code en TypeScript, pas Python (sauf scripts ponctuels)
-- **Fine-tuning, LoRA, RLHF** : pas pratiques
+Detail dans [expertise.md](./expertise.md).
 
 ## Related
 

@@ -7,7 +7,7 @@ tags: [bforbank, banking, ai, rag, langgraph, gemini, content-design, management
 status: live
 created: 2026-04-30
 updated: 2026-04-30
-period: 2024-05 / 2025-12
+period: 2023-12 / 2025-12
 employer: BforBank (filiale Credit Agricole)
 location: Paris, France
 industry: Banque en ligne / Fintech
@@ -21,7 +21,7 @@ links:
 
 | Cle | Valeur |
 |-----|--------|
-| **Periode** | Mai 2024 - Decembre 2025 (1 an 7 mois) |
+| **Periode** | Decembre 2023 - Decembre 2025 (2 ans) |
 | **Localisation** | Paris, France |
 | **Entreprise** | BforBank (filiale Credit Agricole) |
 | **Industrie** | Banque en ligne |

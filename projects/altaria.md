@@ -49,11 +49,11 @@ Application gamifiee d'acculturation a l'IA generative pour Altarea (CAC40), pit
 
 ### Contexte
 
-Altarea, foncier du CAC40 et leader de la transformation urbaine bas carbone, preparait le deploiement de Microsoft Copilot 365 aupres de ses collaborateurs. OXGEN devait piloter un dispositif d'adoption en trois temps : prise de parole de la direction aux voeux, campagne teasing « choc d'adhesion », Town Hall post-deploiement. L'axe creatif retenu etait « WE ARE ALTARIA / NOUS SOMMES ALTARIA » : un claim, une application produit, une communaute.
+Altarea, foncier du CAC40 et leader de la transformation urbaine bas carbone, preparait le deploiement de Microsoft Copilot 365 aupres de ses collaborateurs. OXGEN devait piloter un dispositif d'adoption en trois temps : prise de parole de la direction aux voeux, campagne teasing, Town Hall post-deploiement.
 
 ### Positionnement
 
-J'ai porte Altaria comme materialisation produit du claim. Pas une formation classique, pas un enieme outil informatique : une application qui incarne la promesse du slogan en proposant une experience d'acculturation IA gamifiee, pensee comme l'onboarding humain au deploiement de Copilot 365.
+J'ai porte Altaria comme materialisation produit du dispositif d'adoption. Pas une formation classique, pas un enieme outil informatique : une application qui propose une experience d'acculturation IA gamifiee, pensee comme l'onboarding humain au deploiement de Copilot 365.
 
 ### Perimetre solo
 
@@ -88,7 +88,7 @@ Chaque cas est ancre dans le quotidien des collaborateurs Altarea, toutes filial
 
 ### Strategie d'adoption - campagne guerilla
 
-Conception et illustration avec OXGEN d'une campagne d'affichage interne en 5 supports places dans les moments d'attente du quotidien : machine a cafe, ascenseur, toilettes, imprimante, miroir des sanitaires. Chaque support porte une accroche contextuelle au lieu et un QR code vers l'app. Visuels et copy de moi.
+Conception et illustration avec OXGEN d'une campagne d'affichage interne en 5 supports physiques places dans les moments d'attente du quotidien des bureaux. Chaque support porte une accroche contextuelle au lieu et un QR code vers l'app. Visuels et copy de moi.
 
 ### Dramaturgie d'acces
 

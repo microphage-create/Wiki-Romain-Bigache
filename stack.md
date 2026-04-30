@@ -101,11 +101,7 @@ links:
 
 ## Ce que je ne maitrise pas (transparence)
 
-- **GCP / Vertex AI / Agent Builder** : pas en production. Familier avec les concepts et les patterns d'agents (que je maitrise sur LangGraph + Vercel AI SDK). Le passage a Vertex est un changement d'infrastructure, pas d'architecture.
-- **AWS / Azure** en production cloud d'entreprise (j'utilise Vercel + Cloudflare Workers + Supabase)
-- **Salesforce / Zendesk** : pas d'integration nominative, mais le pattern d'ingestion de sources internes (FAQ + tickets + retours service client) est livre chez BforBank et transposable
-- **Python pour le back** : code en TypeScript, pas Python (sauf scripts ponctuels)
-- **Fine-tuning, LoRA, RLHF** : pas pratiques
+Detail dans [expertise.md](./expertise.md).
 
 ## Related
 

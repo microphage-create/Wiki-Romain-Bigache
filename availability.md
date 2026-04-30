@@ -23,7 +23,7 @@ links:
 | **Format** | Sur site, hybride ou remote (flexible) |
 | **Statut juridique** | Freelance via SASU Microphage Intelligence |
 | **TJM** | 850 EUR / jour |
-| **Langues** | Francais natif, anglais lu et ecrit professionnel |
+| **Langues** | Francais natif, anglais lu et ecrit |
 
 ## Modalites contractuelles
 
@@ -31,11 +31,11 @@ links:
 - **Acceptation contrats** : NDA, freelance contract, prestation de service
 - **Paiement** : 30 jours fin de mois (negociable)
 - **Localisation client** : Paris, Ile-de-France, Europe (acceptation remote pour clients UE)
-- **Anglais** : lu et ecrit professionnel
+- **Anglais** : lu et ecrit
 
 ## Plateformes freelance actives
 
-Collective, Malt, Comet, FreelanceRepublik, Creme de la Creme, LinkedIn, Welcome to the Jungle, Theodo (mission en cours).
+Collective, Malt, Comet, FreelanceRepublik, Creme de la Creme, LinkedIn, Welcome to the Jungle.
 
 ## Roles cibles
 

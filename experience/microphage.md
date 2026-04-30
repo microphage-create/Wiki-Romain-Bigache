@@ -59,7 +59,7 @@ Bagage forge sur 50+ campagnes pilotees via OXGEN pour les DSI de grands comptes
 
 ## Approche
 
-Profil hybride designer + dev full-stack + content qui supprime la coordination de trois metiers sur un POC.
+Profil hybride designer + dev full-stack + content. Methode detaillee dans [methodology.md](../methodology.md).
 
 ## Stack
 

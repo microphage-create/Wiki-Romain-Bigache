@@ -7,7 +7,7 @@ tags: [bforbank, banking, gemini-2.5-pro, langgraph, rag, semantic-splitter, mul
 status: live
 created: 2026-04-30
 updated: 2026-04-30
-period: 2024-12 / 2025-12
+period: 2023-12 / 2025-12
 client: BforBank (filiale Credit Agricole)
 industries: [Banque, Fintech, Services Financiers]
 team: 1 (Romain Bigache, Lead Content Designer freelance)
@@ -26,11 +26,11 @@ links:
 |-----|--------|
 | **Type** | Assistant IA interne + corpus LLM-ready pour chat service client |
 | **Statut** | En production |
-| **Annee** | 2024 - 2025 |
+| **Annee** | 2023 - 2025 |
 | **Entreprise** | BforBank (filiale Credit Agricole) |
 | **Industries** | Banque, Fintech, Services Financiers |
 | **Taille** | Grande entreprise |
-| **Date** | Decembre 2023 - Decembre 2025 |
+| **Periode** | Decembre 2023 - Decembre 2025 |
 
 ## Titre court
 
@@ -54,7 +54,7 @@ Les equipes design de BforBank devaient produire du contenu coherent avec le ton
 
 #### Solution
 
-« La Plume » est deployee dans la marketplace BforBank GPT, plateforme interne ou les collaborateurs publient et consomment des assistants specialises (a cote d'Email Booster, Pimp My Prompt, Expert charte BFB-GPT, Aide a la redaction SRC, Methode 80/20). La Plume est positionnee sur les categories Design, Marketing et Product.
+« La Plume » est deployee dans la marketplace BforBank GPT, plateforme interne ou les collaborateurs publient et consomment des assistants specialises. La Plume est positionnee sur les categories Design, Marketing et Product.
 
 #### Architecture RAG (que j'ai montee)
 
