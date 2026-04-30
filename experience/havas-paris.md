@@ -36,10 +36,11 @@ Cette experience pose les bases du metier de copywriter avant de basculer en ind
 
 ## Suite logique
 
-Bascule en freelance recurrent des la fin du stage. Plus de 8 ans depuis, principalement via une collaboration recurrente avec [OXGEN](./oxgen.md).
+Bascule en freelance creative des la fin du stage : 2 ans de missions copywriting / direction artistique pour diverses agences parisiennes (cf [experience/freelance-creative.md](./freelance-creative.md)), avec demarrage en parallele de la collaboration recurrente OXGEN qui dure depuis 8+ ans (cf [experience/oxgen.md](./oxgen.md)). Glissement progressif du copywriting publicitaire vers le content design et l'UX a partir de 2019 (Speak UX!).
 
 ## Related
 
+- [experience/freelance-creative.md](./freelance-creative.md)
 - [experience/oxgen.md](./oxgen.md)
 - [experience/speak-ux.md](./speak-ux.md)
 - [experience/leboncoin.md](./leboncoin.md)

@@ -68,6 +68,7 @@ Profil hybride : designer + dev full-stack + content + change comms. End-to-end 
 | **BforBank** (Credit Agricole) - Lead UX Writer & Visual | 2023 - 2025 | [experience/bforbank.md](./experience/bforbank.md) |
 | **ADEO** (Leroy Merlin) - Principal UX Writer | 2020 - 2023 | [experience/adeo-leroy-merlin.md](./experience/adeo-leroy-merlin.md) |
 | **OXGEN** - Copywriter & DA | 2017 - present | [experience/oxgen.md](./experience/oxgen.md) |
+| **Freelance creative** - Copywriter & DA pour diverses agences | 2017 - 2019 | [experience/freelance-creative.md](./experience/freelance-creative.md) |
 | **Cdiscount** (Octopia) - UX Writer | 2022 | [experience/cdiscount.md](./experience/cdiscount.md) |
 | **FDJ** - UX Writer | 2020 | [experience/fdj.md](./experience/fdj.md) |
 | **leboncoin** - UX Writer | 2019 - 2020 | [experience/leboncoin.md](./experience/leboncoin.md) |
