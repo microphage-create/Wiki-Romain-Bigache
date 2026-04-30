@@ -7,7 +7,7 @@ tags: [microphage, figma-plugin, b2b-saas, multi-tenant, llm-wiki, hybrid-retrie
 status: live
 created: 2026-04-30
 updated: 2026-04-30
-period: 2022-12 / present
+period: 2025-11 / present
 client: Microphage (SASU)
 industries: [SaaS, AI/ML, Design Tools]
 team: 1 (Romain Bigache, solo)
@@ -25,8 +25,7 @@ links:
 |-----|--------|
 | **Type** | Plugin Figma B2B SaaS multi-tenant |
 | **Statut** | En production, premier deploiement client en cours |
-| **Demarrage** | Fin 2022 (prototype interne) |
-| **Structuration produit** | Octobre - novembre 2025 (fin de mission BforBank) |
+| **Demarrage projet** | Novembre 2025 (creation SASU + structuration produit) |
 | **Entreprise** | Microphage (SASU) |
 | **Industries** | SaaS, AI/ML, Design Tools |
 | **Equipe** | Romain Bigache (seul) |
@@ -37,7 +36,7 @@ Plugin Figma B2B d'audit UX writing par IA
 
 ## Genese
 
-Prototype interne demarre fin 2022 chez BforBank, lors de la mission Lead UX Writer & Visual : premier outil d'analyse de maquettes par IA (vision + metadonnees Figma). Iterations sur la methodologie et le wiki de regles UX writing pendant 3 ans. Structuration en produit B2B autonome en octobre-novembre 2025, en parallele de la creation de la SASU Microphage Intelligence (la mission BforBank touchait a sa fin, Marcel s'etait auto-remplace cote design).
+Microphage Analyzer Pro est lance en novembre 2025, en meme temps que la creation de la SASU Microphage Intelligence (la mission BforBank touchait a sa fin). Le produit s'appuie sur trois ans de R&D personnelle anterieure : exploration des prompts IA des GPT-3.5 chez ADEO, premier prototype Figma d'analyse UX writing chez BforBank, iterations sur la methodologie LLM Wiki et le corpus de regles editoriales. Toute cette matiere a ete consolidee et structuree en produit B2B autonome au moment de la creation de Microphage.
 
 ## Description courte
 
