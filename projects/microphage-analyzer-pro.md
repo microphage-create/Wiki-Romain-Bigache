@@ -94,10 +94,6 @@ Architecture multi-tenant pensee des le depart pour generer un nouveau pack tena
 - Pitche devant le VP Design d'un acteur hardware crypto
 - Architecture multi-tenant prete pour la signature client #2
 
-## Avis client
-
-Disponibles sur demande.
-
 ## Related
 
 - [experience/microphage.md](../experience/microphage.md)

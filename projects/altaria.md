@@ -127,10 +127,6 @@ L'app n'est accessible que via le wifi corporate. Securite (aucune donnee ne fui
 - Negociation en cours avec une ESN HLD 1000 personnes pour relance en marque blanche
 - Sert de preuve commerciale sur les pitchs grands comptes (CAC40) du cabinet OXGEN
 
-## Avis client
-
-Disponibles sur demande.
-
 ## Related
 
 - [experience/microphage.md](../experience/microphage.md)

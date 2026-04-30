@@ -55,6 +55,7 @@ Profil hybride : designer + dev full-stack + content + change comms. End-to-end 
 | [availability.md](./availability.md) | Disponibilite, TJM, modalites |
 | [expertise.md](./expertise.md) | Focus GCP / Gemini / Workspace / connecteurs |
 | [keywords.md](./keywords.md) | Mots-cles ATS et indexation |
+| [education.md](./education.md) | Formation : autodidacte sur dev et IA |
 | [personal.md](./personal.md) | Hors-pro : Jiu-Jitsu, benevolat, label musique |
 
 ### Experiences

@@ -158,10 +158,6 @@ Vercel Insights pour la performance, Supabase pour le tracing applicatif, logs S
 - Bilingue FR/EN sur l'ensemble des touchpoints clients (front + emails)
 - Double provider de paiement (Stripe + PayPal) pour maximiser le taux de conversion
 
-## Avis client
-
-Disponibles sur demande.
-
 ## Related
 
 - [experience/microphage.md](../experience/microphage.md)

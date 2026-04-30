@@ -129,10 +129,7 @@ Construction d'un bot RAG GPT custom qui ingerait les 3 sources couplees et prod
 - Documentation et matiere editoriale structurees pour le lancement du chat
 - Couplage de 3 sources internes heterogenes (FAQ, tickets, retours SRC) en un corpus coherent
 - **Pattern « ingerer des sources internes heterogenes, homogeneiser, produire un corpus LLM-ready, alimenter un agent » directement transposable sur des connecteurs Salesforce ou Zendesk**
-
-## Avis client
-
-Disponibles sur demande.
+- **Adoption confirmee** : La Plume utilisee quotidiennement par les equipes design BforBank apres deploiement, integree au workflow de production des parcours clients. Corpus de 250+ articles deploye en production, alimente le chat in-app des clients connectes.
 
 ## Related
 
