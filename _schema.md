@@ -59,6 +59,8 @@ Methodologie : Karpathy LLM Wiki adapte au profil pro.
 - `expertise` : focus expertise
 - `keywords` : mots-cles ATS et indexation
 - `education` : formation et autodidaxie
+- `methodology` : methodologies signature
+- `process` : process operationnel quotidien
 - `experience` : fiche mission (1 fichier par employeur)
 - `project` : fiche projet (1 fichier par realisation)
 - `personal` : hors-pro (sport, benevolat, side projects)
@@ -76,6 +78,8 @@ Wiki-Romain-Bigache/
 ├── expertise.md           # GCP / Gemini / connecteurs
 ├── keywords.md            # Mots-cles ATS et indexation
 ├── education.md           # Formation et autodidaxie
+├── methodology.md         # Methodologies signature (Karpathy LLM Wiki, etc.)
+├── process.md             # Comment je travaille au quotidien
 ├── personal.md            # JJB, benevolat, label musique
 ├── experience/
 │   ├── microphage.md

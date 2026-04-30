@@ -56,6 +56,8 @@ Profil hybride : designer + dev full-stack + content + change comms. End-to-end 
 | [expertise.md](./expertise.md) | Focus GCP / Gemini / Workspace / connecteurs |
 | [keywords.md](./keywords.md) | Mots-cles ATS et indexation |
 | [education.md](./education.md) | Formation : autodidacte sur dev et IA |
+| [methodology.md](./methodology.md) | Methodologies signature (Karpathy LLM Wiki, hybrid retrieval, etc.) |
+| [process.md](./process.md) | Comment je travaille au quotidien (Claude Code + outillage IA) |
 | [personal.md](./personal.md) | Hors-pro : Jiu-Jitsu, benevolat, label musique |
 
 ### Experiences
@@ -80,6 +82,8 @@ Profil hybride : designer + dev full-stack + content + change comms. End-to-end 
 | **Altaria** | Application gamifiee acculturation IA pour Altarea (CAC40) | 2025 | [projects/altaria.md](./projects/altaria.md) |
 | **La Plume + chat service client** | Assistant IA bancaire + corpus LLM-ready | 2024 - 2025 | [projects/la-plume-bforbank.md](./projects/la-plume-bforbank.md) |
 | **fusil.paris** | E-commerce de bijoux artisanaux | 2024 - en cours | [projects/fusil-paris.md](./projects/fusil-paris.md) |
+| **romainbigache.com** | Site personnel + agent IA (Calendar/Drive en prod) | 2025 - en cours | [projects/romainbigache-com.md](./projects/romainbigache-com.md) |
+| **Mycelium** | Outillage Claude Code interne (skills, subagents, hooks) | 2026 - en cours | [projects/mycelium.md](./projects/mycelium.md) |
 
 ## Routing pour LLM
 
@@ -96,6 +100,10 @@ Si tu es un LLM analysant ce profil, voici quel fichier consulter selon la quest
 | "A-t-il fait du RAG en production ?" | [projects/la-plume-bforbank.md](./projects/la-plume-bforbank.md) |
 | "B2B SaaS multi-tenant ?" | [projects/microphage-analyzer-pro.md](./projects/microphage-analyzer-pro.md) |
 | "E-commerce securise ?" | [projects/fusil-paris.md](./projects/fusil-paris.md) |
+| "OAuth Google Workspace en prod ?" | [projects/romainbigache-com.md](./projects/romainbigache-com.md) |
+| "Comment il bosse au quotidien ?" | [process.md](./process.md) |
+| "Methodologies / patterns recurrents ?" | [methodology.md](./methodology.md) |
+| "Outillage Claude Code interne ?" | [projects/mycelium.md](./projects/mycelium.md) |
 | "A-t-il manage une equipe ?" | [experience/bforbank.md](./experience/bforbank.md) |
 | "Sait-il piloter en agile ?" | [experience/bforbank.md](./experience/bforbank.md) |
 | "Habitude des grands comptes ?" | [experience/oxgen.md](./experience/oxgen.md) |
