@@ -95,4 +95,3 @@ Animation d'ateliers de formation a l'UX writing et aux usages IA.
 - [projects/microphage-analyzer-pro.md](../projects/microphage-analyzer-pro.md)
 - [stack.md](../stack.md)
 - [expertise.md](../expertise.md)
-- [narrative.md](../narrative.md)

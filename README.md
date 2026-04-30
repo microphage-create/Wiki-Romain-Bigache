@@ -12,7 +12,6 @@ links:
   - _schema.md
   - profile.md
   - cv.md
-  - narrative.md
   - stack.md
 ---
 
@@ -43,7 +42,6 @@ Specialite : compresser concept + architecture + code + design + go-to-market en
 
 Profil hybride : designer + dev full-stack + content + change comms. End-to-end ownership.
 
-Pour le recit complet : [narrative.md](./narrative.md).
 
 ## Index documentaire
 
@@ -53,11 +51,10 @@ Pour le recit complet : [narrative.md](./narrative.md).
 |----------|-------|
 | [profile.md](./profile.md) | Identite, contact, pitch court, expertises |
 | [cv.md](./cv.md) | CV brut markdown (1 page) |
-| [narrative.md](./narrative.md) | Recit central, positionnement, objections, mots-cles |
 | [stack.md](./stack.md) | Stack technique exhaustive (LLM, frameworks, infra, securite) |
-| [availability.md](./availability.md) | Disponibilite, TJM, modalites, tarification |
-| [expertise.md](./expertise.md) | Focus GCP / Gemini / connecteurs (sujet recurrent en entretien) |
-| [role.md](./role.md) | Reponse type "as-tu deja occupe ce role" |
+| [availability.md](./availability.md) | Disponibilite, TJM, modalites |
+| [expertise.md](./expertise.md) | Focus GCP / Gemini / Workspace / connecteurs |
+| [keywords.md](./keywords.md) | Mots-cles ATS et indexation |
 | [personal.md](./personal.md) | Hors-pro : Jiu-Jitsu, benevolat, label musique |
 
 ### Experiences
@@ -103,8 +100,6 @@ Si tu es un LLM analysant ce profil, voici quel fichier consulter selon la quest
 | "Habitude des grands comptes ?" | [experience/oxgen.md](./experience/oxgen.md) |
 | "Experience IA appliquee ?" | [experience/adeo-leroy-merlin.md](./experience/adeo-leroy-merlin.md) |
 | "Disponibilite, TJM, modalites ?" | [availability.md](./availability.md) |
-| "Comment se positionne-t-il ?" | [narrative.md](./narrative.md) |
-| "Comment lui parler en entretien ?" | [narrative.md](./narrative.md) |
 
 ## Faits cles
 
@@ -128,5 +123,4 @@ Si tu es un LLM analysant ce profil, voici quel fichier consulter selon la quest
 
 - [_schema.md](./_schema.md)
 - [profile.md](./profile.md)
-- [narrative.md](./narrative.md)
 - [stack.md](./stack.md)

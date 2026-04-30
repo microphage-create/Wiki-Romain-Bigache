@@ -69,4 +69,3 @@ Ce double role (copywriter / DA en mission classique + builder qui apporte des p
 
 - [projects/altaria.md](../projects/altaria.md)
 - [experience/microphage.md](./microphage.md)
-- [narrative.md](../narrative.md)

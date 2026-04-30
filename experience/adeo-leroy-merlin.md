@@ -58,4 +58,3 @@ Sensibilisation des designers, PM et redacteurs a une approche editoriale partag
 ## Related
 
 - [stack.md](../stack.md)
-- [narrative.md](../narrative.md)

@@ -139,4 +139,3 @@ Disponibles sur demande.
 - [experience/bforbank.md](../experience/bforbank.md)
 - [stack.md](../stack.md)
 - [expertise.md](../expertise.md)
-- [narrative.md](../narrative.md)

@@ -73,4 +73,3 @@ Detail : [stack.md](../stack.md).
 - [projects/altaria.md](../projects/altaria.md)
 - [projects/fusil-paris.md](../projects/fusil-paris.md)
 - [stack.md](../stack.md)
-- [narrative.md](../narrative.md)

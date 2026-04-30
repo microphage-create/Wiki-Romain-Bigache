@@ -136,4 +136,3 @@ Disponibles sur demande.
 - [experience/microphage.md](../experience/microphage.md)
 - [experience/oxgen.md](../experience/oxgen.md)
 - [stack.md](../stack.md)
-- [narrative.md](../narrative.md)

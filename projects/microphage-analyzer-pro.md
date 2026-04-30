@@ -102,4 +102,3 @@ Disponibles sur demande.
 
 - [experience/microphage.md](../experience/microphage.md)
 - [stack.md](../stack.md)
-- [narrative.md](../narrative.md)

@@ -54,11 +54,10 @@ Methodologie : Karpathy LLM Wiki adapte au profil pro.
 - `meta` : documents de structure (ce schema, README)
 - `profile` : identite, pitch, contact
 - `cv` : CV brut
-- `narrative` : recit central, positionnement
 - `stack` : stack technique
 - `availability` : dispo et modalites
 - `expertise` : focus expertise
-- `role` : reponse type sur le role
+- `keywords` : mots-cles ATS et indexation
 - `experience` : fiche mission (1 fichier par employeur)
 - `project` : fiche projet (1 fichier par realisation)
 - `personal` : hors-pro (sport, benevolat, side projects)
@@ -71,11 +70,10 @@ Wiki-Romain-Bigache/
 ├── _schema.md             # Ce fichier
 ├── profile.md             # Identite + pitch
 ├── cv.md                  # CV brut
-├── narrative.md           # Recit central
 ├── stack.md               # Stack technique
-├── availability.md        # Dispo + TJM
+├── availability.md        # Dispo + modalites
 ├── expertise.md           # GCP / Gemini / connecteurs
-├── role.md                # Reponse type sur le role
+├── keywords.md            # Mots-cles ATS et indexation
 ├── personal.md            # JJB, benevolat, label musique
 ├── experience/
 │   ├── microphage.md

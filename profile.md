@@ -9,7 +9,6 @@ created: 2026-04-30
 updated: 2026-04-30
 links:
   - cv.md
-  - narrative.md
   - stack.md
   - availability.md
 ---
@@ -41,12 +40,6 @@ links:
 ## Pitch court (3 lignes)
 
 10 ans de design produit grand compte (BforBank, Leroy Merlin, leboncoin, Cdiscount, FDJ, Havas), 2 ans de build IA en production. Profil hybride designer + dev full-stack + content qui livre des POC IA en 3 semaines en solo, production-grade des le jour 1. End-to-end ownership : concept, archi, code, design, copy, mise en prod, pitch comex.
-
-## Phrase qui resume tout
-
-> Je suis le seul profil qui peut concevoir, architecturer, coder, designer et pitcher un POC d'agent IA en grand compte, en solo, en 3 semaines, avec 2 ans de Gemini en production et un pattern directement transposable sur des connecteurs Salesforce / Zendesk.
-
-Source : [narrative.md](./narrative.md).
 
 ## Roles cibles
 
@@ -87,7 +80,6 @@ Collective, Malt, Comet, FreelanceRepublik, Creme de la Creme, LinkedIn, Welcome
 ## Related
 
 - [cv.md](./cv.md)
-- [narrative.md](./narrative.md)
 - [stack.md](./stack.md)
 - [availability.md](./availability.md)
 - [expertise.md](./expertise.md)

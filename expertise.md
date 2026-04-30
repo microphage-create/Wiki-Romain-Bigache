@@ -1,6 +1,6 @@
 ---
 id: expertise
-title: Expertise GCP / Gemini / connecteurs
+title: Expertise GCP / Gemini / Workspace / connecteurs
 type: expertise
 domain: technology
 tags: [gemini, gcp, vertex-ai, google-workspace, salesforce, zendesk, transparency]
@@ -15,46 +15,53 @@ links:
 
 # Expertise IA appliquee
 
-> Reponse type quand un recruteur ou acheteur demande le niveau d'expertise sur GCP / Google Enterprise / Gemini ou les connecteurs metier.
+Detail factuel sur le niveau d'expertise par techno : ce qui est en production, ce qui ne l'est pas.
 
 ## Gemini : 2 ans en production
 
-La Plume chez BforBank fonctionne sur Gemini 2.5 Pro, j'ai monte l'archi RAG et redige les prompts. En parallele, multi-provider via Vercel AI SDK v6 (OpenAI, Claude, Gemini) sur tous les projets Microphage : tool calling, streaming, evals, l'essentiel des cas d'usage est couvert.
+La Plume chez BforBank fonctionne sur Gemini 2.5 Pro. Architecture RAG montee en interne, prompts rediges en interne. En parallele, multi-provider via Vercel AI SDK v6 (OpenAI, Claude, Gemini) sur tous les projets Microphage : tool calling, streaming, evals.
 
 Detail : [projects/la-plume-bforbank.md](./projects/la-plume-bforbank.md).
 
-## Google Enterprise / Workspace : integrations en prod
+## Google Enterprise / Workspace : integrations en production
 
-Sur romainbigache.com, j'ai connecte la Calendar API a mon agenda avec rendu UI streame directement dans le chat IA (tool call avec rendu live), cron Vercel pour la sync nocturne. Google Drive integre sur plusieurs autres projets. Le pattern OAuth + Workspace API + tool streaming UI est maitrise.
+Sur romainbigache.com :
+- Calendar API connectee a l'agenda avec rendu UI streame directement dans le chat IA (tool call avec rendu live)
+- Cron Vercel pour la sync nocturne
+- Google Drive integre sur plusieurs autres projets
 
-## GCP / Vertex AI / Agent Builder : pas encore en production
+Pattern OAuth + Workspace API + tool streaming UI maitrise.
 
-Ma stack actuelle est Vercel + Cloudflare Workers + Supabase. Mais ce qu'on demande typiquement de construire (agents IA + tools custom + RAG + connecteurs), je l'ai deja livre sur d'autres infrastructures : La Plume sur LangGraph, Microphage Analyzer Pro multi-tenant, Altaria avec secu HMAC + RLS.
+## GCP / Vertex AI / Agent Builder : pas en production
 
-Passer a Vertex ou Agent Builder, c'est un changement d'infrastructure, pas d'architecture. Montee en competence en parallele de la mission, sur des concepts deja maitrises.
+Stack actuelle : Vercel + Cloudflare Workers + Supabase. Pas de prod sur GCP / Vertex AI / Agent Builder.
 
-## Connecteurs type Salesforce ou Zendesk : pas en nominatif, mais le pattern equivalent est livre
+Familier avec les concepts et les patterns d'agents (maitrises sur LangGraph + Vercel AI SDK).
 
-Chez BforBank, j'ai monte un bot RAG qui a genere l'integralite de la FAQ banque a partir de 3 sources internes heterogenes (FAQ publiques, tickets service client, retours SRC) : 250+ articles LLM-ready produits en un mois, mis en production, alimentant un chat client connecte dans l'app.
+Production-grade equivalente livree sur d'autres infrastructures :
+- La Plume sur LangGraph
+- Microphage Analyzer Pro multi-tenant
+- Altaria avec secu HMAC + RLS
+
+## Connecteurs Salesforce / Zendesk : pas en nominatif, pattern equivalent livre
+
+Pas d'integration nominative Salesforce ou Zendesk.
+
+Pattern equivalent livre chez BforBank : bot RAG GPT custom qui a couple 3 sources internes heterogenes (FAQ publiques, tickets service client, retours SRC) et genere 250+ articles LLM-ready en un mois, mis en production, alimentant un chat client connecte dans l'app.
 
 C'est exactement le pattern d'un connecteur metier : ingerer un referentiel client, homogeneiser, generer du contenu structure, le servir via un agent.
 
 Detail : [projects/la-plume-bforbank.md](./projects/la-plume-bforbank.md).
 
-## Ce qui compense le manque de prod GCP
+## Production-grade au sens strict
 
-- **Profil hybride** designer + dev + content : pas de coordination a gerer sur un POC
-- **Production-grade au sens strict** : 102 tests automatises sur morphow-api (unit + integration + e2e), 3 vulnerabilites XSS critiques corrigees sur Microphage Analyzer Pro, multi-tenant avec rate limiter, CORS, auth middleware
-- **UI premium par defaut**, parce que c'est le premier metier : Next.js 16, shadcn/ui, Framer Motion, design system maison LLM-ready (Tailwind Plus + Catalyst)
-- **Pitchs deja menes devant des decideurs** : Altarea (CAC40), VP Design d'un acteur hardware crypto, PDG fondateur d'une ESN HLD 1000 personnes, comex OXGEN (Danone, Safran, Enedis, Citeo, Verallia)
-
-## Si ca aide la decision
-
-> Donnez-moi un brief de POC, je vous livre une demo fonctionnelle avant l'entretien.
+- 102 tests automatises sur morphow-api (unit + integration + e2e)
+- 3 vulnerabilites XSS critiques identifiees et corrigees sur Microphage Analyzer Pro
+- Multi-tenant avec rate limiter, CORS, auth middleware
+- Monitoring Sentry + PostHog
+- CI/CD GitHub Actions + Vercel Preview
 
 ## Related
 
 - [stack.md](./stack.md)
 - [projects/la-plume-bforbank.md](./projects/la-plume-bforbank.md)
-- [narrative.md](./narrative.md)
-- [role.md](./role.md)

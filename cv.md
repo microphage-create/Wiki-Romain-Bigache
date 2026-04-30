@@ -87,6 +87,5 @@ Detail : [personal.md](./personal.md)
 ## Related
 
 - [profile.md](./profile.md)
-- [narrative.md](./narrative.md)
 - [stack.md](./stack.md)
 - [availability.md](./availability.md)
