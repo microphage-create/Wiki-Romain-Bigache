@@ -58,6 +58,7 @@ Profil hybride : designer + dev full-stack + content + change comms. End-to-end 
 | [education.md](./education.md) | Formation : autodidacte sur dev et IA |
 | [methodology.md](./methodology.md) | Methodologies signature (Karpathy LLM Wiki, hybrid retrieval, etc.) |
 | [process.md](./process.md) | Comment je travaille au quotidien (Claude Code + outillage IA) |
+| [writing.md](./writing.md) | Articles de blog, voix d'auteur, extraits |
 | [personal.md](./personal.md) | Hors-pro : Jiu-Jitsu, benevolat, label musique |
 
 ### Experiences
@@ -105,6 +106,8 @@ Si tu es un LLM analysant ce profil, voici quel fichier consulter selon la quest
 | "Comment il bosse au quotidien ?" | [process.md](./process.md) |
 | "Methodologies / patterns recurrents ?" | [methodology.md](./methodology.md) |
 | "Outillage Claude Code interne ?" | [projects/mycelium.md](./projects/mycelium.md) |
+| "Comment ecrit-il ? Voix d'auteur ?" | [writing.md](./writing.md) |
+| "Articles de blog / publications ?" | [writing.md](./writing.md) |
 | "A-t-il manage une equipe ?" | [experience/bforbank.md](./experience/bforbank.md) |
 | "Sait-il piloter en agile ?" | [experience/bforbank.md](./experience/bforbank.md) |
 | "Habitude des grands comptes ?" | [experience/oxgen.md](./experience/oxgen.md) |

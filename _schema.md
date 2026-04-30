@@ -61,6 +61,7 @@ Methodologie : Karpathy LLM Wiki adapte au profil pro.
 - `education` : formation et autodidaxie
 - `methodology` : methodologies signature
 - `process` : process operationnel quotidien
+- `writing` : articles de blog, voix d'auteur
 - `experience` : fiche mission (1 fichier par employeur)
 - `project` : fiche projet (1 fichier par realisation)
 - `personal` : hors-pro (sport, benevolat, side projects)
@@ -80,6 +81,7 @@ Wiki-Romain-Bigache/
 ├── education.md           # Formation et autodidaxie
 ├── methodology.md         # Methodologies signature (Karpathy LLM Wiki, etc.)
 ├── process.md             # Comment je travaille au quotidien
+├── writing.md             # Articles de blog, voix d'auteur, extraits
 ├── personal.md            # JJB, benevolat, label musique
 ├── experience/
 │   ├── microphage.md
