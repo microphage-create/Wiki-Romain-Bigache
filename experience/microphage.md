@@ -35,13 +35,13 @@ Conception, design, code et livraison d'outils IA en solo pour grands comptes. A
 
 ### Microphage Analyzer Pro
 
-Plugin Figma B2B multi-tenant qui audite et reecrit l'UX writing par IA. Architecture Karpathy LLM Wiki (785 regles structurees comme source de verite unique), matcher hybride 3 couches (metadata, BM25, classifier LLM), audit visuel par OCR, prompt caching. Hono + Cloudflare Workers, monorepo pnpm + Turbo. Premier deploiement chez un client edtech B2B (livraison mai 2026), pitche au VP Design d'un acteur hardware crypto.
+Plugin Figma B2B multi-tenant qui audite et reecrit l'UX writing par IA. Architecture Karpathy LLM Wiki (785 regles structurees comme source de verite unique), matcher hybride 3 couches (metadata, BM25, classifier LLM), audit visuel par OCR, prompt caching. Hono + Cloudflare Workers, monorepo pnpm + Turbo. Premier deploiement chez un client edtech B2B (livraison mai 2026), pitche au VP Design de Ledger.
 
 Detail : [projects/microphage-analyzer-pro.md](../projects/microphage-analyzer-pro.md).
 
 ### Altaria
 
-Application gamifiee d'acculturation IA pour Altarea (CAC40), 15 modules en production (quiz, formation, jeux, chat IA, leaderboard), pitchee via OXGEN en amont du deploiement Microsoft Copilot 365. Shippee en 3 semaines en solo : concept, code, design, copy, illustrations, campagne guerilla interne en 5 supports physiques. Securite production-grade (HMAC-SHA256, RLS, kill switch, Sentinel anti-leak). Stack Next.js 15, React 19, Supabase, Vercel AI SDK multi-provider. Demo : altaria.microphage.ai/access. En negociation avec une ESN HLD 1000 personnes pour relance en marque blanche.
+Application gamifiee d'acculturation IA pour Altarea (CAC40), 15 modules en production (quiz, formation, jeux, chat IA, leaderboard), pitchee via OXGEN en amont du deploiement Microsoft Copilot 365. Shippee en 3 semaines en solo : concept, code, design, copy, illustrations, campagne guerilla interne en 5 supports physiques. Securite production-grade (HMAC-SHA256, RLS, kill switch, Sentinel anti-leak). Stack Next.js 15, React 19, Supabase, Vercel AI SDK multi-provider. Demo : altaria.microphage.ai/access. En negociation avec Tenexa pour relance en marque blanche.
 
 Detail : [projects/altaria.md](../projects/altaria.md).
 

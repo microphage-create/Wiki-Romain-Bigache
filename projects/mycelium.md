@@ -120,9 +120,7 @@ Detail methodologique : [methodology.md](../methodology.md).
 
 ## Pourquoi c'est differenciant
 
-Profil designer + dev + content + ops, le tout orchestre par une stack Claude Code custom. Marcel ne se contente pas d'utiliser des outils IA : il les forge pour son propre flux de travail. C'est ce qui permet la compression du cycle (POC en 3 semaines) qui est sa signature commerciale.
-
-L'outillage est meta-applique : Mycelium est documente exactement comme il documente les autres projets (frontmatter YAML, single source of truth, cross-links). Ce wiki Romain Bigache lui-meme est un produit de la methodologie Mycelium.
+Profil designer + dev + content + ops, le tout orchestre par une stack Claude Code custom. Permet la compression du cycle de delivery (POC en 3 semaines) en automatisant le boilerplate cognitif de chaque domaine.
 
 ## Visibilite
 

@@ -41,7 +41,7 @@ Je construisais des maisons en bois dans le Sud-Ouest avec mon pere. Puis j'ai c
 ### FONDATEUR & AI BUILDER - 2025 - Aujourd'hui
 *Microphage*
 
-Conception, design, code et livraison d'outils IA en solo pour grands comptes. **Microphage Analyzer Pro** : plugin Figma B2B qui audite et reecrit l'UX writing par IA, adosse a un wiki proprietaire de 785 regles. Premier deploiement client edtech B2B (livraison mai 2026) + pitche au VP Design d'un acteur hardware crypto. **Altaria** : application gamifiee d'acculturation IA livree a Altarea (CAC40), shippee en 3 semaines en solo (concept, code, design, copy, campagne guerilla interne). En nego marque blanche avec une ESN HLD 1000 personnes. Stack : Vercel AI SDK multi-provider (OpenAI, Claude, Gemini), LangGraph, RAG, MCP, Hono, Cloudflare Workers, Supabase.
+Conception, design, code et livraison d'outils IA en solo pour grands comptes. **Microphage Analyzer Pro** : plugin Figma B2B qui audite et reecrit l'UX writing par IA, adosse a un wiki proprietaire de 785 regles. Premier deploiement client edtech B2B (livraison mai 2026) + pitche au VP Design de Ledger. **Altaria** : application gamifiee d'acculturation IA livree a Altarea (CAC40), shippee en 3 semaines en solo (concept, code, design, copy, campagne guerilla interne). En negociation marque blanche avec Tenexa. Stack : Vercel AI SDK multi-provider (OpenAI, Claude, Gemini), LangGraph, RAG, MCP, Hono, Cloudflare Workers, Supabase.
 
 Detail : [experience/microphage.md](./experience/microphage.md)
 

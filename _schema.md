@@ -113,14 +113,14 @@ Source de verite pour la liste des fichiers : `git ls-files`. Cette arborescence
 
 ## Confidentialite
 
-Certains noms sont floutes pour preserver les negociations en cours :
-- `360Learning` -> "premier client edtech B2B"
-- `Ledger` -> "VP Design d'un acteur hardware crypto"
-- `Tenexa` -> "ESN HLD 1000 personnes"
+Le seul nom encore floute est :
+- `360Learning` -> "premier client edtech B2B" (deploiement contractualise mais en cours)
 
 Sont conserves nominativement :
 - `Altarea` / `Altaria` (vente non finalisee, cas non sensible)
 - `BforBank` (mention deja publique sur LinkedIn et CV)
+- `Ledger` (pitche par Marcel au VP Design)
+- `Tenexa` (negociation marque blanche en cours)
 - Tous les anciens employeurs et clients OXGEN deja publics
 
 ## Lint
@@ -131,7 +131,7 @@ A chaque mise a jour, verifier :
 - [ ] Pas de duplication d'info
 - [ ] `updated` mis a jour
 - [ ] Pas de tiret cadratin
-- [ ] Pas de mention nominale `360Learning` / `Ledger` / `Tenexa`
+- [ ] Pas de mention nominale `360Learning`
 
 ## Related
 

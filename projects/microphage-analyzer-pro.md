@@ -36,7 +36,7 @@ Plugin Figma B2B d'audit UX writing par IA
 
 ## Description courte
 
-Plugin Figma B2B qui audite, reecrit et conseille sur l'UX writing des maquettes via IA. 5 modes en production. Architecture Karpathy LLM Wiki avec 785 regles structurees comme source de verite unique. Premier deploiement chez un client edtech B2B (livraison mai 2026), pitche au VP Design d'un acteur hardware crypto.
+Plugin Figma B2B qui audite, reecrit et conseille sur l'UX writing des maquettes via IA. 5 modes en production. Architecture Karpathy LLM Wiki avec 785 regles structurees comme source de verite unique. Premier deploiement chez un client edtech B2B (livraison mai 2026), pitche au VP Design de Ledger.
 
 ## Description longue
 
@@ -91,7 +91,7 @@ Architecture multi-tenant pensee des le depart pour generer un nouveau pack tena
 ## Impact
 
 - POC en cours de livraison chez un client edtech B2B (mai 2026)
-- Pitche devant le VP Design d'un acteur hardware crypto
+- Pitche devant le VP Design de Ledger
 - Architecture multi-tenant prete pour la signature client #2
 
 ## Related

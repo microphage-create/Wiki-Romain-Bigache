@@ -35,12 +35,6 @@ J'ai commence a outiller cette logique avant la publication du gist d'Andrej Kar
 
 Modification d'une regle = modification d'un fichier markdown, sans redeploiement, sans regression sur les autres regles. Auditable, reviewable par non-techs (designers, content owners).
 
-### Application sur ce wiki
-
-Ce wiki Romain Bigache applique la meme methodologie sur la documentation pro : 22 fichiers .md atomiques, frontmatter YAML systematique, routing dans le README, cross-links via section `Related`.
-
-Detail : [_schema.md](./_schema.md).
-
 ## Matcher hybride 3 couches
 
 Pattern de retrieval pour matcher une regle ou une connaissance dans un wiki dense, avec un budget LLM controle.
