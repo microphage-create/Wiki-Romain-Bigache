@@ -41,7 +41,7 @@ C'est la periode qui pose les fondations du metier de copywriter / DA en indepen
 
 ## Demarrage de la collaboration recurrente OXGEN
 
-Pendant cette periode demarre aussi la collaboration recurrente avec OXGEN (cabinet de Change Communications) qui s'inscrit dans la duree (8+ ans a date). Cette collaboration deviendra le fil rouge stable au fil des annees suivantes.
+Pendant cette periode demarre aussi la collaboration recurrente avec OXGEN (cabinet de Change Communications) qui s'inscrit dans la duree (depuis 2017). Cette collaboration deviendra le fil rouge stable au fil des annees suivantes.
 
 Detail OXGEN : [experience/oxgen.md](./oxgen.md).
 

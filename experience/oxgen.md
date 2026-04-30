@@ -20,7 +20,7 @@ links:
 
 | Cle | Valeur |
 |-----|--------|
-| **Periode** | Aout 2017 - present (8+ ans) |
+| **Periode** | Aout 2017 - present (depuis 2017) |
 | **Type** | Collaboration recurrente en freelance |
 | **Localisation** | Paris, France |
 | **Industrie** | Change Communications, Conseil |
