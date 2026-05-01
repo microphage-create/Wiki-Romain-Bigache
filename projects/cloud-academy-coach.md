@@ -25,7 +25,7 @@ links:
 
 | Clé | Valeur |
 |-----|--------|
-| **Type** | POC technique solo sur stack GCP cible |
+| **Type** | POC produit IA sur Gemini Enterprise Agent Platform |
 | **Statut** | Live, public |
 | **Date** | Mai 2026 |
 | **Société** | Microphage (SASU) |
@@ -35,13 +35,13 @@ links:
 
 ## Pitch court
 
-POC technique livré en une nuit pour démontrer la maîtrise de Gemini Enterprise Agent Platform (Vertex AI Agent Builder + Vertex AI Search + Cloud Run). Une academy interne d'un acteur énergie fictif, où un agent IA orchestrateur génère un parcours adaptatif et coache l'apprenant en RAG conversationnel sur 16 modules indexés.
+Une academy interne d'un acteur énergie où un agent IA orchestrateur génère un parcours adaptatif personnalisé et coache l'apprenant en RAG conversationnel sur 16 modules indexés. Stack Gemini Enterprise Agent Platform : Gemini 2.5 Pro + function calling + Vertex AI Search + Cloud Run. Livré en une nuit, déployé public.
 
 ## Genèse
 
-Construit en mai 2026 pour répondre à une opportunité freelance Theodo (Lead GenAI GCP, mission contexte transition énergétique). Plutôt que de prétendre à 6 ans de prod GCP que je n'ai pas, j'ai préféré livrer en une nuit une démo cliquable sur la stack exacte de la mission, puis assumer la transparence : "pas en production sur GCP, mais voici ce que je sais en faire en quelques heures".
+Construit en une nuit en mai 2026 pour valider de bout en bout la stack Gemini Enterprise Agent Platform (Vertex AI Search + Cloud Run + function calling Gemini 2.5 Pro) sur un cas d'usage métier réaliste.
 
-Le POC s'inspire d'un pattern réel observé chez plusieurs acteurs énergie : academy interne avec une matrice rôles × modules × niveaux qui devient ingérable à mesure que l'effectif et le catalogue grossissent. La promesse : remplacer cette matrice statique par un agent IA qui personnalise le parcours en live.
+Le POC s'inspire d'un pattern observé chez plusieurs acteurs énergie : academy interne avec une matrice rôles × modules × niveaux qui devient ingérable à mesure que l'effectif et le catalogue grossissent. La promesse : remplacer cette matrice statique par un agent IA qui personnalise le parcours collaborateur en live, contextualise les exemples métier (Smart Grid, compteurs Linky, énergies renouvelables), et coache l'apprenant en RAG conversationnel.
 
 ## Description courte
 
@@ -136,33 +136,27 @@ Side-panel 33vw fixed-right, animation slide-in 350ms cubic-bezier soft. Pas de 
 
 Question utilisateur : « Comment fonctionne un VPC partagé ? ». L'agent Gemini répond en streaming, contextualise la réponse pour Yassine (Cloud Security Engineer) avec exemples métier énergie (Smart Grid, compteurs Linky), et cite explicitement les modules M03 Networking Cloud Avancé et M11 Sécurité Cloud comme sources. Les sources apparaissent en pills cliquables qui routent vers `/modules/MXX`.
 
-## Difficultés rencontrées
+## Choix techniques notables
 
-### 1. Org policy GCP qui bloque l'accès public
+### Auth Vertex AI sans clé SA (org policy compliant)
 
-Le projet GCP est sous une org `fusil.paris` qui force `iam.allowedPolicyMemberDomains` (impossible d'ajouter `allUsers` à un service Cloud Run). Premier deploy : URL renvoie `403 Forbidden`.
+L'environnement GCP cible bloque `iam.disableServiceAccountKeyCreation` (org policy classique en grand compte). Auth via Application Default Credentials du service account Cloud Run par défaut, avec rôles `aiplatform.user` + `discoveryengine.viewer` bindés au niveau projet. Pattern compatible avec les contraintes de sécurité grand compte.
 
-Fix : créer un override de cette org policy au niveau projet. Pour ça, il a fallu se grant `roles/orgpolicy.policyAdmin` au niveau organisation (rôle qui n'est pas dans `Administrateur de l'organisation` par défaut). Une fois fait, override appliqué + binding `allUsers : roles/run.invoker` autorisé après ~3 minutes de propagation.
+### Override d'org policy pour exposition publique
 
-### 2. SA keys interdites par org policy
+Org policy `iam.allowedPolicyMemberDomains` empêche par défaut le binding `allUsers : roles/run.invoker`. Override appliqué au niveau projet via `gcloud org-policies set-policy`, après self-grant du rôle `orgpolicy.policyAdmin` au niveau organisation. Pattern utile pour les démo publiques sur des projets soumis aux org policies enterprise par défaut.
 
-`iam.disableServiceAccountKeyCreation` empêche de générer une clé SA pour auth locale ou Vercel. Pivot vers Cloud Run + ADC du SA par défaut.
+### Build Docker custom plutôt que Buildpacks
 
-### 3. Build Cloud Run silencieux
+Buildpacks via `gcloud run deploy --source` ne donne pas de log clair en cas d'échec. Pour gagner en visibilité et en contrôle (multi-stage Node 20 Alpine, gestion explicite des artefacts copiés), build via `gcloud builds submit --tag` puis `gcloud run deploy --image`. Logs streamés en live, fix immédiat.
 
-Premier build via `gcloud run deploy --source` : log vide, échec sans diagnostic. Fix : passer en `gcloud builds submit --tag` séparément du deploy, qui stream les logs en direct dans le terminal.
+### Streaming NDJSON avec watchdog client
 
-### 4. Latence RAG cold start
+Ligne directrice : si l'API ne stream rien dans les 45 secondes, le frontend abort la requête avec message friendly plutôt que de bloquer indéfiniment. Cold start Cloud Run éliminé via `--min-instances=1`, latence Vertex AI réduite via `GOOGLE_CLOUD_LOCATION=global` (auto-routing region la plus proche).
 
-Sur la 2ème question dans le drawer Coach, l'API mettait > 30s à répondre. Trois fixes :
-- `--min-instances=1` pour éliminer le cold start Cloud Run
-- `GOOGLE_CLOUD_LOCATION=global` au lieu de `us-central1` pour réduire la latence transatlantique
-- `--memory=2Gi --cpu=2` pour plus de CPU alloué
-- Watchdog 45s côté frontend avec message friendly si pas de chunk reçu
+### Ingestion datastore via HTML
 
-### 5. Markdown rejeté par Vertex AI Search
-
-L'ingestion datastore refusait les fichiers `.md` (`INVALID_FORMAT content_mimeType`). Conversion automatique en HTML via un script dédié, ré-upload, ré-indexation.
+Vertex AI Search refuse l'ingestion de fichiers `.md`. Pipeline de conversion `.md` → `.html` automatisé en amont (script Python dédié), ré-indexation atomique. Idem possible pour PDF, Word, etc. selon le format source du client.
 
 ## Ce que ça démontre
 
@@ -173,18 +167,21 @@ L'ingestion datastore refusait les fichiers `.md` (`INVALID_FORMAT content_mimeT
 - **Capacité de delivery solo** : 16 modules pédagogiques riches générés par sub-agents en parallèle, agent + UI livrés en une nuit, pitch comex 1-pager exporté en PDF, déploiement public résistant aux org policies restrictives
 - **Design system Altaria-like cohérent** : pas d'emoji, icônes Lucide stroke 2.2, accent bleu Enedis #1423DC parcimonieux, ombres soft, animations cubic-bezier 200-350ms
 
-## Limitations assumées
+## Roadmap production
 
-- Pas de DB serveur : profil et parcours stockés en `localStorage` côté client (POC choice). En prod chez le client, on remplace par Firestore ou Cloud SQL.
-- Pas de tests automatisés : POC d'1 nuit, pas de CI. Sur Microphage Analyzer Pro (en prod) j'ai 102 tests Vitest + Playwright.
-- Pas d'auth applicative au-dessus de `--allow-unauthenticated` : démo publique. En prod : IAP + IAM + sessions Firestore.
-- 16 modules synthétiques générés par LLM. En prod : ingestion du vrai catalogue formation client.
+Les choix POC suivants évoluent naturellement en passage prod chez un client :
+
+- **Persistence** : `localStorage` côté client → Firestore ou Cloud SQL côté serveur (sessions multi-devices, historique apprenant)
+- **Auth applicative** : `--allow-unauthenticated` → IAP + IAM + sessions Firestore avec liaison annuaire client (LDAP / Workspace)
+- **Catalogue modules** : 16 modules synthétiques de démo → ingestion du catalogue formation réel client (pipeline d'extraction + normalisation depuis LMS, SharePoint, Confluence, etc.)
+- **Tests + CI/CD** : pattern déjà éprouvé sur Microphage Analyzer Pro en prod (102 tests Vitest + Playwright, déploiement Cloudflare Workers automatisé) à transposer sur la stack GCP cible
+- **Observabilité** : Cloud Operations Logging + Cloud Trace + dashboard Looker Studio pour KPI métier (time-to-competence par profil, taux de complétion, détection des décrochages, charge cognitive)
 
 ## Liens
 
 - **Démo live** : [https://cloud-academy-ui-90119460065.europe-west1.run.app](https://cloud-academy-ui-90119460065.europe-west1.run.app)
-- **1-pager comex (PDF)** : sur demande (pack candidature Theodo)
-- **Code source** : sur demande (dossier candidature, repo privé)
+- **1-pager comex (PDF)** : sur demande
+- **Code source** : sur demande (repo privé Microphage)
 
 ## Related
 
