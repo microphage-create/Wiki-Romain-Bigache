@@ -1,0 +1,55 @@
+# Romain Bigache - LLM Wiki
+
+> AI Product Builder based in Paris. Freelance (SASU Microphage Intelligence) building production AI agents for enterprise accounts since GPT-3.5 shipped (November 2022). Karpathy LLM Wiki methodology: single source of truth, atomic markdown files, YAML frontmatter, explicit cross-links. Available May 11, 2026 full-time, 850 EUR / day.
+
+This wiki is structured for both human and LLM reading. Each file is atomic and self-contained. Start with profile and cv for quick context, dive into experience and projects for proof of work.
+
+## Profile
+
+- [profile.md](https://github.com/microphage-create/Wiki-Romain-Bigache/blob/main/profile.md): identity, pitch, day rate, availability, languages
+- [cv.md](https://github.com/microphage-create/Wiki-Romain-Bigache/blob/main/cv.md): synthetic CV with key achievements
+- [expertise.md](https://github.com/microphage-create/Wiki-Romain-Bigache/blob/main/expertise.md): senior / mid / junior areas with self-rated levels
+- [stack.md](https://github.com/microphage-create/Wiki-Romain-Bigache/blob/main/stack.md): production stack (LLM providers, frameworks, infra)
+- [methodology.md](https://github.com/microphage-create/Wiki-Romain-Bigache/blob/main/methodology.md): how I ship AI products solo
+- [process.md](https://github.com/microphage-create/Wiki-Romain-Bigache/blob/main/process.md): client engagement workflow
+- [education.md](https://github.com/microphage-create/Wiki-Romain-Bigache/blob/main/education.md): degrees and continuous learning
+- [availability.md](https://github.com/microphage-create/Wiki-Romain-Bigache/blob/main/availability.md): current availability and constraints
+- [keywords.md](https://github.com/microphage-create/Wiki-Romain-Bigache/blob/main/keywords.md): technologies and skills index
+
+## Experience
+
+- [microphage.md](https://github.com/microphage-create/Wiki-Romain-Bigache/blob/main/experience/microphage.md): Founder & AI Builder (2025-present). Solo IA tools delivery for enterprise accounts.
+- [bforbank.md](https://github.com/microphage-create/Wiki-Romain-Bigache/blob/main/experience/bforbank.md): Lead UX Writer & Visual at BforBank (2023-2025). Shipped La Plume AI assistant (Gemini 2.5 Pro + LangGraph + RAG).
+- [adeo.md](https://github.com/microphage-create/Wiki-Romain-Bigache/blob/main/experience/adeo.md): Principal UX Writer at ADEO / Leroy Merlin (2020-2023). First internal AI prompt at GPT-3.5 release. Content Design System on RAG.
+- [oxgen.md](https://github.com/microphage-create/Wiki-Romain-Bigache/blob/main/experience/oxgen.md): Copywriter & DA at OXGEN (2017-present). 50+ change communication campaigns for CAC40 accounts.
+- [cdiscount.md](https://github.com/microphage-create/Wiki-Romain-Bigache/blob/main/experience/cdiscount.md): UX Writer at Cdiscount.
+- [fdj.md](https://github.com/microphage-create/Wiki-Romain-Bigache/blob/main/experience/fdj.md): UX Writer at La Française des Jeux.
+- [leboncoin.md](https://github.com/microphage-create/Wiki-Romain-Bigache/blob/main/experience/leboncoin.md): UX Writer at leboncoin.
+- [havas-paris.md](https://github.com/microphage-create/Wiki-Romain-Bigache/blob/main/experience/havas-paris.md): Copywriter at Havas Paris.
+- [freelance-creative.md](https://github.com/microphage-create/Wiki-Romain-Bigache/blob/main/experience/freelance-creative.md): freelance creative work history.
+- [speak-ux.md](https://github.com/microphage-create/Wiki-Romain-Bigache/blob/main/experience/speak-ux.md): UX Writer at Speak UX.
+
+## Projects
+
+- [microphage-analyzer-pro.md](https://github.com/microphage-create/Wiki-Romain-Bigache/blob/main/projects/microphage-analyzer-pro.md): B2B Figma plugin auditing UX writing via AI, backed by 785-rule wiki. First deployment at 360Learning (May 2026), pitched to Ledger VP Design.
+- [altaria.md](https://github.com/microphage-create/Wiki-Romain-Bigache/blob/main/projects/altaria.md): gamified AI literacy app intended for Altarea (CAC40), technically shipped solo in 3 weeks (concept, code, design, copy, internal guerrilla campaign), in commercial pitch process via OXGEN.
+- [la-plume-bforbank.md](https://github.com/microphage-create/Wiki-Romain-Bigache/blob/main/projects/la-plume-bforbank.md): AI assistant for designers on Gemini 2.5 Pro (RAG + LangGraph agent + banking compliance guardrails).
+- [mycelium.md](https://github.com/microphage-create/Wiki-Romain-Bigache/blob/main/projects/mycelium.md): personal ecosystem of skills, configs and memory for Claude Code.
+- [fusil-paris.md](https://github.com/microphage-create/Wiki-Romain-Bigache/blob/main/projects/fusil-paris.md): full rebuild of fusil.paris (Next.js 16, SEO, Stripe/Supabase migration).
+- [romainbigache-com.md](https://github.com/microphage-create/Wiki-Romain-Bigache/blob/main/projects/romainbigache-com.md): personal site (Next.js, bilingual, custom CMS).
+
+## Writing
+
+- [ai-product-builder.md](https://github.com/microphage-create/Wiki-Romain-Bigache/blob/main/writing/ai-product-builder.md): why I call myself an AI Product Builder, not an engineer or designer.
+- [content-design.md](https://github.com/microphage-create/Wiki-Romain-Bigache/blob/main/writing/content-design.md): how content design intersects AI products.
+- [vibe-coding-burnout.md](https://github.com/microphage-create/Wiki-Romain-Bigache/blob/main/writing/vibe-coding-burnout.md): on solo shipping pace and sustainable practice.
+- [personal-branding-introvert.md](https://github.com/microphage-create/Wiki-Romain-Bigache/blob/main/writing/personal-branding-introvert.md): visibility strategy for introverts in tech.
+- [morphow-mascotte-ia.md](https://github.com/microphage-create/Wiki-Romain-Bigache/blob/main/writing/morphow-mascotte-ia.md): designing an AI mascot brand identity.
+- [entretiens.md](https://github.com/microphage-create/Wiki-Romain-Bigache/blob/main/writing/entretiens.md): interviews and recorded conversations.
+
+## Optional
+
+- [_schema.md](https://github.com/microphage-create/Wiki-Romain-Bigache/blob/main/_schema.md): wiki structure, frontmatter convention, navigation rules.
+- [personal.md](https://github.com/microphage-create/Wiki-Romain-Bigache/blob/main/personal.md): non-professional context (Brazilian Jiu-Jitsu vice-European champion 2025, music label co-founder, mentoring).
+- [writing.md](https://github.com/microphage-create/Wiki-Romain-Bigache/blob/main/writing.md): writing index page.
+- [fr/README.md](https://github.com/microphage-create/Wiki-Romain-Bigache/blob/main/fr/README.md): French version of the wiki (mirror of the EN tree).
