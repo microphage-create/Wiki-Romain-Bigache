@@ -41,7 +41,7 @@ Une academy interne d'un acteur énergie où un agent IA orchestrateur génère 
 
 Construit en une nuit en mai 2026 pour valider de bout en bout la stack Gemini Enterprise Agent Platform (Vertex AI Search + Cloud Run + function calling Gemini 2.5 Pro) sur un cas d'usage métier réaliste.
 
-Le POC s'inspire d'un pattern observé chez plusieurs acteurs énergie : academy interne avec une matrice rôles × modules × niveaux qui devient ingérable à mesure que l'effectif et le catalogue grossissent. La promesse : remplacer cette matrice statique par un agent IA qui personnalise le parcours collaborateur en live, contextualise les exemples métier (Smart Grid, compteurs Linky, énergies renouvelables), et coache l'apprenant en RAG conversationnel.
+Cas d'usage : une academy interne avec une matrice rôles × modules × niveaux qui devient ingérable à mesure que l'effectif et le catalogue grossissent. La promesse : remplacer cette matrice statique par un agent IA qui personnalise le parcours collaborateur en live, contextualise les exemples sur le métier (Smart Grid, compteurs Linky, énergies renouvelables pour la version énergie), et coache l'apprenant en RAG conversationnel.
 
 ## Description courte
 
