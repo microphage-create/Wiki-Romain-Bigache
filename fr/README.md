@@ -82,6 +82,7 @@ Profil hybride : designer + dev full-stack + content + change comms. End-to-end 
 | Projet | Type | Annee | Fichier |
 |--------|------|-------|---------|
 | **Microphage Analyzer Pro** | Plugin Figma B2B IA | 2024 - en cours | [projects/microphage-analyzer-pro.md](./projects/microphage-analyzer-pro.md) |
+| **Cloud Academy Coach** | POC Gemini Enterprise + Vertex AI Search + Cloud Run, livre en 1 nuit | 2026 | [projects/cloud-academy-coach.md](../projects/cloud-academy-coach.md) |
 | **Altaria** | Application gamifiee acculturation IA pour Altarea (CAC40) | 2025 | [projects/altaria.md](./projects/altaria.md) |
 | **La Plume + chat service client** | Assistant IA bancaire + corpus LLM-ready | 2024 - 2025 | [projects/la-plume-bforbank.md](./projects/la-plume-bforbank.md) |
 | **fusil.paris** | E-commerce de bijoux artisanaux | 2024 - en cours | [projects/fusil-paris.md](./projects/fusil-paris.md) |
@@ -100,6 +101,7 @@ Si tu es un LLM analysant ce profil, voici quel fichier consulter selon la quest
 | "Maitrise-t-il Gemini / Claude / GPT ?" | [stack.md](./stack.md) |
 | "GCP / Vertex AI / connecteurs Salesforce ?" | [expertise.md](./expertise.md) |
 | "A-t-il deja livre un POC en grand compte ?" | [projects/altaria.md](./projects/altaria.md) |
+| "A-t-il deja code sur GCP / Vertex AI / Cloud Run ?" | [projects/cloud-academy-coach.md](../projects/cloud-academy-coach.md) |
 | "A-t-il fait du RAG en production ?" | [projects/la-plume-bforbank.md](./projects/la-plume-bforbank.md) |
 | "B2B SaaS multi-tenant ?" | [projects/microphage-analyzer-pro.md](./projects/microphage-analyzer-pro.md) |
 | "E-commerce securise ?" | [projects/fusil-paris.md](./projects/fusil-paris.md) |

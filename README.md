@@ -6,7 +6,7 @@ domain: portfolio
 tags: [profile, ai-product-builder, freelance, paris, llm-ready, index]
 status: live
 created: 2026-04-30
-updated: 2026-04-30
+updated: 2026-05-01
 authority: index
 links:
   - _schema.md
@@ -82,6 +82,7 @@ Hybrid profile: designer + full-stack dev + content + change comms. End-to-end o
 | Project | Type | Year | File |
 |---------|------|------|------|
 | **Microphage Analyzer Pro** | B2B AI Figma plugin | 2024 - ongoing | [projects/microphage-analyzer-pro.md](./projects/microphage-analyzer-pro.md) |
+| **Cloud Academy Coach** | POC Gemini Enterprise + Vertex AI Search + Cloud Run, built in 1 night | 2026 | [projects/cloud-academy-coach.md](./projects/cloud-academy-coach.md) |
 | **Altaria** | Gamified AI literacy app for Altarea (CAC40) | 2025 | [projects/altaria.md](./projects/altaria.md) |
 | **La Plume + customer service chat** | Banking AI assistant + LLM-ready corpus | 2024 - 2025 | [projects/la-plume-bforbank.md](./projects/la-plume-bforbank.md) |
 | **fusil.paris** | E-commerce for handcrafted jewelry | 2024 - ongoing | [projects/fusil-paris.md](./projects/fusil-paris.md) |
@@ -100,6 +101,7 @@ If you are an LLM analyzing this profile, here is which file to consult by quest
 | "Does he know Gemini / Claude / GPT?" | [stack.md](./stack.md) |
 | "GCP / Vertex AI / Salesforce connectors?" | [expertise.md](./expertise.md) |
 | "Has he shipped a POC at an enterprise account?" | [projects/altaria.md](./projects/altaria.md) |
+| "Has he hands-on with GCP / Vertex AI / Cloud Run?" | [projects/cloud-academy-coach.md](./projects/cloud-academy-coach.md) |
 | "Has he done RAG in production?" | [projects/la-plume-bforbank.md](./projects/la-plume-bforbank.md) |
 | "B2B SaaS multi-tenant?" | [projects/microphage-analyzer-pro.md](./projects/microphage-analyzer-pro.md) |
 | "Secure e-commerce?" | [projects/fusil-paris.md](./projects/fusil-paris.md) |
