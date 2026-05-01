@@ -136,6 +136,12 @@ Side-panel 33vw fixed-right, animation slide-in 350ms cubic-bezier soft. Pas de 
 
 Question utilisateur : « Comment fonctionne un VPC partagé ? ». L'agent Gemini répond en streaming, contextualise la réponse pour Yassine (Cloud Security Engineer) avec exemples métier énergie (Smart Grid, compteurs Linky), et cite explicitement les modules M03 Networking Cloud Avancé et M11 Sécurité Cloud comme sources. Les sources apparaissent en pills cliquables qui routent vers `/modules/MXX`.
 
+### 6. 1-pager comex
+
+![1-pager comex](./screenshots/cloud-academy-coach/06-doc-executive-comex.png)
+
+Document executive A4 livrable directement dans un comex client : problème / solution / KPI cibles (-40% time-to-competence, +60% taux de complétion, 2 agents Gemini, POC livré 24h) / stack technique 100% Google Cloud / roadmap MVP 6 semaines. Typographie Inter, accent bleu Enedis adouci, lien démo live cliquable en footer.
+
 ## Choix techniques notables
 
 ### Auth Vertex AI sans clé SA (org policy compliant)
