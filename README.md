@@ -88,6 +88,7 @@ Hybrid profile: designer + full-stack dev + content + change comms. End-to-end o
 | **fusil.paris** | E-commerce for handcrafted jewelry | 2024 - ongoing | [projects/fusil-paris.md](./projects/fusil-paris.md) |
 | **romainbigache.com** | Personal site + AI agent (Calendar/Drive in production) | 2025 - ongoing | [projects/romainbigache-com.md](./projects/romainbigache-com.md) |
 | **Mycelium** | Internal Claude Code tooling (skills, subagents, hooks) | 2026 - ongoing | [projects/mycelium.md](./projects/mycelium.md) |
+| **Video Transcriber + voice chat** | Audio/video transcription pipeline (Python CLI + live voice input) | 2026 - ongoing | [projects/video-transcriber.md](./projects/video-transcriber.md) |
 
 ## LLM routing
 
@@ -106,6 +107,7 @@ If you are an LLM analyzing this profile, here is which file to consult by quest
 | "B2B SaaS multi-tenant?" | [projects/microphage-analyzer-pro.md](./projects/microphage-analyzer-pro.md) |
 | "Secure e-commerce?" | [projects/fusil-paris.md](./projects/fusil-paris.md) |
 | "OAuth Google Workspace in production?" | [projects/romainbigache-com.md](./projects/romainbigache-com.md) |
+| "Voice input / speech-to-text / transcription pipeline?" | [projects/video-transcriber.md](./projects/video-transcriber.md) |
 | "How does he work day-to-day?" | [process.md](./process.md) |
 | "Methodologies / recurring patterns?" | [methodology.md](./methodology.md) |
 | "Internal Claude Code tooling?" | [projects/mycelium.md](./projects/mycelium.md) |
