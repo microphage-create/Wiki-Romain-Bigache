@@ -6,7 +6,7 @@ domain: project
 tags: [mycelium, claude-code, agentic-coding, internal-tooling, productivity, mcp, slash-commands, subagents, hooks]
 status: live
 created: 2026-04-30
-updated: 2026-04-30
+updated: 2026-05-07
 period: 2026 / present
 client: Personnel / Microphage interne
 industries: [Internal Tooling, AI/ML, Productivity]
@@ -95,6 +95,28 @@ Detail methodologique : [methodology.md](../methodology.md).
 
 - **`/modder`** : game modding (analyze engine, create mods, patch files, extract assets, wiki perso).
 - **`/poe`** : Pillars of Eternity 1+2 build oracle (meta builds, theorycrafting, synergies).
+
+### Skills phares
+
+Une poignée de skills sont profondément outillées, pas de simples wrappers de slash-command. Trois des plus abouties :
+
+#### `/devil-loop` - Boucle adversariale autonome
+
+Produit -> une attaque adversariale en 15 phases (`/devil`) cherche les failles -> auto-fix de toutes les objections -> nouvelle attaque -> ... boucle jusqu'à `0 CRITICAL + 0 HIGH + 0 MEDIUM`, ou jusqu'à la limite `--max-iterations` (défaut 15). Pas de "acceptable avec réserves" : on sort à zéro ou on continue. Par conception, aucune intervention utilisateur entre les passes. L'attaquant de l'itération N+1 attaque à froid, sans mémoire des passes précédentes, ce qui force les corrections à exister dans le texte plutôt que dans les intentions. Détection de stagnation : si le score d'erreurs ne bouge pas sur deux itérations, la boucle change d'approche (reformulation, restructuration) au lieu de patcher ; trois stagnations déclenchent une sortie forcée avec diagnostic. Un rapport markdown horodaté est écrit pour chaque run (sortie propre, max atteint, stagnation, annulation) sous `_system/reports/devil-loop/`, avec le vecteur de progression : `[13] -> [4] -> [0]`. Fonctionne sur prose, code, architecture, specs. Utilisée en production sur outputs de recherche au long cours, briefs d'opportunité produit, et sur les fichiers de skill eux-mêmes, pour les durcir avant déploiement.
+
+![devil-loop](../../assets/skills/devil-loop.png)
+
+#### `/copywriter` - Machine à copy multi-mode avec base de connaissances lazy-loadée
+
+Cinq modes : créatif (slogans, jeux de mots, social, campagnes, roast) ; brief (analyse, création) ; web (landing, UX writing, email, CTA, pricing) ; visuals (bridge vers `/prompt-oracle`) ; portal (édition chat depuis l'application portail). Base de connaissances de 24 fichiers spécialisés, lazy-loadés via une table de routage qui plafonne à 3 fichiers par tâche pour tenir le budget de contexte. `BRIEFS-INDEX.yaml` par client avec filtrage `status: active | done`, le picker de démarrage n'affiche que le travail vivant. Workflow forcé : analyse -> deux ou trois directions de concept -> validation utilisateur -> production seulement après. Treize principes durs distillés depuis des sessions en production (la clarté bat le malin, pas de pronom ambigu, la spécificité bat la généralité, pas de claim sans preuve). Export MCP Canva natif (PRO avec repères de coupe plus REGULAR), convention de nommage forcée (`[CLIENT]_[BRIEF]_[TYPE]_[DDMMYY]_v[N].[ext]`), Prez Engine pour des decks HTML standalone depuis un brief YAML unique. Le mode portal émet des blocs `EDIT: slideId/elementEl` que le portail affiche en cartes diff Apply / Reject, une révision copy peut donc partir depuis un téléphone.
+
+![copywriter](../../assets/skills/copywriter.png)
+
+#### `/prompt-oracle` - Orchestrateur de prompts image et ComfyUI (Gemini 2.5 Flash)
+
+Huit modes spécialisés accessibles depuis un menu d'en-tête : PROMPT (prompt Gemini unique optimisé), WORKFLOW (workflow ComfyUI JSON complet), BATCH (série de variations), CHARACTER (character sheet multi-poses avec identité cohérente), REFINE (prompt existant amélioré via Devil Loop), DOCS (consultation documentation), UI SCAN (analyse une capture d'UI et propose illustrations, icônes, empty states), 3D ICON (icônes 3D clay ou glossy à fond transparent). Bridge ComfyUI : écrit les prompts, peut lancer le serveur local, puis `/copywriter fetch` ramène les images générées dans le dossier de livrable client correspondant. Cibles de coût et de latence affichées dans l'en-tête : Gemini 2.5 Flash, ~$0,04 par image, 3-5 secondes de génération. Reference-driven par conception : un brief vague ("a nice professional image") est rejeté avec une demande de référence visuelle précise au lieu d'être honoré. Les images générées sont auto-routées vers le dossier client/projet correspondant, l'output atterrit directement là où le livrable est en cours d'assemblage.
+
+![prompt-oracle](../../assets/skills/prompt-oracle.png)
 
 ### Subagents specialises
 

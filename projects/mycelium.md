@@ -6,7 +6,7 @@ domain: project
 tags: [mycelium, claude-code, agentic-coding, internal-tooling, productivity, mcp, slash-commands, subagents, hooks]
 status: live
 created: 2026-04-30
-updated: 2026-04-30
+updated: 2026-05-07
 period: 2026 / present
 client: Personal / Microphage internal
 industries: [Internal Tooling, AI/ML, Productivity]
@@ -95,6 +95,28 @@ Methodology details: [methodology.md](../methodology.md).
 
 - **`/modder`**: game modding (analyze engine, create mods, patch files, extract assets, personal wiki).
 - **`/poe`**: Pillars of Eternity 1+2 build oracle (meta builds, theorycrafting, synergies).
+
+### Featured skills
+
+A handful of skills are deeply tooled, not just thin slash-command wrappers. Three of the most refined:
+
+#### `/devil-loop` - Autonomous adversarial improvement loop
+
+Produces -> a 15-phase adversarial review (`/devil`) attacks the output -> auto-fixes every objection -> the next adversarial pass attacks again -> ... loops until `0 CRITICAL + 0 HIGH + 0 MEDIUM` is reached, or `--max-iterations` (default 15) is hit. No "acceptable with reservations": exit at zero or keep looping. By design, no user input is required between passes. The adversarial reviewer in iteration N+1 attacks cold, with no memory of previous rounds, which forces every correction to live in the text rather than in stated intentions. Stagnation detection: if the error count is identical across two consecutive iterations, the loop changes approach (reformulate, restructure) instead of patching; three stagnations trigger a forced exit with a diagnostic. A timestamped markdown report is written for every run (clean exit, max reached, stalled, cancelled) under `_system/reports/devil-loop/`, with the full progression vector logged: `[13] -> [4] -> [0]`. Works on prose, code, architecture, specs. Used in production on long-form research outputs, product opportunity briefs, and on the skill files themselves, to harden them before deployment.
+
+![devil-loop](../assets/skills/devil-loop.png)
+
+#### `/copywriter` - Multi-mode copy machine with lazy-loaded knowledge base
+
+Five modes: creative (slogans, wordplay, social, campaigns, roast); brief (analysis, creation); web (landing, UX writing, email, CTA, pricing); visuals (bridge to `/prompt-oracle`); portal (chat-driven edits from the portal app). Knowledge base of 24 specialized files, lazy-loaded via a routing table that caps at 3 files per task to keep the context budget under control. Per-client `BRIEFS-INDEX.yaml` with `status: active | done` filtering, so the startup picker only shows live work. Forced workflow: analysis -> two or three concept directions -> user validates -> only then production. Thirteen hard principles distilled from production sessions (clarity beats clever, no ambiguous pronouns, specificity beats generality, no claim without proof). Native MCP Canva export (PRO with crop marks plus REGULAR), naming convention enforced (`[CLIENT]_[BRIEF]_[TYPE]_[DDMMYY]_v[N].[ext]`), Prez Engine for standalone HTML decks from a single YAML brief. Portal mode emits `EDIT: slideId/elementEl` blocks that the portal renders as Apply / Reject diff cards, so a copy revision can ship from a phone.
+
+![copywriter](../assets/skills/copywriter.png)
+
+#### `/prompt-oracle` - Image prompt and ComfyUI orchestrator (Gemini 2.5 Flash)
+
+Eight specialized modes accessible from a header menu: PROMPT (single Gemini-optimized prompt), WORKFLOW (full ComfyUI workflow JSON), BATCH (variation series), CHARACTER (multi-pose character sheet with consistent identity), REFINE (existing prompt improved via Devil Loop), DOCS (documentation lookup), UI SCAN (analyzes a UI screenshot and proposes illustrations, icons, empty states), 3D ICON (clay or glossy 3D icons with transparent background). Bridges ComfyUI: writes the prompts, can launch the local server, then `/copywriter fetch` round-trips the generated images back into the right client deliverable folder. Cost and latency targets surfaced in the header: Gemini 2.5 Flash, ~$0.04 per image, 3-5 second turnaround. Reference-driven by design: vague briefs ("a nice professional image") get pushed back with a request for a specific visual reference instead of being honored. Generated images are auto-routed to the matching client/project folder, so output lands directly where the deliverable is being assembled.
+
+![prompt-oracle](../assets/skills/prompt-oracle.png)
 
 ### Specialized subagents
 
