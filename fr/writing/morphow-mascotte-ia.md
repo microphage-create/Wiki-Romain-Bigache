@@ -1,12 +1,12 @@
 ---
 id: writing-morphow-mascotte-ia
-title: J'ai genere 352 mascottes IA. La bonne n'en faisait pas partie.
+title: J'ai généré 352 mascottes IA. La bonne n'en faisait pas partie.
 type: writing
 domain: blog-article
 tags: [morphow, mascotte, prompt-oracle, comfyui, gemini, illustrator, propriete-intellectuelle, workflow-ia]
 status: published
 created: 2026-04-30
-updated: 2026-04-30
+updated: 2026-05-07
 url: https://romainbigache.com/fr/blog/morphow-mascotte-ia
 slug: morphow-mascotte-ia
 links:
