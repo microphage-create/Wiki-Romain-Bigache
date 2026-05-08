@@ -35,7 +35,7 @@ links:
 - **Telephone** : 07 82 59 67 53
 - **Site** : [romainbigache.com](https://romainbigache.com)
 - **Blog** : [romainbigache.com/fr/blog](https://romainbigache.com/fr/blog) (6 articles publies, voir [writing.md](./writing.md))
-- **LinkedIn** : [linkedin.com/in/romainbigache](https://linkedin.com/in/romainbigache)
+- **LinkedIn** : [linkedin.com/in/ai-product-builder](https://linkedin.com/in/ai-product-builder)
 - **GitHub** : [github.com/microphage-create](https://github.com/microphage-create)
 - **Demo Altaria** : [altaria.microphage.ai/access](https://altaria.microphage.ai/access)
 

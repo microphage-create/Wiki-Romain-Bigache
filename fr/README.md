@@ -33,7 +33,7 @@ links:
 | **Disponibilite** | 11 mai 2026, full-time |
 | **Email** | romain.bigache@gmail.com |
 | **Site** | romainbigache.com |
-| **LinkedIn** | linkedin.com/in/romainbigache |
+| **LinkedIn** | linkedin.com/in/ai-product-builder |
 
 ## Pitch
 
