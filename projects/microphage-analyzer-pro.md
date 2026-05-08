@@ -1,19 +1,19 @@
 ---
 id: project-microphage-analyzer-pro
-title: Microphage Analyzer Pro - B2B AI Figma Plugin
+title: Microphage Analyzer Pro - B2B AI Tool for UX Writing
 type: project
 domain: project
-tags: [microphage, figma-plugin, b2b-saas, multi-tenant, llm-wiki, hybrid-retrieval, prompt-caching, hono, cloudflare-workers]
+tags: [microphage, b2b-saas, multi-tenant, llm-wiki, hybrid-retrieval, prompt-caching, hono, cloudflare-workers]
 status: live
 created: 2026-04-30
-updated: 2026-04-30
+updated: 2026-05-08
 period: 2025-11 / present
 client: Microphage (SASU)
 industries: [SaaS, AI/ML, Design Tools]
 team: 1 (Romain Bigache, solo)
 url: null
 demo: null
-technologies: [TypeScript, Figma Plugin API, esbuild, pnpm 9, Turbo 2, Hono, Cloudflare Workers, OpenAI, Upstash Redis, Supabase, Sentry, PostHog, Vitest, Playwright]
+technologies: [TypeScript, esbuild, pnpm 9, Turbo 2, Hono, Cloudflare Workers, OpenAI, Upstash Redis, Supabase, Sentry, PostHog, Vitest, Playwright]
 links:
   - experience/microphage.md
   - stack.md
@@ -23,7 +23,7 @@ links:
 
 | Key | Value |
 |-----|-------|
-| **Type** | B2B SaaS multi-tenant Figma plugin |
+| **Type** | B2B SaaS multi-tenant tool for UX writing in design workflows |
 | **Status** | In production, first client deployment in progress |
 | **Project start** | November 2025 (SASU incorporation + product structuring) |
 | **Company** | Microphage (SASU) |
@@ -32,15 +32,15 @@ links:
 
 ## Short title
 
-B2B Figma plugin for AI-driven UX writing audits.
+B2B AI tool for UX writing audits in design workflows.
 
 ## Genesis
 
-Microphage Analyzer Pro launched in November 2025, alongside the incorporation of Microphage Intelligence (as the BforBank engagement was wrapping up). The product builds on three years of prior personal R&D: exploration of GPT-3.5 AI prompts at ADEO, first Figma prototype for UX writing analysis at BforBank, iterations on the LLM Wiki methodology and the editorial rules corpus. All this material was consolidated and structured into a standalone B2B product when Microphage was created.
+Microphage Analyzer Pro launched in November 2025, alongside the incorporation of Microphage Intelligence (as the BforBank engagement was wrapping up). The product builds on three years of prior personal R&D: exploration of GPT-3.5 AI prompts at ADEO, first prototype for UX writing analysis at BforBank, iterations on the LLM Wiki methodology and the editorial rules corpus. All this material was consolidated and structured into a standalone B2B product when Microphage was created.
 
 ## Short description
 
-B2B Figma plugin that audits, rewrites and advises on UX writing in mockups via AI. 5 modes in production. Proprietary 785-rule wiki as a single source of truth (see [methodology.md](../methodology.md)). First deployment with a B2B edtech client (delivery May 2026), pitched to the VP Design of Ledger.
+B2B AI tool that audits, rewrites and advises on UX writing in design workflows. 5 modes in production. Proprietary 785-rule wiki as a single source of truth (see [methodology.md](../methodology.md)). Several enterprise pilots in pipeline.
 
 ## Long description
 
@@ -52,13 +52,15 @@ Design teams in large enterprises ship Figma screens continuously without system
 
 Microphage Analyzer Pro covers five usage modes:
 
-1. **Audit**: analyzes a Figma selection and detects rule violations
+1. **Audit**: analyzes a design selection and detects rule violations
 2. **Rewrite**: proposes a compliant rewrite
 3. **Rewrite-from-audit**: rewrites based on detected errors
 4. **Insights**: statistical analysis on a project
 5. **Chat**: queries the client's content design system
 
-Audit and rewrite analyze both the visual capture and the Figma metadata extracted from the selected node (geometry, typography, naming, layer structure). Vision is the primary source of truth, metadata provides structural context.
+Audit and rewrite analyze both the visual capture and the design metadata extracted from the selected node (geometry, typography, naming, layer structure). Vision is the primary source of truth, metadata provides structural context.
+
+A companion web app and a standalone chat interface are on the roadmap to extend the tool beyond the design surface.
 
 ### Architecture
 
@@ -82,7 +84,7 @@ Multi-tenant architecture designed from day one to spin up a new tenant pack wit
 
 - TypeScript strict
 - pnpm 9 + Turbo 2 monorepo
-- Figma plugin (Figma Plugin API, esbuild build)
+- Native integration in design workflows (esbuild build)
 - Hono backend on Cloudflare Workers
 - OpenAI LLM (abstracted provider) with Anthropic prompt caching
 - Proprietary UX writing Wiki V4 (785 rules, 17 categories)
@@ -94,9 +96,9 @@ Multi-tenant architecture designed from day one to spin up a new tenant pack wit
 
 ## Impact
 
-- POC delivery in progress with a B2B edtech client (May 2026)
-- Pitched to the VP Design of Ledger
-- Multi-tenant architecture ready for client #2 signature
+- POC delivery in progress with a first enterprise client (May 2026)
+- Several enterprise pilots in pipeline
+- Multi-tenant architecture ready to scale to additional clients
 
 ## Related
 
