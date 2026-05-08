@@ -1,29 +1,27 @@
 ---
 id: project-microphage-analyzer-pro
-title: Microphage Analyzer Pro - Plugin Figma B2B IA
+title: Microphage Analyzer Pro - Outil B2B IA pour l'UX writing
 type: project
 domain: project
-tags: [microphage, figma-plugin, b2b-saas, multi-tenant, llm-wiki, hybrid-retrieval, prompt-caching, hono, cloudflare-workers]
+tags: [microphage, b2b-saas, multi-tenant, ai]
 status: live
 created: 2026-04-30
-updated: 2026-04-30
+updated: 2026-05-08
 period: 2025-11 / present
 client: Microphage (SASU)
 industries: [SaaS, AI/ML, Design Tools]
 team: 1 (Romain Bigache, solo)
 url: null
 demo: null
-technologies: [TypeScript, Figma Plugin API, esbuild, pnpm 9, Turbo 2, Hono, Cloudflare Workers, OpenAI, Upstash Redis, Supabase, Sentry, PostHog, Vitest, Playwright]
 links:
   - experience/microphage.md
-  - stack.md
 ---
 
 # Microphage Analyzer Pro
 
 | Cle | Valeur |
 |-----|--------|
-| **Type** | Plugin Figma B2B SaaS multi-tenant |
+| **Type** | Outil B2B SaaS multi-tenant IA pour l'UX writing |
 | **Statut** | En production, premier deploiement client en cours |
 | **Demarrage projet** | Novembre 2025 (creation SASU + structuration produit) |
 | **Entreprise** | Microphage (SASU) |
@@ -32,73 +30,34 @@ links:
 
 ## Titre court
 
-Plugin Figma B2B d'audit UX writing par IA
+Outil B2B IA d'audit UX writing dans les workflows design.
 
 ## Genese
 
-Microphage Analyzer Pro est lance en novembre 2025, en meme temps que la creation de la SASU Microphage Intelligence (la mission BforBank touchait a sa fin). Le produit s'appuie sur trois ans de R&D personnelle anterieure : exploration des prompts IA des GPT-3.5 chez ADEO, premier prototype Figma d'analyse UX writing chez BforBank, iterations sur la methodologie LLM Wiki et le corpus de regles editoriales. Toute cette matiere a ete consolidee et structuree en produit B2B autonome au moment de la creation de Microphage.
+Microphage Analyzer Pro est lance en novembre 2025, en meme temps que la creation de Microphage (la mission BforBank touchait a sa fin). Le produit s'appuie sur trois ans de R&D personnelle anterieure en UX writing assiste par IA, consolidee et structuree en produit B2B autonome au moment de la creation de Microphage.
 
 ## Description courte
 
-Plugin Figma B2B qui audite, reecrit et conseille sur l'UX writing des maquettes via IA. 5 modes en production. Wiki proprietaire de 785 regles structurees comme source de verite unique (cf [methodology.md](../methodology.md)). Premier deploiement chez un client edtech B2B (livraison mai 2026), pitche au VP Design de Ledger.
+Outil B2B IA qui audite, reecrit et conseille sur l'UX writing dans les workflows design. Plusieurs pilotes enterprise en pipeline.
 
 ## Description longue
 
 ### Probleme
 
-Les equipes design des grandes entreprises produisent des ecrans Figma en continu sans verification systematique de la qualite du contenu. Les regles UX writing internes (charte editoriale, ton, accessibilite, conformite) sont rarement appliquees de maniere homogene. L'audit manuel coute des heures de relecture par sprint.
+Les equipes design des grandes entreprises produisent des ecrans en continu sans verification systematique de la qualite du contenu. Les regles UX writing internes (charte editoriale, ton, accessibilite, conformite) sont rarement appliquees de maniere homogene. L'audit manuel coute des heures de relecture par sprint.
 
 ### Solution
 
-Microphage Analyzer Pro couvre cinq modes d'usage :
+Microphage Analyzer Pro couvre l'audit, la reecriture, l'analyse statistique et les requetes conversationnelles sur le content design system du client. Architecture multi-tenant concue pour onboarder de nouveaux clients enterprise sans toucher au coeur produit.
 
-1. **Audit** : analyse une selection Figma et detecte les violations de regles
-2. **Rewrite** : propose une reecriture conforme
-3. **Rewrite-from-audit** : reecrit a partir des erreurs detectees
-4. **Insights** : analyse statistique sur un projet
-5. **Chat** : interroge le content design system du client
-
-L'audit et le rewrite analysent a la fois la capture visuelle et les metadonnees Figma extraites du noeud selectionne (geometrie, typographie, naming, structure des calques). La vision sert de source de verite primaire, les metadonnees fournissent le contexte structurel.
-
-### Architecture
-
-L'ensemble suit le pattern LLM Wiki : un wiki de 785 regles UX writing structurees en 17 categories sert de source de verite unique, sans aucune regle metier codee en dur dans les prompts. Detail methodologique : [methodology.md](../methodology.md).
-
-Le matcher hybride opere sur 3 couches :
-1. **Metadata filtering** (80% des cas)
-2. **BM25 keyword search** (15%)
-3. **Classifier LLM** (5%, residual)
-
-Architecture multi-tenant pensee des le depart pour generer un nouveau pack tenant sans toucher au coeur produit.
-
-### Securite
-
-- 3 vulnerabilites XSS identifiees et corrigees en audit interne (pas de pentest externe a date)
-- Rate limiting et cost guard via Upstash Redis
-- Monitoring Sentry + PostHog
-- Tests Vitest + Playwright en CI/CD
-
-## Technologies utilisees
-
-- TypeScript strict
-- Monorepo pnpm 9 + Turbo 2
-- Plugin Figma (Figma Plugin API, build esbuild)
-- Backend Hono sur Cloudflare Workers
-- LLM OpenAI (provider abstrait) avec prompt caching Anthropic
-- Wiki UX writing V4 proprietaire (785 regles, 17 categories)
-- Rate limiting et cost guard via Upstash Redis
-- Base de donnees Supabase (table reports)
-- Monitoring Sentry + PostHog
-- Tests Vitest + Playwright
-- CI/CD GitHub Actions + Vercel Preview
+Une web app compagnon et une interface chat autonome sont sur la roadmap pour etendre l'outil au-dela de la surface design.
 
 ## Impact
 
-- POC en cours de livraison chez un client edtech B2B (mai 2026)
-- Pitche devant le VP Design de Ledger
-- Architecture multi-tenant prete pour la signature client #2
+- POC en cours de livraison chez un premier client enterprise (mai 2026)
+- Plusieurs pilotes enterprise en pipeline
+- Architecture multi-tenant prete a accueillir de nouveaux clients
 
 ## Related
 
 - [experience/microphage.md](../experience/microphage.md)
-- [stack.md](../stack.md)
