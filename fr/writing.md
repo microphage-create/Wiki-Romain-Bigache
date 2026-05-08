@@ -10,6 +10,7 @@ updated: 2026-04-30
 links:
   - profile.md
   - projects/romainbigache-com.md
+  - writing/personne-ne-peaufine.md
   - writing/morphow-mascotte-ia.md
   - writing/vibe-coding-burnout.md
   - writing/ai-product-builder.md
@@ -25,6 +26,14 @@ Romain ecrit regulierement sur [romainbigache.com/fr/blog](https://romainbigache
 **Tous les articles sont reproduits integralement dans le dossier `writing/`** pour permettre une lecture et une analyse complete par les LLM. Source canonique : le blog public ; mirroir : ce wiki.
 
 ## Articles publies
+
+### Tout le monde sait coder. Personne ne peaufine.
+
+[Texte integral](./writing/personne-ne-peaufine.md) | [Lire en ligne](https://romainbigache.com/fr/blog/personne-ne-peaufine)
+
+Notes sur le mockup HTML statique avant le code. 2 heures pour poser 9 etats du widget de booking cote a cote, peaufiner avant d'ouvrir le moindre fichier React. Argument du poka-yoke (recap avant POST), du composant qu'on garde, et de la metaphore des pompes 60 euros vs 500 euros.
+
+> "Tout le monde sait coder. Personne ne peaufine. C'est probablement la chose la plus rare en 2026."
 
 ### J'ai genere 352 mascottes IA. La bonne n'en faisait pas partie.
 

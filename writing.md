@@ -10,6 +10,7 @@ updated: 2026-04-30
 links:
   - profile.md
   - projects/romainbigache-com.md
+  - writing/personne-ne-peaufine.md
   - writing/morphow-mascotte-ia.md
   - writing/vibe-coding-burnout.md
   - writing/ai-product-builder.md
@@ -25,6 +26,14 @@ Romain writes regularly on [romainbigache.com/fr/blog](https://romainbigache.com
 **All articles are reproduced in full inside the `writing/` folder** to allow complete reading and analysis by LLMs. Canonical source: the public blog; mirror: this wiki.
 
 ## Published articles
+
+### Everyone knows how to code. Nobody polishes.
+
+[Full text](./writing/personne-ne-peaufine.md) | [Read online](https://romainbigache.com/en/blog/personne-ne-peaufine)
+
+Notes on the static HTML mockup before code. 2 hours to lay out 9 states of the booking widget side by side, polish before opening a single React file. Arguments on poka-yoke (recap before POST), the component you keep, and the 60-vs-500-euro shoes metaphor.
+
+> "Everyone knows how to code. Nobody polishes. Probably the rarest thing in 2026."
 
 ### I generated 352 AI mascots. The right one wasn't among them.
 
