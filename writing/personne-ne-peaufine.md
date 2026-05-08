@@ -29,7 +29,7 @@ I wanted to redo the booking widget on my site. A list of time slots in the chat
 
 I laid down 9 states side by side on the same page: skeleton during the LLM tool call, calendar with scarcity, list of time slots, recap, inline email edit, "in progress" state, confirmation, 409 error when the slot gets taken elsewhere at the same time, and the case where the LLM has to ask for a first name because the email is opaque.
 
-![Static mockup: recap state](../assets/mockup-driven/04-recap-default.png)
+<img src="../assets/mockup-driven/04-recap-default.png" alt="Static mockup: recap state" width="600" />
 
 2 hours. All states visible at the same time, full screen, in dark and light, in French and English. Before a single line of React.
 
@@ -49,7 +49,7 @@ I probably wouldn't have thought of that recap if I'd coded directly. I'd have w
 
 Same for the copy. Next to the success state, you see that "this slot was just taken" sounds accusatory. You correct it to "this slot is already taken", neutral. One word changes, but you make the change because you have both versions in front of you. In code, you'd have read that copy in a strings file, not in its context.
 
-![Static mockup: 409 error state](../assets/mockup-driven/08-error.png)
+<img src="../assets/mockup-driven/08-error.png" alt="Static mockup: 409 error state" width="600" />
 
 ## And every component you keep
 

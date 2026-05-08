@@ -28,7 +28,7 @@ J'ai voulu refaire le widget de booking de mon site. Une liste de créneaux dans
 
 J'ai posé 9 états côte à côte sur la même page : skeleton pendant le tool call du LLM, calendrier avec scarcity, liste de créneaux horaires, récap, édition d'email inline, état "en cours", confirmation, erreur 409 quand le créneau est pris ailleurs au même moment, et le cas où le LLM doit demander un prénom parce que l'email est opaque.
 
-![Mockup statique : état recap](../../assets/mockup-driven/04-recap-default.png)
+<img src="../../assets/mockup-driven/04-recap-default.png" alt="Mockup statique : état recap" width="600" />
 
 2 heures. Tous les états visibles en même temps, en plein écran, en dark et en light, en français et en anglais. Avant la moindre ligne de React.
 
@@ -48,7 +48,7 @@ J'aurais sans doute pas pensé à ce récap en codant direct. J'aurais branché 
 
 Pareil pour le copy. À côté du success state, tu vois que "ce créneau vient d'être pris" sonne accusateur. Tu corriges en "ce créneau est déjà pris", neutre. Un mot qui change, mais tu fais le changement parce que t'as les deux versions sous les yeux. En code, t'aurais lu ce copy dans un fichier de strings, pas dans son contexte.
 
-![Mockup statique : état erreur 409](../../assets/mockup-driven/08-error.png)
+<img src="../../assets/mockup-driven/08-error.png" alt="Mockup statique : état erreur 409" width="600" />
 
 ## Et chaque composant tu le gardes
 
