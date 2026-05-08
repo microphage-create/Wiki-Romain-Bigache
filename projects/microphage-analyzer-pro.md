@@ -3,7 +3,7 @@ id: project-microphage-analyzer-pro
 title: Microphage Analyzer Pro - B2B AI Tool for UX Writing
 type: project
 domain: project
-tags: [microphage, b2b-saas, multi-tenant, llm-wiki, hybrid-retrieval, prompt-caching, hono, cloudflare-workers]
+tags: [microphage, b2b-saas, multi-tenant, ai]
 status: live
 created: 2026-04-30
 updated: 2026-05-08
@@ -13,17 +13,15 @@ industries: [SaaS, AI/ML, Design Tools]
 team: 1 (Romain Bigache, solo)
 url: null
 demo: null
-technologies: [TypeScript, esbuild, pnpm 9, Turbo 2, Hono, Cloudflare Workers, OpenAI, Upstash Redis, Supabase, Sentry, PostHog, Vitest, Playwright]
 links:
   - experience/microphage.md
-  - stack.md
 ---
 
 # Microphage Analyzer Pro
 
 | Key | Value |
 |-----|-------|
-| **Type** | B2B SaaS multi-tenant tool for UX writing in design workflows |
+| **Type** | B2B SaaS multi-tenant AI tool for UX writing |
 | **Status** | In production, first client deployment in progress |
 | **Project start** | November 2025 (SASU incorporation + product structuring) |
 | **Company** | Microphage (SASU) |
@@ -36,63 +34,23 @@ B2B AI tool for UX writing audits in design workflows.
 
 ## Genesis
 
-Microphage Analyzer Pro launched in November 2025, alongside the incorporation of Microphage Intelligence (as the BforBank engagement was wrapping up). The product builds on three years of prior personal R&D: exploration of GPT-3.5 AI prompts at ADEO, first prototype for UX writing analysis at BforBank, iterations on the LLM Wiki methodology and the editorial rules corpus. All this material was consolidated and structured into a standalone B2B product when Microphage was created.
+Microphage Analyzer Pro launched in November 2025, alongside the incorporation of Microphage (as the BforBank engagement was wrapping up). The product builds on three years of prior personal R&D in AI-assisted UX writing, consolidated and structured into a standalone B2B product when Microphage was created.
 
 ## Short description
 
-B2B AI tool that audits, rewrites and advises on UX writing in design workflows. 5 modes in production. Proprietary 785-rule wiki as a single source of truth (see [methodology.md](../methodology.md)). Several enterprise pilots in pipeline.
+B2B AI tool that audits, rewrites and advises on UX writing in design workflows. Several enterprise pilots in pipeline.
 
 ## Long description
 
 ### Problem
 
-Design teams in large enterprises ship Figma screens continuously without systematic content quality checks. Internal UX writing rules (editorial guidelines, tone, accessibility, compliance) are rarely applied consistently. Manual audits cost hours of review per sprint.
+Design teams in large enterprises ship screens continuously without systematic content quality checks. Internal UX writing rules (editorial guidelines, tone, accessibility, compliance) are rarely applied consistently. Manual audits cost hours of review per sprint.
 
 ### Solution
 
-Microphage Analyzer Pro covers five usage modes:
-
-1. **Audit**: analyzes a design selection and detects rule violations
-2. **Rewrite**: proposes a compliant rewrite
-3. **Rewrite-from-audit**: rewrites based on detected errors
-4. **Insights**: statistical analysis on a project
-5. **Chat**: queries the client's content design system
-
-Audit and rewrite analyze both the visual capture and the design metadata extracted from the selected node (geometry, typography, naming, layer structure). Vision is the primary source of truth, metadata provides structural context.
+Microphage Analyzer Pro covers audit, rewrite, statistical insights and conversational queries on a client's content design system. Multi-tenant architecture designed to onboard new enterprise clients without touching the product core.
 
 A companion web app and a standalone chat interface are on the roadmap to extend the tool beyond the design surface.
-
-### Architecture
-
-The whole system follows the LLM Wiki pattern: a 785-rule UX writing wiki structured across 17 categories serves as the single source of truth, with zero business rules hard-coded into the prompts. Methodology details: [methodology.md](../methodology.md).
-
-The hybrid matcher operates across 3 layers:
-1. **Metadata filtering** (80% of cases)
-2. **BM25 keyword search** (15%)
-3. **LLM classifier** (5%, residual)
-
-Multi-tenant architecture designed from day one to spin up a new tenant pack without touching the product core.
-
-### Security
-
-- 3 XSS vulnerabilities identified and fixed during internal audit (no external pentest to date)
-- Rate limiting and cost guard via Upstash Redis
-- Sentry + PostHog monitoring
-- Vitest + Playwright tests in CI/CD
-
-## Technologies used
-
-- TypeScript strict
-- pnpm 9 + Turbo 2 monorepo
-- Native integration in design workflows (esbuild build)
-- Hono backend on Cloudflare Workers
-- OpenAI LLM (abstracted provider) with Anthropic prompt caching
-- Proprietary UX writing Wiki V4 (785 rules, 17 categories)
-- Rate limiting and cost guard via Upstash Redis
-- Supabase database (reports table)
-- Sentry + PostHog monitoring
-- Vitest + Playwright tests
-- GitHub Actions CI/CD + Vercel Preview
 
 ## Impact
 
@@ -103,4 +61,3 @@ Multi-tenant architecture designed from day one to spin up a new tenant pack wit
 ## Related
 
 - [experience/microphage.md](../experience/microphage.md)
-- [stack.md](../stack.md)
