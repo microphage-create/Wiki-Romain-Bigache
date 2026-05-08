@@ -14,6 +14,7 @@ industry: Services informatiques et conseil IT
 links:
   - projects/microphage-analyzer-pro.md
   - projects/altaria.md
+  - projects/my-suez.md
   - projects/fusil-paris.md
   - stack.md
 ---
@@ -31,15 +32,21 @@ links:
 
 Conception, design, code et livraison d'outils IA en solo pour grands comptes. Approche end-to-end : architecture, code, design, copy, mise en production, pitch client.
 
-SASU Microphage Intelligence creee en septembre 2025. Microphage Analyzer Pro est le produit phare lance en novembre 2025, adosse a trois ans de R&D personnelle anterieure (premier prototype Figma chez BforBank, iterations sur la methodologie LLM Wiki et le corpus de regles editoriales). Autres produits actifs : fusil.paris (co-fonde en 2024) et romainbigache.com (en prod 2025).
+SASU Microphage Intelligence creee en septembre 2025. Microphage Analyzer Pro est le produit phare lance en novembre 2025, adosse a trois ans de R&D personnelle anterieure en UX writing assiste par IA. Autres produits actifs : fusil.paris (co-fonde en 2024) et romainbigache.com (en prod 2025).
 
 ## Produits livres ou en cours
 
 ### Microphage Analyzer Pro
 
-Plugin Figma B2B multi-tenant qui audite et reecrit l'UX writing par IA. Architecture Karpathy LLM Wiki (785 regles structurees comme source de verite unique), matcher hybride 3 couches (metadata, BM25, classifier LLM), audit visuel par OCR, prompt caching. Hono + Cloudflare Workers, monorepo pnpm + Turbo. Premier deploiement chez un client edtech B2B (livraison mai 2026), pitche au VP Design de Ledger.
+Outil B2B IA multi-tenant qui audite et reecrit l'UX writing dans les workflows design. Plusieurs pilotes enterprise en pipeline. Web app compagnon et interface chat sur la roadmap.
 
 Detail : [projects/microphage-analyzer-pro.md](../projects/microphage-analyzer-pro.md).
+
+### My Suez
+
+Pitch et exploration design pour la refonte de My Suez, l'intranet corporate du groupe Suez (eau, dechets, energie). Multi-BU, bilingue FR/EN, perimetre couvrant portail support IT, RH self-service, applications metier, dashboards. Premieres maquettes livrees, pitch en cours.
+
+Detail : [projects/my-suez.md](../projects/my-suez.md).
 
 ### Altaria
 
@@ -73,5 +80,6 @@ Detail : [stack.md](../stack.md).
 
 - [projects/microphage-analyzer-pro.md](../projects/microphage-analyzer-pro.md)
 - [projects/altaria.md](../projects/altaria.md)
+- [projects/my-suez.md](../projects/my-suez.md)
 - [projects/fusil-paris.md](../projects/fusil-paris.md)
 - [stack.md](../stack.md)

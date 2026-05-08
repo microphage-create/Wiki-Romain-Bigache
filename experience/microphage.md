@@ -14,6 +14,7 @@ industry: IT services and consulting
 links:
   - projects/microphage-analyzer-pro.md
   - projects/altaria.md
+  - projects/my-suez.md
   - projects/fusil-paris.md
   - stack.md
 ---
@@ -31,15 +32,21 @@ links:
 
 Solo design, code and shipping of AI tools for enterprise accounts. End-to-end approach: architecture, code, design, copy, production deployment, client pitch.
 
-SASU Microphage Intelligence incorporated in September 2025. Microphage Analyzer Pro is the flagship product launched in November 2025, building on three prior years of personal R&D (first Figma prototype at BforBank, iterations on the LLM Wiki methodology and the editorial rules corpus). Other active products: fusil.paris (co-founded in 2024) and romainbigache.com (in production 2025).
+SASU Microphage Intelligence incorporated in September 2025. Microphage Analyzer Pro is the flagship product launched in November 2025, building on three prior years of personal R&D in AI-assisted UX writing. Other active products: fusil.paris (co-founded in 2024) and romainbigache.com (in production 2025).
 
 ## Products shipped or in progress
 
 ### Microphage Analyzer Pro
 
-B2B multi-tenant Figma plugin that audits and rewrites UX writing via AI. Karpathy LLM Wiki architecture (785 structured rules as single source of truth), 3-layer hybrid matcher (metadata, BM25, LLM classifier), visual audit via OCR, prompt caching. Hono + Cloudflare Workers, pnpm + Turbo monorepo. First deployment with a B2B edtech client (delivery May 2026), pitched to Ledger's VP Design.
+B2B multi-tenant AI tool that audits and rewrites UX writing in design workflows. Several enterprise pilots in pipeline. Companion web app and chat interface on the roadmap.
 
 Detail: [projects/microphage-analyzer-pro.md](../projects/microphage-analyzer-pro.md).
+
+### My Suez
+
+Pitch and design exploration for the redesign of My Suez, the corporate intranet of the Suez group (water, waste, energy). Multi-BU, bilingual FR/EN, scope covering IT support portal, HR self-service, business apps, dashboards. First mockups delivered, pitch in progress.
+
+Detail: [projects/my-suez.md](../projects/my-suez.md).
 
 ### Altaria
 
@@ -73,5 +80,6 @@ Detail: [stack.md](../stack.md).
 
 - [projects/microphage-analyzer-pro.md](../projects/microphage-analyzer-pro.md)
 - [projects/altaria.md](../projects/altaria.md)
+- [projects/my-suez.md](../projects/my-suez.md)
 - [projects/fusil-paris.md](../projects/fusil-paris.md)
 - [stack.md](../stack.md)
