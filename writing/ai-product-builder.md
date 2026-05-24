@@ -1,7 +1,7 @@
 ---
 id: writing-ai-product-builder
 title: What's an AI Product Builder?
-description: A definition pulled from what I actually ship: apps, agents, e-commerce, plugins. Not slides about AI.
+description: "A definition pulled from what I actually ship: apps, agents, e-commerce, plugins. Not slides about AI."
 type: writing
 domain: blog-article
 tags: [ai-product-builder, definition, freelance, hybrid-profile, ux-writing, content-design]
