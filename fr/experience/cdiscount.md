@@ -16,27 +16,27 @@ links: []
 
 # Cdiscount (Octopia) - UX Writer
 
-| Cle | Valeur |
+| Clé | Valeur |
 |-----|--------|
-| **Periode** | Janvier 2022 - Mars 2022 (3 mois) |
+| **Période** | Janvier 2022 - Mars 2022 (3 mois) |
 | **Localisation** | Paris, France |
-| **Filiale** | Octopia (filiale Cdiscount dediee aux marketplaces) |
+| **Filiale** | Octopia (filiale Cdiscount dédiée aux marketplaces) |
 
 ## Mission
 
-Accompagnement d'Octopia dans l'amelioration de son interface et la mise en place de fondations editoriales durables.
+Accompagnement d'Octopia dans l'amélioration de son interface et la mise en place de fondations éditoriales durables.
 
 ## Audit et recommandations
 
-Analyse complete de l'application desktop pour detecter les zones floues, les incoherences et les doublons. Recommandations UX et editoriales pour renforcer la clarte, la fluidite des parcours et la coherence globale.
+Analyse complète de l'application desktop pour détecter les zones floues, les incohérences et les doublons. Recommandations UX et éditoriales pour renforcer la clarté, la fluidité des parcours et la cohérence globale.
 
-## Guidelines editoriales
+## Guidelines éditoriales
 
-Redaction de guidelines UX writing adaptees au produit, avec des exemples concrets et des cas d'usage. Objectif : rendre les regles actionnables et directement utilisables par les equipes au quotidien.
+Rédaction de guidelines UX writing adaptées au produit, avec des exemples concrets et des cas d'usage. Objectif : rendre les règles actionnables et directement utilisables par les équipes au quotidien.
 
 ## Transmission
 
-Structuration des bases pour faciliter l'arrivee d'une UX Writer interne. Documentation, cadrage des chantiers a venir, et passation claire pour garantir la continuite.
+Structuration des bases pour faciliter l'arrivée d'une UX Writer interne. Documentation, cadrage des chantiers à venir, et passation claire pour garantir la continuité.
 
 ## Related
 

@@ -48,6 +48,7 @@ Methodology: Karpathy LLM Wiki adapted to a professional profile.
 | `technologies` | array | Key technologies |
 | `url` | string | Public URL if demo |
 | `confidential` | bool | If some info needs to be redacted |
+| `category` | enum | For `type: project` only. One of: `app` (software product), `tool` (internal tool), `site` (website), `case` (creative campaign). Used by the portfolio site to group projects. |
 
 ## Type taxonomy
 
@@ -65,6 +66,7 @@ Methodology: Karpathy LLM Wiki adapted to a professional profile.
 - `experience`: mission file (1 file per employer)
 - `project`: project file (1 file per delivery)
 - `personal`: off-work (sport, volunteering, side projects)
+- `press`: external third-party content (testimonials, interviews, press mentions)
 
 ## Repo structure
 

@@ -6,12 +6,13 @@ domain: identity
 tags: [identity, ai-product-builder, freelance, paris, sasu]
 status: live
 created: 2026-04-30
-updated: 2026-04-30
+updated: 2026-09-01
 links:
   - cv.md
   - stack.md
   - availability.md
   - writing.md
+  - expertise/direction-de-creation.md
 ---
 
 # Romain Bigache - AI Product Builder
@@ -24,8 +25,8 @@ links:
 | **Title** | AI Product Builder |
 | **Location** | Paris, France |
 | **Legal status** | Freelance via SASU Microphage Intelligence |
-| **Posted day rate** | 850 EUR / day (full-time, long-term) |
-| **Availability** | May 11, 2026, full-time |
+| **Posted day rate** | 650-750 EUR / day (depending on scope and duration) |
+| **Availability** | Immediately, full-time |
 | **Format** | On-site, hybrid, or remote (flexible) |
 | **Languages** | Native French. English: written and read fluently. |
 
@@ -38,6 +39,7 @@ links:
 - **LinkedIn**: [linkedin.com/in/ai-product-builder](https://linkedin.com/in/ai-product-builder)
 - **GitHub**: [github.com/microphage-create](https://github.com/microphage-create)
 - **Altaria demo**: [altaria.microphage.ai/access](https://altaria.microphage.ai/access)
+- **Open source**: Microwave Method on PyPI (`uvx microwave-method`), repo [microphage-create/microwave-method](https://github.com/microphage-create/microwave-method)
 
 ## Short pitch (3 lines)
 
@@ -53,13 +55,16 @@ links:
 - AI Tech Lead / AI Consultant
 - Lead UX Writer / Lead Content Designer / Conversation Designer
 
-## 5 main areas of expertise
+## 6 main areas of expertise
 
 1. LLMs / Large language models
-2. Generative AI
-3. AI agents & RAG
-4. Full-Stack Developer
-5. Product Design
+2. Generative AI & AI agents / RAG
+3. Product Design
+4. UX Writing & Content Design
+5. Full-Stack Development
+6. Creative Direction (copywriting, art direction, advertising & brand communications)
+
+Detail on Creative Direction: [expertise/direction-de-creation.md](./expertise/direction-de-creation.md).
 
 ## Stack summary
 

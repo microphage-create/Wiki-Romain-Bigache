@@ -1,6 +1,6 @@
 ---
 id: experience-entretiens-excellence
-title: Les Entretiens de l'Excellence - Intervenant benevole (Ecole polytechnique)
+title: Les Entretiens de l'Excellence - Intervenant bénévole (École polytechnique)
 type: experience
 domain: experience
 tags: [entretiens-de-l-excellence, ecole-polytechnique, benevolat, mentorat, mobilite-sociale, education]
@@ -15,24 +15,24 @@ links:
   - experience/microphage.md
 ---
 
-# Les Entretiens de l'Excellence - Intervenant benevole
+# Les Entretiens de l'Excellence - Intervenant bénévole
 
-| Cle | Valeur |
+| Clé | Valeur |
 |-----|--------|
-| **Periode** | Novembre 2022 - Novembre 2024 (2 sessions) |
-| **Localisation** | Campus Ecole polytechnique, Palaiseau |
-| **Type** | Intervenant benevole, parcours "Metiers du numerique" |
-| **Public** | Lyceens de quartiers prioritaires (REP/REP+) |
+| **Période** | Novembre 2022 - Novembre 2024 (2 sessions) |
+| **Localisation** | Campus École polytechnique, Palaiseau |
+| **Type** | Intervenant bénévole, parcours "Métiers du numérique" |
+| **Public** | Lycéens de quartiers prioritaires (REP/REP+) |
 
 ## Mission
 
-Intervenant benevole aux Entretiens de l'Excellence, association francaise qui agit pour la mobilite sociale en organisant des sessions de mentorat dans les grandes ecoles (Ecole polytechnique, HEC, Sciences Po, etc.).
+Intervenant bénévole aux Entretiens de l'Excellence, association française qui agit pour la mobilité sociale en organisant des sessions de mentorat dans les grandes écoles (École polytechnique, HEC, Sciences Po, etc.).
 
-Je suis intervenu a deux reprises (2022 et 2024) sur le campus de l'Ecole polytechnique, dans le parcours "Metiers du numerique". Format : sessions en petit groupe avec des lyceens de quartiers prioritaires (REP/REP+), pour leur expliquer concretement comment se passent les metiers du numerique, le quotidien d'un freelance, et quels chemins sont accessibles pour eux.
+Je suis intervenu à deux reprises (2022 et 2024) sur le campus de l'École polytechnique, dans le parcours "Métiers du numérique". Format : sessions en petit groupe avec des lycéens de quartiers prioritaires (REP/REP+), pour leur expliquer concrètement comment se passent les métiers du numérique, le quotidien d'un freelance, et quels chemins sont accessibles pour eux.
 
 ## Pourquoi c'est important
 
-Le programme vise a casser la boucle d'autocensure dans laquelle des lyceens de milieux defavorises ecartent eux-memes les grandes ecoles ou les metiers techniques parce que personne autour d'eux ne les fait. Les intervenants sont des praticiens qui montrent que le chemin est reel et accessible.
+Le programme vise à casser la boucle d'autocensure dans laquelle des lycéens de milieux défavorisés écartent eux-mêmes les grandes écoles ou les métiers techniques parce que personne autour d'eux ne les fait. Les intervenants sont des praticiens qui montrent que le chemin est réel et accessible.
 
 ## Related
 

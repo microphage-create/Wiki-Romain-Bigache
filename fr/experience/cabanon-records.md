@@ -1,6 +1,6 @@
 ---
 id: experience-cabanon-records
-title: Le Cabanon Records - Co-createur (label de musiques experimentales)
+title: Le Cabanon Records - Co-créateur (label de musiques expérimentales)
 type: experience
 domain: experience
 tags: [cabanon-records, label-musique, musiques-experimentales, side-project, co-createur]
@@ -14,29 +14,29 @@ industry: Musique / Label independant
 links: []
 ---
 
-# Le Cabanon Records - Co-createur
+# Le Cabanon Records - Co-créateur
 
-| Cle | Valeur |
+| Clé | Valeur |
 |-----|--------|
-| **Periode** | Septembre 2011 - Decembre 2018 (~7 ans) |
-| **Role** | Co-createur |
-| **Format** | Label de musiques experimentales |
+| **Période** | Septembre 2011 - Décembre 2018 (~7 ans) |
+| **Rôle** | Co-créateur |
+| **Format** | Label de musiques expérimentales |
 | **Sorties** | 13+ disques |
 
-## Ce que c'etait
+## Ce que c'était
 
-Le Cabanon Records etait un label de musiques experimentales independant. Co-cree en 2011, il a tourne pendant environ 7 ans avant de se mettre en sommeil.
+Le Cabanon Records était un label de musiques expérimentales indépendant. Co-créé en 2011, il a tourné pendant environ 7 ans avant de se mettre en sommeil.
 
-Le label a sorti 13+ disques : noise, ambient, drone, improv, des trucs etranges a la marge de la scene underground. Chaque sortie etait un objet artisanal travaille : tirages limites, pochettes tamponnees a la main, jaquettes serigraphiees, des musiques qui n'avaient leur place nulle part ailleurs.
+Le label a sorti 13+ disques : noise, ambient, drone, improv, des trucs étranges à la marge de la scène underground. Chaque sortie était un objet artisanal travaillé : tirages limités, pochettes tamponnées à la main, jaquettes sérigraphiées, des musiques qui n'avaient leur place nulle part ailleurs.
 
-## Ce que ca m'a appris
+## Ce que ça m'a appris
 
-- Curatelle : definir une ligne coherente entre plusieurs artistes
+- Curatelle : définir une ligne cohérente entre plusieurs artistes
 - Production : transformer un projet en objet physique
-- Communication : ecrire pour un public de niche sans pretention
-- Tenir : faire vivre un projet creatif pendant des annees a cote du boulot remunere
+- Communication : écrire pour un public de niche sans prétention
+- Tenir : faire vivre un projet créatif pendant des années à côté du boulot rémunéré
 
-Ces reflexes se sont retrouves directement dans Microphage des annees plus tard : meme instinct, sortir des choses plutot que d'en parler.
+Ces réflexes se sont retrouvés directement dans Microphage des années plus tard : même instinct, sortir des choses plutôt que d'en parler.
 
 ## Related
 

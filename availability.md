@@ -6,7 +6,7 @@ domain: business
 tags: [availability, day-rate, modalities, freelance, sasu]
 status: live
 created: 2026-04-30
-updated: 2026-04-30
+updated: 2026-09-01
 links:
   - profile.md
 ---
@@ -17,12 +17,12 @@ links:
 
 | Key | Value |
 |-----|-------|
-| **Available from** | May 11, 2026 |
+| **Available from** | Immediately |
 | **Format** | Full-time (long-term) |
 | **Location** | Paris, France |
 | **Mode** | On-site, hybrid, or remote (flexible) |
 | **Legal status** | Freelance via SASU Microphage Intelligence |
-| **Day rate** | 850 EUR / day |
+| **Day rate** | 650-750 EUR / day (depending on scope and duration) |
 | **Languages** | Native French. English: written and read fluently. |
 
 ## Contractual terms

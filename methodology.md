@@ -6,7 +6,7 @@ domain: technology
 tags: [karpathy-llm-wiki, hybrid-retrieval, rag, prompt-caching, single-source-of-truth, methodology]
 status: live
 created: 2026-04-30
-updated: 2026-04-30
+updated: 2026-05-23
 links:
   - projects/microphage-analyzer-pro.md
   - projects/la-plume-bforbank.md
@@ -120,8 +120,48 @@ Default position: every Microphage project starts with security + tests + monito
 
 No security tech debt to repay at go-live. The POC is already prod-ready, the sales cycle can start at the demo.
 
+## Interactive mockup as contract
+
+Deliverable pattern for enterprise refontes of intranets, portals, and internal apps: a production-grade HTML mockup serves as the executable spec contract between stakeholders and the engineering team. Replaces flat Figma boards and PDF specs, which routinely drift during the build.
+
+> Note: this methodology section is in active drafting (added 2026-05-23). Validated method, copy and naming may still iterate. Source of truth: [expertise/interactive-mockup.md](./expertise/interactive-mockup.md).
+
+### Principle
+
+Before a 500K to 2M EUR engineering investment, the cible must be walkable. The show home analogy applies: no one signs off on a 50-unit housing development without visiting the model home. The mockup IS the show home for the digital refonte.
+
+### Stack
+
+- HTML5 + Tailwind CSS compiled statically (no runtime framework cost)
+- Vanilla JavaScript for interactions, no framework dependency
+- Self-hosted fonts, optimized images, anti-CLS
+- Deployed as static site on Vercel preview for live stakeholder walkthroughs
+
+### Quality bar
+
+- Lighthouse 90+ performance, 100 accessibility, 100 best practices, 100 SEO
+- WCAG AA color contrast, heading order, aria labels, focus management
+- Multi-theme support via [data-mode] attribute
+- Bilingual content (FR and EN) via data-i18n attributes
+- Responsive cross-device, mobile-first refined
+
+### Process
+
+Four steps, BTP analogy filed throughout: permit application (brief intake), foundation work (tokens and type system), show home build (full key pages), handover (engineering team takes mockup as build contract).
+
+### Benefit
+
+Eliminates spec drift between design and build. The engineering team has a contract, not an inspiration. Sales cycle compresses: executive committee validates the cible before allocating engineering budget. Cost compressed to 2 to 4 weeks instead of 2 to 4 months of dev-first prototyping.
+
+### Application
+
+Suez intranet refonte V1: 1,999-line single-page HTML, 8 themes, FR and EN, Lighthouse 93 / 100 / 100 / 100, WCAG AA, ServiceNow Service Portal target. Phase 1 delivered May 2026, Phase 2 (Brand Contract layer) in negotiation.
+
+Detail: [expertise/interactive-mockup.md](./expertise/interactive-mockup.md).
+
 ## Related
 
+- [expertise/interactive-mockup.md](./expertise/interactive-mockup.md)
 - [projects/microphage-analyzer-pro.md](./projects/microphage-analyzer-pro.md)
 - [projects/la-plume-bforbank.md](./projects/la-plume-bforbank.md)
 - [projects/mycelium.md](./projects/mycelium.md)

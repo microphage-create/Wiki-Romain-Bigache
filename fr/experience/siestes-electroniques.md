@@ -1,6 +1,6 @@
 ---
 id: experience-siestes-electroniques
-title: Les Siestes Electroniques - Adherent (festival de musiques aventureuses)
+title: Les Siestes Electroniques - Adhérent (festival de musiques aventureuses)
 type: experience
 domain: experience
 tags: [siestes-electroniques, festival, musiques-experimentales, toulouse, side-project, adherent]
@@ -15,26 +15,26 @@ links:
   - experience/cabanon-records.md
 ---
 
-# Les Siestes Electroniques - Adherent
+# Les Siestes Electroniques - Adhérent
 
-| Cle | Valeur |
+| Clé | Valeur |
 |-----|--------|
-| **Periode** | Juin 2011 - Decembre 2018 (~7 ans) |
-| **Role** | Adherent / contributeur |
+| **Période** | Juin 2011 - Décembre 2018 (~7 ans) |
+| **Rôle** | Adhérent / contributeur |
 | **Format** | Festival international de musiques aventureuses |
-| **Origine** | Toulouse, 2002 (en tournee internationale depuis 2007) |
+| **Origine** | Toulouse, 2002 (en tournée internationale depuis 2007) |
 
 ## Ce que c'est
 
-Les Siestes Electroniques est un festival international dedie aux musiques aventureuses, ne a Toulouse en 2002 et parcourant le monde depuis 2007. La programmation melange electronique experimentale, musique contemporaine, musiques du monde et artistes inclassables.
+Les Siestes Electroniques est un festival international dédié aux musiques aventureuses, né à Toulouse en 2002 et parcourant le monde depuis 2007. La programmation mélange électronique expérimentale, musique contemporaine, musiques du monde et artistes inclassables.
 
-J'ai ete adherent et contributeur de la structure entre 2011 et 2018, en peripherie de la programmation et de la production. Meme periode et meme scene que le label Le Cabanon Records.
+J'ai été adhérent et contributeur de la structure entre 2011 et 2018, en périphérie de la programmation et de la production. Même période et même scène que le label Le Cabanon Records.
 
-## Ce que ca m'a apporte
+## Ce que ça m'a apporté
 
-- Exposition directe a un travail de curatelle internationale (booking, scenographie, programmation contextuelle)
-- Comprehension concrete de la facon dont un petit festival se finance hors des circuits mainstream
-- Reseau dans la scene des musiques experimentales, en France et a l'etranger
+- Exposition directe à un travail de curatelle internationale (booking, scénographie, programmation contextuelle)
+- Compréhension concrète de la façon dont un petit festival se finance hors des circuits mainstream
+- Réseau dans la scène des musiques expérimentales, en France et à l'étranger
 
 ## Related
 

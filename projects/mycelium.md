@@ -2,6 +2,7 @@
 id: project-mycelium
 title: Mycelium - Internal Claude Code tooling
 type: project
+category: tool
 domain: project
 tags: [mycelium, claude-code, agentic-coding, internal-tooling, productivity, mcp, slash-commands, subagents, hooks]
 status: live

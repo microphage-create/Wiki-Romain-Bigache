@@ -14,24 +14,24 @@ links:
 
 # Hors-pro
 
-## Vice-champion d'Europe - Jiu-Jitsu Bresilien
+## Vice-champion d'Europe - Jiu-Jitsu Brésilien
 
-- **Discipline** : Jiu-Jitsu Bresilien (IBJJF)
+- **Discipline** : Jiu-Jitsu Brésilien (IBJJF)
 - **Lieu** : Lisbonne, janvier 2025
-- **Categorie** : -76 kg, Master 1
+- **Catégorie** : -76 kg, Master 1
 - **Pratique** : 6x / semaine
 
-## Intervenant benevole - Ecole Polytechnique
+## Intervenant bénévole - École Polytechnique
 
 - **Programme** : Entretiens de l'Excellence
-- **Mission** : Mentorat de lyceens de quartiers prioritaires
-- **Engagement** : Recurrent, ponctuel selon agenda
+- **Mission** : Mentorat de lycéens de quartiers prioritaires
+- **Engagement** : Récurrent, ponctuel selon agenda
 
-## Co-createur - Le Cabanon Records
+## Co-créateur - Le Cabanon Records
 
-- **Type** : Label de musique experimentale
+- **Type** : Label de musique expérimentale
 - **Discographie** : 14 sorties
-- **Role** : Co-createur, direction artistique
+- **Rôle** : Co-créateur, direction artistique
 
 ## Related
 

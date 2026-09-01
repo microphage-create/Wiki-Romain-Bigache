@@ -1,6 +1,6 @@
 ---
 id: writing-content-design
-title: Le metier que j'ai passe 7 ans a expliquer n'existe toujours pas.
+title: Le métier que j'ai passé 7 ans à expliquer n'existe toujours pas.
 type: writing
 domain: blog-article
 tags: [content-design, ux-writing, lorem-ux, podcast, joboscope, fatigue, evangelisation, ai-builder, microphage-1]

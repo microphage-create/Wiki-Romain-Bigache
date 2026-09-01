@@ -1,6 +1,6 @@
 ---
 id: _schema
-title: Schema du wiki
+title: Schéma du wiki
 type: meta
 domain: wiki-conventions
 tags: [meta, schema, conventions, llm-wiki]
@@ -10,19 +10,19 @@ updated: 2026-04-30
 authority: source-of-truth
 ---
 
-# Schema du wiki Romain Bigache
+# Schéma du wiki Romain Bigache
 
-Document de reference pour comprendre la structure et les conventions de ce wiki.
-Methodologie : Karpathy LLM Wiki adapte au profil pro.
+Document de référence pour comprendre la structure et les conventions de ce wiki.
+Méthodologie : Karpathy LLM Wiki adapté au profil pro.
 
 ## Principes
 
-1. **Single source of truth.** Chaque fait n'existe qu'a un seul endroit. Si une info doit apparaitre dans plusieurs fichiers, elle est extraite dans son propre fichier et linkee.
-2. **Frontmatter YAML systematique.** Tous les fichiers .md ont un frontmatter complet.
+1. **Single source of truth.** Chaque fait n'existe qu'à un seul endroit. Si une info doit apparaître dans plusieurs fichiers, elle est extraite dans son propre fichier et linkée.
+2. **Frontmatter YAML systématique.** Tous les fichiers .md ont un frontmatter complet.
 3. **Cross-links explicites.** Section `## Related` en bas de chaque fichier qui liste les fichiers connexes.
-4. **Fichiers atomiques.** Un sujet = un fichier. Pas de melange.
-5. **Index dense.** README.md sert de table des matieres et expose les facts cles en metadata.
-6. **Lint regulier.** Detecter contradictions, gaps, fichiers orphelins.
+4. **Fichiers atomiques.** Un sujet = un fichier. Pas de mélange.
+5. **Index dense.** README.md sert de table des matières et expose les facts clés en metadata.
+6. **Lint régulier.** Détecter contradictions, gaps, fichiers orphelins.
 
 ## Frontmatter requis
 
@@ -32,39 +32,41 @@ Methodologie : Karpathy LLM Wiki adapte au profil pro.
 | `title` | string | Titre humain du document |
 | `type` | enum | Voir taxonomie ci-dessous |
 | `domain` | string | Domaine fonctionnel (ex: `experience`, `project`, `stack`) |
-| `tags` | array | Mots-cles pour discovery LLM |
+| `tags` | array | Mots-clés pour discovery LLM |
 | `status` | enum | `draft` / `live` / `archived` |
-| `created` | date | Date de creation (YYYY-MM-DD) |
-| `updated` | date | Date de derniere modif |
+| `created` | date | Date de création (YYYY-MM-DD) |
+| `updated` | date | Date de dernière modif |
 
 ## Frontmatter optionnel
 
 | Champ | Type | Description |
 |-------|------|-------------|
 | `links` | array | Liste de fichiers connexes (chemin relatif) |
-| `period` | string | Periode (ex: `2024-2025`) |
+| `period` | string | Période (ex: `2024-2025`) |
 | `client` | string | Nom du client si projet |
-| `industries` | array | Industries adressees |
-| `technologies` | array | Technos cles |
+| `industries` | array | Industries adressées |
+| `technologies` | array | Technos clés |
 | `url` | string | URL publique si demo |
-| `confidential` | bool | Si certaines infos sont a flouter |
+| `confidential` | bool | Si certaines infos sont à flouter |
+| `category` | enum | Pour `type: project` uniquement. Une valeur parmi : `app` (produit logiciel), `tool` (outil interne), `site` (site web), `case` (campagne créative). Utilisé par le site portfolio pour grouper les projets. |
 
 ## Taxonomie des types
 
-- `meta` : documents de structure (ce schema, README)
-- `profile` : identite, pitch, contact
+- `meta` : documents de structure (ce schéma, README)
+- `profile` : identité, pitch, contact
 - `cv` : CV brut
 - `stack` : stack technique
-- `availability` : dispo et modalites
+- `availability` : dispo et modalités
 - `expertise` : focus expertise
-- `keywords` : mots-cles ATS et indexation
+- `keywords` : mots-clés ATS et indexation
 - `education` : formation et autodidaxie
-- `methodology` : methodologies signature
-- `process` : process operationnel quotidien
+- `methodology` : méthodologies signature
+- `process` : process opérationnel quotidien
 - `writing` : articles de blog, voix d'auteur
 - `experience` : fiche mission (1 fichier par employeur)
-- `project` : fiche projet (1 fichier par realisation)
-- `personal` : hors-pro (sport, benevolat, side projects)
+- `project` : fiche projet (1 fichier par réalisation)
+- `personal` : hors-pro (sport, bénévolat, side projects)
+- `press` : contenu tiers externe (témoignages, interviews, mentions presse)
 
 ## Structure du repo
 
@@ -110,36 +112,36 @@ Wiki-Romain-Bigache/
     └── mycelium.md
 ```
 
-Source de verite pour la liste des fichiers : `git ls-files`. Cette arborescence est indicative, ne pas la maintenir a la main.
+Source de vérité pour la liste des fichiers : `git ls-files`. Cette arborescence est indicative, ne pas la maintenir à la main.
 
-## Conventions de redaction
+## Conventions de rédaction
 
 - Markdown standard (CommonMark + GFM tables).
 - Pas de tiret cadratin (em-dash). Utiliser `:` ou `-` ou `,`.
 - Liens internes en chemin relatif : `[microphage](./experience/microphage.md)`.
-- Pas de phrases sans accent (orthographe FR complete).
+- Pas de phrases sans accent (orthographe FR complète).
 - Identifiants `id` en kebab-case sans accent.
 - Tags en kebab-case sans accent.
 
-## Confidentialite
+## Confidentialité
 
-Le seul nom encore floute est :
-- `360Learning` -> "premier client edtech B2B" (deploiement contractualise mais en cours)
+Le seul nom encore flouté est :
+- `360Learning` -> "premier client edtech B2B" (déploiement contractualisé mais en cours)
 
-Sont conserves nominativement :
-- `Altarea` / `Altaria` (vente non finalisee, cas non sensible)
-- `BforBank` (mention deja publique sur LinkedIn et CV)
-- `Ledger` (pitche par Marcel au VP Design)
-- `Tenexa` (negociation marque blanche en cours)
-- Tous les anciens employeurs et clients OXGEN deja publics
+Sont conservés nominativement :
+- `Altarea` / `Altaria` (vente non finalisée, cas non sensible)
+- `BforBank` (mention déjà publique sur LinkedIn et CV)
+- `Ledger` (pitché par Marcel au VP Design)
+- `Tenexa` (négociation marque blanche en cours)
+- Tous les anciens employeurs et clients OXGEN déjà publics
 
 ## Lint
 
-A chaque mise a jour, verifier :
+À chaque mise à jour, vérifier :
 - [ ] Frontmatter complet et valide
-- [ ] Cross-links non casses
+- [ ] Cross-links non cassés
 - [ ] Pas de duplication d'info
-- [ ] `updated` mis a jour
+- [ ] `updated` mis à jour
 - [ ] Pas de tiret cadratin
 - [ ] Pas de mention nominale `360Learning`
 

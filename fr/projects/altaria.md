@@ -2,6 +2,7 @@
 id: project-altaria
 title: Altaria - Acculturation IA pour Altarea (CAC40)
 type: project
+category: app
 domain: project
 tags: [altaria, altarea, cac40, copilot-365, gamification, pwa, hmac, rls, oxgen, solo, 3-semaines]
 status: live
@@ -25,84 +26,84 @@ links:
 
 | Cle | Valeur |
 |-----|--------|
-| **Type** | Application web gamifiee d'acculturation IA |
-| **Statut** | POC livre et demontre au comex, suite commerciale en discussion |
-| **Annee** | 2025 |
-| **Entreprise** | Altarea (client final, pitche via OXGEN) |
-| **Industries** | Immobilier, Education, AI/ML |
+| **Type** | Application web gamifiée d'acculturation IA |
+| **Statut** | POC livré et démontré au comex, suite commerciale en discussion |
+| **Année** | 2025 |
+| **Entreprise** | Altarea (client final, pitché via OXGEN) |
+| **Industries** | Immobilier, Éducation, AI/ML |
 | **Taille client** | Grande entreprise (CAC40) |
-| **Equipe** | Romain Bigache, seul. Coordination OXGEN sur le brief et le pitch |
-| **Demo** | [altaria.microphage.ai/access](https://altaria.microphage.ai/access) |
-| **Periode de production** | 3 semaines en solo |
+| **Équipe** | Romain Bigache, seul. Coordination OXGEN sur le brief et le pitch |
+| **Démo** | [altaria.microphage.ai/access](https://altaria.microphage.ai/access) |
+| **Période de production** | 3 semaines en solo |
 
 ## Titre court
 
-POC d'acculturation IA pour grand compte foncier, shippe en 3 semaines en solo.
+POC d'acculturation IA pour grand compte foncier, shippé en 3 semaines en solo.
 
 ## Description courte
 
-Application gamifiee d'acculturation a l'IA generative pour Altarea (CAC40), pitchee via OXGEN en amont du deploiement de Microsoft Copilot 365. Shippee en 3 semaines en solo : concept, architecture, code, design, contenu pedagogique, illustrations et campagne de deploiement guerilla. Discussions en cours pour distribution en marque blanche.
+Application gamifiée d'acculturation à l'IA générative pour Altarea (CAC40), pitchée via OXGEN en amont du déploiement de Microsoft Copilot 365. Shippée en 3 semaines en solo : concept, architecture, code, design, contenu pédagogique, illustrations et campagne de déploiement guérilla. Discussions en cours pour distribution en marque blanche.
 
-**Demo accessible** : [altaria.microphage.ai/access](https://altaria.microphage.ai/access)
+**Démo accessible** : [altaria.microphage.ai/access](https://altaria.microphage.ai/access)
 
 ## Description longue
 
 ### Contexte
 
-Altarea, foncier du CAC40 et leader de la transformation urbaine bas carbone, preparait le deploiement de Microsoft Copilot 365 aupres de ses collaborateurs. OXGEN devait piloter un dispositif d'adoption en trois temps : prise de parole de la direction aux voeux, campagne teasing, Town Hall post-deploiement.
+Altarea, foncier du CAC40 et leader de la transformation urbaine bas carbone, préparait le déploiement de Microsoft Copilot 365 auprès de ses collaborateurs. OXGEN devait piloter un dispositif d'adoption en trois temps : prise de parole de la direction aux vœux, campagne teasing, Town Hall post-déploiement.
 
 ### Positionnement
 
-J'ai porte Altaria comme materialisation produit du dispositif d'adoption. Pas une formation classique, pas un enieme outil informatique : une application qui propose une experience d'acculturation IA gamifiee, pensee comme l'onboarding humain au deploiement de Copilot 365.
+J'ai porté Altaria comme matérialisation produit du dispositif d'adoption. Pas une formation classique, pas un énième outil informatique : une application qui propose une expérience d'acculturation IA gamifiée, pensée comme l'onboarding humain au déploiement de Copilot 365.
 
-### Perimetre solo
+### Périmètre solo
 
-Concept, architecture, code, design, contenu pedagogique, illustrations, copy, campagne de deploiement. 3 semaines du brief a la production. Coordination OXGEN sur le brief client et le pitch comex.
+Concept, architecture, code, design, contenu pédagogique, illustrations, copy, campagne de déploiement. 3 semaines du brief à la production. Coordination OXGEN sur le brief client et le pitch comex.
 
 ### Modules en production (15)
 
 - **Hub** avec XP bar et streak
-- **Profil** avec stats radar et 19 badges sur 3 niveaux de rarete
+- **Profil** avec stats radar et 19 badges sur 3 niveaux de rareté
 - **Quiz** 30 questions sur 3 niveaux
-- **Formation** avec 3 mondes / 15 lecons / 75 activites
-- **AI Lesson** (generation dynamique par IA)
-- **Bullshit ?** (jeu de detection de desinformation IA)
-- **Rocket Science** (jeu d'arcade pedagogique avec leaderboard)
-- **Classement** avec 24 NPC simules
+- **Formation** avec 3 mondes / 15 leçons / 75 activités
+- **AI Lesson** (génération dynamique par IA)
+- **Bullshit ?** (jeu de détection de désinformation IA)
+- **Rocket Science** (jeu d'arcade pédagogique avec leaderboard)
+- **Classement** avec 24 NPC simulés
 - **FAQ** 30 Q/R
 - **Lexique** 30 termes
 - **Discussion** (chat IA avec deux modes vocaux)
-- **Prompter** (generateur et ameliorateur de prompts)
-- **Calendrier** de deploiement
+- **Prompter** (générateur et améliorateur de prompts)
+- **Calendrier** de déploiement
 - **Onboarding tour**
-- **Booking** integre
+- **Booking** intégré
 
-### Cas d'usage metier couverts (extraits du brief client)
+### Cas d'usage métier couverts (extraits du brief client)
 
-- Redaction de compte-rendu
-- Preparation d'argumentaire
-- Analyse de documents et de donnees
-- Creation de visuel
+- Rédaction de compte-rendu
+- Préparation d'argumentaire
+- Analyse de documents et de données
+- Création de visuel
 
-Chaque cas est ancre dans le quotidien des collaborateurs Altarea, toutes filiales confondues.
+Chaque cas est ancré dans le quotidien des collaborateurs Altarea, toutes filiales confondues.
 
-### Strategie d'adoption - campagne guerilla
+### Stratégie d'adoption - campagne guérilla
 
-Conception et illustration avec OXGEN d'une campagne d'affichage interne en 5 supports physiques places dans les moments d'attente du quotidien des bureaux. Chaque support porte une accroche contextuelle au lieu et un QR code vers l'app. Visuels et copy de moi.
+Conception et illustration avec OXGEN d'une campagne d'affichage interne en 5 supports physiques placés dans les moments d'attente du quotidien des bureaux. Chaque support porte une accroche contextuelle au lieu et un QR code vers l'app. Visuels et copy de moi.
 
-### Acces
+### Accès
 
-Acces restreint au reseau corporate du client (contrainte conformite). Effet de bord positif : renforce le rituel d'usage et la viralite interne entre collegues, l'app n'existant que dans les bureaux.
+Accès restreint au réseau corporate du client (contrainte conformité). Effet de bord positif : renforce le rituel d'usage et la viralité interne entre collègues, l'app n'existant que dans les bureaux.
 
-### Securite applicative des le POC
+### Sécurité applicative dès le POC
 
-- Sessions signees HMAC-SHA256
-- Validation Zod sur toutes les entrees
+- Sessions signées HMAC-SHA256
+- Validation Zod sur toutes les entrées
 - Rate limiting par endpoint
 - Row Level Security Supabase
-- Headers HTTP (HSTS, CSP avec nonce, Permissions-Policy desactivant camera / micro / geo)
-- Kill switch et date d'expiration de la demo
-- Systeme custom anti-leak (proteger les contenus pedagogiques de l'export)
+- Headers HTTP (HSTS, CSP avec nonce, Permissions-Policy désactivant camera / micro / geo)
+- Kill switch et date d'expiration de la démo
+- Système custom anti-leak (protéger les contenus pédagogiques de l'export)
 
 ## Technologies utilisees
 
@@ -112,18 +113,18 @@ Acces restreint au reseau corporate du client (contrainte conformite). Effet de 
 - Tailwind CSS 4
 - Vercel AI SDK v4 (multi-provider)
 - OpenAI API et Anthropic Claude API
-- Supabase (base de donnees, auth, RLS sur 9 tables)
+- Supabase (base de données, auth, RLS sur 9 tables)
 - Zod (validation schemas)
-- Sessions HMAC-SHA256 signees
+- Sessions HMAC-SHA256 signées
 - Middleware Next.js (access gate, CSP avec nonce, kill switch, date d'expiration)
-- Web Audio API (sons synthetises)
+- Web Audio API (sons synthétisés)
 - PWA (installable sur mobile et desktop)
 
 ## Impact
 
-- POC livre en 3 semaines en solo, du brief a la mise en production
-- Demo accessible : [altaria.microphage.ai/access](https://altaria.microphage.ai/access)
-- POC livre et demontre au comex client, vente non finalisee
+- POC livré en 3 semaines en solo, du brief à la mise en production
+- Démo accessible : [altaria.microphage.ai/access](https://altaria.microphage.ai/access)
+- POC livré et démontré au comex client, vente non finalisée
 - Discussions pour un lancement en marque blanche avec Tenexa
 - Sert de preuve commerciale sur les pitchs grands comptes (CAC40) du cabinet OXGEN
 

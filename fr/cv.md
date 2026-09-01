@@ -6,7 +6,7 @@ domain: identity
 tags: [cv, resume, ats]
 status: live
 created: 2026-04-30
-updated: 2026-04-30
+updated: 2026-09-01
 links:
   - profile.md
   - experience/microphage.md
@@ -26,13 +26,13 @@ romain.bigache@gmail.com - romainbigache.com - 07 82 59 67 53 - Paris, France
 
 **Pill :** AI Product Builder
 
-**TJM :** 850 EUR / jour - **Disponible le 11 mai 2026**
+**TJM :** 650-750 EUR / jour (selon cadrage et durée) - **Disponible immédiatement**
 
 ---
 
 ## Infos
 
-Je construisais des maisons en bois dans le Sud-Ouest avec mon pere. Puis j'ai construit des parcours utilisateurs pour BforBank, Leroy Merlin, leboncoin, Cdiscount, la FDJ, et d'autres. Puis j'en ai eu marre d'etre cantonne a un seul role alors que j'avais dix idees par ecran. Alors j'ai commence a les coder moi-meme. Aujourd'hui je concois des apps, des outils et des agents IA en production. Mon pere trouve ca moins concret. Mais au moins j'ai pas le dos casse.
+Je construisais des maisons en bois dans le Sud-Ouest avec mon père. Puis j'ai construit des parcours utilisateurs pour BforBank, Leroy Merlin, leboncoin, Cdiscount, la FDJ, et d'autres. Puis j'en ai eu marre d'être cantonné à un seul rôle alors que j'avais dix idées par écran. Alors j'ai commencé à les coder moi-même. Aujourd'hui je conçois des apps, des outils et des agents IA en production. Mon père trouve ça moins concret. Mais au moins j'ai pas le dos cassé.
 
 ---
 
@@ -41,48 +41,48 @@ Je construisais des maisons en bois dans le Sud-Ouest avec mon pere. Puis j'ai c
 ### FONDATEUR & AI BUILDER - 2025 - Aujourd'hui
 *Microphage*
 
-Conception, design, code et livraison d'outils IA en solo pour grands comptes. **Microphage Analyzer Pro** : plugin Figma B2B qui audite et reecrit l'UX writing par IA, adosse a un wiki proprietaire de 785 regles. Premier deploiement client edtech B2B (livraison mai 2026) + pitche au VP Design de Ledger. **Altaria** : application gamifiee d'acculturation IA destinee a Altarea (CAC40), shippee techniquement en 3 semaines en solo (concept, code, design, copy, campagne guerilla interne), en cours de pitch commercial via OXGEN. Discussions pour un lancement en marque blanche avec Tenexa. Stack : Vercel AI SDK multi-provider (OpenAI, Claude, Gemini), LangGraph, RAG, MCP, Hono, Cloudflare Workers, Supabase.
+Conception, design, code et livraison d'outils IA en solo pour grands comptes. **Microphage Analyzer Pro** : moteur IA B2B d'audit et de réécriture UX writing, pipeline vision index-first (FastAPI + Gemini) adossé à un vault gouverné de 897 règles. Premier déploiement client edtech B2B + pitché au VP Design de Ledger. **My Suez** : direction artistique de l'intranet du groupe Suez (~40 000 collaborateurs), direction validée sur maquette interactive production-grade (Lighthouse 93/100/100/100), reconstruite dans Figma sur le Horizon Design System de ServiceNow. **Altaria** : application gamifiée d'acculturation IA destinée à Altarea (CAC40), shippée techniquement en 3 semaines en solo (concept, code, design, copy, campagne guérilla interne), en cours de pitch commercial via OXGEN. **Claria** : app démo d'upskilling IA gamifiée en marque blanche, brandée pour un prospect grand compte. **Microwave Method** : méthode open source de factory d'agents et wiki gouverné, publiée sur PyPI. Stack : Vercel AI SDK multi-provider (OpenAI, Claude, Gemini), LangGraph, RAG, MCP, FastAPI, Hono, Cloudflare Workers, Supabase.
 
-Detail : [experience/microphage.md](./experience/microphage.md)
+Détail : [experience/microphage.md](./experience/microphage.md)
 
 ### LEAD UX WRITER & VISUAL - 2023 - 2025
-*BforBank (filiale Credit Agricole)*
+*BforBank (filiale Crédit Agricole)*
 
-Management d'une equipe de 3 personnes. Pilotage en agile avec PM, Tribe Leader, marketing, SRC, Direction et validations Compliance. Conception et deploiement de **« La Plume »**, assistant IA interne pour les designers sur Gemini 2.5 Pro (RAG + agent LangGraph + garde-fous conformite bancaire), dans la marketplace BforBank GPT. Lancement du chat service client : direction de la methodologie data et production de 250+ articles LLM-ready a partir de 3 sources internes (FAQ, tickets, SRC), acceleree par un bot RAG GPT custom. Plugin Figma d'audit UX writing : projet fondateur de Microphage.
+Management d'une équipe de 3 personnes. Pilotage en agile avec PM, Tribe Leader, marketing, SRC, Direction et validations Compliance. Conception et déploiement de **« La Plume »**, assistant IA interne pour les designers sur Gemini 2.5 Pro (RAG + agent LangGraph + garde-fous conformité bancaire), dans la marketplace BforBank GPT. Lancement du chat service client : direction de la méthodologie data et production de 250+ articles LLM-ready à partir de 3 sources internes (FAQ, tickets, SRC), accélérée par un bot RAG GPT custom. Plugin Figma d'audit UX writing : projet fondateur de Microphage.
 
-Detail : [experience/bforbank.md](./experience/bforbank.md)
+Détail : [experience/bforbank.md](./experience/bforbank.md)
 
 ### PRINCIPAL UX WRITER - 2020 - 2023
 *ADEO (Leroy Merlin)*
 
-Premier prompt IA interne des la sortie de GPT-3.5 (novembre 2022), iterations sur GPT-4. Creation d'un Content Design System en RAG (ChatGPT + N8N + Supabase) pour repondre aux questions des designers sur les guidelines editoriales. Content design system integre au design system Figma. Animation d'ateliers UX writing et IA pour designers, chefs de produit et redacteurs. Audit complet du site (contenus, parcours, points de friction) avec recommandations sur les ecrans sensibles, validation par tests utilisateurs et A/B tests.
+Premier prompt IA interne dès la sortie de GPT-3.5 (novembre 2022), itérations sur GPT-4. Création d'un Content Design System en RAG (ChatGPT + N8N + Supabase) pour répondre aux questions des designers sur les guidelines éditoriales. Content design system intégré au design system Figma. Animation d'ateliers UX writing et IA pour designers, chefs de produit et rédacteurs. Audit complet du site (contenus, parcours, points de friction) avec recommandations sur les écrans sensibles, validation par tests utilisateurs et A/B tests.
 
-Detail : [experience/adeo-leroy-merlin.md](./experience/adeo-leroy-merlin.md)
+Détail : [experience/adeo-leroy-merlin.md](./experience/adeo-leroy-merlin.md)
 
 ### COPYWRITER & DA - 2017 - Aujourd'hui
-*OXGEN - collaboration recurrente*
+*OXGEN - collaboration récurrente*
 
-Cabinet de conseil et creation en Change Communications pour grands comptes : accompagne les DSI et Directions Innovation sur leurs programmes de transformation IT, IA, cybersecurite et adoption d'outils. 50+ campagnes pilotees de bout en bout : conception, redaction, direction artistique, affichage et guerilla interne, social interne (Viva Engage, Workplace, Slack), supports comex et Town Hall, contenus de formation, gestion de projet. Clients : Danone, Safran, Naval Group, Allianz, Altarea, Enedis, Citeo, Verallia, Suez, Schneider Electric.
+Cabinet de conseil et création en Change Communications pour grands comptes : accompagne les DSI et Directions Innovation sur leurs programmes de transformation IT, IA, cybersécurité et adoption d'outils. 50+ campagnes pilotées de bout en bout : conception, rédaction, direction artistique, affichage et guérilla interne, social interne (Viva Engage, Workplace, Slack), supports comex et Town Hall, contenus de formation, gestion de projet. Clients : Danone, Safran, Naval Group, Allianz, Altarea, Enedis, Citeo, Verallia, Suez, Schneider Electric.
 
-Detail : [experience/oxgen.md](./experience/oxgen.md)
+Détail : [experience/oxgen.md](./experience/oxgen.md)
 
 ---
 
 ## Autres
 
 **VICE-CHAMPION D'EUROPE**
-*Jiu-Jitsu Bresilien (IBJJF)*
+*Jiu-Jitsu Brésilien (IBJJF)*
 Lisbonne janv. 2025, -76 kg, Master 1. Pratique 6x/semaine.
 
-**INTERVENANT BENEVOLE**
-*Ecole Polytechnique*
-Entretiens de l'Excellence, mentorat de lyceens de quartiers prioritaires.
+**INTERVENANT BÉNÉVOLE**
+*École Polytechnique*
+Entretiens de l'Excellence, mentorat de lycéens de quartiers prioritaires.
 
-**CO-CREATEUR**
+**CO-CRÉATEUR**
 *Le Cabanon Records*
-Label de musique experimentale, 14 sorties.
+Label de musique expérimentale, 14 sorties.
 
-Detail : [personal.md](./personal.md)
+Détail : [personal.md](./personal.md)
 
 ## Related
 

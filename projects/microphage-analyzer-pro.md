@@ -2,11 +2,12 @@
 id: project-microphage-analyzer-pro
 title: Microphage Analyzer Pro - B2B AI Tool for UX Writing
 type: project
+category: app
 domain: project
-tags: [microphage, b2b-saas, multi-tenant, ai]
+tags: [microphage, b2b-saas, multi-tenant, ai, index-first, vision-llm, governed-vault]
 status: live
 created: 2026-04-30
-updated: 2026-05-08
+updated: 2026-09-01
 period: 2025-11 / present
 client: Microphage (SASU)
 industries: [SaaS, AI/ML, Design Tools]
@@ -50,12 +51,13 @@ Design teams in large enterprises ship screens continuously without systematic c
 
 Microphage Analyzer Pro covers audit, rewrite, statistical insights and conversational queries on a client's content design system. Multi-tenant architecture designed to onboard new enterprise clients without touching the product core.
 
+Since mid-2026 the engine runs index-first: a single vision call (FastAPI audit service + Gemini) receives a compact index of the governed rule vault (897 rules, one line per rule) plus the screenshot, opens full rule files on demand through a `read_rules` tool, runs an adversarial designer critique, and returns verdicts plus rewrites. The vault itself is maintained through a governed red/blue pipeline (rule writers + gatekeeper) inherited from the Karpathy LLM wiki method.
+
 A companion web app and a standalone chat interface are on the roadmap to extend the tool beyond the design surface.
 
 ## Impact
 
-- POC delivery in progress with a first enterprise client (May 2026)
-- Several enterprise pilots in pipeline
+- First enterprise client engagement (B2B edtech), several pilots in pipeline
 - Multi-tenant architecture ready to scale to additional clients
 
 ## Related

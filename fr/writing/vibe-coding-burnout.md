@@ -1,6 +1,6 @@
 ---
 id: writing-vibe-coding-burnout
-title: Le vibe coding ne fatigue pas. C'est pour ca que c'est dangereux.
+title: Le vibe coding ne fatigue pas. C'est pour ça que c'est dangereux.
 type: writing
 domain: blog-article
 tags: [vibe-coding, burnout, jjb, friction, tatami, agentic-coding, derealisation, devil-loop]

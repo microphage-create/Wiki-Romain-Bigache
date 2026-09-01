@@ -2,6 +2,7 @@
 id: project-altaria
 title: Altaria - AI Acculturation for Altarea (CAC40)
 type: project
+category: app
 domain: project
 tags: [altaria, altarea, cac40, copilot-365, gamification, pwa, hmac, rls, oxgen, solo, 3-weeks]
 status: live

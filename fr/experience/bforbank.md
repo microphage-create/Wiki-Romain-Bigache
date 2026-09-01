@@ -19,74 +19,74 @@ links:
 
 # BforBank - Lead UX Writer & Visual
 
-| Cle | Valeur |
+| Clé | Valeur |
 |-----|--------|
-| **Periode** | Decembre 2023 - Decembre 2025 (2 ans) |
+| **Période** | Décembre 2023 - Décembre 2025 (2 ans) |
 | **Localisation** | Paris, France |
-| **Entreprise** | BforBank (filiale Credit Agricole) |
+| **Entreprise** | BforBank (filiale Crédit Agricole) |
 | **Industrie** | Banque en ligne |
-| **Role** | Lead UX Writer & Visual |
+| **Rôle** | Lead UX Writer & Visual |
 
 ## Mission
 
-Refonte en profondeur des contenus, FAQ, documentation et IA appliquee chez BforBank. Approche globale pour remettre de la coherence partout, et simplifier a la fois l'usage et la production.
+Refonte en profondeur des contenus, FAQ, documentation et IA appliquée chez BforBank. Approche globale pour remettre de la cohérence partout, et simplifier à la fois l'usage et la production.
 
-C'est sur cette mission que j'ai commence a developper mes propres outils IA, passant progressivement du role de Lead UX Writer a celui de builder.
+C'est sur cette mission que j'ai commencé à développer mes propres outils IA, passant progressivement du rôle de Lead UX Writer à celui de builder.
 
 ## Management
 
-Management direct d'une equipe de 3 personnes : 2 designers + 1 alternante.
+Management direct d'une équipe de 3 personnes : 2 designers + 1 alternante.
 
 ## Pilotage
 
-Pilotage en agile (sprints, rituels) en environnement bancaire fortement processe :
+Pilotage en agile (sprints, rituels) en environnement bancaire fortement processé :
 
 - PM (Product Manager)
 - Tribe Leader (responsable de tribu agile)
-- Equipes Marketing
+- Équipes Marketing
 - Service Relation Client (SRC)
 - Direction
-- Validations Compliance et Conformite
+- Validations Compliance et Conformité
 
 ## Chantier 1 - « La Plume » : assistant IA interne pour les designers
 
-Architecture RAG complete sur Gemini 2.5 Pro avec orchestration LangGraph. Embeddings text-multilingual-embedding-002 (FR/EN), SemanticSplitter custom, indexation sur charte editoriale et guidelines.
+Architecture RAG complète sur Gemini 2.5 Pro avec orchestration LangGraph. Embeddings text-multilingual-embedding-002 (FR/EN), SemanticSplitter custom, indexation sur charte éditoriale et guidelines.
 
-Workflow d'agent : router → summarizer → RAG → generation → tool calling → generation d'image. Garde-fous editoriaux pour bloquer les formulations interdites par la conformite bancaire.
+Workflow d'agent : router → summarizer → RAG → génération → tool calling → génération d'image. Garde-fous éditoriaux pour bloquer les formulations interdites par la conformité bancaire.
 
-Deployee dans la marketplace BforBank GPT, utilisee par les equipes design.
+Déployée dans la marketplace BforBank GPT, utilisée par les équipes design.
 
 Detail complet : [projects/la-plume-bforbank.md](../projects/la-plume-bforbank.md).
 
 ## Chantier 2 - Lancement du chat service client (clients in-app)
 
-Direction de la methodologie data : couplage de 3 sources internes (FAQ publiques, tickets service client, retours SRC) en un corpus unifie. Production de 250+ articles LLM-ready (titre, intent, reponse autoportante, formulations alternatives, exclusions explicites pour eviter les hallucinations sur sujets regules). Construction d'un bot RAG GPT custom comme outil de production editoriale interne pour tenir le rythme.
+Direction de la méthodologie data : couplage de 3 sources internes (FAQ publiques, tickets service client, retours SRC) en un corpus unifié. Production de 250+ articles LLM-ready (titre, intent, réponse autoportante, formulations alternatives, exclusions explicites pour éviter les hallucinations sur sujets régulés). Construction d'un bot RAG GPT custom comme outil de production éditoriale interne pour tenir le rythme.
 
 Detail complet : [projects/la-plume-bforbank.md](../projects/la-plume-bforbank.md).
 
 ## Chantier 3 - Plugin Figma proprietaire
 
-Developpement du plugin Figma d'audit UX writing devenu projet fondateur de Microphage. Premier prototype d'analyse de maquettes par IA (vision + metadonnees Figma).
+Développement du plugin Figma d'audit UX writing devenu projet fondateur de Microphage. Premier prototype d'analyse de maquettes par IA (vision + métadonnées Figma).
 
 Detail : [projects/microphage-analyzer-pro.md](../projects/microphage-analyzer-pro.md).
 
 ## Chantier 4 - Refonte editoriale globale
 
-Audit complet des interfaces mobile et desktop (incoherences, doublons, messages flous ou absents). Reecriture des contenus problematiques et creation de tous les micro-contenus des nouveaux parcours, en binome avec les designers.
+Audit complet des interfaces mobile et desktop (incohérences, doublons, messages flous ou absents). Réécriture des contenus problématiques et création de tous les micro-contenus des nouveaux parcours, en binôme avec les designers.
 
-FAQ augmentee : redaction de centaines d'articles au format conversationnel (chatbot) et classique (SEO, support).
+FAQ augmentée : rédaction de centaines d'articles au format conversationnel (chatbot) et classique (SEO, support).
 
-Refonte de parcours encadres par des obligations legales strictes (assurance vie). Integration des contenus dans Lokalise pour la coherence multilingue.
+Refonte de parcours encadrés par des obligations légales strictes (assurance vie). Intégration des contenus dans Lokalise pour la cohérence multilingue.
 
-Animation d'ateliers de formation a l'UX writing et aux usages IA.
+Animation d'ateliers de formation à l'UX writing et aux usages IA.
 
-## Competences mobilisees
+## Compétences mobilisées
 
-- Management d'equipe en environnement bancaire regule
+- Management d'équipe en environnement bancaire régulé
 - Pilotage de projet en agile multi-stakeholders
 - Architecture RAG et orchestration d'agents IA
-- Methodologie data pour LLM (corpus structures)
-- Direction editoriale en cadre Compliance
+- Méthodologie data pour LLM (corpus structurés)
+- Direction éditoriale en cadre Compliance
 - Animation et formation
 
 ## Related
@@ -95,3 +95,4 @@ Animation d'ateliers de formation a l'UX writing et aux usages IA.
 - [projects/microphage-analyzer-pro.md](../projects/microphage-analyzer-pro.md)
 - [stack.md](../stack.md)
 - [expertise.md](../expertise.md)
+- [press.md](../press.md)

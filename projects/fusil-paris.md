@@ -2,6 +2,7 @@
 id: project-fusil-paris
 title: fusil.paris - Handcrafted jewelry e-commerce
 type: project
+category: site
 domain: project
 tags: [fusil-paris, e-commerce, jewelry, next-js-16, edge-functions, deno, stripe, paypal, hmac, security, chronopost, bilingual, solo, co-founded]
 status: live

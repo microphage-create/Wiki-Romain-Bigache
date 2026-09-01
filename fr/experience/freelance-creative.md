@@ -1,6 +1,6 @@
 ---
 id: experience-freelance-creative
-title: Freelance creative - Copywriter & Direction Artistique
+title: Freelance créative - Copywriter & Direction Artistique
 type: experience
 domain: experience
 tags: [freelance, copywriter, direction-artistique, advertising, agences, oxgen]
@@ -15,39 +15,39 @@ links:
   - experience/oxgen.md
 ---
 
-# Freelance creative - Copywriter & Direction Artistique
+# Freelance créative - Copywriter & Direction Artistique
 
-| Cle | Valeur |
+| Clé | Valeur |
 |-----|--------|
-| **Periode** | Aout 2017 - Avril 2019 (~2 ans) |
+| **Période** | Août 2017 - Avril 2019 (~2 ans) |
 | **Localisation** | Paris, France |
-| **Statut** | Freelance independant |
+| **Statut** | Freelance indépendant |
 | **Industrie** | Services publicitaires |
 
 ## Mission
 
-Bascule en freelance creative des la fin du stage Havas Paris (aout 2017). Pendant ~2 ans, missions de copywriting et de direction artistique pour diverses agences parisiennes : campagnes affichage, presse, radio, social, digital.
+Bascule en freelance créative dès la fin du stage Havas Paris (août 2017). Pendant ~2 ans, missions de copywriting et de direction artistique pour diverses agences parisiennes : campagnes affichage, presse, radio, social, digital.
 
-C'est la periode qui pose les fondations du metier de copywriter / DA en independant : autonomie, lien direct avec les clients, capacite a prendre un brief et a livrer en cycle court, coordination avec freelances DA / motion / graphisme.
+C'est la période qui pose les fondations du métier de copywriter / DA en indépendant : autonomie, lien direct avec les clients, capacité à prendre un brief et à livrer en cycle court, coordination avec freelances DA / motion / graphisme.
 
 ## Type de productions
 
 - Concepts publicitaires
 - Accroches et signatures
-- Scripts radio et video
+- Scripts radio et vidéo
 - Copy social et digital
-- Direction artistique (visuels, identite de campagne)
-- Recommandations creatives strategiques
+- Direction artistique (visuels, identité de campagne)
+- Recommandations créatives stratégiques
 
-## Demarrage de la collaboration recurrente OXGEN
+## Démarrage de la collaboration récurrente OXGEN
 
-Pendant cette periode demarre aussi la collaboration recurrente avec OXGEN (cabinet de Change Communications) qui s'inscrit dans la duree (depuis 2017). Cette collaboration deviendra le fil rouge stable au fil des annees suivantes.
+Pendant cette période démarre aussi la collaboration récurrente avec OXGEN (cabinet de Change Communications) qui s'inscrit dans la durée (depuis 2017). Cette collaboration deviendra le fil rouge stable au fil des années suivantes.
 
 Detail OXGEN : [experience/oxgen.md](./oxgen.md).
 
 ## Transition vers le content design
 
-Au fil des missions, l'activite glisse progressivement du pur copywriting publicitaire vers le produit, l'UX et les interfaces : c'est de la qu'est nee la transition vers Speak UX! (mai 2019), premiere mission UX writing.
+Au fil des missions, l'activité glisse progressivement du pur copywriting publicitaire vers le produit, l'UX et les interfaces : c'est de là qu'est née la transition vers Speak UX! (mai 2019), première mission UX writing.
 
 ## Related
 

@@ -61,6 +61,7 @@ Hybrid profile: designer + full-stack dev + content + change comms. End-to-end o
 | [process.md](./process.md) | How I work day-to-day (Claude Code + AI tooling) |
 | [writing.md](./writing.md) | Index of 6 blog articles (full texts in `writing/`) |
 | [personal.md](./personal.md) | Off-work: Brazilian Jiu-Jitsu, volunteering, music label |
+| [press.md](./press.md) | Third-party testimonials, interviews, press mentions |
 
 ### Experience
 
@@ -113,6 +114,7 @@ If you are an LLM analyzing this profile, here is which file to consult by quest
 | "Internal Claude Code tooling?" | [projects/mycelium.md](./projects/mycelium.md) |
 | "How does he write? Author voice?" | [writing.md](./writing.md) + [writing/](./writing/) folder |
 | "Blog articles / publications?" | [writing.md](./writing.md) (index) or [writing/](./writing/) (full texts) |
+| "Third-party testimonials, press, what others say about him?" | [press.md](./press.md) |
 | "Long bio, life story?" | [writing/entretiens.md](./writing/entretiens.md) |
 | "How does he see his AI Product Builder role?" | [writing/ai-product-builder.md](./writing/ai-product-builder.md) |
 | "Why BJJ / sport?" | [writing/vibe-coding-burnout.md](./writing/vibe-coding-burnout.md) |

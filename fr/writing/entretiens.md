@@ -1,6 +1,6 @@
 ---
 id: writing-entretiens
-title: Invite a Polytechnique. Sans aucun diplome.
+title: Invité à Polytechnique. Sans aucun diplôme.
 type: writing
 domain: blog-article
 tags: [polytechnique, entretiens-excellence, mentorat, parcours, autodidacte, content-design, story]

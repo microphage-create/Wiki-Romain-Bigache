@@ -2,6 +2,7 @@
 id: project-video-transcriber
 title: Video Transcriber + voice chat (CLI and live)
 type: project
+category: tool
 domain: project
 tags: [transcription, whisper, ffmpeg, python, cli, audio, video, speech-to-text, openai-whisper, srt, voice-chat, mediarecorder, nextjs, tooling]
 status: live

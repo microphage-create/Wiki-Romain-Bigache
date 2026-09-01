@@ -16,27 +16,27 @@ links: []
 
 # leboncoin - UX Writer
 
-| Cle | Valeur |
+| Clé | Valeur |
 |-----|--------|
-| **Periode** | Juin 2019 - Janvier 2020 (7 mois) |
+| **Période** | Juin 2019 - Janvier 2020 (7 mois) |
 | **Localisation** | Paris, France |
-| **Industrie** | Developpement de logiciels, Marketplace |
+| **Industrie** | Développement de logiciels, Marketplace |
 
 ## Mission
 
-Accompagnement de leboncoin a deux moments cles : la refonte du site (adaptation des contenus a la nouvelle interface) et le lancement du paiement securise (gros travail sur la FAQ et les parcours sensibles). Creation du guide redactionnel LeBonStyle.
+Accompagnement de leboncoin à deux moments clés : la refonte du site (adaptation des contenus à la nouvelle interface) et le lancement du paiement sécurisé (gros travail sur la FAQ et les parcours sensibles). Création du guide rédactionnel LeBonStyle.
 
-## Creation du guide editorial du produit (LeBonStyle)
+## Création du guide éditorial du produit (LeBonStyle)
 
-Elaboration complete : tonalite, langage, principes, regles, cas concrets. Objectif : poser une base claire, utile et durable pour tous les contenus de l'interface.
+Élaboration complète : tonalité, langage, principes, règles, cas concrets. Objectif : poser une base claire, utile et durable pour tous les contenus de l'interface.
 
-## Refonte et creation de contenus
+## Refonte et création de contenus
 
-Reecriture de nombreux parcours critiques : achat, vente, messagerie, compte utilisateur. Clarification des formulaires, CTA, messages systeme et contenus d'accompagnement. Objectif : plus de clarte, de coherence, et une meilleure fluidite dans les parcours.
+Réécriture de nombreux parcours critiques : achat, vente, messagerie, compte utilisateur. Clarification des formulaires, CTA, messages système et contenus d'accompagnement. Objectif : plus de clarté, de cohérence, et une meilleure fluidité dans les parcours.
 
 ## FAQ et support
 
-Analyse fine des tickets Zendesk pour identifier les irritants recurrents lies au paiement securise. Redaction d'une trentaine d'articles pedagogiques, structures et orientes resolution. Objectif : desengorger le support, rassurer les utilisateurs et renforcer leur autonomie.
+Analyse fine des tickets Zendesk pour identifier les irritants récurrents liés au paiement sécurisé. Rédaction d'une trentaine d'articles pédagogiques, structurés et orientés résolution. Objectif : désengorger le support, rassurer les utilisateurs et renforcer leur autonomie.
 
 ## Related
 

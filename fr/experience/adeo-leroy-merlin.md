@@ -17,39 +17,39 @@ links:
 
 # ADEO (Leroy Merlin) - Principal UX Writer
 
-| Cle | Valeur |
+| Clé | Valeur |
 |-----|--------|
-| **Periode** | Janvier 2020 - Octobre 2023 (3 ans 10 mois) |
+| **Période** | Janvier 2020 - Octobre 2023 (3 ans 10 mois) |
 | **Localisation** | Paris, France |
 | **Entreprise** | ADEO (Leroy Merlin) |
-| **Industrie** | Vente au detail (DIY) |
-| **Role** | Principal UX Writer |
+| **Industrie** | Vente au détail (DIY) |
+| **Rôle** | Principal UX Writer |
 
 ## Mission
 
-Accompagnement d'ADEO dans l'amelioration de son experience d'achat en ligne, en integrant les pratiques d'UX writing, de content design et d'IA au sein des equipes produit.
+Accompagnement d'ADEO dans l'amélioration de son expérience d'achat en ligne, en intégrant les pratiques d'UX writing, de content design et d'IA au sein des équipes produit.
 
-## IA appliquee a l'UX writing (en avance sur le marche en 2022)
+## IA appliquée à l'UX writing (en avance sur le marché en 2022)
 
-Conception du **premier prompt IA interne des la sortie de GPT-3.5** (novembre 2022), puis iterations sur GPT-4 pour aider les designers a produire du contenu coherent et contextuel sans repartir de zero.
+Conception du **premier prompt IA interne dès la sortie de GPT-3.5** (novembre 2022), puis itérations sur GPT-4 pour aider les designers à produire du contenu cohérent et contextuel sans repartir de zéro.
 
-Creation d'un **Content Design System en RAG** (ChatGPT + N8N + Supabase) pour repondre aux questions des designers sur les guidelines editoriales en temps reel.
+Création d'un **Content Design System en RAG** (ChatGPT + N8N + Supabase) pour répondre aux questions des designers sur les guidelines éditoriales en temps réel.
 
-Animation d'ateliers pratiques sur l'UX writing, la micro-copy et les usages de l'IA pour designers, chefs de produit et redacteurs.
+Animation d'ateliers pratiques sur l'UX writing, la micro-copy et les usages de l'IA pour designers, chefs de produit et rédacteurs.
 
-## Audit et accompagnement strategique
+## Audit et accompagnement stratégique
 
-Analyse complete du site Leroy Merlin : contenus, parcours, points de friction. Recommandations editoriales sur les ecrans sensibles et les micro-contenus cles. Integration des retours utilisateurs et participation aux tests A/B pour valider les choix de wording.
+Analyse complète du site Leroy Merlin : contenus, parcours, points de friction. Recommandations éditoriales sur les écrans sensibles et les micro-contenus clés. Intégration des retours utilisateurs et participation aux tests A/B pour valider les choix de wording.
 
 ## Content design system
 
-Redaction d'un guide structurant les principes de contenu : ton, regles, composants textuels. Integration dans le design system global, en lien direct avec les guidelines UI et les composants Figma.
+Rédaction d'un guide structurant les principes de contenu : ton, règles, composants textuels. Intégration dans le design system global, en lien direct avec les guidelines UI et les composants Figma.
 
-Sensibilisation des designers, PM et redacteurs a une approche editoriale partagee, ancree dans le produit.
+Sensibilisation des designers, PM et rédacteurs à une approche éditoriale partagée, ancrée dans le produit.
 
-## Competences mobilisees
+## Compétences mobilisées
 
-- IA generative appliquee au workflow design (tres en avance sur le marche en 2022)
+- IA générative appliquée au workflow design (très en avance sur le marché en 2022)
 - Architecture RAG sur stack ChatGPT + N8N + Supabase
 - Content Design System
 - Animation d'ateliers et formation
@@ -58,3 +58,4 @@ Sensibilisation des designers, PM et redacteurs a une approche editoriale partag
 ## Related
 
 - [stack.md](../stack.md)
+- [press.md](../press.md)

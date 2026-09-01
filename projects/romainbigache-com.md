@@ -2,6 +2,7 @@
 id: project-romainbigache-com
 title: romainbigache.com - Personal site with AI agent
 type: project
+category: site
 domain: project
 tags: [personal-site, oauth, google-workspace, calendar-api, drive-api, tool-streaming, vercel, next-js, ai-agent]
 status: live

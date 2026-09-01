@@ -1,6 +1,6 @@
 ---
 id: writing-personal-branding-introvert
-title: Personal branding pour les gens qui detestent ca
+title: Personal branding pour les gens qui détestent ça
 type: writing
 domain: blog-article
 tags: [personal-branding, blog, seo, introvert, ux-writing, joboscope, openclassrooms, leroy-merlin]

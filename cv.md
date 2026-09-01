@@ -6,7 +6,7 @@ domain: identity
 tags: [cv, resume, ats]
 status: live
 created: 2026-04-30
-updated: 2026-04-30
+updated: 2026-09-01
 links:
   - profile.md
   - experience/microphage.md
@@ -26,7 +26,7 @@ romain.bigache@gmail.com - romainbigache.com - +33 7 82 59 67 53 - Paris, France
 
 **Pill:** AI Product Builder
 
-**Day rate:** 850 EUR / day - **Available May 11, 2026**
+**Day rate:** 650-750 EUR / day (depending on scope and duration) - **Available immediately**
 
 ---
 
@@ -41,7 +41,7 @@ I used to build wooden houses in the South-West of France with my father. Then I
 ### FOUNDER & AI BUILDER - 2025 - Present
 *Microphage*
 
-Concept, design, code, and delivery of AI tools, solo, for enterprise accounts. **Microphage Analyzer Pro**: B2B Figma plugin that audits and rewrites UX writing with AI, backed by a proprietary wiki of 785 rules. First B2B edtech client deployment (delivery May 2026) + pitched to Ledger's VP Design. **Altaria**: gamified AI literacy app intended for Altarea (CAC40), technically shipped solo in 3 weeks (concept, code, design, copy, internal guerilla campaign), in commercial pitch process via OXGEN. White-label launch discussions ongoing with Tenexa. Stack: Vercel AI SDK multi-provider (OpenAI, Claude, Gemini), LangGraph, RAG, MCP, Hono, Cloudflare Workers, Supabase.
+Concept, design, code, and delivery of AI tools, solo, for enterprise accounts. **Microphage Analyzer Pro**: B2B AI engine that audits and rewrites UX writing, index-first vision pipeline (FastAPI + Gemini) on a governed vault of 897 rules. First B2B edtech client deployment + pitched to Ledger's VP Design. **My Suez**: art direction for the Suez group intranet (~40,000 employees), direction decided on a production-grade interactive mockup (Lighthouse 93/100/100/100), rebuilt in Figma on the ServiceNow Horizon Design System. **Altaria**: gamified AI literacy app intended for Altarea (CAC40), technically shipped solo in 3 weeks (concept, code, design, copy, internal guerilla campaign), in commercial pitch process via OXGEN. **Claria**: white-label gamified AI upskilling demo app, branded for an enterprise prospect. **Microwave Method**: open-source agent factory and governed-wiki method, published on PyPI. Stack: Vercel AI SDK multi-provider (OpenAI, Claude, Gemini), LangGraph, RAG, MCP, FastAPI, Hono, Cloudflare Workers, Supabase.
 
 Detail: [experience/microphage.md](./experience/microphage.md)
 

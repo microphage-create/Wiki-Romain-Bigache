@@ -2,6 +2,7 @@
 id: project-romainbigache-com
 title: romainbigache.com - Site personnel avec agent IA
 type: project
+category: site
 domain: project
 tags: [personal-site, oauth, google-workspace, calendar-api, drive-api, tool-streaming, vercel, next-js, ai-agent]
 status: live
@@ -26,28 +27,28 @@ links:
 |-----|--------|
 | **Type** | Site personnel + agent IA conversationnel |
 | **Statut** | En production |
-| **Annee** | 2025 - en cours |
+| **Année** | 2025 - en cours |
 | **URL** | [romainbigache.com](https://romainbigache.com) |
-| **Equipe** | Romain Bigache (seul) |
+| **Équipe** | Romain Bigache (seul) |
 
 ## Titre court
 
-Site personnel avec agent IA conversationnel et integrations Google Workspace en production.
+Site personnel avec agent IA conversationnel et intégrations Google Workspace en production.
 
 ## Description courte
 
-Site portfolio + chat IA personnel adosse a Google Workspace (Calendar et Drive en prod). Demonstration concrete du pattern OAuth2 + Workspace API + tool streaming UI : l'agent peut consulter et resumer l'agenda, lire des documents Drive et streamer le rendu directement dans la conversation.
+Site portfolio + chat IA personnel adossé à Google Workspace (Calendar et Drive en prod). Démonstration concrète du pattern OAuth2 + Workspace API + tool streaming UI : l'agent peut consulter et résumer l'agenda, lire des documents Drive et streamer le rendu directement dans la conversation.
 
 ## Description longue
 
 ### Concept
 
-Site personnel concu comme demonstrateur produit : un agent IA conversationnel branche sur les outils Google Workspace de Marcel, qui sert simultanement de portfolio (l'agent peut commenter ses propres projets) et de preuve d'execution sur le pattern Workspace integration en autonomie complete.
+Site personnel conçu comme démonstrateur produit : un agent IA conversationnel branché sur les outils Google Workspace de Marcel, qui sert simultanément de portfolio (l'agent peut commenter ses propres projets) et de preuve d'exécution sur le pattern Workspace integration en autonomie complète.
 
-### Integrations en production
+### Intégrations en production
 
-- **Google Calendar API** : connexion OAuth2 a l'agenda perso, l'agent peut consulter les disponibilites, resumer la semaine, identifier les RDV. Rendu UI streame directement dans le chat : le tool call execute, les donnees arrivent, l'UI se construit en live au-dessus de la reponse texte.
-- **Google Drive API** : OAuth2 sur Drive personnel, lecture de documents, resumes a la volee, navigation par dossiers. Sync nocturne via cron Vercel pour pre-indexer les documents recents.
+- **Google Calendar API** : connexion OAuth2 à l'agenda perso, l'agent peut consulter les disponibilités, résumer la semaine, identifier les RDV. Rendu UI streamé directement dans le chat : le tool call exécute, les données arrivent, l'UI se construit en live au-dessus de la réponse texte.
+- **Google Drive API** : OAuth2 sur Drive personnel, lecture de documents, résumés à la volée, navigation par dossiers. Sync nocturne via cron Vercel pour pré-indexer les documents récents.
 
 ### Architecture
 
@@ -55,11 +56,11 @@ Site personnel concu comme demonstrateur produit : un agent IA conversationnel b
 - **AI** : Vercel AI SDK v6 multi-provider (OpenAI, Anthropic Claude), tool calling, streaming UI
 - **Auth** : OAuth2 Google avec refresh tokens, scopes minimaux (calendar.readonly, drive.readonly)
 - **Cron** : Vercel Cron Jobs pour sync nocturne Drive
-- **Deploiement** : Vercel serverless
+- **Déploiement** : Vercel serverless
 
-### Pattern reutilisable
+### Pattern réutilisable
 
-Le pattern complet (OAuth2 + Workspace API + tool streaming UI + cron sync) est documente et reutilisable sur tout poste demandant une integration Google Workspace, Microsoft Graph, ou tout autre Workspace API similaire (Notion, Slack, Linear).
+Le pattern complet (OAuth2 + Workspace API + tool streaming UI + cron sync) est documenté et réutilisable sur tout poste demandant une intégration Google Workspace, Microsoft Graph, ou tout autre Workspace API similaire (Notion, Slack, Linear).
 
 ## Technologies utilisees
 
@@ -80,7 +81,7 @@ Rapports du 30 avril 2026 (Lighthouse 13.0.1, HeadlessChromium 146).
 
 ### Page d'accueil `romainbigache.com/`
 
-| Categorie | Mobile |
+| Catégorie | Mobile |
 |-----------|--------|
 | **Performance** | 95 / 100 |
 | **Accessibility** | 95 / 100 |
@@ -89,7 +90,7 @@ Rapports du 30 avril 2026 (Lighthouse 13.0.1, HeadlessChromium 146).
 
 Core Web Vitals (mobile, Moto G Power, 4G lente) :
 
-| Metrique | Valeur |
+| Métrique | Valeur |
 |----------|--------|
 | First Contentful Paint (FCP) | 1,4 s |
 | Largest Contentful Paint (LCP) | 2,0 s |
@@ -99,7 +100,7 @@ Core Web Vitals (mobile, Moto G Power, 4G lente) :
 
 ### Page portfolio `romainbigache.com/fr/portfolio`
 
-| Categorie | Mobile | Desktop |
+| Catégorie | Mobile | Desktop |
 |-----------|--------|---------|
 | **Performance** | 99 / 100 | 99 / 100 |
 | **Accessibility** | 95 / 100 | 95 / 100 |
@@ -108,24 +109,24 @@ Core Web Vitals (mobile, Moto G Power, 4G lente) :
 
 Core Web Vitals (mobile) :
 
-| Metrique | Valeur |
+| Métrique | Valeur |
 |----------|--------|
 | First Contentful Paint (FCP) | 1,4 s |
 | Largest Contentful Paint (LCP) | 1,8 s |
 | Total Blocking Time (TBT) | 30 ms |
 | Cumulative Layout Shift (CLS) | 0 |
 
-Tous les Core Web Vitals dans le vert sur les deux pages. CLS = 0 (zero saut visuel pendant le chargement). TBT = 30 ms sur portfolio (excellent, blocage minimal du thread principal).
+Tous les Core Web Vitals dans le vert sur les deux pages. CLS = 0 (zéro saut visuel pendant le chargement). TBT = 30 ms sur portfolio (excellent, blocage minimal du thread principal).
 
 ## Impact
 
 - Site en production sur [romainbigache.com](https://romainbigache.com)
 - Lighthouse mobile home : 95 / 95 / 100 / 100
 - Lighthouse mobile et desktop portfolio : 99 / 95 / 100 / 100
-- SEO 100 / 100 sur toutes les pages testees
-- Demonstrateur du pattern Google Workspace integration
-- Sert de plateforme de demo lors des pitchs et entretiens
-- Maintien hands-on des integrations OAuth2 + tool streaming en autonomie
+- SEO 100 / 100 sur toutes les pages testées
+- Démonstrateur du pattern Google Workspace integration
+- Sert de plateforme de démo lors des pitchs et entretiens
+- Maintien hands-on des intégrations OAuth2 + tool streaming en autonomie
 
 ## Related
 

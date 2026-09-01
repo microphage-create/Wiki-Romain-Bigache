@@ -2,6 +2,7 @@
 id: project-la-plume-bforbank
 title: La Plume + customer service chat (BforBank)
 type: project
+category: tool
 domain: project
 tags: [bforbank, banking, gemini-2.5-pro, langgraph, rag, semantic-splitter, multilingual-embeddings, marketplace, customer-chat, salesforce-pattern, zendesk-pattern]
 status: live

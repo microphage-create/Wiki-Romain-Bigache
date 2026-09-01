@@ -2,6 +2,7 @@
 id: project-cloud-academy-coach
 title: Cloud Academy Coach - POC technique sur Gemini Enterprise
 type: project
+category: app
 domain: project
 tags: [microphage, gcp, vertex-ai-search, gemini, cloud-run, agent-builder, rag, function-calling, poc, energy-utility]
 status: live

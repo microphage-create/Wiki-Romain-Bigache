@@ -95,3 +95,4 @@ Facilitation of training workshops on UX writing and AI usage.
 - [projects/microphage-analyzer-pro.md](../projects/microphage-analyzer-pro.md)
 - [stack.md](../stack.md)
 - [expertise.md](../expertise.md)
+- [press.md](../press.md)
