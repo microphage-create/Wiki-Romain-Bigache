@@ -5,7 +5,12 @@ Auto-generated. Do not edit manually.
 ## availability
 
 - [Availability and terms](./availability.md) — `tags: availability, day-rate, modalities, freelance, sasu`
-- [Disponibilite et modalites](./fr/availability.md) — `tags: availability, tjm, modalities, freelance, sasu`
+- [Disponibilité et modalités](./fr/availability.md) — `tags: availability, tjm, modalities, freelance, sasu`
+
+## award
+
+- [European Vice-Champion - Brazilian Jiu-Jitsu (IBJJF, 2025)](./awards/bjj-european-2025.md) — `tags: bjj, jiu-jitsu, ibjjf, european-championship, sport`
+- [Vice-champion d'Europe - Jiu-Jitsu Brésilien (IBJJF, 2025)](./fr/awards/bjj-european-2025.md) — `tags: bjj, jiu-jitsu, ibjjf, championnat-europe, sport`
 
 ## cv
 
@@ -19,53 +24,73 @@ Auto-generated. Do not edit manually.
 
 ## experience
 
-- [ADEO (Leroy Merlin) - Principal UX Writer](./experience/adeo.md) — `tags: adeo, leroy-merlin, retail, ux-writing, content-design, gpt-3.5, rag, design-system`
+- [ADEO (Leroy Merlin) - Principal UX Writer](./experience/adeo-leroy-merlin.md) — `tags: adeo, leroy-merlin, retail, ux-writing, content-design, gpt-3.5, rag, design-system`
 - [BforBank - Lead UX Writer & Visual](./experience/bforbank.md) — `tags: bforbank, banking, ai, rag, langgraph, gemini, content-design, management, agile, compliance`
+- [Le Cabanon Records - Co-founder (experimental music label)](./experience/cabanon-records.md) — `tags: cabanon-records, music-label, experimental-music, side-project, co-founder`
 - [Cdiscount (Octopia) - UX Writer](./experience/cdiscount.md) — `tags: cdiscount, octopia, ux-writing, marketplace, audit, guidelines`
+- [L'Ecole Multimedia - Guest Lecturer (UX writing masterclass)](./experience/ecole-multimedia.md) — `tags: ecole-multimedia, teaching, masterclass, ux-writing, ux-design`
+- [Les Entretiens de l'Excellence - Volunteer mentor (Ecole polytechnique)](./experience/entretiens-excellence.md) — `tags: entretiens-de-l-excellence, ecole-polytechnique, volunteering, mentoring, social-mobility, education`
 - [FDJ - UX Writer](./experience/fdj.md) — `tags: fdj, gambling, ux-writing, audit, parcours-sensibles, conformite`
 - [Freelance creative - Copywriter & Art Director](./experience/freelance-creative.md) — `tags: freelance, copywriter, direction-artistique, advertising, agences, oxgen`
 - [Havas Paris - Creative Copywriter (internship)](./experience/havas-paris.md) — `tags: havas-paris, advertising, copywriter, stage, orange-bank, edf`
 - [leboncoin - UX Writer](./experience/leboncoin.md) — `tags: leboncoin, marketplace, ux-writing, paiement-securise, faq, guide-editorial`
 - [Microphage - Founder & AI Builder](./experience/microphage.md) — `tags: microphage, ai-builder, founder, freelance, sasu`
 - [OXGEN - Copywriter & Art Director](./experience/oxgen.md) — `tags: oxgen, change-comms, dsi, copywriter, art-direction, grand-compte, freelance`
+- [Les Siestes Electroniques - Member (experimental music festival)](./experience/siestes-electroniques.md) — `tags: siestes-electroniques, festival, experimental-music, toulouse, side-project, member`
 - [Speak UX! - UX Writer](./experience/speak-ux.md) — `tags: speak-ux, conversational-design, chatbot, voicebot, valeo, schneider-electric`
 - [ADEO (Leroy Merlin) - Principal UX Writer](./fr/experience/adeo-leroy-merlin.md) — `tags: adeo, leroy-merlin, retail, ux-writing, content-design, gpt-3.5, rag, design-system`
 - [BforBank - Lead UX Writer & Visual](./fr/experience/bforbank.md) — `tags: bforbank, banking, ai, rag, langgraph, gemini, content-design, management, agile, compliance`
+- [Le Cabanon Records - Co-créateur (label de musiques expérimentales)](./fr/experience/cabanon-records.md) — `tags: cabanon-records, label-musique, musiques-experimentales, side-project, co-createur`
 - [Cdiscount (Octopia) - UX Writer](./fr/experience/cdiscount.md) — `tags: cdiscount, octopia, ux-writing, marketplace, audit, guidelines`
+- [L'École Multimédia - Intervenant (masterclass UX writing)](./fr/experience/ecole-multimedia.md) — `tags: ecole-multimedia, enseignement, masterclass, ux-writing, ux-design`
+- [Les Entretiens de l'Excellence - Intervenant bénévole (École polytechnique)](./fr/experience/entretiens-excellence.md) — `tags: entretiens-de-l-excellence, ecole-polytechnique, benevolat, mentorat, mobilite-sociale, education`
 - [FDJ - UX Writer](./fr/experience/fdj.md) — `tags: fdj, gambling, ux-writing, audit, parcours-sensibles, conformite`
-- [Freelance creative - Copywriter & Direction Artistique](./fr/experience/freelance-creative.md) — `tags: freelance, copywriter, direction-artistique, advertising, agences, oxgen`
+- [Freelance créative - Copywriter & Direction Artistique](./fr/experience/freelance-creative.md) — `tags: freelance, copywriter, direction-artistique, advertising, agences, oxgen`
 - [Havas Paris - Creative Copywriter (stage)](./fr/experience/havas-paris.md) — `tags: havas-paris, advertising, copywriter, stage, orange-bank, edf`
 - [leboncoin - UX Writer](./fr/experience/leboncoin.md) — `tags: leboncoin, marketplace, ux-writing, paiement-securise, faq, guide-editorial`
 - [Microphage - Fondateur & AI Builder](./fr/experience/microphage.md) — `tags: microphage, ai-builder, founder, freelance, sasu`
 - [OXGEN - Copywriter & Direction Artistique](./fr/experience/oxgen.md) — `tags: oxgen, change-comms, dsi, copywriter, art-direction, grand-compte, freelance`
+- [Les Siestes Electroniques - Adhérent (festival de musiques aventureuses)](./fr/experience/siestes-electroniques.md) — `tags: siestes-electroniques, festival, musiques-experimentales, toulouse, side-project, adherent`
 - [Speak UX! - UX Writer](./fr/experience/speak-ux.md) — `tags: speak-ux, conversational-design, chatbot, voicebot, valeo, schneider-electric`
 
 ## expertise
 
 - [GCP / Gemini / Workspace / connectors expertise](./expertise.md) — `tags: gemini, gcp, vertex-ai, google-workspace, salesforce, zendesk, transparency`
+- [Creative Direction (copywriting, art direction, advertising communications)](./expertise/direction-de-creation.md) — `tags: creative-direction, copywriting, art-direction, advertising, internal-comms, change-management, brand-voice, storytelling`
 - [Expertise GCP / Gemini / Workspace / connecteurs](./fr/expertise.md) — `tags: gemini, gcp, vertex-ai, google-workspace, salesforce, zendesk, transparency`
+- [Direction de création (conception-rédaction, DA, communication publicitaire)](./fr/expertise/direction-de-creation.md) — `tags: direction-de-creation, conception-redaction, direction-artistique, publicite, comm-interne, change-management, brand-voice, storytelling`
 
 ## keywords
 
-- [Mots-cles ATS et indexation](./fr/keywords.md) — `tags: keywords, ats, indexing, llm-discovery`
+- [Mots-clés ATS et indexation](./fr/keywords.md) — `tags: keywords, ats, indexing, llm-discovery`
 - [ATS keywords and indexing](./keywords.md) — `tags: keywords, ats, indexing, llm-discovery`
+
+## making-of
+
+- [Spec-driven development : pourquoi le single-page HTML est la bonne méthode pour les mockups premium en 2026](./_inbox/2026-05-21-spec-driven-html-mockup-pattern.md) — `tags: design-system, methodologie, mockup, cross-framework, ai-native, design-tokens, dtcg, suez-da-v1`
 
 ## meta
 
 - [Romain Bigache Wiki - Index](./README.md) — `tags: profile, ai-product-builder, freelance, paris, llm-ready, index`
+- [Audit santé Wiki-Romain-Bigache 2026-05-24](./_audit-sante-2026-05-24.md) — `tags: meta, audit, wiki-health, integrity-check, read-only`
 - [Wiki schema](./_schema.md) — `tags: meta, schema, conventions, llm-wiki`
 - [Wiki Romain Bigache - Index](./fr/README.md) — `tags: profile, ai-product-builder, freelance, paris, llm-ready, index`
-- [Schema du wiki](./fr/_schema.md) — `tags: meta, schema, conventions, llm-wiki`
+- [Schéma du wiki](./fr/_schema.md) — `tags: meta, schema, conventions, llm-wiki`
 
 ## methodology
 
-- [Methodologies signature](./fr/methodology.md) — `tags: karpathy-llm-wiki, hybrid-retrieval, rag, prompt-caching, single-source-of-truth, methodology`
+- [Méthodologies signature](./fr/methodology.md) — `tags: karpathy-llm-wiki, hybrid-retrieval, rag, prompt-caching, single-source-of-truth, methodology`
 - [Signature methodologies](./methodology.md) — `tags: karpathy-llm-wiki, hybrid-retrieval, rag, prompt-caching, single-source-of-truth, methodology`
 
 ## personal
 
 - [Hors-pro](./fr/personal.md) — `tags: personal, sport, volunteer, music, side-projects`
 - [Off-work](./personal.md) — `tags: personal, sport, volunteer, music, side-projects`
+
+## press
+
+- [Presse, témoignages tiers et interviews](./fr/press.md) — `tags: press, testimonials, interviews, third-party, ux-writing, content-design, adeo, leroy-merlin, bforbank`
+- [Press, third-party testimonials and interviews](./press.md) — `tags: press, testimonials, interviews, third-party, ux-writing, content-design, adeo, leroy-merlin, bforbank`
 
 ## process
 
@@ -80,16 +105,42 @@ Auto-generated. Do not edit manually.
 ## project
 
 - [Altaria - Acculturation IA pour Altarea (CAC40)](./fr/projects/altaria.md) — `tags: altaria, altarea, cac40, copilot-365, gamification, pwa, hmac, rls, oxgen, solo, 3-semaines`
+- [Altarea - IA Générative (campagne de communication interne)](./fr/projects/case-altarea.md) — `tags: oxgen, altarea, communication-interne, ia-generative, copilot-365, conduite-du-changement, immobilier`
+- [Citeo - Cybersécurité / Les Hackers (campagne de communication interne)](./fr/projects/case-citeo.md) — `tags: oxgen, citeo, communication-interne, cybersecurite, guerilla, recyclage, eco-organisme`
+- [Danone - Cybermoi/s (campagne de communication interne)](./fr/projects/case-danone-cyber.md) — `tags: oxgen, danone, communication-interne, cybersecurite, sensibilisation, bilingue, fmcg`
+- [Danone - IT Survey (campagne de communication interne)](./fr/projects/case-danone-itsurvey.md) — `tags: oxgen, danone, communication-interne, engagement, memes, bilingue, fmcg`
+- [Enedis - Move To Cloud (campagne de communication interne)](./fr/projects/case-enedis.md) — `tags: oxgen, enedis, communication-interne, cloud, conduite-du-changement, guerilla, energie`
+- [Idex - Projet DUN (campagne de communication interne)](./fr/projects/case-idex.md) — `tags: oxgen, idex, communication-interne, transformation-numerique, guerilla, efficacite-energetique`
+- [JJA - Transformation DSI (campagne de communication interne)](./fr/projects/case-jja.md) — `tags: oxgen, jja, communication-interne, transformation-dsi, innovation, distribution, maison`
+- [Manutan - NewFront (campagne de communication interne)](./fr/projects/case-manutan.md) — `tags: oxgen, manutan, communication-interne, transformation-si, conduite-du-changement, distribution-b2b`
+- [PAI Partners - You Deserve Better (campagne de communication interne)](./fr/projects/case-pai-partners.md) — `tags: oxgen, pai-partners, communication-interne, private-equity, innovation-digitale, conduite-du-changement`
+- [Safran - Plateforme C-NUM (campagne de communication interne)](./fr/projects/case-safran.md) — `tags: oxgen, safran, communication-interne, plm, transformation-digitale, aerospatial, defense`
 - [fusil.paris - E-commerce de bijoux artisanaux](./fr/projects/fusil-paris.md) — `tags: fusil-paris, e-commerce, jewelry, next-js-16, edge-functions, deno, stripe, paypal, hmac, security, chronopost, bilingual, solo, co-founded`
 - [La Plume + chat service client (BforBank)](./fr/projects/la-plume-bforbank.md) — `tags: bforbank, banking, gemini-2.5-pro, langgraph, rag, semantic-splitter, multilingual-embeddings, marketplace, chat-client, salesforce-pattern, zendesk-pattern`
-- [Microphage Analyzer Pro - Plugin Figma B2B IA](./fr/projects/microphage-analyzer-pro.md) — `tags: microphage, figma-plugin, b2b-saas, multi-tenant, llm-wiki, hybrid-retrieval, prompt-caching, hono, cloudflare-workers`
+- [microphage.ai - Concierge d'accès confidentiel](./fr/projects/microphage-ai.md) — `tags: microphage, concierge, nda, supabase-auth, serverless, access-control`
+- [Microphage Analyzer Pro - Outil B2B IA pour l'UX writing](./fr/projects/microphage-analyzer-pro.md) — `tags: microphage, b2b-saas, multi-tenant, ai, index-first, vision-llm, governed-vault`
+- [Microwave Method - Factory d'agents et wiki gouverné open source](./fr/projects/microwave-method.md) — `tags: microphage, microwave-method, open-source, pypi, agents, llm-wiki, karpathy-method, governance`
+- [Mulotte Club - E-commerce de pièces uniques de seconde main](./fr/projects/mulotte.md) — `tags: microphage, mulotte, e-commerce, stripe, supabase, club, secondhand`
 - [Mycelium - Outillage Claude Code interne](./fr/projects/mycelium.md) — `tags: mycelium, claude-code, agentic-coding, internal-tooling, productivity, mcp, slash-commands, subagents, hooks`
 - [romainbigache.com - Site personnel avec agent IA](./fr/projects/romainbigache-com.md) — `tags: personal-site, oauth, google-workspace, calendar-api, drive-api, tool-streaming, vercel, next-js, ai-agent`
 - [Altaria - AI Acculturation for Altarea (CAC40)](./projects/altaria.md) — `tags: altaria, altarea, cac40, copilot-365, gamification, pwa, hmac, rls, oxgen, solo, 3-weeks`
+- [Altarea - Generative AI (internal comms campaign)](./projects/case-altarea.md) — `tags: oxgen, altarea, internal-comms, generative-ai, copilot-365, change-management, real-estate`
+- [Citeo - Cybersecurity / The Hackers (internal comms campaign)](./projects/case-citeo.md) — `tags: oxgen, citeo, internal-comms, cybersecurity, guerrilla, recycling, eco-organisation`
+- [Danone - Cyber Month (internal comms campaign)](./projects/case-danone-cyber.md) — `tags: oxgen, danone, internal-comms, cybersecurity, awareness, bilingual, fmcg`
+- [Danone - IT Survey (internal comms campaign)](./projects/case-danone-itsurvey.md) — `tags: oxgen, danone, internal-comms, engagement, memes, bilingual, fmcg`
+- [Enedis - Move To Cloud (internal comms campaign)](./projects/case-enedis.md) — `tags: oxgen, enedis, internal-comms, cloud, change-management, guerrilla, energy`
+- [Idex - Project DUN (internal comms campaign)](./projects/case-idex.md) — `tags: oxgen, idex, internal-comms, digital-transformation, guerrilla, energy-efficiency`
+- [JJA - IT Transformation (internal comms campaign)](./projects/case-jja.md) — `tags: oxgen, jja, internal-comms, it-transformation, innovation, distribution, home-goods`
+- [Manutan - NewFront (internal comms campaign)](./projects/case-manutan.md) — `tags: oxgen, manutan, internal-comms, si-transformation, change-management, b2b-distribution`
+- [PAI Partners - You Deserve Better (internal comms campaign)](./projects/case-pai-partners.md) — `tags: oxgen, pai-partners, internal-comms, private-equity, digital-innovation, change-management`
+- [Safran - C-NUM Platform (internal comms campaign)](./projects/case-safran.md) — `tags: oxgen, safran, internal-comms, plm, digital-transformation, aerospace, defence`
 - [Cloud Academy Coach - POC technique sur Gemini Enterprise](./projects/cloud-academy-coach.md) — `tags: microphage, gcp, vertex-ai-search, gemini, cloud-run, agent-builder, rag, function-calling, poc, energy-utility`
 - [fusil.paris - Handcrafted jewelry e-commerce](./projects/fusil-paris.md) — `tags: fusil-paris, e-commerce, jewelry, next-js-16, edge-functions, deno, stripe, paypal, hmac, security, chronopost, bilingual, solo, co-founded`
 - [La Plume + customer service chat (BforBank)](./projects/la-plume-bforbank.md) — `tags: bforbank, banking, gemini-2.5-pro, langgraph, rag, semantic-splitter, multilingual-embeddings, marketplace, customer-chat, salesforce-pattern, zendesk-pattern`
-- [Microphage Analyzer Pro - B2B AI Figma Plugin](./projects/microphage-analyzer-pro.md) — `tags: microphage, figma-plugin, b2b-saas, multi-tenant, llm-wiki, hybrid-retrieval, prompt-caching, hono, cloudflare-workers`
+- [microphage.ai - Confidential access concierge](./projects/microphage-ai.md) — `tags: microphage, concierge, nda, supabase-auth, serverless, access-control`
+- [Microphage Analyzer Pro - B2B AI Tool for UX Writing](./projects/microphage-analyzer-pro.md) — `tags: microphage, b2b-saas, multi-tenant, ai, index-first, vision-llm, governed-vault`
+- [Microwave Method - Open-source agent factory and governed wiki](./projects/microwave-method.md) — `tags: microphage, microwave-method, open-source, pypi, agents, llm-wiki, karpathy-method, governance`
+- [Mulotte Club - E-commerce for one-of-a-kind secondhand pieces](./projects/mulotte.md) — `tags: microphage, mulotte, e-commerce, stripe, supabase, club, secondhand`
 - [Mycelium - Internal Claude Code tooling](./projects/mycelium.md) — `tags: mycelium, claude-code, agentic-coding, internal-tooling, productivity, mcp, slash-commands, subagents, hooks`
 - [romainbigache.com - Personal site with AI agent](./projects/romainbigache-com.md) — `tags: personal-site, oauth, google-workspace, calendar-api, drive-api, tool-streaming, vercel, next-js, ai-agent`
 - [Video Transcriber + voice chat (CLI and live)](./projects/video-transcriber.md) — `tags: transcription, whisper, ffmpeg, python, cli, audio, video, speech-to-text, openai-whisper, srt, voice-chat, mediarecorder, nextjs, tooling`
@@ -101,16 +152,20 @@ Auto-generated. Do not edit manually.
 
 ## writing
 
-- [Ecriture, blog et reflexions publiques](./fr/writing.md) — `tags: blog, writing, voice, content, romainbigache-com`
+- [Écriture, blog et réflexions publiques](./fr/writing.md) — `tags: blog, writing, voice, content, romainbigache-com`
 - [C'est quoi un AI Product Builder ?](./fr/writing/ai-product-builder.md) — `tags: ai-product-builder, definition, freelance, profil-hybride, ux-writing, content-design`
-- [Le metier que j'ai passe 7 ans a expliquer n'existe toujours pas.](./fr/writing/content-design.md) — `tags: content-design, ux-writing, lorem-ux, podcast, joboscope, fatigue, evangelisation, ai-builder, microphage-1`
-- [Invite a Polytechnique. Sans aucun diplome.](./fr/writing/entretiens.md) — `tags: polytechnique, entretiens-excellence, mentorat, parcours, autodidacte, content-design, story`
-- [J'ai genere 352 mascottes IA. La bonne n'en faisait pas partie.](./fr/writing/morphow-mascotte-ia.md) — `tags: morphow, mascotte, prompt-oracle, comfyui, gemini, illustrator, propriete-intellectuelle, workflow-ia`
-- [Personal branding pour les gens qui detestent ca](./fr/writing/personal-branding-introvert.md) — `tags: personal-branding, blog, seo, introvert, ux-writing, joboscope, openclassrooms, leroy-merlin`
-- [Le vibe coding ne fatigue pas. C'est pour ca que c'est dangereux.](./fr/writing/vibe-coding-burnout.md) — `tags: vibe-coding, burnout, jjb, friction, tatami, agentic-coding, derealisation, devil-loop`
+- [Caspar, ou comment on se cache derrière son lion](./fr/writing/caspar-le-narrateur.md) — `tags: caspar, site-personnel, narrateur, ia, making-of, patinir, saint-jerome, immersion, avatar, shader, abstraction`
+- [Le métier que j'ai passé 7 ans à expliquer n'existe toujours pas.](./fr/writing/content-design.md) — `tags: content-design, ux-writing, lorem-ux, podcast, joboscope, fatigue, evangelisation, ai-builder, microphage-1`
+- [Invité à Polytechnique. Sans aucun diplôme.](./fr/writing/entretiens.md) — `tags: polytechnique, entretiens-excellence, mentorat, parcours, autodidacte, content-design, story`
+- [J'ai généré 352 mascottes IA. La bonne n'en faisait pas partie.](./fr/writing/morphow-mascotte-ia.md) — `tags: morphow, mascotte, prompt-oracle, comfyui, gemini, illustrator, propriete-intellectuelle, workflow-ia`
+- [Personal branding pour les gens qui détestent ça](./fr/writing/personal-branding-introvert.md) — `tags: personal-branding, blog, seo, introvert, ux-writing, joboscope, openclassrooms, leroy-merlin`
+- [Tout le monde sait coder. Personne ne peaufine.](./fr/writing/personne-ne-peaufine.md) — `tags: peaufinage, mockup, front-ui, design, polish, ux, ai-coding`
+- [Le vibe coding ne fatigue pas. C'est pour ça que c'est dangereux.](./fr/writing/vibe-coding-burnout.md) — `tags: vibe-coding, burnout, jjb, friction, tatami, agentic-coding, derealisation, devil-loop`
 - [Writing, blog, and public reflections](./writing.md) — `tags: blog, writing, voice, content, romainbigache-com`
+- [What's an AI Product Builder?](./writing/ai-product-builder.md) — `tags: ai-product-builder, definition, freelance, hybrid-profile, ux-writing, content-design`
 - [The job I spent 7 years explaining still doesn't exist.](./writing/content-design.md) — `tags: content-design, ux-writing, lorem-ux, podcast, joboscope, fatigue, evangelism, ai-builder, microphage-1`
 - [Invited to Polytechnique. With no degree.](./writing/entretiens.md) — `tags: polytechnique, entretiens-excellence, mentoring, journey, self-taught, content-design, story`
 - [I generated 352 AI mascots. The right one wasn't in there.](./writing/morphow-mascotte-ia.md) — `tags: morphow, mascot, prompt-oracle, comfyui, gemini, illustrator, intellectual-property, ai-workflow`
 - [Personal branding for people who hate it](./writing/personal-branding-introvert.md) — `tags: personal-branding, blog, seo, introvert, ux-writing, joboscope, openclassrooms, leroy-merlin`
+- [Everyone knows how to code. Nobody polishes.](./writing/personne-ne-peaufine.md) — `tags: polishing, mockup, front-ui, design, polish, ux, ai-coding`
 - [Vibe coding doesn't tire you out. That's exactly why it's dangerous.](./writing/vibe-coding-burnout.md) — `tags: vibe-coding, burnout, bjj, friction, tatami, agentic-coding, derealization, devil-loop`

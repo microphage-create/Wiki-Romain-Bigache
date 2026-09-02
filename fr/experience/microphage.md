@@ -6,7 +6,7 @@ domain: experience
 tags: [microphage, ai-builder, founder, freelance, sasu]
 status: live
 created: 2026-04-30
-updated: 2026-04-30
+updated: 2026-09-02
 period: 2025-09 / present
 employer: Microphage (SASU Microphage Intelligence)
 location: Paris, France
@@ -15,6 +15,9 @@ links:
   - projects/microphage-analyzer-pro.md
   - projects/altaria.md
   - projects/my-suez.md
+  - projects/claria.md
+  - projects/microwave-method.md
+  - projects/microphage-ai.md
   - projects/fusil-paris.md
   - stack.md
 ---
@@ -38,15 +41,37 @@ SASU Microphage Intelligence créée en septembre 2025. Microphage Analyzer Pro 
 
 ### Microphage Analyzer Pro
 
-Outil B2B IA multi-tenant qui audite et réécrit l'UX writing dans les workflows design. Plusieurs pilotes enterprise en pipeline. Web app compagnon et interface chat sur la roadmap.
+Outil IA qui audite l'UX writing des maquettes Figma par vision, appuyé sur un référentiel gouverné de 897 règles rédactionnelles. En bêta, sortie sur le Figma store à venir.
 
 Detail : [projects/microphage-analyzer-pro.md](../projects/microphage-analyzer-pro.md).
 
 ### My Suez
 
-Pitch et exploration design pour la refonte de My Suez, l'intranet corporate du groupe Suez (eau, déchets, énergie). Multi-BU, bilingue FR/EN, périmètre couvrant portail support IT, RH self-service, applications métier, dashboards. Premières maquettes livrées, pitch en cours.
+Refonte de My Suez, l'intranet corporate du groupe Suez (~40 000 collaborateurs), conçu sur ServiceNow avec personnalisation des tokens et du design system. Toutes les maquettes produites par IA, puis un UI designer recruté pour épauler la mission. Démo en ligne : mysuez.romainbigache.com (identifiants sur demande).
 
 Detail : [projects/my-suez.md](../projects/my-suez.md).
+
+### Claria
+
+Application gamifiée de montée en compétence IA, déclinaison en marque blanche d'Altaria pour un prospect enterprise. Lancement du POC mi-septembre 2026.
+
+Detail : [projects/claria.md](../projects/claria.md).
+
+### Microwave Method
+
+Factory d'agents open source publiée sur PyPI (`uvx microwave-method`).
+
+Detail : [projects/microwave-method.md](../projects/microwave-method.md).
+
+### Sites en production
+
+microphage.ai (plateforme clients : accès sécurisé aux démos, documents et espaces projets), romainbigache.com.
+
+Details : [projects/microphage-ai.md](../projects/microphage-ai.md), [projects/romainbigache-com.md](../projects/romainbigache-com.md).
+
+### Référentiels LLM-ready
+
+Deux référentiels construits pour être consommés directement par des agents IA : un design system et un content design system.
 
 ### Altaria
 

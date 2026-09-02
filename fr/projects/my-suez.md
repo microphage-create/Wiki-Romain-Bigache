@@ -7,14 +7,14 @@ domain: project
 tags: [microphage, my-suez, suez, intranet, enterprise, b2b, design-system, multi-bu, interactive-mockup, ai-codegen, servicenow, figma, horizon-design-system, figma-tokens, lighthouse, wcag-aa, bilingual]
 status: in-progress
 created: 2026-05-08
-updated: 2026-06-26
+updated: 2026-09-02
 period: 2026-05 / present
 client: Suez (groupe)
 industries: [Industrie, Eau, Dechets, Energie]
 technologies: [HTML5, Tailwind CSS, Vanilla JS, Figma, ServiceNow Service Portal, Lighthouse, axe-core, Playwright, Vercel]
-team: 1 (Romain Bigache, seul)
+team: 2 (Romain Bigache + 1 UI designer recruté pour la mission)
 url: null
-demo: null
+demo: https://mysuez.romainbigache.com (identifiants sur demande)
 confidential: true
 links:
   - experience/microphage.md

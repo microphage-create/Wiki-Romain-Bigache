@@ -7,7 +7,7 @@ domain: project
 tags: [microphage, claria, white-label, ai-upskilling, gamification, demo, b2b]
 status: live
 created: 2026-09-01
-updated: 2026-09-01
+updated: 2026-09-02
 period: 2026 / present
 client: Microphage (SASU), démo pour un prospect grand compte
 industries: [Corporate Learning, AI Adoption]
@@ -26,7 +26,7 @@ links:
 | Clé | Valeur |
 |-----|--------|
 | **Type** | App d'upskilling IA gamifiée en marque blanche, démo brandée client |
-| **Statut** | Démo en ligne, en discussion commerciale |
+| **Statut** | Lancement du POC mi-septembre 2026 |
 | **Entreprise** | Microphage (SASU) |
 | **Équipe** | Romain Bigache (seul) |
 

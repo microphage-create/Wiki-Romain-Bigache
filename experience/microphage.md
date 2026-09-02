@@ -6,7 +6,7 @@ domain: experience
 tags: [microphage, ai-builder, founder, freelance, sasu]
 status: live
 created: 2026-04-30
-updated: 2026-04-30
+updated: 2026-09-02
 period: 2025-09 / present
 employer: Microphage (SASU Microphage Intelligence)
 location: Paris, France
@@ -15,6 +15,9 @@ links:
   - projects/microphage-analyzer-pro.md
   - projects/altaria.md
   - projects/my-suez.md
+  - projects/claria.md
+  - projects/microwave-method.md
+  - projects/microphage-ai.md
   - projects/fusil-paris.md
   - stack.md
 ---
@@ -38,15 +41,37 @@ SASU Microphage Intelligence incorporated in September 2025. Microphage Analyzer
 
 ### Microphage Analyzer Pro
 
-B2B multi-tenant AI tool that audits and rewrites UX writing in design workflows. Several enterprise pilots in pipeline. Companion web app and chat interface on the roadmap.
+AI tool that audits the UX writing of Figma mockups through vision models, backed by a governed referential of 897 editorial rules. In beta, Figma store release upcoming.
 
 Detail: [projects/microphage-analyzer-pro.md](../projects/microphage-analyzer-pro.md).
 
 ### My Suez
 
-Pitch and design exploration for the redesign of My Suez, the corporate intranet of the Suez group (water, waste, energy). Multi-BU, bilingual FR/EN, scope covering IT support portal, HR self-service, business apps, dashboards. First mockups delivered, pitch in progress.
+Redesign of My Suez, the corporate intranet of the Suez group (~40,000 employees), built on ServiceNow with token and design system customization. All mockups produced with AI, then a UI designer recruited to support the mission. Live demo: mysuez.romainbigache.com (credentials on request).
 
 Detail: [projects/my-suez.md](../projects/my-suez.md).
+
+### Claria
+
+Gamified AI upskilling app, white-label declination of Altaria for an enterprise prospect. POC launch mid-September 2026.
+
+Detail: [projects/claria.md](../projects/claria.md).
+
+### Microwave Method
+
+Open source agent factory published on PyPI (`uvx microwave-method`).
+
+Detail: [projects/microwave-method.md](../projects/microwave-method.md).
+
+### Sites in production
+
+microphage.ai (client platform: secured access to demos, documents and project spaces), romainbigache.com.
+
+Details: [projects/microphage-ai.md](../projects/microphage-ai.md), [projects/romainbigache-com.md](../projects/romainbigache-com.md).
+
+### LLM-ready referentials
+
+Two referentials built to be consumed directly by AI agents: a design system and a content design system.
 
 ### Altaria
 
